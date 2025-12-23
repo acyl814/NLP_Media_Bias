@@ -1,0 +1,246 @@
+{
+  "ukraine": [
+    {
+      "term": "ukrainian",
+      "score": 14.943110007277605
+    },
+    {
+      "term": "ukraine",
+      "score": 14.877523795806068
+    },
+    {
+      "term": "russian",
+      "score": 14.872722969303823
+    },
+    {
+      "term": "ukraine,",
+      "score": 14.586429340061876
+    },
+    {
+      "term": "zelenskyy",
+      "score": 13.863121532158393
+    },
+    {
+      "term": "kyiv,",
+      "score": 13.243917755743324
+    },
+    {
+      "term": "volodymyr",
+      "score": 12.929443357684196
+    },
+    {
+      "term": "yukov",
+      "score": 12.598285174146604
+    },
+    {
+      "term": "kyiv",
+      "score": 12.55098721452152
+    },
+    {
+      "term": "putin",
+      "score": 12.502085903985904
+    },
+    {
+      "term": "kursk",
+      "score": 12.451468712947358
+    },
+    {
+      "term": "nato",
+      "score": 11.81418188419028
+    },
+    {
+      "term": "korean",
+      "score": 11.81418188419028
+    },
+    {
+      "term": "western",
+      "score": 11.731743290707842
+    },
+    {
+      "term": "vladimir",
+      "score": 11.688687423222536
+    },
+    {
+      "term": "russia,",
+      "score": 11.688687423222536
+    },
+    {
+      "term": "brigade",
+      "score": 11.644306961545581
+    },
+    {
+      "term": "service",
+      "score": 11.598517810612622
+    },
+    {
+      "term": "moscow",
+      "score": 11.598517810612622
+    },
+    {
+      "term": "ukrainians",
+      "score": 11.598517810612622
+    },
+    {
+      "term": "ap,",
+      "score": 11.502334580197997
+    },
+    {
+      "term": "file)",
+      "score": 11.502334580197997
+    },
+    {
+      "term": "donetsk",
+      "score": 11.451726268074506
+    },
+    {
+      "term": "sasha",
+      "score": 11.451726268074506
+    },
+    {
+      "term": "russia.",
+      "score": 11.399277924508967
+    },
+    {
+      "term": "region",
+      "score": 11.34485068394299
+    },
+    {
+      "term": "frontline",
+      "score": 11.34485068394299
+    },
+    {
+      "term": "2022.",
+      "score": 11.229419688230417
+    },
+    {
+      "term": "olha",
+      "score": 11.229419688230417
+    },
+    {
+      "term": "drone",
+      "score": 11.16804526822409
+    }
+  ],
+  "gaza": [
+    {
+      "term": "israeli",
+      "score": -14.316352250358076
+    },
+    {
+      "term": "israel,",
+      "score": -13.0534168447575
+    },
+    {
+      "term": "palestinians",
+      "score": -12.947819546020028
+    },
+    {
+      "term": "strip",
+      "score": -12.731531176461942
+    },
+    {
+      "term": "strip,",
+      "score": -12.710160691782914
+    },
+    {
+      "term": "palestinian",
+      "score": -12.57483001533763
+    },
+    {
+      "term": "militants",
+      "score": -12.372048825272772
+    },
+    {
+      "term": "israelis",
+      "score": -12.036517070486518
+    },
+    {
+      "term": "netanyahu",
+      "score": -11.85369942030022
+    },
+    {
+      "term": "tel",
+      "score": -11.85369942030022
+    },
+    {
+      "term": "aviv,",
+      "score": -11.731743290707842
+    },
+    {
+      "term": "hostages",
+      "score": -11.688687423222536
+    },
+    {
+      "term": "gaza,",
+      "score": -11.688687423222536
+    },
+    {
+      "term": "kibbutz",
+      "score": -11.644306961545581
+    },
+    {
+      "term": "health",
+      "score": -11.34485068394299
+    },
+    {
+      "term": "release",
+      "score": -11.28828934218097
+    },
+    {
+      "term": "khan",
+      "score": -11.16804526822409
+    },
+    {
+      "term": "page",
+      "score": -10.966505451905741
+    },
+    {
+      "term": "refresh",
+      "score": -10.966505451905741
+    },
+    {
+      "term": "strip.",
+      "score": -10.814582465906277
+    },
+    {
+      "term": "deir",
+      "score": -10.732167425663386
+    },
+    {
+      "term": "younis,",
+      "score": -10.644757592516257
+    },
+    {
+      "term": "fox",
+      "score": -10.55170826162069
+    },
+    {
+      "term": "hostage",
+      "score": -10.55170826162069
+    },
+    {
+      "term": "browser",
+      "score": -10.55170826162069
+    },
+    {
+      "term": "benjamin",
+      "score": -10.452241240430817
+    },
+    {
+      "term": "kfar",
+      "score": -10.452241240430817
+    },
+    {
+      "term": "ashkelon,",
+      "score": -10.230020435705635
+    },
+    {
+      "term": "abducted",
+      "score": -10.230020435705635
+    },
+    {
+      "term": "unprecedented,",
+      "score": -10.230020435705635
+    }
+  ]
+}

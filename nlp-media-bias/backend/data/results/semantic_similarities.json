@@ -1,0 +1,138 @@
+{
+  "ukraine": {
+    "soldiers": [
+      {
+        "term": "yukov",
+        "score": 0.9974249005317688
+      },
+      {
+        "term": "ukrainian",
+        "score": 0.9973201751708984
+      },
+      {
+        "term": "russian",
+        "score": 0.9971141219139099
+      },
+      {
+        "term": "said",
+        "score": 0.996619462966919
+      },
+      {
+        "term": "ukraine",
+        "score": 0.9966036677360535
+      }
+    ],
+    "civilians": [
+      {
+        "term": "military",
+        "score": 0.9778305888175964
+      },
+      {
+        "term": "city",
+        "score": 0.9768536686897278
+      },
+      {
+        "term": "ukrainian",
+        "score": 0.9757654666900635
+      },
+      {
+        "term": "russian",
+        "score": 0.975562334060669
+      },
+      {
+        "term": "kyiv",
+        "score": 0.9754003286361694
+      }
+    ],
+    "attack": [
+      {
+        "term": "ukrainian",
+        "score": 0.9966628551483154
+      },
+      {
+        "term": "russian",
+        "score": 0.9964004158973694
+      },
+      {
+        "term": "russia",
+        "score": 0.9960030913352966
+      },
+      {
+        "term": "ukraine",
+        "score": 0.9959739446640015
+      },
+      {
+        "term": "president",
+        "score": 0.9958369135856628
+      }
+    ]
+  },
+  "gaza": {
+    "militants": [
+      {
+        "term": "hamas",
+        "score": 0.9729868173599243
+      },
+      {
+        "term": "gaza",
+        "score": 0.9728711843490601
+      },
+      {
+        "term": "israel",
+        "score": 0.9693107008934021
+      },
+      {
+        "term": "israeli",
+        "score": 0.9687945246696472
+      },
+      {
+        "term": "said",
+        "score": 0.964967668056488
+      }
+    ],
+    "children": [
+      {
+        "term": "israeli",
+        "score": 0.9142529964447021
+      },
+      {
+        "term": "israel",
+        "score": 0.9098697900772095
+      },
+      {
+        "term": "gaza",
+        "score": 0.9086704850196838
+      },
+      {
+        "term": "people",
+        "score": 0.9068247079849243
+      },
+      {
+        "term": "according",
+        "score": 0.9050326943397522
+      }
+    ],
+    "attack": [
+      {
+        "term": "gaza",
+        "score": 0.9630609750747681
+      },
+      {
+        "term": "hamas",
+        "score": 0.9624982476234436
+      },
+      {
+        "term": "israel",
+        "score": 0.9566361904144287
+      },
+      {
+        "term": "israeli",
+        "score": 0.9558876752853394
+      },
+      {
+        "term": "militants",
+        "score": 0.9520612359046936
+      }
+    ]
+  }
+}

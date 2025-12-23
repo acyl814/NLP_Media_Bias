@@ -1,0 +1,48 @@
+================================================================================
+📖 GUIDE D'UTILISATION WINDOWS
+================================================================================
+
+ETAPE 1: Installer Python et Node.js
+  - Python 3.8+: https://www.python.org/downloads/
+  - Node.js 18+: https://nodejs.org/
+
+ETAPE 2: Installer les dependances
+
+  Backend:
+    cd backend
+    python -m venv venv
+    venv\Scripts\activate
+    pip install -r requirements.txt
+    python -m nltk.downloader punkt stopwords wordnet averaged_perceptron_tagger
+    python -m spacy download en_core_web_md
+
+  Frontend:
+    cd frontend
+    npm install
+
+ETAPE 3: Ajouter vos URLs
+  - Editez: backend\data\raw\gaza_urls.txt
+  - Editez: backend\data\raw\ukraine_urls.txt
+
+ETAPE 4: Lancer le projet
+ECHO is off.
+  Terminal 1 (Backend):
+    cd backend
+    venv\Scripts\activate
+    python main.py --auto
+
+  Terminal 2 (Frontend):
+    cd frontend
+    npm run dev
+
+  Ouvrez: http://localhost:3000
+
+================================================================================
+RACCOURCIS UTILES
+================================================================================
+
+Double-cliquez sur ces fichiers pour lancer rapidement:
+  - run_backend.bat  : Lance le backend
+  - run_frontend.bat : Lance le frontend
+
+================================================================================
