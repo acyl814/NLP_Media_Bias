@@ -1,0 +1,164 @@
+{% extends "base.html" %}
+
+{% block title %}Visualisations - NLP Bias Analyzer{% endblock %}
+
+{% block content %}
+<!-- En-tête -->
+<div class="hero-section" style="padding: 2rem 0;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <h1 class="hero-title" style="font-size: 2.5rem;">Visualisations</h1>
+                <p class="hero-subtitle">Graphiques et visualisations interactives des résultats d'analyse</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <!-- Visualisations intégrées -->
+    <div class="row">
+        {% for viz in visualizations %}
+        <div class="col-md-6 mb-4">
+            <div class="card h-100">
+                <div class="card-header">
+                    <h5><i class="fas fa-chart-line"></i> {{ viz.name }}</h5>
+                </div>
+                <div class="card-body">
+                    {% if viz.type == 'interactive' %}
+                        <iframe src="/viz/{{ viz.file }}" width="100%" height="400" frameborder="0"></iframe>
+                    {% else %}
+                        <img src="/viz/{{ viz.file }}" class="img-fluid" alt="{{ viz.name }}">
+                    {% endif %}
+                </div>
+                <div class="card-footer">
+                    <a href="/viz/{{ viz.file }}" target="_blank" class="btn btn-sm btn-outline-primary">
+                        <i class="fas fa-external-link-alt"></i> Ouvrir dans une nouvelle fenêtre
+                    </a>
+                </div>
+            </div>
+        </div>
+        {% else %}
+        <div class="col-12">
+            <div class="alert alert-info">
+                <i class="fas fa-info-circle"></i>
+                Aucune visualisation n'est disponible. Lancez d'abord les analyses et les visualisations.
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    
+    <!-- Graphiques dynamiques -->
+    {% if visualizations %}
+    <div class="card mt-4">
+        <div class="card-header">
+            <h5><i class="fas fa-chart-area"></i> Graphiques Dynamiques</h5>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <h6>Distribution du Sentiment</h6>
+                    <canvas id="sentimentChart"></canvas>
+                </div>
+                <div class="col-md-6">
+                    <h6>Top Mots par Topic</h6>
+                    <canvas id="wordsChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+    
+    <!-- Statistiques clés -->
+    <div class="card mt-4">
+        <div class="card-header">
+            <h5><i class="fas fa-key"></i> Statistiques Clés</h5>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="text-center">
+                        <div class="stat-number" style="font-size: 2rem;">75</div>
+                        <div class="stat-label">Articles Gaza</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="text-center">
+                        <div class="stat-number" style="font-size: 2rem;">30</div>
+                        <div class="stat-label">Articles Ukraine</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="text-center">
+                        <div class="stat-number" style="font-size: 2rem;">5</div>
+                        <div class="stat-label">Sources Médiatiques</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="text-center">
+                        <div class="stat-number" style="font-size: 2rem;">3</div>
+                        <div class="stat-label">Types d'Analyse</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+// Graphique de distribution du sentiment
+const sentimentCtx = document.getElementById('sentimentChart').getContext('2d');
+new Chart(sentimentCtx, {
+    type: 'doughnut',
+    data: {
+        labels: ['Gaza - Positif', 'Gaza - Négatif', 'Ukraine - Positif', 'Ukraine - Négatif'],
+        datasets: [{
+            data: [25, 45, 60, 15],
+            backgroundColor: ['#e74c3c', '#c0392b', '#27ae60', '#229954'],
+            borderWidth: 2
+        }]
+    },
+    options: {
+        responsive: true,
+        plugins: {
+            legend: {
+                position: 'bottom'
+            }
+        }
+    }
+});
+
+// Graphique des mots les plus fréquents
+const wordsCtx = document.getElementById('wordsChart').getContext('2d');
+new Chart(wordsCtx, {
+    type: 'bar',
+    data: {
+        labels: ['militants', 'civilians', 'terrorists', 'victims', 'heroes'],
+        datasets: [{
+            label: 'Gaza',
+            data: [45, 30, 35, 20, 5],
+            backgroundColor: '#e74c3c'
+        }, {
+            label: 'Ukraine',
+            data: [10, 50, 5, 40, 35],
+            backgroundColor: '#27ae60'
+        }]
+    },
+    options: {
+        responsive: true,
+        scales: {
+            y: {
+                beginAtZero: true
+            }
+        },
+        plugins: {
+            legend: {
+                position: 'bottom'
+            }
+        }
+    }
+});
+</script>
+{% endblock %}

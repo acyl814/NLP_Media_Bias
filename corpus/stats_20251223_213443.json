@@ -1,0 +1,14 @@
+{
+  "total_articles": 80,
+  "topics": {
+    "gaza": 50,
+    "ukraine": 30
+  },
+  "sources": {
+    "CNN": 21,
+    "BBC": 17,
+    "Reuters": 15,
+    "Guardian": 14,
+    "New York Times": 13
+  },
+  "total_words": 

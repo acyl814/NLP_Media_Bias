@@ -1,0 +1,1430 @@
+{% extends "base.html" %}
+{% block title %}Tableau de Bord – NLP Bias Analyzer{% endblock %}
+
+{% block content %}
+
+<style>
+    /* Style personnalisé pour les onglets d'analyse */
+    #analysisTabs {
+        border-bottom: 2px solid #1976d2;
+    }
+
+    #analysisTabs .nav-link {
+        background-color: #e3f2fd;
+        /* Bleu clair */
+        border: 1px solid #bbdefb;
+        border-bottom: none;
+        margin-right: 5px;
+        color: #1565c0;
+        font-weight: 500;
+        border-radius: 8px 8px 0 0;
+        padding: 10px 20px;
+        transition: all 0.3s ease;
+    }
+
+    #analysisTabs .nav-link:hover {
+        background-color: #bbdefb;
+        color: #0d47a1;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(25, 118, 210, 0.2);
+    }
+
+    #analysisTabs .nav-link.active {
+        background-color: #1976d2;
+        /* Bleu Bootstrap primaire */
+        color: white;
+        border-color: #1976d2;
+        position: relative;
+    }
+
+    #analysisTabs .nav-link.active::after {
+        content: '';
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        right: 0;
+        height: 2px;
+        background-color: #1976d2;
+    }
+
+    /* Icônes dans les onglets */
+    #analysisTabs .nav-link i {
+        margin-right: 8px;
+        font-size: 1.1em;
+    }
+
+    /* Contenu des onglets */
+    .tab-content {
+        background-color: white;
+        border: 1px solid #dee2e6;
+        border-top: none;
+        border-radius: 0 0 8px 8px;
+        padding: 25px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+
+    /* Animation pour le changement d'onglet */
+    .tab-pane.fade {
+        transition: opacity 0.3s ease-in-out;
+    }
+</style>
+<div class="container mt-4">
+    <ul class="nav nav-tabs" id="analysisTabs">
+        <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#sentiment">Sentiment</a></li>
+        <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#actors">Analyse par Acteurs</a></li>
+        <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#comparison">Comparaisons</a></li>
+        <li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" href="#lexical">Lexicale</a></li>
+        <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#semantic">Sémantique</a></li>
+    </ul>
+
+    <div class="tab-content mt-4">
+
+        <!-- ======================= SENTIMENT ======================= -->
+        <div class="tab-pane fade" id="sentiment">
+            {% if results.sentiment %}
+
+            <!-- Vue d'ensemble -->
+            <div class="card mb-4">
+                <div class="card-header bg-primary text-white">
+                    <h5 class="mb-0"><i class="fas fa-chart-pie"></i> Vue d'ensemble du sentiment</h5>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        {% for topic, data in results.sentiment.topic_sentiment.items() %}
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-header">
+                                    <strong>{{ topic.upper() }}</strong> - {{ data.total_articles }} articles
+                                </div>
+                                <div class="card-body">
+                                    <!-- Graphique circulaire simple -->
+                                    <div class="d-flex justify-content-center mb-3">
+                                        <div style="width: 150px; height: 150px; position: relative;">
+                                            {% set positive = data.sentiment_ratio.positive * 100 %}
+                                            {% set negative = data.sentiment_ratio.negative * 100 %}
+                                            {% set neutral = data.sentiment_ratio.neutral * 100 %}
+
+                                            <!-- Cercle de progression -->
+                                            <div style="position: absolute; width: 100%; height: 100%; border-radius: 50%; 
+                                                background: conic-gradient(
+                                                    #28a745 0deg {{ positive * 3.6 }}deg,
+                                                    #dc3545 {{ positive * 3.6 }}deg {{ (positive + negative) * 3.6 }}deg,
+                                                    #6c757d {{ (positive + negative) * 3.6 }}deg 360deg
+                                                );">
+                                            </div>
+                                            <div style="position: absolute; width: 80%; height: 80%; top: 10%; left: 10%; 
+                                                background: white; border-radius: 50%; display: flex; align-items: center; 
+                                                justify-content: center; flex-direction: column;">
+                                                <strong style="font-size: 1.5rem;">
+                                                    {{ "%.1f"|format(data.avg_consensus_score * 100) }}%
+                                                </strong>
+                                                <small>Confiance</small>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Légende -->
+                                    <div class="row text-center">
+                                        <div class="col-4">
+                                            <span class="badge bg-success">Positif</span>
+                                            <div>{{ "%.1f"|format(positive) }}%</div>
+                                        </div>
+                                        <div class="col-4">
+                                            <span class="badge bg-danger">Négatif</span>
+                                            <div>{{ "%.1f"|format(negative) }}%</div>
+                                        </div>
+                                        <div class="col-4">
+                                            <span class="badge bg-secondary">Neutre</span>
+                                            <div>{{ "%.1f"|format(neutral) }}%</div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Détails par modèle -->
+                                    <div class="mt-3">
+                                        <small class="text-muted">
+                                            {% if data.aggregated_sentiment.textblob %}
+                                            TextBlob: {{ "%.3f"|format(data.aggregated_sentiment.textblob.avg_polarity)
+                                            }} |
+                                            {% endif %}
+                                            {% if data.aggregated_sentiment.vader %}
+                                            VADER: {{ "%.3f"|format(data.aggregated_sentiment.vader.avg_compound) }}
+                                            {% endif %}
+                                        </small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+
+            <!-- Comparaison directe -->
+            {% if results.sentiment.sentiment_comparison %}
+            <div class="card mb-4">
+                <div class="card-header bg-warning">
+                    <h5 class="mb-0"><i class="fas fa-balance-scale"></i> Comparaison Gaza vs Ukraine</h5>
+                </div>
+                <div class="card-body">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Sentiment</th>
+                                <th>Gaza</th>
+                                <th>Ukraine</th>
+                                <th>Différence</th>
+                                <th>Biais</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for sentiment, data in results.sentiment.sentiment_comparison.gaza_vs_ukraine.items() %}
+                            <tr>
+                                <td><span class="badge bg-secondary">{{ sentiment }}</span></td>
+                                <td>{{ "%.1f"|format(data.gaza_percent) }}%</td>
+                                <td>{{ "%.1f"|format(data.ukraine_percent) }}%</td>
+                                <td>
+                                    {% set diff = data.difference|abs %}
+                                    <span
+                                        class="badge {% if diff > 30 %}bg-danger{% elif diff > 15 %}bg-warning{% else %}bg-info{% endif %}">
+                                        {{ "%.1f"|format(diff) }}%
+                                    </span>
+                                </td>
+                                <td>
+                                    {% if data.difference > 0 %}
+                                    <span class="text-danger">→ Gaza</span>
+                                    {% elif data.difference < 0 %} <span class="text-success">→ Ukraine</span>
+                                        {% else %}
+                                        <span class="text-muted">Équilibre</span>
+                                        {% endif %}
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+
+                    <!-- Conclusion du biais -->
+                    <div class="alert alert-info mt-3">
+                        <h6><i class="fas fa-lightbulb"></i> Interprétation :</h6>
+                        {% set gaza_pos = results.sentiment.sentiment_comparison.gaza_vs_ukraine.positive.gaza_percent
+                        %}
+                        {% set ukraine_pos =
+                        results.sentiment.sentiment_comparison.gaza_vs_ukraine.positive.ukraine_percent %}
+                        {% set diff = ukraine_pos - gaza_pos %}
+
+                        {% if diff > 50 %}
+                        <strong>Biais très fort</strong> : La couverture de l'Ukraine est {{ "%.0f"|format(diff) }}%
+                        plus positive que celle de Gaza.
+                        {% elif diff > 25 %}
+                        <strong>Biais significatif</strong> : L'Ukraine reçoit un traitement notablement plus positif.
+                        {% elif diff > 10 %}
+                        <strong>Différence modérée</strong> : Écart perceptible dans le traitement médiatique.
+                        {% else %}
+                        <strong>Différence minime</strong> : Traitement relativement équilibré.
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+
+            <!-- Analyse temporelle -->
+            {% if results.sentiment.temporal_sentiment %}
+            <div class="card mb-4">
+                <div class="card-header bg-info text-white">
+                    <h5 class="mb-0"><i class="fas fa-calendar-alt"></i> Évolution temporelle</h5>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        {% for topic, months in results.sentiment.temporal_sentiment.items() %}
+                        <div class="col-md-6">
+                            <h6>{{ topic.upper() }}</h6>
+                            <div style="height: 300px; overflow-y: auto;">
+                                <table class="table table-sm">
+                                    <thead>
+                                        <tr>
+                                            <th>Mois</th>
+                                            <th>Articles</th>
+                                            <th>Positif</th>
+                                            <th>Neutre</th>
+                                            <th>Négatif</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {% for month, data in months.items()|sort(reverse=true) %}
+                                        <tr>
+                                            <td><small>{{ month }}</small></td>
+                                            <td>{{ data.total_articles }}</td>
+                                            <td>
+                                                <span class="badge bg-success">
+                                                    {{ data.sentiment_distribution.get('positive', 0) }}
+                                                </span>
+                                            </td>
+                                            <td>
+                                                <span class="badge bg-secondary">
+                                                    {{ data.sentiment_distribution.get('neutral', 0) }}
+                                                </span>
+                                            </td>
+                                            <td>
+                                                <span class="badge bg-danger">
+                                                    {{ data.sentiment_distribution.get('negative', 0) }}
+                                                </span>
+                                            </td>
+                                        </tr>
+                                        {% endfor %}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+
+            {% else %}
+            <div class="alert alert-warning">
+                <i class="fas fa-exclamation-triangle"></i> Aucune donnée de sentiment disponible.
+                <a href="/run-analysis/sentiment" class="alert-link">Lancer l'analyse de sentiment</a>
+            </div>
+            {% endif %}
+        </div>
+
+        <!-- ======================= ANALYSE PAR ACTEURS ======================= -->
+        <div class="tab-pane fade" id="actors">
+            {% if results.sentiment and results.sentiment.target_word_sentiment %}
+
+            <!-- Sélecteur d'acteur -->
+            <div class="card mb-4">
+                <div class="card-header bg-success text-white">
+                    <h5 class="mb-0"><i class="fas fa-users"></i> Analyse détaillée par acteur</h5>
+                </div>
+                <div class="card-body">
+                    <div class="row mb-4">
+                        <div class="col-md-6">
+                            <label for="topicSelect" class="form-label">Sélectionner un conflit :</label>
+                            <select id="topicSelect" class="form-select">
+                                {% for topic in results.sentiment.target_word_sentiment.keys() %}
+                                <option value="{{ topic }}">{{ topic|capitalize }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="actorSelect" class="form-label">Sélectionner un acteur :</label>
+                            <select id="actorSelect" class="form-select">
+                                <!-- Rempli dynamiquement par JavaScript -->
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Panneau d'affichage des acteurs -->
+                    <div id="actorDisplay">
+                        <!-- Contenu chargé dynamiquement -->
+                        <div class="text-center text-muted p-5">
+                            <i class="fas fa-user fa-3x mb-3"></i>
+                            <p>Sélectionnez un acteur pour voir son analyse détaillée</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Vue comparative des acteurs -->
+            <div class="card">
+                <div class="card-header">
+                    <h5><i class="fas fa-exchange-alt"></i> Comparaison rapide des acteurs principaux</h5>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        {% for topic, actors in results.sentiment.target_word_sentiment.items() %}
+                        <div class="col-md-6">
+                            <h6>{{ topic|upper }}</h6>
+                            <div style="max-height: 400px; overflow-y: auto;">
+                                <table class="table table-sm">
+                                    <thead>
+                                        <tr>
+                                            <th>Acteur</th>
+                                            <th>Mentions</th>
+                                            <th>Sentiment</th>
+                                            <th>Force</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {% for actor, data in actors.items() %}
+                                        {% if data.aggregated.total_contexts > 0 %}
+                                        <tr class="actor-row" data-topic="{{ topic }}" data-actor="{{ actor }}"
+                                            style="cursor: pointer;">
+                                            <td><strong>{{ actor|capitalize }}</strong></td>
+                                            <td>{{ data.aggregated.total_contexts }}</td>
+                                            <td>
+                                                {% set sentiment = data.aggregated.dominant_sentiment %}
+                                                <span
+                                                    class="badge {% if sentiment == 'positive' %}bg-success{% elif sentiment == 'negative' %}bg-danger{% else %}bg-secondary{% endif %}">
+                                                    {{ sentiment }}
+                                                </span>
+                                            </td>
+                                            <td>
+                                                {% set strength = data.aggregated.sentiment_strength.strength %}
+                                                <span
+                                                    class="badge {% if strength == 'very_strong' %}bg-dark{% elif strength == 'strong' %}bg-primary{% elif strength == 'moderate' %}bg-info{% else %}bg-light text-dark{% endif %}">
+                                                    {{ strength|replace('_', ' ')|title }}
+                                                </span>
+                                            </td>
+                                        </tr>
+                                        {% endif %}
+                                        {% endfor %}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+
+            {% else %}
+            <div class="alert alert-info">
+                <i class="fas fa-info-circle"></i> L'analyse par acteurs nécessite l'exécution préalable de l'analyse de
+                sentiment approfondie.
+            </div>
+            {% endif %}
+        </div>
+
+        <!-- ======================= COMPARAISONS ======================= -->
+        <div class="tab-pane fade" id="comparison">
+            {% if results.sentiment and results.sentiment.actor_comparative_analysis %}
+
+            <div class="card mb-4">
+                <div class="card-header bg-danger text-white">
+                    <h5 class="mb-0"><i class="fas fa-scale-balanced"></i> Biais comparatifs entre acteurs similaires
+                    </h5>
+                </div>
+                <div class="card-body">
+                    {% for actor_type, comparison in results.sentiment.actor_comparative_analysis.items() %}
+                    {% if comparison.comparison %}
+                    <div class="card mb-3">
+                        <div class="card-header">
+                            <h6 class="mb-0">{{ actor_type|replace('_', ' ')|title }}</h6>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <!-- Gaza -->
+                                <div class="col-md-4 text-center">
+                                    <h6>Gaza</h6>
+                                    {% if comparison.gaza %}
+                                    <div class="mb-2">
+                                        <span
+                                            class="badge {% if comparison.gaza.dominant_sentiment == 'positive' %}bg-success{% elif comparison.gaza.dominant_sentiment == 'negative' %}bg-danger{% else %}bg-secondary{% endif %}">
+                                            {{ comparison.gaza.dominant_sentiment|title }}
+                                        </span>
+                                    </div>
+                                    <div class="small">
+                                        {{ comparison.gaza.total_contexts }} contextes analysés
+                                    </div>
+                                    {% else %}
+                                    <div class="text-muted">Données non disponibles</div>
+                                    {% endif %}
+                                </div>
+
+                                <!-- Ukraine -->
+                                <div class="col-md-4 text-center">
+                                    <h6>Ukraine</h6>
+                                    {% if comparison.ukraine %}
+                                    <div class="mb-2">
+                                        <span
+                                            class="badge {% if comparison.ukraine.dominant_sentiment == 'positive' %}bg-success{% elif comparison.ukraine.dominant_sentiment == 'negative' %}bg-danger{% else %}bg-secondary{% endif %}">
+                                            {{ comparison.ukraine.dominant_sentiment|title }}
+                                        </span>
+                                    </div>
+                                    <div class="small">
+                                        {{ comparison.ukraine.total_contexts }} contextes analysés
+                                    </div>
+                                    {% else %}
+                                    <div class="text-muted">Données non disponibles</div>
+                                    {% endif %}
+                                </div>
+
+                                <!-- Différences -->
+                                <div class="col-md-4">
+                                    <h6>Différences</h6>
+                                    <ul class="list-unstyled">
+                                        {% for sentiment, stats in comparison.comparison.items() %}
+                                        {% if stats.difference|abs > 5 %}
+                                        <li class="mb-1">
+                                            <small>{{ sentiment|title }} :</small>
+                                            <span
+                                                class="badge {% if stats.difference > 0 %}bg-danger{% else %}bg-success{% endif %}">
+                                                {{ "%.1f"|format(stats.difference|abs) }}% {{ 'plus' if stats.difference
+                                                > 0 else 'moins' }}
+                                            </span>
+                                            <small class="text-muted">pour {{ stats.bias_direction }}</small>
+                                        </li>
+                                        {% endif %}
+                                        {% endfor %}
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Barres de comparaison -->
+                            <div class="mt-3">
+                                <small class="text-muted d-block mb-1">Distribution comparée :</small>
+                                {% for sentiment, stats in comparison.comparison.items() %}
+                                <div class="mb-2">
+                                    <small>{{ sentiment|title }}</small>
+                                    <div class="d-flex align-items-center">
+                                        <div class="flex-grow-1">
+                                            <div class="progress" style="height: 20px;">
+                                                <div class="progress-bar bg-warning"
+                                                    style="width: {{ stats.gaza_percent }}%">
+                                                    {{ "%.0f"|format(stats.gaza_percent) }}%
+                                                </div>
+                                                <div class="progress-bar bg-info"
+                                                    style="width: {{ stats.ukraine_percent }}%">
+                                                    {{ "%.0f"|format(stats.ukraine_percent) }}%
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="ms-2 small">
+                                            <span class="text-warning">G</span> | <span class="text-info">U</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
+                    {% endfor %}
+
+                    <div class="alert alert-warning mt-3">
+                        <h6><i class="fas fa-exclamation-circle"></i> Note méthodologique :</h6>
+                        <small>
+                            Cette comparaison met en lumière les différences de traitement médiatique pour des acteurs
+                            jouant des rôles similaires dans les deux conflits.
+                            Un biais systématique peut indiquer une "déshumanisation" différentielle ou une empathie
+                            sélective.
+                        </small>
+                    </div>
+                </div>
+            </div>
+
+            {% else %}
+            <div class="alert alert-info">
+                <i class="fas fa-info-circle"></i> L'analyse comparative nécessite l'exécution de l'analyse de sentiment
+                approfondie.
+            </div>
+            {% endif %}
+
+            <!-- Ajout de la comparaison lexicale (de l'ancienne version) -->
+            {% if results.lexical and results.lexical.lexical_comparison is defined %}
+            <div class="card mt-4">
+                <div class="card-header bg-secondary text-white">
+                    <h5 class="mb-0"><i class="fas fa-language"></i> Similarité lexicale entre les deux corpus</h5>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h6>Similarité cosinus</h6>
+                            <div class="progress" style="height: 25px;">
+                                <div class="progress-bar {% if results.lexical.lexical_comparison.cosine_similarity > 0.7 %}bg-success{% elif results.lexical.lexical_comparison.cosine_similarity > 0.4 %}bg-warning{% else %}bg-danger{% endif %}"
+                                    style="width: {{ results.lexical.lexical_comparison.cosine_similarity * 100 }}%">
+                                    {{ "%.3f"|format(results.lexical.lexical_comparison.cosine_similarity) }}
+                                </div>
+                            </div>
+                            <small class="text-muted">
+                                {% if results.lexical.lexical_comparison.cosine_similarity > 0.7 %}
+                                Similarité lexicale élevée : lexiques très proches
+                                {% elif results.lexical.lexical_comparison.cosine_similarity > 0.4 %}
+                                Similarité modérée : lexiques partiellement distincts
+                                {% else %}
+                                Similarité faible : lexiques très différents
+                                {% endif %}
+                            </small>
+                        </div>
+
+                        <div class="col-md-6">
+                            <h6>Mots communs vs. distincts</h6>
+                            <div class="row text-center">
+                                <div class="col-6">
+                                    <div class="display-6 text-primary">{{
+                                        results.lexical.lexical_comparison.common_words|length }}</div>
+                                    <small>Mots communs</small>
+                                </div>
+                                <div class="col-6">
+                                    <div class="display-6 text-danger">{{
+                                        results.lexical.lexical_comparison.unique_gaza_words|length }}</div>
+                                    <small>Uniques à Gaza</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mots communs -->
+                    {% if results.lexical.lexical_comparison.common_words %}
+                    <div class="mt-3">
+                        <h6>Mots les plus fréquents dans les deux corpus :</h6>
+                        {% for word in results.lexical.lexical_comparison.common_words[:15] %}
+                        <span class="badge bg-primary me-1 mb-1">{{ word }}</span>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+            {% endif %}
+        </div>
+
+        <!-- ======================= LEXICAL ======================= -->
+        <div class="tab-pane fade show active" id="lexical">
+            {% if results.lexical %}
+
+            <!-- Fréquences de mots -->
+            <div class="card mb-4">
+                <div class="card-header bg-primary text-white">
+                    <h5 class="mb-0"><i class="fas fa-chart-bar"></i> Fréquences de mots par topic</h5>
+                </div>
+                <div class="card-body row">
+                    {% for topic, words in results.lexical.word_frequencies.items() %}
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <strong>{{ topic.upper() }}</strong> - Top 10
+                            </div>
+                            <div class="card-body">
+                                <table class="table table-sm">
+                                    <thead>
+                                        <tr>
+                                            <th>Mot</th>
+                                            <th>Fréquence</th>
+                                            <th>%</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {% for w,c in words[:10] %}
+                                        <tr>
+                                            <td><strong>{{ w }}</strong></td>
+                                            <td>{{ c }}</td>
+                                            <td>
+                                                {# Calcul sécurisé du total #}
+                                                {% set total_words = 1 %}
+                                                {% if results.lexical.statistics and
+                                                results.lexical.statistics.total_words %}
+                                                {% set total_words = results.lexical.statistics.total_words.get(topic,
+                                                1) %}
+                                                {% else %}
+                                                {# Calculer le total approximatif #}
+                                                {% set topic_total = namespace(value=0) %}
+                                                {% for word, count in words %}
+                                                {% set topic_total.value = topic_total.value + count %}
+                                                {% endfor %}
+                                                {% set total_words = topic_total.value if topic_total.value > 0 else 1
+                                                %}
+                                                {% endif %}
+                                                <span class="badge bg-secondary">
+                                                    {{ "%.2f"|format(c/total_words*100) }}%
+                                                </span>
+                                            </td>
+                                        </tr>
+                                        {% endfor %}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <!-- TF-IDF (si disponible) -->
+            {% if results.lexical.tfidf_analysis %}
+            <div class="card mb-4">
+                <div class="card-header bg-success text-white">
+                    <h5 class="mb-0"><i class="fas fa-balance-scale"></i> TF-IDF - Termes caractéristiques</h5>
+                </div>
+                <div class="card-body row">
+                    {% for topic, words in results.lexical.tfidf_analysis.items() %}
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <strong>{{ topic.upper() }}</strong> - Top 10 TF-IDF
+                            </div>
+                            <div class="card-body">
+                                {% for w,s in words[:10] %}
+                                <div class="d-flex justify-content-between mb-2">
+                                    <span>{{ w }}</span>
+                                    <span
+                                        class="badge {% if s > 0.1 %}bg-danger{% elif s > 0.05 %}bg-warning{% else %}bg-info{% endif %}">
+                                        {{ "%.3f"|format(s) }}
+                                    </span>
+                                </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endif %}
+
+            <!-- Variations lexicales (POS) -->
+            {% if results.lexical.lexical_variations is defined and results.lexical.lexical_variations %}
+            <div class="card mb-4">
+                <div class="card-header bg-warning">
+                    <h5 class="mb-0"><i class="fas fa-tags"></i> Variations lexicales par type grammatical</h5>
+                </div>
+                <div class="card-body row">
+                    {% for topic, data in results.lexical.lexical_variations.items() %}
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <strong>{{ topic.upper() }}</strong>
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    {% if data.verbs %}
+                                    <div class="col-md-4">
+                                        <h6>Verbes</h6>
+                                        {% for w,c in data.verbs[:5] %}
+                                        <div class="d-flex justify-content-between">
+                                            <span>{{ w }}</span>
+                                            <span class="badge bg-secondary">{{ c }}</span>
+                                        </div>
+                                        {% endfor %}
+                                    </div>
+                                    {% endif %}
+
+                                    {% if data.adjectives %}
+                                    <div class="col-md-4">
+                                        <h6>Adjectifs</h6>
+                                        {% for w,c in data.adjectives[:5] %}
+                                        <div class="d-flex justify-content-between">
+                                            <span>{{ w }}</span>
+                                            <span class="badge bg-secondary">{{ c }}</span>
+                                        </div>
+                                        {% endfor %}
+                                    </div>
+                                    {% endif %}
+
+                                    {% if data.nouns %}
+                                    <div class="col-md-4">
+                                        <h6>Substantifs</h6>
+                                        {% for w,c in data.nouns[:5] %}
+                                        <div class="d-flex justify-content-between">
+                                            <span>{{ w }}</span>
+                                            <span class="badge bg-secondary">{{ c }}</span>
+                                        </div>
+                                        {% endfor %}
+                                    </div>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endif %}
+
+            <!-- Focus civils -->
+            {% if results.lexical.civilian_focus is defined and results.lexical.civilian_focus %}
+            <div class="card mb-4">
+                <div class="card-header bg-info text-white">
+                    <h5 class="mb-0"><i class="fas fa-user-friends"></i> Focus sur les civils</h5>
+                </div>
+                <div class="card-body">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Terme lié aux civils</th>
+                                <th>Gaza</th>
+                                <th>Ukraine</th>
+                                <th>Différence</th>
+                                <th>Biais</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% if results.lexical.civilian_focus.gaza %}
+                            {% for t,v_gaza in results.lexical.civilian_focus.gaza.items() %}
+                            {% set v_ukraine = results.lexical.civilian_focus.ukraine.get(t, 0) %}
+                            {% set diff = v_gaza - v_ukraine %}
+                            <tr>
+                                <td><strong>{{ t }}</strong></td>
+                                <td>
+                                    <span class="badge bg-warning">{{ v_gaza }}</span>
+                                </td>
+                                <td>
+                                    <span class="badge bg-info">{{ v_ukraine }}</span>
+                                </td>
+                                <td>
+                                    {% if diff > 0 %}
+                                    <span class="text-danger">+{{ diff }} → Gaza</span>
+                                    {% elif diff < 0 %} <span class="text-success">{{ diff }} → Ukraine</span>
+                                        {% else %}
+                                        <span class="text-muted">Égal</span>
+                                        {% endif %}
+                                </td>
+                                <td>
+                                    {% if diff > 10 %}
+                                    <span class="badge bg-danger">Forte différence</span>
+                                    {% elif diff > 5 %}
+                                    <span class="badge bg-warning">Différence modérée</span>
+                                    {% else %}
+                                    <span class="badge bg-secondary">Faible différence</span>
+                                    {% endif %}
+                                </td>
+                            </tr>
+                            {% endfor %}
+                            {% endif %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            {% endif %}
+
+            <!-- Résumé lexical -->
+            {% if results.lexical.lexical_bias_summary is defined %}
+            <div class="alert alert-warning">
+                <h5><i class="fas fa-exclamation-triangle"></i> Résumé des biais lexicaux</h5>
+                <div class="row">
+                    {% if results.lexical.lexical_bias_summary.gaza_framing %}
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-header bg-danger text-white">
+                                <strong>Gaza</strong>
+                            </div>
+                            <div class="card-body">
+                                {{ results.lexical.lexical_bias_summary.gaza_framing }}
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
+
+                    {% if results.lexical.lexical_bias_summary.ukraine_framing %}
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-header bg-success text-white">
+                                <strong>Ukraine</strong>
+                            </div>
+                            <div class="card-body">
+                                {{ results.lexical.lexical_bias_summary.ukraine_framing }}
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
+                </div>
+
+                {% if results.lexical.lexical_bias_summary.main_finding %}
+                <hr>
+                <p class="mb-0"><strong>Conclusion principale :</strong> {{
+                    results.lexical.lexical_bias_summary.main_finding }}</p>
+                {% endif %}
+            </div>
+            {% endif %}
+
+            {% else %}
+            <div class="alert alert-info">
+                <i class="fas fa-info-circle"></i> Aucune analyse lexicale disponible.
+                <a href="/run-analysis/lexical" class="alert-link">Lancer l'analyse lexicale</a>
+            </div>
+            {% endif %}
+        </div>
+
+        <!-- ======================= SEMANTIC ======================= -->
+        <div class="tab-pane fade" id="semantic">
+            {% if results.semantic %}
+
+            <!-- 1. Champs sémantiques -->
+            <div class="card mb-4">
+                <div class="card-header bg-primary text-white">
+                    <h5 class="mb-0"><i class="fas fa-layer-group"></i> Champs sémantiques dominants</h5>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        {% for topic, items in results.semantic.semantic_fields.items() %}
+                        <div class="col-md-6">
+                            <div class="card mb-3">
+                                <div class="card-header">
+                                    <strong>{{ topic.upper() }}</strong> - Top 20
+                                </div>
+                                <div class="card-body">
+                                    {% if items %}
+                                    {% for item in items[:20] %}
+                                    {% if item is mapping %}
+                                    <span class="badge bg-secondary me-1 mb-1" title="Score: {{ item.score|round(3) }}">
+                                        {{ item.word }}
+                                    </span>
+                                    {% else %}
+                                    <span class="badge bg-secondary me-1 mb-1">{{ item }}</span>
+                                    {% endif %}
+                                    {% endfor %}
+                                    {% else %}
+                                    <p class="text-muted">Aucun champ sémantique disponible</p>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2. Analyse par acteur -->
+            {% if results.semantic.actor_analysis %}
+            <div class="card mb-4">
+                <div class="card-header bg-success text-white">
+                    <h5 class="mb-0"><i class="fas fa-users"></i> Analyse sémantique par acteur</h5>
+                </div>
+                <div class="card-body">
+                    <!-- Sélecteur d'acteur -->
+                    <div class="row mb-4">
+                        <div class="col-md-12">
+                            <label for="semanticActorSelect" class="form-label">
+                                <strong>Sélectionner un acteur :</strong>
+                            </label>
+                            <select id="semanticActorSelect" class="form-select">
+                                <option value="">Sélectionner...</option>
+                                {% for topic, actors in results.semantic.actor_analysis.items() %}
+                                {% for actor in actors.keys() %}
+                                <option value="{{ topic }}_{{ actor }}">
+                                    {{ actor|capitalize }} ({{ topic }})
+                                </option>
+                                {% endfor %}
+                                {% endfor %}
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Panneau d'affichage -->
+                    <div id="semanticActorPanel">
+                        <div class="text-center text-muted p-5">
+                            <i class="fas fa-user fa-3x mb-3"></i>
+                            <p>Sélectionnez un acteur pour voir son analyse sémantique détaillée</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+
+            <!-- 3. Clustering de mots - VERSION SIMPLIFIÉE -->
+            {% if results.semantic.word_clusters %}
+            <div class="card mb-4">
+                <div class="card-header bg-info text-white">
+                    <h5 class="mb-0"><i class="fas fa-object-group"></i> Clusters sémantiques de mots</h5>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        {% for topic, clusters in results.semantic.word_clusters.items() %}
+                        <div class="col-md-6">
+                            <div class="card mb-3">
+                                <div class="card-header">
+                                    <strong>{{ topic.upper() }}</strong>
+                                </div>
+                                <div class="card-body">
+                                    {% if clusters is mapping %}
+                                    {# Cas 1: clusters est un dictionnaire avec IDs #}
+                                    {% for cluster_id, cluster_data in clusters.items() %}
+                                    <div class="mb-3 p-2 border rounded">
+                                        <h6>Cluster {{ cluster_id }}</h6>
+                                        <div>
+                                            {% if cluster_data.words is defined %}
+                                            {% for word in cluster_data.words[:15] %}
+                                            <span class="badge bg-info me-1 mb-1">{{ word }}</span>
+                                            {% endfor %}
+                                            {% else %}
+                                            {# Cas où cluster_data est directement la liste de mots #}
+                                            {% for word in cluster_data[:15] %}
+                                            <span class="badge bg-info me-1 mb-1">{{ word }}</span>
+                                            {% endfor %}
+                                            {% endif %}
+                                        </div>
+                                    </div>
+                                    {% endfor %}
+                                    {% else %}
+                                    {# Cas 2: clusters est une liste de clusters #}
+                                    {% for cluster_data in clusters %}
+                                    <div class="mb-3 p-2 border rounded">
+                                        <h6>Cluster {{ loop.index }}</h6>
+                                        <div>
+                                            {% if cluster_data.words is defined %}
+                                            {% for word in cluster_data.words[:15] %}
+                                            <span class="badge bg-info me-1 mb-1">{{ word }}</span>
+                                            {% endfor %}
+                                            {% else %}
+                                            {% for word in cluster_data[:15] %}
+                                            <span class="badge bg-info me-1 mb-1">{{ word }}</span>
+                                            {% endfor %}
+                                            {% endif %}
+                                        </div>
+                                    </div>
+                                    {% endfor %}
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+
+            <!-- 4. Topic Modeling LDA -->
+            {% if results.semantic.topic_modeling %}
+            <div class="card mb-4">
+                <div class="card-header bg-warning">
+                    <h5 class="mb-0"><i class="fas fa-project-diagram"></i> Topics modélisés (LDA)</h5>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        {% for topic, topics_data in results.semantic.topic_modeling.items() %}
+                        <div class="col-md-6">
+                            <div class="card mb-3">
+                                <div class="card-header">
+                                    <strong>{{ topic.upper() }}</strong>
+                                </div>
+                                <div class="card-body">
+                                    {% for topic_id, topic_info in topics_data.items() %}
+                                    <div class="mb-3 p-2 border rounded">
+                                        <h6>Topic {{ topic_id }}
+                                            {% if topic_info.dominant_category %}
+                                            <span class="badge bg-primary">{{ topic_info.dominant_category }}</span>
+                                            {% endif %}
+                                        </h6>
+                                        <div class="mb-2">
+                                            {% for word in topic_info.words[:8] %}
+                                            <span class="badge bg-secondary me-1 mb-1">{{ word }}</span>
+                                            {% endfor %}
+                                        </div>
+                                        {% if topic_info.coherence %}
+                                        <small class="text-muted">
+                                            Cohérence: {{ "%.3f"|format(topic_info.coherence) }}
+                                        </small>
+                                        {% endif %}
+                                    </div>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+
+            <!-- 5. Analyse comparative -->
+            {% if results.semantic.comparative_analysis %}
+            <div class="card mb-4">
+                <div class="card-header bg-danger text-white">
+                    <h5 class="mb-0"><i class="fas fa-balance-scale"></i> Analyse comparative sémantique</h5>
+                </div>
+                <div class="card-body">
+                    <!-- Similarité entre topics -->
+                    {% if results.semantic.comparative_analysis.similarity_scores %}
+                    <div class="mb-4">
+                        <h6>Similarité sémantique entre topics</h6>
+                        <div class="table-responsive">
+                            <table class="table table-sm">
+                                <thead>
+                                    <tr>
+                                        <th>Comparaison</th>
+                                        <th>Similarité</th>
+                                        <th>Interprétation</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for comparison, score in
+                                    results.semantic.comparative_analysis.similarity_scores.items() %}
+                                    <tr>
+                                        <td>{{ comparison|replace('_vs_', ' vs ') }}</td>
+                                        <td>
+                                            <div class="progress" style="height: 20px;">
+                                                <div class="progress-bar {% if score > 0.7 %}bg-success{% elif score > 0.4 %}bg-warning{% else %}bg-danger{% endif %}"
+                                                    style="width: {{ score * 100 }}%">
+                                                    {{ "%.3f"|format(score) }}
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            {% if score > 0.7 %}
+                                            <span class="text-success">Très similaire</span>
+                                            {% elif score > 0.4 %}
+                                            <span class="text-warning">Modérément similaire</span>
+                                            {% else %}
+                                            <span class="text-danger">Peu similaire</span>
+                                            {% endif %}
+                                        </td>
+                                    </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    {% endif %}
+
+                    <!-- Focus thématique -->
+                    {% if results.semantic.comparative_analysis.thematic_focus %}
+                    <div>
+                        <h6>Focus thématique par topic</h6>
+                        <div class="row">
+                            {% for topic, categories in results.semantic.comparative_analysis.thematic_focus.items() %}
+                            <div class="col-md-6">
+                                <div class="card mb-3">
+                                    <div class="card-header">
+                                        <strong>{{ topic.upper() }}</strong>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="row">
+                                            {% for category, score in categories.items() %}
+                                            <div class="col-md-6 mb-2">
+                                                <small>{{ category|title }}</small>
+                                                <div class="progress" style="height: 10px;">
+                                                    <div class="progress-bar bg-info"
+                                                        style="width: {{ (score / 6) * 100 }}%"></div>
+                                                </div>
+                                                <small class="text-muted">{{ score }}/6 termes</small>
+                                            </div>
+                                            {% endfor %}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+            {% endif %}
+
+            <!-- 6. Statistiques -->
+            {% if results.semantic.statistics %}
+            <div class="card">
+                <div class="card-header bg-secondary text-white">
+                    <h5 class="mb-0"><i class="fas fa-chart-bar"></i> Statistiques sémantiques</h5>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        {% for topic, metrics in results.semantic.statistics.semantic_metrics.items() %}
+                        <div class="col-md-6">
+                            <div class="card mb-3">
+                                <div class="card-header">
+                                    <strong>{{ topic.upper() }}</strong>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row text-center">
+                                        <div class="col-6">
+                                            <div class="display-6 text-primary">
+                                                {{ metrics.distinct_semantic_fields }}
+                                            </div>
+                                            <small>Champs sémantiques</small>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="display-6 text-success">
+                                                {{ "%.3f"|format(metrics.avg_tfidf_score) }}
+                                            </div>
+                                            <small>Score TF-IDF moyen</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+
+            {% else %}
+            <div class="alert alert-info">
+                <i class="fas fa-info-circle"></i> Aucune analyse sémantique disponible.
+                <a href="/run-analysis/semantic" class="alert-link">Lancer l'analyse sémantique</a>
+            </div>
+            {% endif %}
+        </div>
+
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // ===== GESTION DES ACTEURS (ONGLET SENTIMENT) =====
+        const actorData = {{ results.sentiment.target_word_sentiment| tojson | safe if results.sentiment and results.sentiment.target_word_sentiment else { }
+    }};
+
+    // Éléments DOM pour l'onglet sentiment/acteurs
+    const topicSelect = document.getElementById('topicSelect');
+    const actorSelect = document.getElementById('actorSelect');
+    const actorDisplay = document.getElementById('actorDisplay');
+
+    if (topicSelect && actorSelect) {
+        // Remplir le sélecteur d'acteurs basé sur le topic
+        function updateActorSelect() {
+            const selectedTopic = topicSelect.value;
+            actorSelect.innerHTML = '<option value="">Sélectionner un acteur...</option>';
+
+            if (actorData[selectedTopic]) {
+                Object.keys(actorData[selectedTopic]).forEach(actor => {
+                    const option = document.createElement('option');
+                    option.value = actor;
+                    option.textContent = actor.charAt(0).toUpperCase() + actor.slice(1);
+                    actorSelect.appendChild(option);
+                });
+            }
+        }
+
+        // Afficher les détails d'un acteur
+        function displayActorDetails() {
+            if (!actorSelect || !actorDisplay) return;
+
+            const selectedTopic = topicSelect.value;
+            const selectedActor = actorSelect.value;
+
+            if (!selectedActor || !actorData[selectedTopic] || !actorData[selectedTopic][selectedActor]) {
+                actorDisplay.innerHTML = `
+                    <div class="text-center text-muted p-5">
+                        <i class="fas fa-user fa-3x mb-3"></i>
+                        <p>Sélectionnez un acteur pour voir son analyse détaillée</p>
+                    </div>
+                `;
+                return;
+            }
+
+            const data = actorData[selectedTopic][selectedActor];
+
+            // Construction du HTML
+            let html = `
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="mb-0">
+                            <i class="fas fa-user-tag"></i> ${selectedActor.charAt(0).toUpperCase() + selectedActor.slice(1)}
+                            <small class="float-end">${selectedTopic.charAt(0).toUpperCase() + selectedTopic.slice(1)}</small>
+                        </h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row mb-4">
+                            <div class="col-md-3 text-center">
+                                <div class="display-4">${data.aggregated.total_contexts}</div>
+                                <small class="text-muted">Mentions</small>
+                            </div>
+                            <div class="col-md-3 text-center">
+                                <div class="h2">
+                                    <span class="badge ${data.aggregated.dominant_sentiment === 'positive' ? 'bg-success' : data.aggregated.dominant_sentiment === 'negative' ? 'bg-danger' : 'bg-secondary'}">
+                                        ${data.aggregated.dominant_sentiment}
+                                    </span>
+                                </div>
+                                <small class="text-muted">Sentiment dominant</small>
+                            </div>
+                            <div class="col-md-3 text-center">
+                                <div class="h2">${(data.aggregated.avg_confidence * 100).toFixed(1)}%</div>
+                                <small class="text-muted">Confiance moyenne</small>
+                            </div>
+                        </div>
+                        
+                        <!-- Distribution par source -->
+                        <h6><i class="fas fa-newspaper"></i> Distribution par source médiatique</h6>
+                        <div class="row mb-4">
+            `;
+
+            if (data.aggregated.source_distribution) {
+                Object.entries(data.aggregated.source_distribution).forEach(([source, dist]) => {
+                    html += `
+                        <div class="col-md-3 mb-2">
+                            <div class="card">
+                                <div class="card-header py-1">
+                                    <small><strong>${source}</strong></small>
+                                </div>
+                                <div class="card-body py-2">
+                    `;
+                    Object.entries(dist).forEach(([sentiment, count]) => {
+                        html += `
+                            <div class="d-flex justify-content-between">
+                                <small>${sentiment}</small>
+                                <small class="badge bg-secondary">${count}</small>
+                            </div>
+                        `;
+                    });
+                    html += `
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                });
+            } else {
+                html += `<div class="col-12"><p class="text-muted">Aucune donnée par source disponible</p></div>`;
+            }
+
+            html += `
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            actorDisplay.innerHTML = html;
+        }
+
+        // Événements
+        topicSelect.addEventListener('change', function () {
+            updateActorSelect();
+            displayActorDetails();
+        });
+
+        actorSelect.addEventListener('change', displayActorDetails);
+
+        // Cliquer sur une ligne du tableau des acteurs
+        document.querySelectorAll('.actor-row').forEach(row => {
+            row.addEventListener('click', function () {
+                const topic = this.dataset.topic;
+                const actor = this.dataset.actor;
+
+                if (topicSelect) topicSelect.value = topic;
+                updateActorSelect();
+
+                if (actorSelect) {
+                    actorSelect.value = actor;
+                    displayActorDetails();
+                }
+
+                // Basculer vers l'onglet Acteurs
+                const actorTab = document.querySelector('a[href="#actors"]');
+                if (actorTab) {
+                    new bootstrap.Tab(actorTab).show();
+                }
+            });
+        });
+
+        // Initialisation
+        if (actorData && Object.keys(actorData).length > 0) {
+            updateActorSelect();
+        }
+    }
+
+    // ===== GESTION DE L'ANALYSE PAR ACTEUR (SÉMANTIQUE) =====
+    const semanticActorSelect = document.getElementById('semanticActorSelect');
+    const semanticActorPanel = document.getElementById('semanticActorPanel');
+
+    if (semanticActorSelect && semanticActorPanel) {
+        // Données des acteurs sémantiques
+        const semanticActorData = {{ results.semantic.actor_analysis| tojson | safe if results.semantic and results.semantic.actor_analysis else { }
+    }};
+
+    semanticActorSelect.addEventListener('change', function () {
+        const value = this.value;
+        if (!value) {
+            semanticActorPanel.innerHTML = `
+                    <div class="text-center text-muted p-5">
+                        <i class="fas fa-user fa-3x mb-3"></i>
+                        <p>Sélectionnez un acteur pour voir son analyse sémantique détaillée</p>
+                    </div>
+                `;
+            return;
+        }
+
+        const [topic, actor] = value.split('_');
+        const data = semanticActorData[topic] && semanticActorData[topic][actor];
+
+        if (!data) {
+            semanticActorPanel.innerHTML = `
+                    <div class="alert alert-warning">
+                        Aucune donnée disponible pour cet acteur
+                    </div>
+                `;
+            return;
+        }
+
+        // Construire l'affichage
+        let html = `
+                <div class="card">
+                    <div class="card-header bg-success text-white">
+                        <h5 class="mb-0">
+                            <i class="fas fa-user-tag"></i> ${actor.charAt(0).toUpperCase() + actor.slice(1)}
+                            <small class="float-end">${topic.charAt(0).toUpperCase() + topic.slice(1)}</small>
+                        </h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row mb-4">
+                            <div class="col-md-3 text-center">
+                                <div class="display-4">${data.total_mentions}</div>
+                                <small class="text-muted">Mentions</small>
+                            </div>
+                            <div class="col-md-3 text-center">
+                                <div class="h2">${data.average_sentence_length ? data.average_sentence_length.toFixed(1) : '0.0'}</div>
+                                <small class="text-muted">Mots par contexte</small>
+                            </div>
+                            <div class="col-md-6">
+                                <h6>Topic</h6>
+                                <small>${topic}</small>
+                            </div>
+                        </div>
+                        
+                        <!-- Mots associés -->
+                        <h6><i class="fas fa-words"></i> Mots fréquemment associés</h6>
+                        <div class="mb-4">
+            `;
+
+        if (data.associated_words && data.associated_words.length > 0) {
+            data.associated_words.slice(0, 10).forEach(item => {
+                const score = item.score ? ` (${item.score.toFixed(3)})` : '';
+                html += `<span class="badge bg-info me-1 mb-1">${item.word}${score}</span>`;
+            });
+        } else {
+            html += `<p class="text-muted">Aucun mot associé disponible</p>`;
+        }
+
+        html += `
+                        </div>
+                        
+                        <!-- Co-occurrences -->
+            `;
+
+        if (data.top_cooccurrences && Object.keys(data.top_cooccurrences).length > 0) {
+            html += `
+                        <h6><i class="fas fa-link"></i> Co-occurrences fréquentes</h6>
+                        <div class="mb-4">
+                `;
+            Object.entries(data.top_cooccurrences).forEach(([word, count]) => {
+                html += `<span class="badge bg-warning me-1 mb-1">${word} (${count})</span>`;
+            });
+            html += `</div>`;
+        }
+
+        // Concordances
+        if (data.concordances && data.concordances.length > 0) {
+            html += `
+                        <h6><i class="fas fa-quote-right"></i> Exemples de contexte</h6>
+                        <div style="max-height: 300px; overflow-y: auto;" class="mb-4">
+                `;
+
+            data.concordances.slice(0, 3).forEach(concordance => {
+                html += `
+                        <div class="card mb-2">
+                            <div class="card-header py-1">
+                                <small><i class="fas fa-quote-left"></i> Contexte</small>
+                            </div>
+                            <div class="card-body py-2">
+                                <p class="mb-1">
+                                    ${concordance.left || ''} 
+                                    <strong class="text-danger">${concordance.keyword || actor}</strong> 
+                                    ${concordance.right || ''}
+                                </p>
+                                <small class="text-muted">${(concordance.sentence || '').substring(0, 100)}...</small>
+                            </div>
+                        </div>
+                    `;
+            });
+            html += `</div>`;
+        }
+
+        html += `
+                    </div>
+                </div>
+            `;
+
+        semanticActorPanel.innerHTML = html;
+    });
+    }
+
+    // Initialisation des tooltips Bootstrap
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl);
+    });
+});
+</script>
+{% endblock %}

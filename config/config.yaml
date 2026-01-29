@@ -1,0 +1,134 @@
+# Configuration du projet NLP pour la détection des biais médiatiques
+
+# Paramètres de collecte de données
+data_collection:
+  sources:
+    - name: "cnn"
+      base_url: "https://edition.cnn.com"
+      search_url: "https://edition.cnn.com/search"
+      selectors:
+        article_links: "a.container__link"
+        title: "h1"
+        content: "div.article__content"
+        date: "div.timestamp"
+    
+    - name: "bbc"
+      base_url: "https://www.bbc.com"
+      search_url: "https://www.bbc.co.uk/search"
+      selectors:
+        article_links: "a.ssrcss-1mrs5ns-LinkPostLink"
+        title: "h1"
+        content: "div.ssrcss-1ss2mdo-Text"
+        date: "time"
+    
+    - name: "nytimes"
+      base_url: "https://www.nytimes.com"
+      search_url: "https://www.nytimes.com/search"
+      selectors:
+        article_links: "a.css-1mshvvr"
+        title: "h1"
+        content: "div.css-1fanzo5"
+        date: "time"
+
+  # Mots-clés pour la recherche
+  keywords:
+    gaza:
+      - "gaza war"
+      - "israel palestine conflict"
+      - "hamas attack"
+      - "gaza strip"
+      - "palestinian civilians"
+      - "israeli military"
+    
+    ukraine:
+      - "ukraine war"
+      - "russia ukraine conflict"
+      - "ukrainian resistance"
+      - "russian invasion"
+      - "ukrainian civilians"
+      - "war crimes ukraine"
+
+  # Limites de collecte
+  limits:
+    gaza: 75  # articles
+    ukraine: 40  # articles
+    requests_delay: 2  # secondes entre les requêtes
+
+# Paramètres de prétraitement
+preprocessing:
+  language: "english"
+  remove_punctuation: true
+  remove_numbers: true
+  lowercase: true
+  remove_stopwords: true
+  lemmatization: true
+  remove_entities: false  # Garder les entités nommées
+  min_word_length: 3
+
+# Paramètres d'analyse
+analysis:
+  lexical:
+    top_k_words: 50
+    min_frequency: 3
+    ngrams: [1, 2, 3]  # unigrams, bigrams, trigrams
+    
+  semantic:
+    window_size: 10  # contexte pour les cooccurrences
+    min_similarity: 0.6
+    
+  sentiment:
+    models: ["textblob", "vader"]  # modèles à utiliser
+    
+  bias_detection:
+    # Termes déshumanisants vs humanisants
+    dehumanizing_terms:
+      palestinians: ["militants", "terrorists", "fighters", "hamas", "extremists", "gunmen"]
+      israelis: ["soldiers", "military", "forces", "troops"]
+    
+    humanizing_terms:
+      palestinians: ["civilians", "victims", "families", "children", "women", "men"]
+      israelis: ["civilians", "victims", "families", "children", "women", "men", "survivors"]
+    
+    # Termes émotionnels
+    emotional_terms:
+      positive: ["heroic", "brave", "resilient", "freedom", "liberation", "justice"]
+      negative: ["invasion", "occupation", "aggression", "atrocities", "massacre", "genocide"]
+      neutral: ["conflict", "operation", "escalation", "tension", "clash", "incident"]
+    
+    # Euphémismes vs termes directs
+    euphemisms: ["military operation", "collateral damage", "targeted strike", "neutralization"]
+    direct_terms: ["bombing", "killing", "destruction", "invasion", "war crimes"]
+
+# Visualisation
+visualization:
+  style: "seaborn"
+  color_palette: "Set2"
+  figsize: [12, 8]
+  
+  # Types de graphiques
+  charts:
+    - "word_frequency"
+    - "sentiment_comparison"
+    - "cooccurrence_network"
+    - "bias_heatmap"
+    - "temporal_analysis"
+
+# Interface web
+web_interface:
+  host: "127.0.0.1"
+  port: 5000
+  debug: true
+  
+  # Fonctionnalités
+  features:
+    - "corpus_explorer"
+    - "analysis_dashboard"
+    - "bias_detector"
+    - "report_generator"
+
+# Rapport
+report:
+  format: ["pdf", "html"]
+  template: "default"
+  include_appendix: true
+  max_pages: 20

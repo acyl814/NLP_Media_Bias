@@ -1,0 +1,81 @@
+id,title,topic,source,word_count,consensus_label,consensus_score,textblob_polarity,textblob_subjectivity,textblob_label,vader_compound,vader_positive,vader_negative,vader_neutral,vader_label
+gaza_001,Gaza Conflict Escalates as Violence Continues - Breaking News,gaza,Guardian,52,negative,0.5,0.02916666666666667,0.19583333333333333,neutral,-0.9246,0.029,0.257,0.714,negative
+gaza_002,Gaza Conflict Escalates as Violence Continues,gaza,Guardian,51,positive,0.5,0.12916666666666668,0.32916666666666666,positive,-0.9403,0.028,0.292,0.679,negative
+gaza_003,Israel Launches Military Operation in Gaza,gaza,Reuters,52,positive,0.5,0.04999999999999999,0.30000000000000004,neutral,0.128,0.147,0.123,0.729,positive
+gaza_004,Gaza Conflict Escalates as Violence Continues - Report,gaza,New York Times,50,positive,0.5,-0.10000000000000002,0.10000000000000002,negative,0.128,0.152,0.127,0.72,positive
+gaza_005,Israel Launches Military Operation in Gaza: What We Know,gaza,New York Times,54,negative,0.5,-0.07500000000000001,0.07500000000000001,neutral,-0.2023,0.14,0.152,0.708,negative
+gaza_006,Hamas Militants Fire Rockets at Israel - Analysis,gaza,Guardian,54,positive,0.5,0.18333333333333335,0.3833333333333333,positive,-0.7184,0.082,0.175,0.743,negative
+gaza_007,Hamas Militants Fire Rockets at Israel - Report,gaza,Guardian,60,negative,0.5,-0.05,0.07500000000000001,neutral,-0.891,0.022,0.176,0.802,negative
+gaza_008,Gaza Conflict Escalates as Violence Continues,gaza,BBC,61,negative,0.5,-0.05,0.07500000000000001,neutral,-0.891,0.022,0.174,0.805,negative
+gaza_009,Hamas Militants Fire Rockets at Israel - Breaking News,gaza,CNN,52,negative,0.5,-0.06666666666666667,0.06666666666666667,neutral,-0.9022,0.025,0.223,0.753,negative
+gaza_010,Israel Launches Military Operation in Gaza - Report,gaza,Reuters,51,positive,0.5,-0.10000000000000002,0.10000000000000002,negative,0.128,0.15,0.125,0.725,positive
+gaza_011,Hamas Militants Fire Rockets at Israel - Latest Updates,gaza,CNN,59,positive,0.5,0.13333333333333333,0.3666666666666667,positive,-0.891,0.022,0.179,0.799,negative
+gaza_012,Hamas Militants Fire Rockets at Israel - Analysis,gaza,BBC,60,negative,0.5,-0.05,0.07500000000000001,neutral,-0.891,0.022,0.176,0.802,negative
+gaza_013,Israeli Forces Target Terrorist Infrastructure - Breaking News,gaza,BBC,50,negative,0.5,0.02916666666666667,0.19583333333333333,neutral,-0.9246,0.03,0.266,0.705,negative
+gaza_014,Israel Launches Military Operation in Gaza,gaza,New York Times,51,positive,0.5,0.12916666666666668,0.32916666666666666,positive,-0.9403,0.028,0.292,0.679,negative
+gaza_015,Gaza Conflict Escalates as Violence Continues - Latest Updates,gaza,Guardian,49,negative,0.5,0.06875,0.26875,neutral,-0.9246,0.03,0.27,0.7,negative
+gaza_016,Israeli Forces Target Terrorist Infrastructure - Analysis,gaza,Guardian,54,negative,0.5,-0.07500000000000001,0.07500000000000001,neutral,-0.8689,0.024,0.183,0.793,negative
+gaza_017,Israeli Forces Target Terrorist Infrastructure - Analysis,gaza,CNN,55,positive,0.5,0.18333333333333335,0.3833333333333333,positive,-0.7184,0.081,0.172,0.747,negative
+gaza_018,Hamas Militants Fire Rockets at Israel - Analysis,gaza,CNN,54,positive,1.0,0.11249999999999999,0.3125,positive,0.6486,0.194,0.114,0.692,positive
+gaza_019,Israeli Forces Target Terrorist Infrastructure - Breaking News,gaza,BBC,60,negative,0.5,-0.05,0.07500000000000001,neutral,-0.891,0.022,0.176,0.802,negative
+gaza_020,Civilian Casualties Reported in Gaza Strikes,gaza,Guardian,62,negative,0.5,-0.03333333333333333,0.06666666666666667,neutral,-0.9169,0.021,0.2,0.779,negative
+gaza_021,Civilian Casualties Reported in Gaza Strikes,gaza,CNN,51,negative,0.5,0.09642857142857143,0.29642857142857143,neutral,-0.9246,0.029,0.261,0.71,negative
+gaza_022,Israeli Forces Target Terrorist Infrastructure - Breaking News,gaza,CNN,51,negative,0.5,0.02916666666666667,0.19583333333333333,neutral,-0.9246,0.029,0.261,0.71,negative
+gaza_023,Israel Launches Military Operation in Gaza - Analysis,gaza,New York Times,53,positive,0.5,0.205,0.40499999999999997,positive,-0.8625,0.084,0.243,0.674,negative
+gaza_024,Gaza Conflict Escalates as Violence Continues - Latest Updates,gaza,New York Times,50,negative,0.5,0.05500000000000001,0.215,neutral,-0.9403,0.029,0.297,0.674,negative
+gaza_025,Hamas Militants Fire Rockets at Israel,gaza,BBC,51,positive,0.5,-0.10000000000000002,0.10000000000000002,negative,0.128,0.15,0.125,0.725,positive
+gaza_026,Israel Launches Military Operation in Gaza - Report,gaza,Reuters,55,positive,1.0,0.19,0.43000000000000005,positive,0.6486,0.191,0.113,0.696,positive
+gaza_027,Civilian Casualties Reported in Gaza Strikes - Latest Updates,gaza,New York Times,53,positive,0.5,0.18333333333333335,0.3833333333333333,positive,-0.7184,0.083,0.178,0.739,negative
+gaza_028,Israel Launches Military Operation in Gaza,gaza,CNN,54,positive,0.5,0.2625,0.5125,positive,-0.7184,0.082,0.175,0.743,negative
+gaza_029,Hamas Militants Fire Rockets at Israel,gaza,BBC,51,negative,0.5,0.02916666666666667,0.19583333333333333,neutral,-0.9246,0.029,0.261,0.71,negative
+gaza_030,Hamas Militants Fire Rockets at Israel,gaza,BBC,55,positive,1.0,0.11249999999999999,0.3125,positive,0.6486,0.191,0.113,0.696,positive
+gaza_031,Civilian Casualties Reported in Gaza Strikes: What We Know,gaza,Guardian,52,negative,0.5,-0.06666666666666667,0.06666666666666667,neutral,-0.9022,0.025,0.223,0.753,negative
+gaza_032,Israel Launches Military Operation in Gaza,gaza,BBC,63,positive,0.5,0.21666666666666667,0.3833333333333333,positive,-0.7783,0.071,0.163,0.766,negative
+gaza_033,Israel Launches Military Operation in Gaza - Breaking News,gaza,CNN,51,positive,0.5,-0.10000000000000002,0.10000000000000002,negative,0.128,0.15,0.125,0.725,positive
+gaza_034,Hamas Militants Fire Rockets at Israel - Analysis,gaza,BBC,53,negative,0.5,0.075,0.275,neutral,-0.9022,0.024,0.219,0.757,negative
+gaza_035,Israeli Forces Target Terrorist Infrastructure: What We Know,gaza,CNN,60,negative,0.5,-0.03333333333333333,0.06666666666666667,neutral,-0.9169,0.021,0.206,0.773,negative
+gaza_036,Hamas Militants Fire Rockets at Israel - Report,gaza,Reuters,53,positive,0.5,-0.08,0.08,neutral,0.128,0.145,0.121,0.734,positive
+gaza_037,Civilian Casualties Reported in Gaza Strikes - Report,gaza,CNN,54,positive,0.5,-0.08,0.08,neutral,0.128,0.143,0.119,0.738,positive
+gaza_038,Israel Launches Military Operation in Gaza - Analysis,gaza,New York Times,61,negative,0.5,-0.05,0.07500000000000001,neutral,-0.891,0.022,0.174,0.805,negative
+gaza_039,Gaza Conflict Escalates as Violence Continues - Breaking News,gaza,CNN,54,positive,0.5,-0.08,0.08,neutral,0.128,0.143,0.119,0.738,positive
+gaza_040,Israel Launches Military Operation in Gaza - Report,gaza,New York Times,50,negative,0.5,-0.1,0.1,neutral,-0.8689,0.026,0.196,0.779,negative
+gaza_041,Israel Launches Military Operation in Gaza,gaza,Guardian,54,positive,0.5,0.01666666666666666,0.2166666666666667,neutral,0.128,0.143,0.119,0.738,positive
+gaza_042,Israeli Forces Target Terrorist Infrastructure: What We Know,gaza,BBC,48,negative,0.5,0.06875,0.26875,neutral,-0.9246,0.031,0.275,0.695,negative
+gaza_043,Israeli Forces Target Terrorist Infrastructure,gaza,Reuters,49,positive,0.5,0.155,0.395,positive,-0.9246,0.03,0.27,0.7,negative
+gaza_044,Civilian Casualties Reported in Gaza Strikes - Analysis,gaza,Reuters,52,positive,0.5,0.205,0.40499999999999997,positive,-0.8625,0.085,0.246,0.669,negative
+gaza_045,Hamas Militants Fire Rockets at Israel,gaza,Reuters,50,negative,0.5,-0.1,0.1,neutral,-0.8689,0.026,0.196,0.779,negative
+gaza_046,Gaza Conflict Escalates as Violence Continues - Analysis,gaza,BBC,57,negative,0.5,-0.05,0.1,neutral,-0.891,0.023,0.184,0.793,negative
+gaza_047,Gaza Conflict Escalates as Violence Continues - Breaking News,gaza,New York Times,61,negative,0.5,-0.03333333333333333,0.06666666666666667,neutral,-0.9169,0.021,0.203,0.776,negative
+gaza_048,Hamas Militants Fire Rockets at Israel - Latest Updates,gaza,Guardian,52,negative,0.5,-0.07500000000000001,0.07500000000000001,neutral,-0.8689,0.025,0.189,0.786,negative
+gaza_049,Israel Launches Military Operation in Gaza: What We Know,gaza,BBC,48,negative,0.5,0.06875,0.26875,neutral,-0.9246,0.031,0.275,0.695,negative
+gaza_050,Civilian Casualties Reported in Gaza Strikes: What We Know,gaza,BBC,55,positive,1.0,0.19,0.43000000000000005,positive,0.6486,0.191,0.113,0.696,positive
+ukraine_001,Ukrainian Heroes Fight for Freedom - Report,ukraine,CNN,53,positive,1.0,0.1976190476190476,0.3226190476190476,positive,0.4599,0.182,0.104,0.714,positive
+ukraine_002,Ukrainian Heroes Fight for Freedom: What We Know,ukraine,Guardian,52,positive,0.5,0.16938775510204082,0.27653061224489794,positive,0.0274,0.179,0.147,0.674,neutral
+ukraine_003,Russia Commits War Crimes in Ukraine - Breaking News,ukraine,Guardian,51,positive,1.0,0.16938775510204082,0.27653061224489794,positive,0.6914,0.225,0.105,0.671,positive
+ukraine_004,Brave Ukrainian Civilians Defend Their Homeland - Analysis,ukraine,BBC,63,positive,1.0,0.125,0.35000000000000003,positive,0.886,0.277,0.13,0.592,positive
+ukraine_005,Ukrainian Forces Resist Russian Invasion - Breaking News,ukraine,New York Times,56,positive,1.0,0.24081632653061225,0.4051020408163265,positive,0.4226,0.2,0.132,0.668,positive
+ukraine_006,Russia Commits War Crimes in Ukraine - Latest Updates,ukraine,Reuters,54,positive,1.0,0.12261904761904763,0.5357142857142857,positive,0.3262,0.19,0.172,0.638,positive
+ukraine_007,Russia Commits War Crimes in Ukraine - Breaking News,ukraine,Guardian,62,positive,1.0,0.3071428571428571,0.43571428571428567,positive,0.8555,0.247,0.16,0.593,positive
+ukraine_008,Russia Commits War Crimes in Ukraine,ukraine,Reuters,58,positive,0.5,0.041666666666666664,0.19999999999999998,neutral,0.9231,0.303,0.108,0.589,positive
+ukraine_009,Brave Ukrainian Civilians Defend Their Homeland - Latest Updates,ukraine,New York Times,59,positive,1.0,0.12261904761904763,0.5357142857142857,positive,0.2815,0.201,0.187,0.612,positive
+ukraine_010,Ukrainian Heroes Fight for Freedom: What We Know,ukraine,CNN,56,positive,1.0,0.1976190476190476,0.3226190476190476,positive,0.4226,0.2,0.132,0.668,positive
+ukraine_011,Russia Commits War Crimes in Ukraine - Report,ukraine,CNN,56,positive,1.0,0.12261904761904763,0.5357142857142857,positive,0.3262,0.185,0.167,0.648,positive
+ukraine_012,Ukrainian Forces Resist Russian Invasion - Breaking News,ukraine,New York Times,62,positive,1.0,0.35833333333333334,0.5083333333333333,positive,0.9062,0.252,0.13,0.618,positive
+ukraine_013,Ukrainian Forces Resist Russian Invasion - Analysis,ukraine,CNN,60,positive,1.0,0.125,0.35000000000000003,positive,0.891,0.268,0.107,0.625,positive
+ukraine_014,International Community Condemns Russian Aggression - Report,ukraine,BBC,52,positive,1.0,0.1976190476190476,0.3226190476190476,positive,0.4599,0.185,0.106,0.71,positive
+ukraine_015,International Community Condemns Russian Aggression - Analysis,ukraine,CNN,53,positive,0.5,0.21071428571428572,0.3544642857142857,positive,0.0274,0.177,0.145,0.679,neutral
+ukraine_016,Brave Ukrainian Civilians Defend Their Homeland - Analysis,ukraine,BBC,61,positive,0.5,0.05,0.24,neutral,0.891,0.264,0.106,0.63,positive
+ukraine_017,International Community Condemns Russian Aggression: What We Know,ukraine,BBC,60,positive,1.0,0.3071428571428571,0.43571428571428567,positive,0.8555,0.252,0.164,0.583,positive
+ukraine_018,Ukrainian Forces Resist Russian Invasion: What We Know,ukraine,CNN,59,positive,1.0,0.35833333333333334,0.5083333333333333,positive,0.9062,0.261,0.134,0.604,positive
+ukraine_019,Ukrainian Forces Resist Russian Invasion,ukraine,Guardian,59,positive,1.0,0.35833333333333334,0.5083333333333333,positive,0.9062,0.261,0.134,0.604,positive
+ukraine_020,Ukrainian Forces Resist Russian Invasion - Breaking News,ukraine,Guardian,56,positive,1.0,0.12261904761904763,0.5357142857142857,positive,0.2815,0.209,0.194,0.597,positive
+ukraine_021,Ukrainian Forces Resist Russian Invasion - Breaking News,ukraine,CNN,53,positive,1.0,0.1976190476190476,0.3226190476190476,positive,0.4599,0.182,0.104,0.714,positive
+ukraine_022,Ukrainian Heroes Fight for Freedom - Breaking News,ukraine,BBC,59,positive,1.0,0.35833333333333334,0.5083333333333333,positive,0.9062,0.261,0.134,0.604,positive
+ukraine_023,Ukrainian Forces Resist Russian Invasion - Breaking News,ukraine,Reuters,61,positive,1.0,0.37857142857142856,0.5642857142857143,positive,0.9062,0.255,0.131,0.614,positive
+ukraine_024,Russia Commits War Crimes in Ukraine - Report,ukraine,New York Times,51,positive,0.5,0.16938775510204082,0.27653061224489794,positive,0.0274,0.182,0.149,0.669,neutral
+ukraine_025,International Community Condemns Russian Aggression - Latest Updates,ukraine,BBC,59,positive,0.5,0.05,0.24,neutral,0.891,0.271,0.109,0.62,positive
+ukraine_026,Russia Commits War Crimes in Ukraine - Latest Updates,ukraine,Reuters,55,positive,1.0,0.1976190476190476,0.3226190476190476,positive,0.4226,0.203,0.134,0.663,positive
+ukraine_027,Brave Ukrainian Civilians Defend Their Homeland - Report,ukraine,CNN,63,positive,0.5,0.05,0.24,neutral,0.886,0.277,0.13,0.592,positive
+ukraine_028,International Community Condemns Russian Aggression - Analysis,ukraine,New York Times,60,positive,0.5,0.05,0.24,neutral,0.891,0.268,0.107,0.625,positive
+ukraine_029,Ukrainian Heroes Fight for Freedom: What We Know,ukraine,CNN,62,positive,1.0,0.3071428571428571,0.43571428571428567,positive,0.9325,0.279,0.127,0.594,positive
+ukraine_030,Brave Ukrainian Civilians Defend Their Homeland,ukraine,New York Times,59,positive,1.0,0.35833333333333334,0.5083333333333333,positive,0.9062,0.261,0.134,0.604,positive

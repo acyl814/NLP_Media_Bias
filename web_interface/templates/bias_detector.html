@@ -1,0 +1,316 @@
+{% extends "base.html" %}
+
+{% block title %}Détecteur de Biais - NLP Bias Analyzer{% endblock %}
+
+{% block content %}
+<!-- En-tête -->
+<div class="hero-section" style="padding: 2rem 0;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <h1 class="hero-title" style="font-size: 2.5rem;">Détecteur de Biais</h1>
+                <p class="hero-subtitle">Analyse approfondie des biais émotionnels et lexicaux</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <!-- Analyse de sentiment par topic -->
+    <div class="card">
+        <div class="card-header">
+            <h5><i class="fas fa-chart-pie"></i> Distribution du Sentiment</h5>
+        </div>
+        <div class="card-body">
+            {% if results.sentiment %}
+                <div class="row">
+                    {% for topic, data in results.sentiment.topic_sentiment.items() %}
+                    <div class="col-md-6">
+                        <h6>{{ topic.upper() }}</h6>
+                        <canvas id="sentimentChart{{ topic }}"></canvas>
+                    </div>
+                    {% endfor %}
+                </div>
+            {% else %}
+                <div class="alert alert-info">
+                    <i class="fas fa-info-circle"></i>
+                    Aucune analyse de sentiment n'est disponible.
+                </div>
+            {% endif %}
+        </div>
+    </div>
+    
+    <!-- Analyse par mots-cibles -->
+    <div class="card mt-4">
+        <div class="card-header">
+            <h5><i class="fas fa-crosshairs"></i> Analyse par Mots-Cibles</h5>
+        </div>
+        <div class="card-body">
+            {% if results.sentiment and results.sentiment.target_word_sentiment %}
+                {% for topic, words in results.sentiment.target_word_sentiment.items() %}
+                <h6>{{ topic.upper() }}</h6>
+                <div class="row">
+                    {% for word, data in words.items() %}
+                    <div class="col-md-4 mb-3">
+                        <div class="card">
+                            <div class="card-header">
+                                <strong>{{ word.upper() }}</strong>
+                            </div>
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                    <span class="badge bg-success">
+                                        <i class="fas fa-smile"></i> {{ data.aggregated.distribution.get('positive', 0) }}
+                                    </span>
+                                    <span class="badge bg-danger">
+                                        <i class="fas fa-frown"></i> {{ data.aggregated.distribution.get('negative', 0) }}
+                                    </span>
+                                    <span class="badge bg-secondary">
+                                        <i class="fas fa-meh"></i> {{ data.aggregated.distribution.get('neutral', 0) }}
+                                    </span>
+                                </div>
+                                <small class="text-muted mt-2 d-block">
+                                    Total: {{ data.aggregated.total_contexts }} contextes
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+                <hr>
+                {% endfor %}
+            {% else %}
+                <div class="alert alert-info">
+                    Aucune analyse par mot-cible n'est disponible.
+                </div>
+            {% endif %}
+        </div>
+    </div>
+    
+    <!-- Comparaison émotionnelle -->
+    <div class="card mt-4">
+        <div class="card-header">
+            <h5><i class="fas fa-balance-scale"></i> Comparaison Émotionnelle</h5>
+        </div>
+        <div class="card-body">
+            {% if results.sentiment and results.sentiment.sentiment_comparison %}
+                {% for comparison, data in results.sentiment.sentiment_comparison.items() %}
+                <h6>{{ comparison.replace('_vs_', ' vs ') }}</h6>
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Sentiment</th>
+                            <th>Différence</th>
+                            <th>Interprétation</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for sentiment, diff_data in data.items() %}
+                        <tr>
+                            <td>
+                                {% if sentiment == 'positive' %}
+                                    <i class="fas fa-smile text-success"></i>
+                                {% elif sentiment == 'negative' %}
+                                    <i class="fas fa-frown text-danger"></i>
+                                {% else %}
+                                    <i class="fas fa-meh text-secondary"></i>
+                                {% endif %}
+                                {{ sentiment.title() }}
+                            </td>
+                            <td>
+                                {% set diff = diff_data.difference %}
+                                {% if diff > 0 %}
+                                    <span class="text-success fw-bold">+{{ "%.1f"|format(diff) }}%</span>
+                                {% else %}
+                                    <span class="text-danger fw-bold">{{ "%.1f"|format(diff) }}%</span>
+                                {% endif %}
+                            </td>
+                            <td>
+                                {% if sentiment == 'positive' and diff > 5 %}
+                                    <span class="badge bg-success">Plus de positivité</span>
+                                {% elif sentiment == 'negative' and diff < -5 %}
+                                    <span class="badge bg-danger">Plus de négativité</span>
+                                {% elif sentiment == 'neutral' and diff|abs < 5 %}
+                                    <span class="badge bg-secondary">Ton similaire</span>
+                                {% else %}
+                                    <span class="badge bg-info">Différence modérée</span>
+                                {% endif %}
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+                {% endfor %}
+            {% else %}
+                <div class="alert alert-info">
+                    Aucune comparaison de sentiment n'est disponible.
+                </div>
+            {% endif %}
+        </div>
+    </div>
+    
+    <!-- Analyseur de texte personnalisé -->
+    <div class="card mt-4">
+        <div class="card-header">
+            <h5><i class="fas fa-edit"></i> Analyseur de Texte Personnalisé</h5>
+        </div>
+        <div class="card-body">
+            <p>Collez un texte pour analyser ses biais potentiels :</p>
+            
+            <div class="mb-3">
+                <textarea class="form-control" id="customText" rows="6" 
+                         placeholder="Entrez votre texte ici..."></textarea>
+            </div>
+            
+            <button class="btn btn-primary" onclick="analyzeCustomText()">
+                <i class="fas fa-play"></i> Analyser
+            </button>
+            
+            <div id="customAnalysisResults" class="mt-4" style="display: none;">
+                <h6>Résultats de l'analyse :</h6>
+                <div id="customAnalysisContent"></div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+// Créer les graphiques de sentiment
+{% if results.sentiment %}
+    {% for topic, data in results.sentiment.topic_sentiment.items() %}
+    const ctx{{ topic }} = document.getElementById('sentimentChart{{ topic }}').getContext('2d');
+    new Chart(ctx{{ topic }}, {
+        type: 'doughnut',
+        data: {
+            labels: ['Positif', 'Négatif', 'Neutre'],
+            datasets: [{
+                data: [
+                    {{ data.consensus_distribution.get('positive', 0) }},
+                    {{ data.consensus_distribution.get('negative', 0) }},
+                    {{ data.consensus_distribution.get('neutral', 0) }}
+                ],
+                backgroundColor: ['#28a745', '#dc3545', '#6c757d'],
+                borderWidth: 2
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: {
+                    position: 'bottom'
+                },
+                title: {
+                    display: true,
+                    text: '{{ topic.upper() }} ({{ data.total_articles }} articles)'
+                }
+            }
+        }
+    });
+    {% endfor %}
+{% endif %}
+
+function analyzeCustomText() {
+    const text = document.getElementById('customText').value.trim();
+    
+    if (!text) {
+        alert('Veuillez entrer un texte à analyser.');
+        return;
+    }
+    
+    // Afficher le chargement
+    document.getElementById('customAnalysisResults').style.display = 'block';
+    document.getElementById('customAnalysisContent').innerHTML = 
+        '<div class="text-center"><div class="loading"></div> Analyse en cours...</div>';
+    
+    // Simulation d'analyse (à remplacer par un appel API réel)
+    setTimeout(() => {
+        const analysis = performCustomAnalysis(text);
+        displayCustomAnalysis(analysis);
+    }, 2000);
+}
+
+function performCustomAnalysis(text) {
+    const words = text.toLowerCase().split(/\\s+/);
+    
+    // Mots de référence pour l'analyse
+    const dehumanizingRef = ['militants', 'terrorists', 'fighters', 'extremists', 'gunmen'];
+    const humanizingRef = ['civilians', 'victims', 'families', 'children', 'innocent'];
+    const positiveRef = ['brave', 'heroic', 'courageous', 'resilient', 'freedom'];
+    const negativeRef = ['brutal', 'violent', 'aggressive', 'dangerous', 'threatening'];
+    const euphemismsRef = ['military operation', 'collateral damage', 'targeted strike', 'neutralization'];
+    
+    // Compter les occurrences
+    const dehumanizing = words.filter(word => dehumanizingRef.includes(word)).length;
+    const humanizing = words.filter(word => humanizingRef.includes(word)).length;
+    const positive = words.filter(word => positiveRef.includes(word)).length;
+    const negative = words.filter(word => negativeRef.includes(word)).length;
+    const euphemisms = words.filter(word => euphemismsRef.includes(word)).length;
+    
+    return {
+        dehumanizing,
+        humanizing,
+        positive,
+        negative,
+        euphemisms,
+        totalWords: words.length,
+        biasScore: (humanizing - dehumanizing) / words.length,
+        sentimentScore: (positive - negative) / words.length
+    };
+}
+
+function displayCustomAnalysis(analysis) {
+    let html = '<div class="row">';
+    
+    // Mots déshumanisants
+    html += '<div class="col-md-4">';
+    html += '<h6><i class="fas fa-exclamation-triangle text-danger"></i> Biais Déshumanisants</h6>';
+    html += `<p>Mots trouvés: <strong>${analysis.dehumanizing}</strong></p>`;
+    html += `<p>Score: <span class="${analysis.dehumanizing > 0 ? 'text-danger' : 'text-success'}">${analysis.dehumanizing > 0 ? 'Présent' : 'Absent'}</span></p>`;
+    html += '</div>';
+    
+    // Mots humanisants
+    html += '<div class="col-md-4">';
+    html += '<h6><i class="fas fa-heart text-success"></i> Biais Humanisants</h6>';
+    html += `<p>Mots trouvés: <strong>${analysis.humanizing}</strong></p>`;
+    html += `<p>Score: <span class="${analysis.humanizing > 0 ? 'text-success' : 'text-muted'}">${analysis.humanizing > 0 ? 'Présent' : 'Absent'}</span></p>`;
+    html += '</div>';
+    
+    // Euphémismes
+    html += '<div class="col-md-4">';
+    html += '<h6><i class="fas fa-eye-slash text-warning"></i> Euphémismes</h6>';
+    html += `<p>Termes trouvés: <strong>${analysis.euphemisms}</strong></p>`;
+    html += `<p>Score: <span class="${analysis.euphemisms > 0 ? 'text-warning' : 'text-success'}">${analysis.euphemisms > 0 ? 'Présent' : 'Absent'}</span></p>`;
+    html += '</div>';
+    
+    html += '</div>';
+    
+    // Analyse globale
+    html += '<div class="mt-4 p-3 bg-light rounded">';
+    html += '<h6>Analyse Globale</h6>';
+    
+    const biasLevel = Math.abs(analysis.biasScore);
+    const sentimentLevel = Math.abs(analysis.sentimentScore);
+    
+    if (biasLevel > 0.1) {
+        html += '<p class="text-warning"><i class="fas fa-exclamation-triangle"></i> Forte présence de biais lexicaux détectée.</p>';
+    } else if (biasLevel > 0.05) {
+        html += '<p class="text-info"><i class="fas fa-info-circle"></i> Biais lexicaux modérés détectés.</p>';
+    } else {
+        html += '<p class="text-success"><i class="fas fa-check-circle"></i> Faible présence de biais lexicaux.</p>';
+    }
+    
+    if (sentimentLevel > 0.1) {
+        html += '<p class="text-warning"><i class="fas fa-chart-line"></i> Forte charge émotionnelle détectée.</p>';
+    } else if (sentimentLevel > 0.05) {
+        html += '<p class="text-info"><i class="fas fa-chart-line"></i> Charge émotionnelle modérée.</p>';
+    } else {
+        html += '<p class="text-success"><i class="fas fa-chart-line"></i> Ton neutre ou équilibré.</p>';
+    }
+    
+    html += '</div>';
+    
+    document.getElementById('customAnalysisContent').innerHTML = html;
+}
+</script>
+{% endblock %}

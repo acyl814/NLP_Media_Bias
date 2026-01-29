@@ -1,0 +1,338 @@
+{% extends "base.html" %}
+
+{% block title %}Rapport - NLP Bias Analyzer{% endblock %}
+
+{% block content %}
+<!-- En-tête -->
+<div class="hero-section" style="padding: 2rem 0;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <h1 class="hero-title" style="font-size: 2.5rem;">Rapport d'Analyse</h1>
+                <p class="hero-subtitle">Détection des doubles standards dans la couverture médiatique</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <!-- En-tête du rapport -->
+    <div class="card">
+        <div class="card-header">
+            <h4><i class="fas fa-file-alt"></i> Informations du Rapport</h4>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <p><strong>Projet:</strong> Détection des doubles standards dans la couverture médiatique</p>
+                    <p><strong>Module:</strong> Natural Language Processing</p>
+                    <p><strong>Niveau:</strong> Master 2 HPC</p>
+                    <p><strong>Université:</strong> USTHB</p>
+                </div>
+                <div class="col-md-6">
+                    <p><strong>Date:</strong> {{ "now"|date("Y-m-d") }}</p>
+                    <p><strong>Articles analysés:</strong> {{ corpus_stats.total_articles }}</p>
+                    <p><strong>Mots totaux:</strong> {{ "{:,}".format(corpus_stats.total_words) }}</p>
+                    <p><strong>Période:</strong> Octobre 2023 - Décembre 2024</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Résumé exécutif -->
+    <div class="card mt-4">
+        <div class="card-header">
+            <h4><i class="fas fa-executive-summary"></i> Résumé Exécutif</h4>
+        </div>
+        <div class="card-body">
+            <p class="lead">
+                Cette analyse examine la couverture médiatique occidentale de la guerre à Gaza 
+                par rapport à celle de la guerre en Ukraine, en utilisant des techniques de 
+                traitement automatique du langage naturel (NLP) pour identifier les doubles standards.
+            </p>
+            
+            <h5>Principales Conclusions:</h5>
+            <ul>
+                <li><strong>Biais Lexicaux:</strong> Différences significatives dans le vocabulaire utilisé pour décrire les acteurs des deux conflits</li>
+                <li><strong>Ton Émotionnel:</strong> Variations dans l'empathie et l'humanisation selon les protagonistes</li>
+                <li><strong>Framing Sémantique:</strong> Cadres interprétatifs différenciés entre les deux conflits</li>
+                <li><strong>Euphémisation:</strong> Usage variable de termes techniques vs directs</li>
+            </ul>
+        </div>
+    </div>
+    
+    <!-- Méthodologie -->
+    <div class="card mt-4">
+        <div class="card-header">
+            <h4><i class="fas fa-cogs"></i> Méthodologie</h4>
+        </div>
+        <div class="card-body">
+            <h5>Collecte de Données</h5>
+            <p>
+                Un corpus de {{ corpus_stats.total_articles }} articles a été collecté à partir de 
+                sources médiatiques occidentales majeures (CNN, BBC, New York Times) couvrant:
+            </p>
+            <ul>
+                <li>La guerre à Gaza (octobre 2023 - décembre 2024)</li>
+                <li>La guerre en Ukraine (février 2022 - décembre 2024)</li>
+            </ul>
+            
+            <h5>Analyses Effectuées</h5>
+            <div class="row">
+                <div class="col-md-4">
+                    <h6>Analyse Lexicale</h6>
+                    <ul>
+                        <li>Fréquences de mots</li>
+                        <li>Analyse TF-IDF</li>
+                        <li>Cooccurrences</li>
+                        <li>N-grams</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h6>Analyse Sémantique</h6>
+                    <ul>
+                        <li>Concordance</li>
+                        <li>Champs sémantiques</li>
+                        <li>Associations</li>
+                        <li>Collocations</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h6>Analyse de Sentiment</h6>
+                    <ul>
+                        <li>Sentiment global</li>
+                        <li>Analyse par mots-cibles</li>
+                        <li>Comparaison émotionnelle</li>
+                        <li>Évolution temporelle</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Résultats détaillés -->
+    <div class="card mt-4">
+        <div class="card-header">
+            <h4><i class="fas fa-chart-bar"></i> Résultats Détaillés</h4>
+        </div>
+        <div class="card-body">
+            <!-- Analyse 1: Biais Internes -->
+            <h5>1. Analyse des Biais Internes au Conflit</h5>
+            <p>
+                Cette analyse examine comment les médias décrivent les Palestiniens et les Israéliens 
+                dans la couverture de la guerre à Gaza.
+            </p>
+            
+            {% if results.lexical %}
+            <div class="row">
+                <div class="col-md-6">
+                    <h6>Termes Déshumanisants</h6>
+                    <table class="table table-sm">
+                        <thead>
+                            <tr>
+                                <th>Groupe</th>
+                                <th>Fréquence</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for group, count in results.lexical.bias_patterns.dehumanizing_terms.gaza.items() %}
+                            <tr>
+                                <td>{{ group }}</td>
+                                <td>{{ count }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-md-6">
+                    <h6>Termes Humanisants</h6>
+                    <table class="table table-sm">
+                        <thead>
+                            <tr>
+                                <th>Groupe</th>
+                                <th>Fréquence</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for group, count in results.lexical.bias_patterns.humanizing_terms.gaza.items() %}
+                            <tr>
+                                <td>{{ group }}</td>
+                                <td>{{ count }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            {% endif %}
+            
+            <!-- Analyse 2: Biais Systémiques -->
+            <h5 class="mt-4">2. Analyse des Biais Systémiques</h5>
+            <p>
+                Comparaison entre la couverture de Gaza et celle de l'Ukraine.
+            </p>
+            
+            {% if results.sentiment %}
+            <div class="row">
+                <div class="col-md-6">
+                    <h6>Distribution du Sentiment</h6>
+                    <table class="table table-sm">
+                        <thead>
+                            <tr>
+                                <th>Conflit</th>
+                                <th>Positif</th>
+                                <th>Négatif</th>
+                                <th>Neutre</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for topic, data in results.sentiment.topic_sentiment.items() %}
+                            {% set total = data.consensus_distribution.values()|sum %}
+                            <tr>
+                                <td>{{ topic.upper() }}</td>
+                                <td>{{ "%.1f"|format(data.consensus_distribution.get('positive', 0) / total * 100) }}%</td>
+                                <td>{{ "%.1f"|format(data.consensus_distribution.get('negative', 0) / total * 100) }}%</td>
+                                <td>{{ "%.1f"|format(data.consensus_distribution.get('neutral', 0) / total * 100) }}%</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-md-6">
+                    <h6>Euphémismes vs Termes Directs</h6>
+                    <table class="table table-sm">
+                        <thead>
+                            <tr>
+                                <th>Conflit</th>
+                                <th>Euphémismes</th>
+                                <th>Termes Directs</th>
+                                <th>Ratio</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for topic, data in results.lexical.bias_patterns.euphemisms_vs_direct.items() %}
+                            <tr>
+                                <td>{{ topic.upper() }}</td>
+                                <td>{{ data.euphemisms }}</td>
+                                <td>{{ data.direct_terms }}</td>
+                                <td>{{ "%.2f"|format(data.ratio) }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+    
+    <!-- Conclusions -->
+    <div class="card mt-4">
+        <div class="card-header">
+            <h4><i class="fas fa-lightbulb"></i> Conclusions et Recommandations</h4>
+        </div>
+        <div class="card-body">
+            <h5>Principales Conclusions</h5>
+            <ol>
+                <li>
+                    <strong>Biais Lexicaux Confirmés:</strong> Les analyses révèlent des différences significatives 
+                    dans le vocabulaire utilisé pour décrire les acteurs des deux conflits.
+                </li>
+                <li>
+                    <strong>Ton Émotionnel Différencié:</strong> La couverture de l'Ukraine montre tendanciellement 
+                    plus d'empathie et de soutien moral que celle de Gaza.
+                </li>
+                <li>
+                    <strong>Framing Sémantique:</strong> Les cadres interprétatifs varient considérablement, 
+                    influençant la perception des événements.
+                </li>
+                <li>
+                    <strong>Euphémisation Sélective:</strong> L'usage d'euphémismes vs de termes directs 
+                    varie selon les acteurs et les contextes.
+                </li>
+            </ol>
+            
+            <h5>Limites de l'Étude</h5>
+            <ul>
+                <li>Corpus limité à certaines sources médiatiques occidentales</li>
+                <li>Période d'analyse spécifique qui peut ne pas capturer toutes les variations</li>
+                <li>Méthodes automatiques qui peuvent avoir des limitations</li>
+                <li>Contextes culturels et politiques complexes non entièrement capturés</li>
+            </ul>
+            
+            <h5>Recommandations</h5>
+            <ul>
+                <li>Élargir l'analyse à plus de sources médiatiques</li>
+                <li>Inclure des sources non-occidentales pour comparaison</li>
+                <li>Approfondir l'analyse temporelle</li>
+                <li>Développer des métriques de biais plus sophistiquées</li>
+                <li>Intégrer l'analyse des images et des titres</li>
+            </ul>
+        </div>
+    </div>
+    
+    <!-- Références -->
+    <div class="card mt-4">
+        <div class="card-header">
+            <h4><i class="fas fa-book"></i> Références et Ressources</h4>
+        </div>
+        <div class="card-body">
+            <h5>Outils et Bibliothèques Utilisés</h5>
+            <ul>
+                <li><strong>NLTK:</strong> Natural Language Toolkit pour le traitement du langage</li>
+                <li><strong>spaCy:</strong> Bibliothèque avancée de NLP</li>
+                <li><strong>scikit-learn:</strong> Machine learning et analyse de données</li>
+                <li><strong>TextBlob/VADER:</strong> Analyse de sentiment</li>
+                <li><strong>Plotly/Matplotlib:</strong> Visualisations</li>
+                <li><strong>Flask:</strong> Framework web</li>
+            </ul>
+            
+            <h5>Concepts Théoriques</h5>
+            <ul>
+                <li>Framing Theory (Entman, 1993)</li>
+                <li>Cultivation Theory (Gerbner & Gross, 1976)</li>
+                <li>Agenda-Setting Theory (McCombs & Shaw, 1972)</li>
+                <li>Critical Discourse Analysis (Fairclough, 1995)</li>
+            </ul>
+        </div>
+    </div>
+    
+    <!-- Téléchargement -->
+    <div class="card mt-4">
+        <div class="card-header">
+            <h4><i class="fas fa-download"></i> Téléchargement</h4>
+        </div>
+        <div class="card-body text-center">
+            <p>Téléchargez ce rapport au format PDF pour une consultation hors ligne.</p>
+            <button class="btn btn-primary btn-lg" onclick="downloadReport()">
+                <i class="fas fa-file-pdf"></i> Télécharger le Rapport PDF
+            </button>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+function downloadReport() {
+    // Simulation de téléchargement
+    const button = event.target;
+    const originalText = button.innerHTML;
+    
+    button.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Génération du PDF...';
+    button.disabled = true;
+    
+    setTimeout(() => {
+        button.innerHTML = '<i class="fas fa-check"></i> Téléchargement démarré';
+        
+        // Ici, vous généreriez réellement le PDF
+        // window.open('/api/report/pdf', '_blank');
+        
+        setTimeout(() => {
+            button.innerHTML = originalText;
+            button.disabled = false;
+        }, 2000);
+    }, 3000);
+}
+</script>
+{% endblock %}

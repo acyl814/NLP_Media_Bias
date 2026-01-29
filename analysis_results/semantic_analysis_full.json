@@ -1,0 +1,1414 @@
+{
+  "semantic_fields": {
+    "gaza": [
+      "accused",
+      "analysts",
+      "areas",
+      "attacks",
+      "called",
+      "casualties",
+      "civilian",
+      "compounds",
+      "conflict",
+      "efforts",
+      "focused",
+      "following",
+      "forces",
+      "gaza",
+      "hamas",
+      "hours",
+      "infrastructure",
+      "international",
+      "israeli",
+      "lasted",
+      "launched",
+      "launching",
+      "militant",
+      "militants",
+      "military",
+      "neighborhoods",
+      "noted",
+      "observers",
+      "officials",
+      "ongoing",
+      "operate",
+      "operation",
+      "reported",
+      "response",
+      "security",
+      "stated",
+      "strikes",
+      "targeted",
+      "using",
+      "weapons"
+    ],
+    "ukraine": [
+      "adversity",
+      "aggression",
+      "attacks",
+      "civilian",
+      "civilians",
+      "committed",
+      "community",
+      "continued",
+      "crimes",
+      "despite",
+      "documented",
+      "face",
+      "families",
+      "fight",
+      "forces",
+      "freedom",
+      "global",
+      "heroic",
+      "incredible",
+      "infrastructure",
+      "international",
+      "invading",
+      "invasion",
+      "numerous",
+      "observers",
+      "people",
+      "president",
+      "remains",
+      "resilience",
+      "resistance",
+      "right",
+      "russian",
+      "shown",
+      "support",
+      "ukraine",
+      "ukrainian",
+      "united",
+      "war",
+      "world",
+      "zelensky"
+    ]
+  },
+  "kwic": {
+    "gaza": {
+      "palestinians": [],
+      "israelis": [],
+      "civilians": [],
+      "militants": [
+        {
+          "left": "depots military analysts noted that",
+          "keyword": "militants",
+          "right": "often operate from within civilian"
+        },
+        {
+          "left": "depots military analysts noted that",
+          "keyword": "militants",
+          "right": "often operate from within civilian"
+        },
+        {
+          "left": "depots military analysts noted that",
+          "keyword": "militants",
+          "right": "often operate from within civilian"
+        },
+        {
+          "left": "facilities military officials reported that",
+          "keyword": "militants",
+          "right": "were using civilian areas as"
+        },
+        {
+          "left": "to neutralize threats from hamas",
+          "keyword": "militants",
+          "right": "according to sources the extremist"
+        }
+      ],
+      "victims": []
+    },
+    "ukraine": {
+      "ukrainians": [],
+      "russians": [],
+      "civilians": [
+        {
+          "left": "committing war crimes against innocent",
+          "keyword": "civilians",
+          "right": "the international community has rallied"
+        },
+        {
+          "left": "against the russian invasion brave",
+          "keyword": "civilians",
+          "right": "have taken up arms to"
+        },
+        {
+          "left": "committing war crimes against innocent",
+          "keyword": "civilians",
+          "right": "the international community has rallied"
+        },
+        {
+          "left": "against the russian invasion brave",
+          "keyword": "civilians",
+          "right": "have taken up arms to"
+        },
+        {
+          "left": "committing war crimes against innocent",
+          "keyword": "civilians",
+          "right": "the international community has rallied"
+        }
+      ],
+      "soldiers": [],
+      "victims": []
+    }
+  },
+  "word2vec": {
+    "gaza": {
+      "militants": [
+        {
+          "word": "civilian",
+          "similarity": 0.9978846907615662
+        },
+        {
+          "word": "officials",
+          "similarity": 0.9978325366973877
+        },
+        {
+          "word": "according",
+          "similarity": 0.9976675510406494
+        },
+        {
+          "word": "aimed",
+          "similarity": 0.9976548552513123
+        },
+        {
+          "word": "extremist",
+          "similarity": 0.9976463317871094
+        }
+      ]
+    },
+    "ukraine": {
+      "civilians": [
+        {
+          "word": "russian",
+          "similarity": 0.9971129298210144
+        },
+        {
+          "word": "of",
+          "similarity": 0.9970618486404419
+        },
+        {
+          "word": "have",
+          "similarity": 0.9970321655273438
+        },
+        {
+          "word": "their",
+          "similarity": 0.9970014691352844
+        },
+        {
+          "word": "the",
+          "similarity": 0.9969499707221985
+        }
+      ]
+    }
+  },
+  "semantic_clusters": {
+    "gaza": {
+      "0": [
+        "violence flared up again in the ongoing conflict as israeli forces responded to attacks from gaza the military operation aimed to neutralize threats from hamas militants according to sources the extremist group has been using civilian populations as human shields the israeli defense forces stated th"
+      ],
+      "1": [
+        "israeli forces launched a military operation in response to continued aggression from gaza the targeted strikes focused on hamas military compounds and weapons depots military analysts noted that militants often operate from within civilian neighborhoods the operation is part of ongoing efforts to e",
+        "israeli forces launched a military operation in response to continued aggression from gaza the targeted strikes focused on hamas military compounds and weapons depots military analysts noted that militants often operate from within civilian neighborhoods the operation is part of ongoing efforts to e",
+        "the israeli military conducted a series of targeted strikes against hamas positions in gaza the operation targeted terrorist infrastructure and weapons storage facilities military officials reported that militants were using civilian areas as cover the escalation began when hamas fighters launched r",
+        "the israeli military conducted a series of targeted strikes against hamas positions in gaza the operation targeted terrorist infrastructure and weapons storage facilities military officials reported that militants were using civilian areas as cover the escalation began when hamas fighters launched r",
+        "israeli forces launched a military operation in response to continued aggression from gaza the targeted strikes focused on hamas military compounds and weapons depots military analysts noted that militants often operate from within civilian neighborhoods the operation is part of ongoing efforts to e"
+      ],
+      "2": [
+        "tensions escalated following rocket attacks from gaza prompting israeli military response the conflict has resulted in significant damage to infrastructure hamas the militant organization controlling gaza has been accused of launching attacks from residential areas international observers called for",
+        "tensions escalated following rocket attacks from gaza prompting israeli military response the conflict has resulted in significant damage to infrastructure hamas the militant organization controlling gaza has been accused of launching attacks from residential areas international observers called for",
+        "tensions escalated following rocket attacks from gaza prompting israeli military response the conflict has resulted in significant damage to infrastructure hamas the militant organization controlling gaza has been accused of launching attacks from residential areas international observers called for",
+        "tensions escalated following rocket attacks from gaza prompting israeli military response the conflict has resulted in significant damage to infrastructure hamas the militant organization controlling gaza has been accused of launching attacks from residential areas international observers called for"
+      ]
+    },
+    "ukraine": {
+      "0": [
+        "ukrainian forces demonstrated remarkable resilience in their heroic resistance against the russian invasion brave civilians have taken up arms to defend their homes and families the unprovoked aggression has been widely condemned as a violation of international law ukrainian president zelensky prais",
+        "ukrainian forces demonstrated remarkable resilience in their heroic resistance against the russian invasion brave civilians have taken up arms to defend their homes and families the unprovoked aggression has been widely condemned as a violation of international law ukrainian president zelensky prais",
+        "ukrainian forces demonstrated remarkable resilience in their heroic resistance against the russian invasion brave civilians have taken up arms to defend their homes and families the unprovoked aggression has been widely condemned as a violation of international law ukrainian president zelensky prais"
+      ],
+      "1": [
+        "the ukrainian spirit remains unbroken despite continued russian attacks on civilian infrastructure international observers have documented numerous war crimes committed by invading forces ukrainian families have shown incredible resilience in the face of adversity the global community stands united ",
+        "the ukrainian spirit remains unbroken despite continued russian attacks on civilian infrastructure international observers have documented numerous war crimes committed by invading forces ukrainian families have shown incredible resilience in the face of adversity the global community stands united ",
+        "the ukrainian spirit remains unbroken despite continued russian attacks on civilian infrastructure international observers have documented numerous war crimes committed by invading forces ukrainian families have shown incredible resilience in the face of adversity the global community stands united ",
+        "the ukrainian spirit remains unbroken despite continued russian attacks on civilian infrastructure international observers have documented numerous war crimes committed by invading forces ukrainian families have shown incredible resilience in the face of adversity the global community stands united "
+      ],
+      "2": [
+        "the ukrainian people continue to inspire the world with their courageous defense of their homeland russian forces have been accused of committing war crimes against innocent civilians the international community has rallied to support ukraine's struggle for independence stories of heroism emerge dai",
+        "ukraine's heroic resistance against russian aggression has captured global attention civilian populations have suffered greatly from the brutal invasion with reports of atrocities mounting the ukrainian military though outnumbered has shown extraordinary bravery in defending their territory world le",
+        "the ukrainian people continue to inspire the world with their courageous defense of their homeland russian forces have been accused of committing war crimes against innocent civilians the international community has rallied to support ukraine's struggle for independence stories of heroism emerge dai",
+        "ukraine's heroic resistance against russian aggression has captured global attention civilian populations have suffered greatly from the brutal invasion with reports of atrocities mounting the ukrainian military though outnumbered has shown extraordinary bravery in defending their territory world le",
+        "the ukrainian people continue to inspire the world with their courageous defense of their homeland russian forces have been accused of committing war crimes against innocent civilians the international community has rallied to support ukraine's struggle for independence stories of heroism emerge dai"
+      ]
+    }
+  },
+  "word_clusters": {
+    "gaza": {
+      "2": [
+        "military",
+        "operation",
+        "gaza",
+        "attacks",
+        "targeted",
+        "forces",
+        "conflict",
+        "ongoing",
+        "strikes",
+        "launched"
+      ],
+      "1": [
+        "israeli",
+        "hamas",
+        "civilian",
+        "militants",
+        "officials",
+        "weapons",
+        "areas",
+        "international",
+        "stated",
+        "using"
+      ],
+      "3": [
+        "response",
+        "casualties",
+        "lasted",
+        "compounds",
+        "focused",
+        "damage",
+        "significant",
+        "resulted",
+        "news",
+        "threats"
+      ],
+      "0": [
+        "hours",
+        "aggression",
+        "continued",
+        "prompting",
+        "rocket",
+        "following",
+        "escalated",
+        "tensions",
+        "responded",
+        "flared"
+      ]
+    },
+    "ukraine": {
+      "2": [
+        "ukrainian",
+        "russian",
+        "international",
+        "resistance",
+        "resilience",
+        "families",
+        "president",
+        "crimes",
+        "civilians",
+        "freedom"
+      ],
+      "1": [
+        "forces",
+        "ukraine's",
+        "support",
+        "community",
+        "global",
+        "shown",
+        "civilian",
+        "continued",
+        "invasion",
+        "world"
+      ],
+      "3": [
+        "zelensky",
+        "people",
+        "heroic",
+        "selfdetermination",
+        "right",
+        "united",
+        "face",
+        "documented",
+        "infrastructure",
+        "attacks"
+      ],
+      "0": [
+        "adversity",
+        "unbroken",
+        "remains",
+        "spirit",
+        "remarkable",
+        "demonstrated",
+        "nation",
+        "addressed",
+        "session",
+        "emergency"
+      ]
+    }
+  },
+  "actors": {
+    "palestinians": {
+      "gaza": {
+        "semantic_fields": [
+          "accused",
+          "analysts",
+          "areas",
+          "attacks",
+          "called",
+          "casualties",
+          "civilian",
+          "compounds",
+          "conflict",
+          "efforts",
+          "focused",
+          "following",
+          "forces",
+          "gaza",
+          "hamas",
+          "hours",
+          "infrastructure",
+          "international",
+          "israeli",
+          "lasted",
+          "launched",
+          "launching",
+          "militant",
+          "militants",
+          "military",
+          "neighborhoods",
+          "noted",
+          "observers",
+          "officials",
+          "ongoing",
+          "operate",
+          "operation",
+          "reported",
+          "response",
+          "security",
+          "stated",
+          "strikes",
+          "targeted",
+          "using",
+          "weapons"
+        ],
+        "kwic": [],
+        "word2vec": []
+      },
+      "ukraine": {
+        "semantic_fields": [
+          "adversity",
+          "aggression",
+          "attacks",
+          "civilian",
+          "civilians",
+          "committed",
+          "community",
+          "continued",
+          "crimes",
+          "despite",
+          "documented",
+          "face",
+          "families",
+          "fight",
+          "forces",
+          "freedom",
+          "global",
+          "heroic",
+          "incredible",
+          "infrastructure",
+          "international",
+          "invading",
+          "invasion",
+          "numerous",
+          "observers",
+          "people",
+          "president",
+          "remains",
+          "resilience",
+          "resistance",
+          "right",
+          "russian",
+          "shown",
+          "support",
+          "ukraine",
+          "ukrainian",
+          "united",
+          "war",
+          "world",
+          "zelensky"
+        ],
+        "kwic": [],
+        "word2vec": []
+      }
+    },
+    "victims": {
+      "gaza": {
+        "semantic_fields": [
+          "accused",
+          "analysts",
+          "areas",
+          "attacks",
+          "called",
+          "casualties",
+          "civilian",
+          "compounds",
+          "conflict",
+          "efforts",
+          "focused",
+          "following",
+          "forces",
+          "gaza",
+          "hamas",
+          "hours",
+          "infrastructure",
+          "international",
+          "israeli",
+          "lasted",
+          "launched",
+          "launching",
+          "militant",
+          "militants",
+          "military",
+          "neighborhoods",
+          "noted",
+          "observers",
+          "officials",
+          "ongoing",
+          "operate",
+          "operation",
+          "reported",
+          "response",
+          "security",
+          "stated",
+          "strikes",
+          "targeted",
+          "using",
+          "weapons"
+        ],
+        "kwic": [],
+        "word2vec": []
+      },
+      "ukraine": {
+        "semantic_fields": [
+          "adversity",
+          "aggression",
+          "attacks",
+          "civilian",
+          "civilians",
+          "committed",
+          "community",
+          "continued",
+          "crimes",
+          "despite",
+          "documented",
+          "face",
+          "families",
+          "fight",
+          "forces",
+          "freedom",
+          "global",
+          "heroic",
+          "incredible",
+          "infrastructure",
+          "international",
+          "invading",
+          "invasion",
+          "numerous",
+          "observers",
+          "people",
+          "president",
+          "remains",
+          "resilience",
+          "resistance",
+          "right",
+          "russian",
+          "shown",
+          "support",
+          "ukraine",
+          "ukrainian",
+          "united",
+          "war",
+          "world",
+          "zelensky"
+        ],
+        "kwic": [],
+        "word2vec": []
+      }
+    },
+    "russians": {
+      "gaza": {
+        "semantic_fields": [
+          "accused",
+          "analysts",
+          "areas",
+          "attacks",
+          "called",
+          "casualties",
+          "civilian",
+          "compounds",
+          "conflict",
+          "efforts",
+          "focused",
+          "following",
+          "forces",
+          "gaza",
+          "hamas",
+          "hours",
+          "infrastructure",
+          "international",
+          "israeli",
+          "lasted",
+          "launched",
+          "launching",
+          "militant",
+          "militants",
+          "military",
+          "neighborhoods",
+          "noted",
+          "observers",
+          "officials",
+          "ongoing",
+          "operate",
+          "operation",
+          "reported",
+          "response",
+          "security",
+          "stated",
+          "strikes",
+          "targeted",
+          "using",
+          "weapons"
+        ],
+        "kwic": [],
+        "word2vec": []
+      },
+      "ukraine": {
+        "semantic_fields": [
+          "adversity",
+          "aggression",
+          "attacks",
+          "civilian",
+          "civilians",
+          "committed",
+          "community",
+          "continued",
+          "crimes",
+          "despite",
+          "documented",
+          "face",
+          "families",
+          "fight",
+          "forces",
+          "freedom",
+          "global",
+          "heroic",
+          "incredible",
+          "infrastructure",
+          "international",
+          "invading",
+          "invasion",
+          "numerous",
+          "observers",
+          "people",
+          "president",
+          "remains",
+          "resilience",
+          "resistance",
+          "right",
+          "russian",
+          "shown",
+          "support",
+          "ukraine",
+          "ukrainian",
+          "united",
+          "war",
+          "world",
+          "zelensky"
+        ],
+        "kwic": [],
+        "word2vec": []
+      }
+    },
+    "israelis": {
+      "gaza": {
+        "semantic_fields": [
+          "accused",
+          "analysts",
+          "areas",
+          "attacks",
+          "called",
+          "casualties",
+          "civilian",
+          "compounds",
+          "conflict",
+          "efforts",
+          "focused",
+          "following",
+          "forces",
+          "gaza",
+          "hamas",
+          "hours",
+          "infrastructure",
+          "international",
+          "israeli",
+          "lasted",
+          "launched",
+          "launching",
+          "militant",
+          "militants",
+          "military",
+          "neighborhoods",
+          "noted",
+          "observers",
+          "officials",
+          "ongoing",
+          "operate",
+          "operation",
+          "reported",
+          "response",
+          "security",
+          "stated",
+          "strikes",
+          "targeted",
+          "using",
+          "weapons"
+        ],
+        "kwic": [],
+        "word2vec": []
+      },
+      "ukraine": {
+        "semantic_fields": [
+          "adversity",
+          "aggression",
+          "attacks",
+          "civilian",
+          "civilians",
+          "committed",
+          "community",
+          "continued",
+          "crimes",
+          "despite",
+          "documented",
+          "face",
+          "families",
+          "fight",
+          "forces",
+          "freedom",
+          "global",
+          "heroic",
+          "incredible",
+          "infrastructure",
+          "international",
+          "invading",
+          "invasion",
+          "numerous",
+          "observers",
+          "people",
+          "president",
+          "remains",
+          "resilience",
+          "resistance",
+          "right",
+          "russian",
+          "shown",
+          "support",
+          "ukraine",
+          "ukrainian",
+          "united",
+          "war",
+          "world",
+          "zelensky"
+        ],
+        "kwic": [],
+        "word2vec": []
+      }
+    },
+    "soldiers": {
+      "gaza": {
+        "semantic_fields": [
+          "accused",
+          "analysts",
+          "areas",
+          "attacks",
+          "called",
+          "casualties",
+          "civilian",
+          "compounds",
+          "conflict",
+          "efforts",
+          "focused",
+          "following",
+          "forces",
+          "gaza",
+          "hamas",
+          "hours",
+          "infrastructure",
+          "international",
+          "israeli",
+          "lasted",
+          "launched",
+          "launching",
+          "militant",
+          "militants",
+          "military",
+          "neighborhoods",
+          "noted",
+          "observers",
+          "officials",
+          "ongoing",
+          "operate",
+          "operation",
+          "reported",
+          "response",
+          "security",
+          "stated",
+          "strikes",
+          "targeted",
+          "using",
+          "weapons"
+        ],
+        "kwic": [],
+        "word2vec": []
+      },
+      "ukraine": {
+        "semantic_fields": [
+          "adversity",
+          "aggression",
+          "attacks",
+          "civilian",
+          "civilians",
+          "committed",
+          "community",
+          "continued",
+          "crimes",
+          "despite",
+          "documented",
+          "face",
+          "families",
+          "fight",
+          "forces",
+          "freedom",
+          "global",
+          "heroic",
+          "incredible",
+          "infrastructure",
+          "international",
+          "invading",
+          "invasion",
+          "numerous",
+          "observers",
+          "people",
+          "president",
+          "remains",
+          "resilience",
+          "resistance",
+          "right",
+          "russian",
+          "shown",
+          "support",
+          "ukraine",
+          "ukrainian",
+          "united",
+          "war",
+          "world",
+          "zelensky"
+        ],
+        "kwic": [],
+        "word2vec": []
+      }
+    },
+    "civilians": {
+      "gaza": {
+        "semantic_fields": [
+          "accused",
+          "analysts",
+          "areas",
+          "attacks",
+          "called",
+          "casualties",
+          "civilian",
+          "compounds",
+          "conflict",
+          "efforts",
+          "focused",
+          "following",
+          "forces",
+          "gaza",
+          "hamas",
+          "hours",
+          "infrastructure",
+          "international",
+          "israeli",
+          "lasted",
+          "launched",
+          "launching",
+          "militant",
+          "militants",
+          "military",
+          "neighborhoods",
+          "noted",
+          "observers",
+          "officials",
+          "ongoing",
+          "operate",
+          "operation",
+          "reported",
+          "response",
+          "security",
+          "stated",
+          "strikes",
+          "targeted",
+          "using",
+          "weapons"
+        ],
+        "kwic": [],
+        "word2vec": []
+      },
+      "ukraine": {
+        "semantic_fields": [
+          "adversity",
+          "aggression",
+          "attacks",
+          "civilian",
+          "committed",
+          "community",
+          "continued",
+          "crimes",
+          "despite",
+          "documented",
+          "face",
+          "families",
+          "fight",
+          "forces",
+          "freedom",
+          "global",
+          "heroic",
+          "incredible",
+          "infrastructure",
+          "international",
+          "invading",
+          "invasion",
+          "numerous",
+          "observers",
+          "people",
+          "president",
+          "remains",
+          "resilience",
+          "resistance",
+          "right",
+          "russian",
+          "shown",
+          "support",
+          "ukraine",
+          "ukrainian",
+          "united",
+          "war",
+          "world",
+          "zelensky"
+        ],
+        "kwic": [
+          {
+            "left": "committing war crimes against innocent",
+            "keyword": "civilians",
+            "right": "the international community has rallied"
+          },
+          {
+            "left": "against the russian invasion brave",
+            "keyword": "civilians",
+            "right": "have taken up arms to"
+          },
+          {
+            "left": "committing war crimes against innocent",
+            "keyword": "civilians",
+            "right": "the international community has rallied"
+          },
+          {
+            "left": "against the russian invasion brave",
+            "keyword": "civilians",
+            "right": "have taken up arms to"
+          },
+          {
+            "left": "committing war crimes against innocent",
+            "keyword": "civilians",
+            "right": "the international community has rallied"
+          }
+        ],
+        "word2vec": [
+          {
+            "word": "russian",
+            "similarity": 0.9971129298210144
+          },
+          {
+            "word": "of",
+            "similarity": 0.9970618486404419
+          },
+          {
+            "word": "have",
+            "similarity": 0.9970321655273438
+          },
+          {
+            "word": "their",
+            "similarity": 0.9970014691352844
+          },
+          {
+            "word": "the",
+            "similarity": 0.9969499707221985
+          }
+        ]
+      }
+    },
+    "militants": {
+      "gaza": {
+        "semantic_fields": [
+          "accused",
+          "analysts",
+          "areas",
+          "attacks",
+          "called",
+          "casualties",
+          "civilian",
+          "compounds",
+          "conflict",
+          "efforts",
+          "focused",
+          "following",
+          "forces",
+          "gaza",
+          "hamas",
+          "hours",
+          "infrastructure",
+          "international",
+          "israeli",
+          "lasted",
+          "launched",
+          "launching",
+          "militant",
+          "military",
+          "neighborhoods",
+          "noted",
+          "observers",
+          "officials",
+          "ongoing",
+          "operate",
+          "operation",
+          "reported",
+          "response",
+          "security",
+          "stated",
+          "strikes",
+          "targeted",
+          "using",
+          "weapons"
+        ],
+        "kwic": [
+          {
+            "left": "depots military analysts noted that",
+            "keyword": "militants",
+            "right": "often operate from within civilian"
+          },
+          {
+            "left": "depots military analysts noted that",
+            "keyword": "militants",
+            "right": "often operate from within civilian"
+          },
+          {
+            "left": "depots military analysts noted that",
+            "keyword": "militants",
+            "right": "often operate from within civilian"
+          },
+          {
+            "left": "facilities military officials reported that",
+            "keyword": "militants",
+            "right": "were using civilian areas as"
+          },
+          {
+            "left": "to neutralize threats from hamas",
+            "keyword": "militants",
+            "right": "according to sources the extremist"
+          }
+        ],
+        "word2vec": [
+          {
+            "word": "civilian",
+            "similarity": 0.9978846907615662
+          },
+          {
+            "word": "officials",
+            "similarity": 0.9978325366973877
+          },
+          {
+            "word": "according",
+            "similarity": 0.9976675510406494
+          },
+          {
+            "word": "aimed",
+            "similarity": 0.9976548552513123
+          },
+          {
+            "word": "extremist",
+            "similarity": 0.9976463317871094
+          }
+        ]
+      },
+      "ukraine": {
+        "semantic_fields": [
+          "adversity",
+          "aggression",
+          "attacks",
+          "civilian",
+          "civilians",
+          "committed",
+          "community",
+          "continued",
+          "crimes",
+          "despite",
+          "documented",
+          "face",
+          "families",
+          "fight",
+          "forces",
+          "freedom",
+          "global",
+          "heroic",
+          "incredible",
+          "infrastructure",
+          "international",
+          "invading",
+          "invasion",
+          "numerous",
+          "observers",
+          "people",
+          "president",
+          "remains",
+          "resilience",
+          "resistance",
+          "right",
+          "russian",
+          "shown",
+          "support",
+          "ukraine",
+          "ukrainian",
+          "united",
+          "war",
+          "world",
+          "zelensky"
+        ],
+        "kwic": [],
+        "word2vec": []
+      }
+    },
+    "ukrainians": {
+      "gaza": {
+        "semantic_fields": [
+          "accused",
+          "analysts",
+          "areas",
+          "attacks",
+          "called",
+          "casualties",
+          "civilian",
+          "compounds",
+          "conflict",
+          "efforts",
+          "focused",
+          "following",
+          "forces",
+          "gaza",
+          "hamas",
+          "hours",
+          "infrastructure",
+          "international",
+          "israeli",
+          "lasted",
+          "launched",
+          "launching",
+          "militant",
+          "militants",
+          "military",
+          "neighborhoods",
+          "noted",
+          "observers",
+          "officials",
+          "ongoing",
+          "operate",
+          "operation",
+          "reported",
+          "response",
+          "security",
+          "stated",
+          "strikes",
+          "targeted",
+          "using",
+          "weapons"
+        ],
+        "kwic": [],
+        "word2vec": []
+      },
+      "ukraine": {
+        "semantic_fields": [
+          "adversity",
+          "aggression",
+          "attacks",
+          "civilian",
+          "civilians",
+          "committed",
+          "community",
+          "continued",
+          "crimes",
+          "despite",
+          "documented",
+          "face",
+          "families",
+          "fight",
+          "forces",
+          "freedom",
+          "global",
+          "heroic",
+          "incredible",
+          "infrastructure",
+          "international",
+          "invading",
+          "invasion",
+          "numerous",
+          "observers",
+          "people",
+          "president",
+          "remains",
+          "resilience",
+          "resistance",
+          "right",
+          "russian",
+          "shown",
+          "support",
+          "ukraine",
+          "ukrainian",
+          "united",
+          "war",
+          "world",
+          "zelensky"
+        ],
+        "kwic": [],
+        "word2vec": []
+      }
+    }
+  },
+  "actor_semantics": {
+    "gaza": {
+      "palestinians": {
+        "associated_words": [],
+        "concordances": []
+      },
+      "israelis": {
+        "associated_words": [],
+        "concordances": []
+      },
+      "civilians": {
+        "associated_words": [],
+        "concordances": []
+      },
+      "militants": {
+        "associated_words": [
+          [
+            "military",
+            25
+          ],
+          [
+            "that",
+            25
+          ],
+          [
+            "from",
+            25
+          ],
+          [
+            "civilian",
+            25
+          ],
+          [
+            "to",
+            22
+          ],
+          [
+            "depots",
+            14
+          ],
+          [
+            "analysts",
+            14
+          ],
+          [
+            "noted",
+            14
+          ],
+          [
+            "often",
+            14
+          ],
+          [
+            "operate",
+            14
+          ],
+          [
+            "within",
+            14
+          ],
+          [
+            "facilities",
+            11
+          ],
+          [
+            "officials",
+            11
+          ],
+          [
+            "reported",
+            11
+          ],
+          [
+            "were",
+            11
+          ]
+        ],
+        "concordances": [
+          {
+            "left": "depots military analysts noted that",
+            "keyword": "militants",
+            "right": "often operate from within civilian"
+          },
+          {
+            "left": "depots military analysts noted that",
+            "keyword": "militants",
+            "right": "often operate from within civilian"
+          },
+          {
+            "left": "depots military analysts noted that",
+            "keyword": "militants",
+            "right": "often operate from within civilian"
+          },
+          {
+            "left": "facilities military officials reported that",
+            "keyword": "militants",
+            "right": "were using civilian areas as"
+          },
+          {
+            "left": "to neutralize threats from hamas",
+            "keyword": "militants",
+            "right": "according to sources the extremist"
+          }
+        ]
+      },
+      "victims": {
+        "associated_words": [],
+        "concordances": []
+      }
+    },
+    "ukraine": {
+      "ukrainians": {
+        "associated_words": [],
+        "concordances": []
+      },
+      "russians": {
+        "associated_words": [],
+        "concordances": []
+      },
+      "civilians": {
+        "associated_words": [
+          [
+            "against",
+            16
+          ],
+          [
+            "the",
+            16
+          ],
+          [
+            "russian",
+            9
+          ],
+          [
+            "invasion",
+            9
+          ],
+          [
+            "brave",
+            9
+          ],
+          [
+            "have",
+            9
+          ],
+          [
+            "taken",
+            9
+          ],
+          [
+            "up",
+            9
+          ],
+          [
+            "arms",
+            9
+          ],
+          [
+            "to",
+            9
+          ],
+          [
+            "committing",
+            7
+          ],
+          [
+            "war",
+            7
+          ],
+          [
+            "crimes",
+            7
+          ],
+          [
+            "innocent",
+            7
+          ],
+          [
+            "international",
+            7
+          ]
+        ],
+        "concordances": [
+          {
+            "left": "committing war crimes against innocent",
+            "keyword": "civilians",
+            "right": "the international community has rallied"
+          },
+          {
+            "left": "against the russian invasion brave",
+            "keyword": "civilians",
+            "right": "have taken up arms to"
+          },
+          {
+            "left": "committing war crimes against innocent",
+            "keyword": "civilians",
+            "right": "the international community has rallied"
+          },
+          {
+            "left": "against the russian invasion brave",
+            "keyword": "civilians",
+            "right": "have taken up arms to"
+          },
+          {
+            "left": "committing war crimes against innocent",
+            "keyword": "civilians",
+            "right": "the international community has rallied"
+          }
+        ]
+      },
+      "soldiers": {
+        "associated_words": [],
+        "concordances": []
+      },
+      "victims": {
+        "associated_words": [],
+        "concordances": []
+      }
+    }
+  }
+}

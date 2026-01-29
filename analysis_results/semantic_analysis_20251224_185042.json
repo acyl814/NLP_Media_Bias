@@ -1,0 +1,4715 @@
+{
+  "semantic_fields": {
+    "gaza": [
+      {
+        "word": "operation",
+        "score": 0.18948594773634322
+      },
+      {
+        "word": "attacks",
+        "score": 0.1488473594091173
+      },
+      {
+        "word": "civilian",
+        "score": 0.1402320197259233
+      },
+      {
+        "word": "targeted",
+        "score": 0.1369859711932302
+      },
+      {
+        "word": "forces",
+        "score": 0.13150899437956962
+      },
+      {
+        "word": "conflict",
+        "score": 0.12480655348774279
+      },
+      {
+        "word": "military operation",
+        "score": 0.1239686602936511
+      },
+      {
+        "word": "officials",
+        "score": 0.11193245383890568
+      },
+      {
+        "word": "militants",
+        "score": 0.10594817104817034
+      },
+      {
+        "word": "international",
+        "score": 0.10231931547546744
+      },
+      {
+        "word": "areas",
+        "score": 0.09888279027826716
+      },
+      {
+        "word": "infrastructure",
+        "score": 0.09888279027826716
+      },
+      {
+        "word": "israeli military",
+        "score": 0.09888279027826716
+      },
+      {
+        "word": "using",
+        "score": 0.09618580284708791
+      },
+      {
+        "word": "using civilian",
+        "score": 0.09618580284708791
+      },
+      {
+        "word": "attacks gaza",
+        "score": 0.09614430187143685
+      },
+      {
+        "word": "stated",
+        "score": 0.09285011844840889
+      },
+      {
+        "word": "response",
+        "score": 0.09097947981761526
+      },
+      {
+        "word": "launched",
+        "score": 0.09080623845264353
+      },
+      {
+        "word": "strikes",
+        "score": 0.09080623845264353
+      },
+      {
+        "word": "targeted strikes",
+        "score": 0.09080623845264353
+      },
+      {
+        "word": "weapons",
+        "score": 0.09080623845264353
+      },
+      {
+        "word": "israeli forces",
+        "score": 0.08806775004581324
+      },
+      {
+        "word": "ongoing",
+        "score": 0.08806775004581324
+      },
+      {
+        "word": "casualties",
+        "score": 0.08552714102723635
+      },
+      {
+        "word": "officials reported",
+        "score": 0.08424591813883502
+      },
+      {
+        "word": "reported",
+        "score": 0.08424591813883502
+      },
+      {
+        "word": "hours",
+        "score": 0.07083337201005985
+      },
+      {
+        "word": "lasted",
+        "score": 0.07083337201005985
+      },
+      {
+        "word": "lasted hours",
+        "score": 0.07083337201005985
+      },
+      {
+        "word": "operation lasted",
+        "score": 0.07083337201005985
+      },
+      {
+        "word": "accused",
+        "score": 0.07002313868748777
+      },
+      {
+        "word": "accused launching",
+        "score": 0.07002313868748777
+      },
+      {
+        "word": "controlling gaza",
+        "score": 0.07002313868748777
+      },
+      {
+        "word": "damage",
+        "score": 0.07002313868748777
+      },
+      {
+        "word": "damage infrastructure",
+        "score": 0.07002313868748777
+      },
+      {
+        "word": "escalated",
+        "score": 0.07002313868748777
+      },
+      {
+        "word": "following",
+        "score": 0.07002313868748777
+      },
+      {
+        "word": "aggression",
+        "score": 0.05929234743883995
+      },
+      {
+        "word": "aggression gaza",
+        "score": 0.05929234743883995
+      },
+      {
+        "word": "analysts",
+        "score": 0.05929234743883995
+      },
+      {
+        "word": "analysts noted",
+        "score": 0.05929234743883995
+      },
+      {
+        "word": "depots",
+        "score": 0.05929234743883995
+      },
+      {
+        "word": "depots military",
+        "score": 0.05929234743883995
+      },
+      {
+        "word": "efforts",
+        "score": 0.05929234743883995
+      },
+      {
+        "word": "efforts ensure",
+        "score": 0.05929234743883995
+      },
+      {
+        "word": "ensure",
+        "score": 0.05929234743883995
+      },
+      {
+        "word": "ensure israeli",
+        "score": 0.05929234743883995
+      },
+      {
+        "word": "focused hamas",
+        "score": 0.05929234743883995
+      },
+      {
+        "word": "weapons depots",
+        "score": 0.05929234743883995
+      }
+    ],
+    "ukraine": [
+      {
+        "word": "ukraine",
+        "score": 0.1403268727242837
+      },
+      {
+        "word": "international",
+        "score": 0.13663758888175812
+      },
+      {
+        "word": "resistance",
+        "score": 0.13259958230773233
+      },
+      {
+        "word": "support",
+        "score": 0.12739752919554403
+      },
+      {
+        "word": "civilians",
+        "score": 0.12428674369207404
+      },
+      {
+        "word": "people",
+        "score": 0.12428674369207404
+      },
+      {
+        "word": "president",
+        "score": 0.12400993503166796
+      },
+      {
+        "word": "president zelensky",
+        "score": 0.12400993503166796
+      },
+      {
+        "word": "zelensky",
+        "score": 0.12400993503166796
+      },
+      {
+        "word": "forces",
+        "score": 0.12365085626232371
+      },
+      {
+        "word": "community",
+        "score": 0.11964254950370018
+      },
+      {
+        "word": "support ukraine",
+        "score": 0.11643525762208569
+      },
+      {
+        "word": "world",
+        "score": 0.10856608041677974
+      },
+      {
+        "word": "crimes",
+        "score": 0.10637205734446203
+      },
+      {
+        "word": "war",
+        "score": 0.10637205734446203
+      },
+      {
+        "word": "war crimes",
+        "score": 0.10637205734446203
+      },
+      {
+        "word": "international community",
+        "score": 0.10512308237410098
+      },
+      {
+        "word": "aggression",
+        "score": 0.10324691688118554
+      },
+      {
+        "word": "fight",
+        "score": 0.10324691688118554
+      },
+      {
+        "word": "fight freedom",
+        "score": 0.10324691688118554
+      },
+      {
+        "word": "freedom",
+        "score": 0.10324691688118554
+      },
+      {
+        "word": "heroic",
+        "score": 0.10324691688118554
+      },
+      {
+        "word": "heroic resistance",
+        "score": 0.10324691688118554
+      },
+      {
+        "word": "invasion",
+        "score": 0.10324691688118554
+      },
+      {
+        "word": "resistance russian",
+        "score": 0.10324691688118554
+      },
+      {
+        "word": "families",
+        "score": 0.10172953589121114
+      },
+      {
+        "word": "resilience",
+        "score": 0.10172953589121114
+      },
+      {
+        "word": "civilian",
+        "score": 0.08420974568496616
+      },
+      {
+        "word": "continued",
+        "score": 0.08420974568496616
+      },
+      {
+        "word": "global",
+        "score": 0.08420974568496616
+      },
+      {
+        "word": "shown",
+        "score": 0.08420974568496616
+      },
+      {
+        "word": "civilian infrastructure",
+        "score": 0.0631194069586831
+      },
+      {
+        "word": "committed",
+        "score": 0.0631194069586831
+      },
+      {
+        "word": "committed invading",
+        "score": 0.0631194069586831
+      },
+      {
+        "word": "community stands",
+        "score": 0.0631194069586831
+      },
+      {
+        "word": "continued russian",
+        "score": 0.0631194069586831
+      },
+      {
+        "word": "crimes committed",
+        "score": 0.0631194069586831
+      },
+      {
+        "word": "incredible",
+        "score": 0.0631194069586831
+      },
+      {
+        "word": "invading forces",
+        "score": 0.0631194069586831
+      },
+      {
+        "word": "numerous",
+        "score": 0.0631194069586831
+      },
+      {
+        "word": "observers",
+        "score": 0.0631194069586831
+      },
+      {
+        "word": "observers documented",
+        "score": 0.0631194069586831
+      },
+      {
+        "word": "remains",
+        "score": 0.0631194069586831
+      },
+      {
+        "word": "remains unbroken",
+        "score": 0.0631194069586831
+      },
+      {
+        "word": "resilience face",
+        "score": 0.0631194069586831
+      },
+      {
+        "word": "right",
+        "score": 0.0631194069586831
+      },
+      {
+        "word": "right selfdetermination",
+        "score": 0.0631194069586831
+      },
+      {
+        "word": "russian attacks",
+        "score": 0.0631194069586831
+      },
+      {
+        "word": "stands united",
+        "score": 0.0631194069586831
+      },
+      {
+        "word": "ukrainian families",
+        "score": 0.0631194069586831
+      }
+    ]
+  },
+  "kwic": {
+    "gaza": {
+      "palestinians": {
+        "examples": [],
+        "total_occurrences": 0
+      },
+      "israelis": {
+        "examples": [],
+        "total_occurrences": 0
+      },
+      "civilians": {
+        "examples": [],
+        "total_occurrences": 0
+      },
+      "militants": {
+        "examples": [
+          {
+            "sentence": "israeli forces launched a military operation in response to continued aggression from gaza the targeted strikes focused on hamas military compounds and weapons depots military analysts noted that militants often operate from within civilian neighborhoods the operation is part of ongoing efforts to ensure israeli security latest updates palestinian officials reported casualties",
+            "left": "compounds and weapons depots military analysts noted that",
+            "keyword": "militants",
+            "right": "often operate from within civilian neighborhoods the operation",
+            "position": 28,
+            "sentence_length": 52
+          },
+          {
+            "sentence": "israeli forces launched a military operation in response to continued aggression from gaza the targeted strikes focused on hamas military compounds and weapons depots military analysts noted that militants often operate from within civilian neighborhoods the operation is part of ongoing efforts to ensure israeli security palestinian officials reported casualties",
+            "left": "compounds and weapons depots military analysts noted that",
+            "keyword": "militants",
+            "right": "often operate from within civilian neighborhoods the operation",
+            "position": 28,
+            "sentence_length": 50
+          },
+          {
+            "sentence": "israeli forces launched a military operation in response to continued aggression from gaza the targeted strikes focused on hamas military compounds and weapons depots military analysts noted that militants often operate from within civilian neighborhoods the operation is part of ongoing efforts to ensure israeli security breaking news the conflict has drawn international attention",
+            "left": "compounds and weapons depots military analysts noted that",
+            "keyword": "militants",
+            "right": "often operate from within civilian neighborhoods the operation",
+            "position": 28,
+            "sentence_length": 54
+          },
+          {
+            "sentence": "the israeli military conducted a series of targeted strikes against hamas positions in gaza the operation targeted terrorist infrastructure and weapons storage facilities military officials reported that militants were using civilian areas as cover the escalation began when hamas fighters launched rockets into israeli territory breaking news israeli officials stated the operation was successful",
+            "left": "and weapons storage facilities military officials reported that",
+            "keyword": "militants",
+            "right": "were using civilian areas as cover the escalation",
+            "position": 27,
+            "sentence_length": 54
+          },
+          {
+            "sentence": "violence flared up again in the ongoing conflict as israeli forces responded to attacks from gaza the military operation aimed to neutralize threats from hamas militants according to sources the extremist group has been using civilian populations as human shields the israeli defense forces stated they are taking precautions to minimize civilian casualties analysis the military operation lasted several hours",
+            "left": "military operation aimed to neutralize threats from hamas",
+            "keyword": "militants",
+            "right": "according to sources the extremist group has been",
+            "position": 25,
+            "sentence_length": 60
+          },
+          {
+            "sentence": "violence flared up again in the ongoing conflict as israeli forces responded to attacks from gaza the military operation aimed to neutralize threats from hamas militants according to sources the extremist group has been using civilian populations as human shields the israeli defense forces stated they are taking precautions to minimize civilian casualties breaking news the military operation lasted several hours",
+            "left": "military operation aimed to neutralize threats from hamas",
+            "keyword": "militants",
+            "right": "according to sources the extremist group has been",
+            "position": 25,
+            "sentence_length": 61
+          },
+          {
+            "sentence": "the israeli military conducted a series of targeted strikes against hamas positions in gaza the operation targeted terrorist infrastructure and weapons storage facilities military officials reported that militants were using civilian areas as cover the escalation began when hamas fighters launched rockets into israeli territory report the conflict has drawn international attention",
+            "left": "and weapons storage facilities military officials reported that",
+            "keyword": "militants",
+            "right": "were using civilian areas as cover the escalation",
+            "position": 27,
+            "sentence_length": 52
+          },
+          {
+            "sentence": "israeli forces launched a military operation in response to continued aggression from gaza the targeted strikes focused on hamas military compounds and weapons depots military analysts noted that militants often operate from within civilian neighborhoods the operation is part of ongoing efforts to ensure israeli security analysis palestinian officials reported casualties",
+            "left": "compounds and weapons depots military analysts noted that",
+            "keyword": "militants",
+            "right": "often operate from within civilian neighborhoods the operation",
+            "position": 28,
+            "sentence_length": 51
+          },
+          {
+            "sentence": "violence flared up again in the ongoing conflict as israeli forces responded to attacks from gaza the military operation aimed to neutralize threats from hamas militants according to sources the extremist group has been using civilian populations as human shields the israeli defense forces stated they are taking precautions to minimize civilian casualties latest updates palestinian officials reported casualties",
+            "left": "military operation aimed to neutralize threats from hamas",
+            "keyword": "militants",
+            "right": "according to sources the extremist group has been",
+            "position": 25,
+            "sentence_length": 59
+          },
+          {
+            "sentence": "violence flared up again in the ongoing conflict as israeli forces responded to attacks from gaza the military operation aimed to neutralize threats from hamas militants according to sources the extremist group has been using civilian populations as human shields the israeli defense forces stated they are taking precautions to minimize civilian casualties analysis the military operation lasted several hours",
+            "left": "military operation aimed to neutralize threats from hamas",
+            "keyword": "militants",
+            "right": "according to sources the extremist group has been",
+            "position": 25,
+            "sentence_length": 60
+          }
+        ],
+        "total_occurrences": 20
+      },
+      "victims": {
+        "examples": [],
+        "total_occurrences": 0
+      },
+      "hamas": {
+        "examples": [
+          {
+            "sentence": "tensions escalated following rocket attacks from gaza prompting israeli military response the conflict has resulted in significant damage to infrastructure hamas the militant organization controlling gaza has been accused of launching attacks from residential areas international observers called for restraint from both sides what we know the military operation lasted several hours",
+            "left": "conflict has resulted in significant damage to infrastructure",
+            "keyword": "hamas",
+            "right": "the militant organization controlling gaza has been accused",
+            "position": 20,
+            "sentence_length": 52
+          },
+          {
+            "sentence": "tensions escalated following rocket attacks from gaza prompting israeli military response the conflict has resulted in significant damage to infrastructure hamas the militant organization controlling gaza has been accused of launching attacks from residential areas international observers called for restraint from both sides latest updates the conflict has drawn international attention",
+            "left": "conflict has resulted in significant damage to infrastructure",
+            "keyword": "hamas",
+            "right": "the militant organization controlling gaza has been accused",
+            "position": 20,
+            "sentence_length": 51
+          },
+          {
+            "sentence": "israeli forces launched a military operation in response to continued aggression from gaza the targeted strikes focused on hamas military compounds and weapons depots military analysts noted that militants often operate from within civilian neighborhoods the operation is part of ongoing efforts to ensure israeli security latest updates palestinian officials reported casualties",
+            "left": "aggression from gaza the targeted strikes focused on",
+            "keyword": "hamas",
+            "right": "military compounds and weapons depots military analysts noted",
+            "position": 18,
+            "sentence_length": 52
+          },
+          {
+            "sentence": "israeli forces launched a military operation in response to continued aggression from gaza the targeted strikes focused on hamas military compounds and weapons depots military analysts noted that militants often operate from within civilian neighborhoods the operation is part of ongoing efforts to ensure israeli security palestinian officials reported casualties",
+            "left": "aggression from gaza the targeted strikes focused on",
+            "keyword": "hamas",
+            "right": "military compounds and weapons depots military analysts noted",
+            "position": 18,
+            "sentence_length": 50
+          },
+          {
+            "sentence": "israeli forces launched a military operation in response to continued aggression from gaza the targeted strikes focused on hamas military compounds and weapons depots military analysts noted that militants often operate from within civilian neighborhoods the operation is part of ongoing efforts to ensure israeli security breaking news the conflict has drawn international attention",
+            "left": "aggression from gaza the targeted strikes focused on",
+            "keyword": "hamas",
+            "right": "military compounds and weapons depots military analysts noted",
+            "position": 18,
+            "sentence_length": 54
+          },
+          {
+            "sentence": "the israeli military conducted a series of targeted strikes against hamas positions in gaza the operation targeted terrorist infrastructure and weapons storage facilities military officials reported that militants were using civilian areas as cover the escalation began when hamas fighters launched rockets into israeli territory breaking news israeli officials stated the operation was successful",
+            "left": "military conducted a series of targeted strikes against",
+            "keyword": "hamas",
+            "right": "positions in gaza the operation targeted terrorist infrastructure",
+            "position": 10,
+            "sentence_length": 54
+          },
+          {
+            "sentence": "the israeli military conducted a series of targeted strikes against hamas positions in gaza the operation targeted terrorist infrastructure and weapons storage facilities military officials reported that militants were using civilian areas as cover the escalation began when hamas fighters launched rockets into israeli territory breaking news israeli officials stated the operation was successful",
+            "left": "civilian areas as cover the escalation began when",
+            "keyword": "hamas",
+            "right": "fighters launched rockets into israeli territory breaking news",
+            "position": 38,
+            "sentence_length": 54
+          },
+          {
+            "sentence": "violence flared up again in the ongoing conflict as israeli forces responded to attacks from gaza the military operation aimed to neutralize threats from hamas militants according to sources the extremist group has been using civilian populations as human shields the israeli defense forces stated they are taking precautions to minimize civilian casualties analysis the military operation lasted several hours",
+            "left": "the military operation aimed to neutralize threats from",
+            "keyword": "hamas",
+            "right": "militants according to sources the extremist group has",
+            "position": 24,
+            "sentence_length": 60
+          },
+          {
+            "sentence": "violence flared up again in the ongoing conflict as israeli forces responded to attacks from gaza the military operation aimed to neutralize threats from hamas militants according to sources the extremist group has been using civilian populations as human shields the israeli defense forces stated they are taking precautions to minimize civilian casualties breaking news the military operation lasted several hours",
+            "left": "the military operation aimed to neutralize threats from",
+            "keyword": "hamas",
+            "right": "militants according to sources the extremist group has",
+            "position": 24,
+            "sentence_length": 61
+          },
+          {
+            "sentence": "the israeli military conducted a series of targeted strikes against hamas positions in gaza the operation targeted terrorist infrastructure and weapons storage facilities military officials reported that militants were using civilian areas as cover the escalation began when hamas fighters launched rockets into israeli territory report the conflict has drawn international attention",
+            "left": "military conducted a series of targeted strikes against",
+            "keyword": "hamas",
+            "right": "positions in gaza the operation targeted terrorist infrastructure",
+            "position": 10,
+            "sentence_length": 52
+          }
+        ],
+        "total_occurrences": 20
+      },
+      "israel": {
+        "examples": [],
+        "total_occurrences": 0
+      },
+      "gaza": {
+        "examples": [
+          {
+            "sentence": "tensions escalated following rocket attacks from gaza prompting israeli military response the conflict has resulted in significant damage to infrastructure hamas the militant organization controlling gaza has been accused of launching attacks from residential areas international observers called for restraint from both sides what we know the military operation lasted several hours",
+            "left": "tensions escalated following rocket attacks from",
+            "keyword": "gaza",
+            "right": "prompting israeli military response the conflict has resulted",
+            "position": 6,
+            "sentence_length": 52
+          },
+          {
+            "sentence": "tensions escalated following rocket attacks from gaza prompting israeli military response the conflict has resulted in significant damage to infrastructure hamas the militant organization controlling gaza has been accused of launching attacks from residential areas international observers called for restraint from both sides what we know the military operation lasted several hours",
+            "left": "damage to infrastructure hamas the militant organization controlling",
+            "keyword": "gaza",
+            "right": "has been accused of launching attacks from residential",
+            "position": 25,
+            "sentence_length": 52
+          },
+          {
+            "sentence": "tensions escalated following rocket attacks from gaza prompting israeli military response the conflict has resulted in significant damage to infrastructure hamas the militant organization controlling gaza has been accused of launching attacks from residential areas international observers called for restraint from both sides latest updates the conflict has drawn international attention",
+            "left": "tensions escalated following rocket attacks from",
+            "keyword": "gaza",
+            "right": "prompting israeli military response the conflict has resulted",
+            "position": 6,
+            "sentence_length": 51
+          },
+          {
+            "sentence": "tensions escalated following rocket attacks from gaza prompting israeli military response the conflict has resulted in significant damage to infrastructure hamas the militant organization controlling gaza has been accused of launching attacks from residential areas international observers called for restraint from both sides latest updates the conflict has drawn international attention",
+            "left": "damage to infrastructure hamas the militant organization controlling",
+            "keyword": "gaza",
+            "right": "has been accused of launching attacks from residential",
+            "position": 25,
+            "sentence_length": 51
+          },
+          {
+            "sentence": "israeli forces launched a military operation in response to continued aggression from gaza the targeted strikes focused on hamas military compounds and weapons depots military analysts noted that militants often operate from within civilian neighborhoods the operation is part of ongoing efforts to ensure israeli security latest updates palestinian officials reported casualties",
+            "left": "military operation in response to continued aggression from",
+            "keyword": "gaza",
+            "right": "the targeted strikes focused on hamas military compounds",
+            "position": 12,
+            "sentence_length": 52
+          },
+          {
+            "sentence": "israeli forces launched a military operation in response to continued aggression from gaza the targeted strikes focused on hamas military compounds and weapons depots military analysts noted that militants often operate from within civilian neighborhoods the operation is part of ongoing efforts to ensure israeli security palestinian officials reported casualties",
+            "left": "military operation in response to continued aggression from",
+            "keyword": "gaza",
+            "right": "the targeted strikes focused on hamas military compounds",
+            "position": 12,
+            "sentence_length": 50
+          },
+          {
+            "sentence": "israeli forces launched a military operation in response to continued aggression from gaza the targeted strikes focused on hamas military compounds and weapons depots military analysts noted that militants often operate from within civilian neighborhoods the operation is part of ongoing efforts to ensure israeli security breaking news the conflict has drawn international attention",
+            "left": "military operation in response to continued aggression from",
+            "keyword": "gaza",
+            "right": "the targeted strikes focused on hamas military compounds",
+            "position": 12,
+            "sentence_length": 54
+          },
+          {
+            "sentence": "the israeli military conducted a series of targeted strikes against hamas positions in gaza the operation targeted terrorist infrastructure and weapons storage facilities military officials reported that militants were using civilian areas as cover the escalation began when hamas fighters launched rockets into israeli territory breaking news israeli officials stated the operation was successful",
+            "left": "series of targeted strikes against hamas positions in",
+            "keyword": "gaza",
+            "right": "the operation targeted terrorist infrastructure and weapons storage",
+            "position": 13,
+            "sentence_length": 54
+          },
+          {
+            "sentence": "violence flared up again in the ongoing conflict as israeli forces responded to attacks from gaza the military operation aimed to neutralize threats from hamas militants according to sources the extremist group has been using civilian populations as human shields the israeli defense forces stated they are taking precautions to minimize civilian casualties analysis the military operation lasted several hours",
+            "left": "conflict as israeli forces responded to attacks from",
+            "keyword": "gaza",
+            "right": "the military operation aimed to neutralize threats from",
+            "position": 15,
+            "sentence_length": 60
+          },
+          {
+            "sentence": "violence flared up again in the ongoing conflict as israeli forces responded to attacks from gaza the military operation aimed to neutralize threats from hamas militants according to sources the extremist group has been using civilian populations as human shields the israeli defense forces stated they are taking precautions to minimize civilian casualties breaking news the military operation lasted several hours",
+            "left": "conflict as israeli forces responded to attacks from",
+            "keyword": "gaza",
+            "right": "the military operation aimed to neutralize threats from",
+            "position": 15,
+            "sentence_length": 61
+          }
+        ],
+        "total_occurrences": 20
+      },
+      "war": {
+        "examples": [],
+        "total_occurrences": 0
+      },
+      "conflict": {
+        "examples": [
+          {
+            "sentence": "tensions escalated following rocket attacks from gaza prompting israeli military response the conflict has resulted in significant damage to infrastructure hamas the militant organization controlling gaza has been accused of launching attacks from residential areas international observers called for restraint from both sides what we know the military operation lasted several hours",
+            "left": "attacks from gaza prompting israeli military response the",
+            "keyword": "conflict",
+            "right": "has resulted in significant damage to infrastructure hamas",
+            "position": 12,
+            "sentence_length": 52
+          },
+          {
+            "sentence": "tensions escalated following rocket attacks from gaza prompting israeli military response the conflict has resulted in significant damage to infrastructure hamas the militant organization controlling gaza has been accused of launching attacks from residential areas international observers called for restraint from both sides latest updates the conflict has drawn international attention",
+            "left": "attacks from gaza prompting israeli military response the",
+            "keyword": "conflict",
+            "right": "has resulted in significant damage to infrastructure hamas",
+            "position": 12,
+            "sentence_length": 51
+          },
+          {
+            "sentence": "tensions escalated following rocket attacks from gaza prompting israeli military response the conflict has resulted in significant damage to infrastructure hamas the militant organization controlling gaza has been accused of launching attacks from residential areas international observers called for restraint from both sides latest updates the conflict has drawn international attention",
+            "left": "for restraint from both sides latest updates the",
+            "keyword": "conflict",
+            "right": "has drawn international attention",
+            "position": 46,
+            "sentence_length": 51
+          },
+          {
+            "sentence": "israeli forces launched a military operation in response to continued aggression from gaza the targeted strikes focused on hamas military compounds and weapons depots military analysts noted that militants often operate from within civilian neighborhoods the operation is part of ongoing efforts to ensure israeli security breaking news the conflict has drawn international attention",
+            "left": "efforts to ensure israeli security breaking news the",
+            "keyword": "conflict",
+            "right": "has drawn international attention",
+            "position": 49,
+            "sentence_length": 54
+          },
+          {
+            "sentence": "violence flared up again in the ongoing conflict as israeli forces responded to attacks from gaza the military operation aimed to neutralize threats from hamas militants according to sources the extremist group has been using civilian populations as human shields the israeli defense forces stated they are taking precautions to minimize civilian casualties analysis the military operation lasted several hours",
+            "left": "violence flared up again in the ongoing",
+            "keyword": "conflict",
+            "right": "as israeli forces responded to attacks from gaza",
+            "position": 7,
+            "sentence_length": 60
+          },
+          {
+            "sentence": "violence flared up again in the ongoing conflict as israeli forces responded to attacks from gaza the military operation aimed to neutralize threats from hamas militants according to sources the extremist group has been using civilian populations as human shields the israeli defense forces stated they are taking precautions to minimize civilian casualties breaking news the military operation lasted several hours",
+            "left": "violence flared up again in the ongoing",
+            "keyword": "conflict",
+            "right": "as israeli forces responded to attacks from gaza",
+            "position": 7,
+            "sentence_length": 61
+          },
+          {
+            "sentence": "the israeli military conducted a series of targeted strikes against hamas positions in gaza the operation targeted terrorist infrastructure and weapons storage facilities military officials reported that militants were using civilian areas as cover the escalation began when hamas fighters launched rockets into israeli territory report the conflict has drawn international attention",
+            "left": "fighters launched rockets into israeli territory report the",
+            "keyword": "conflict",
+            "right": "has drawn international attention",
+            "position": 47,
+            "sentence_length": 52
+          },
+          {
+            "sentence": "violence flared up again in the ongoing conflict as israeli forces responded to attacks from gaza the military operation aimed to neutralize threats from hamas militants according to sources the extremist group has been using civilian populations as human shields the israeli defense forces stated they are taking precautions to minimize civilian casualties latest updates palestinian officials reported casualties",
+            "left": "violence flared up again in the ongoing",
+            "keyword": "conflict",
+            "right": "as israeli forces responded to attacks from gaza",
+            "position": 7,
+            "sentence_length": 59
+          },
+          {
+            "sentence": "violence flared up again in the ongoing conflict as israeli forces responded to attacks from gaza the military operation aimed to neutralize threats from hamas militants according to sources the extremist group has been using civilian populations as human shields the israeli defense forces stated they are taking precautions to minimize civilian casualties analysis the military operation lasted several hours",
+            "left": "violence flared up again in the ongoing",
+            "keyword": "conflict",
+            "right": "as israeli forces responded to attacks from gaza",
+            "position": 7,
+            "sentence_length": 60
+          },
+          {
+            "sentence": "tensions escalated following rocket attacks from gaza prompting israeli military response the conflict has resulted in significant damage to infrastructure hamas the militant organization controlling gaza has been accused of launching attacks from residential areas international observers called for restraint from both sides analysis the military operation lasted several hours",
+            "left": "attacks from gaza prompting israeli military response the",
+            "keyword": "conflict",
+            "right": "has resulted in significant damage to infrastructure hamas",
+            "position": 12,
+            "sentence_length": 50
+          }
+        ],
+        "total_occurrences": 20
+      },
+      "attack": {
+        "examples": [],
+        "total_occurrences": 0
+      },
+      "violence": {
+        "examples": [
+          {
+            "sentence": "violence flared up again in the ongoing conflict as israeli forces responded to attacks from gaza the military operation aimed to neutralize threats from hamas militants according to sources the extremist group has been using civilian populations as human shields the israeli defense forces stated they are taking precautions to minimize civilian casualties analysis the military operation lasted several hours",
+            "left": "",
+            "keyword": "violence",
+            "right": "flared up again in the ongoing conflict as",
+            "position": 0,
+            "sentence_length": 60
+          },
+          {
+            "sentence": "violence flared up again in the ongoing conflict as israeli forces responded to attacks from gaza the military operation aimed to neutralize threats from hamas militants according to sources the extremist group has been using civilian populations as human shields the israeli defense forces stated they are taking precautions to minimize civilian casualties breaking news the military operation lasted several hours",
+            "left": "",
+            "keyword": "violence",
+            "right": "flared up again in the ongoing conflict as",
+            "position": 0,
+            "sentence_length": 61
+          },
+          {
+            "sentence": "violence flared up again in the ongoing conflict as israeli forces responded to attacks from gaza the military operation aimed to neutralize threats from hamas militants according to sources the extremist group has been using civilian populations as human shields the israeli defense forces stated they are taking precautions to minimize civilian casualties latest updates palestinian officials reported casualties",
+            "left": "",
+            "keyword": "violence",
+            "right": "flared up again in the ongoing conflict as",
+            "position": 0,
+            "sentence_length": 59
+          },
+          {
+            "sentence": "violence flared up again in the ongoing conflict as israeli forces responded to attacks from gaza the military operation aimed to neutralize threats from hamas militants according to sources the extremist group has been using civilian populations as human shields the israeli defense forces stated they are taking precautions to minimize civilian casualties analysis the military operation lasted several hours",
+            "left": "",
+            "keyword": "violence",
+            "right": "flared up again in the ongoing conflict as",
+            "position": 0,
+            "sentence_length": 60
+          },
+          {
+            "sentence": "violence flared up again in the ongoing conflict as israeli forces responded to attacks from gaza the military operation aimed to neutralize threats from hamas militants according to sources the extremist group has been using civilian populations as human shields the israeli defense forces stated they are taking precautions to minimize civilian casualties analysis the military operation lasted several hours",
+            "left": "",
+            "keyword": "violence",
+            "right": "flared up again in the ongoing conflict as",
+            "position": 0,
+            "sentence_length": 60
+          },
+          {
+            "sentence": "violence flared up again in the ongoing conflict as israeli forces responded to attacks from gaza the military operation aimed to neutralize threats from hamas militants according to sources the extremist group has been using civilian populations as human shields the israeli defense forces stated they are taking precautions to minimize civilian casualties what we know the conflict has drawn international attention",
+            "left": "",
+            "keyword": "violence",
+            "right": "flared up again in the ongoing conflict as",
+            "position": 0,
+            "sentence_length": 62
+          },
+          {
+            "sentence": "violence flared up again in the ongoing conflict as israeli forces responded to attacks from gaza the military operation aimed to neutralize threats from hamas militants according to sources the extremist group has been using civilian populations as human shields the israeli defense forces stated they are taking precautions to minimize civilian casualties what we know israeli officials stated the operation was successful",
+            "left": "",
+            "keyword": "violence",
+            "right": "flared up again in the ongoing conflict as",
+            "position": 0,
+            "sentence_length": 63
+          },
+          {
+            "sentence": "violence flared up again in the ongoing conflict as israeli forces responded to attacks from gaza the military operation aimed to neutralize threats from hamas militants according to sources the extremist group has been using civilian populations as human shields the israeli defense forces stated they are taking precautions to minimize civilian casualties analysis the conflict has drawn international attention",
+            "left": "",
+            "keyword": "violence",
+            "right": "flared up again in the ongoing conflict as",
+            "position": 0,
+            "sentence_length": 60
+          },
+          {
+            "sentence": "violence flared up again in the ongoing conflict as israeli forces responded to attacks from gaza the military operation aimed to neutralize threats from hamas militants according to sources the extremist group has been using civilian populations as human shields the israeli defense forces stated they are taking precautions to minimize civilian casualties breaking news the military operation lasted several hours",
+            "left": "",
+            "keyword": "violence",
+            "right": "flared up again in the ongoing conflict as",
+            "position": 0,
+            "sentence_length": 61
+          },
+          {
+            "sentence": "violence flared up again in the ongoing conflict as israeli forces responded to attacks from gaza the military operation aimed to neutralize threats from hamas militants according to sources the extremist group has been using civilian populations as human shields the israeli defense forces stated they are taking precautions to minimize civilian casualties palestinian officials reported casualties",
+            "left": "",
+            "keyword": "violence",
+            "right": "flared up again in the ongoing conflict as",
+            "position": 0,
+            "sentence_length": 57
+          }
+        ],
+        "total_occurrences": 11
+      },
+      "children": {
+        "examples": [],
+        "total_occurrences": 0
+      },
+      "women": {
+        "examples": [],
+        "total_occurrences": 0
+      },
+      "refugees": {
+        "examples": [],
+        "total_occurrences": 0
+      },
+      "aid": {
+        "examples": [],
+        "total_occurrences": 0
+      },
+      "hospital": {
+        "examples": [],
+        "total_occurrences": 0
+      },
+      "school": {
+        "examples": [],
+        "total_occurrences": 0
+      }
+    },
+    "ukraine": {
+      "ukrainians": {
+        "examples": [],
+        "total_occurrences": 0
+      },
+      "russians": {
+        "examples": [],
+        "total_occurrences": 0
+      },
+      "civilians": {
+        "examples": [
+          {
+            "sentence": "the ukrainian people continue to inspire the world with their courageous defense of their homeland russian forces have been accused of committing war crimes against innocent civilians the international community has rallied to support ukraine's struggle for independence stories of heroism emerge daily from the front lines as ordinary citizens join the resistance latest updates the un security council held an emergency session",
+            "left": "been accused of committing war crimes against innocent",
+            "keyword": "civilians",
+            "right": "the international community has rallied to support ukraine's",
+            "position": 26,
+            "sentence_length": 63
+          },
+          {
+            "sentence": "ukrainian forces demonstrated remarkable resilience in their heroic resistance against the russian invasion brave civilians have taken up arms to defend their homes and families the unprovoked aggression has been widely condemned as a violation of international law ukrainian president zelensky praised the courage of his people in their fight for freedom and democracy what we know russian officials denied the allegations",
+            "left": "their heroic resistance against the russian invasion brave",
+            "keyword": "civilians",
+            "right": "have taken up arms to defend their homes",
+            "position": 14,
+            "sentence_length": 62
+          },
+          {
+            "sentence": "the ukrainian people continue to inspire the world with their courageous defense of their homeland russian forces have been accused of committing war crimes against innocent civilians the international community has rallied to support ukraine's struggle for independence stories of heroism emerge daily from the front lines as ordinary citizens join the resistance the international community pledged support",
+            "left": "been accused of committing war crimes against innocent",
+            "keyword": "civilians",
+            "right": "the international community has rallied to support ukraine's",
+            "position": 26,
+            "sentence_length": 58
+          },
+          {
+            "sentence": "ukrainian forces demonstrated remarkable resilience in their heroic resistance against the russian invasion brave civilians have taken up arms to defend their homes and families the unprovoked aggression has been widely condemned as a violation of international law ukrainian president zelensky praised the courage of his people in their fight for freedom and democracy what we know president zelensky addressed the nation",
+            "left": "their heroic resistance against the russian invasion brave",
+            "keyword": "civilians",
+            "right": "have taken up arms to defend their homes",
+            "position": 14,
+            "sentence_length": 62
+          },
+          {
+            "sentence": "the ukrainian people continue to inspire the world with their courageous defense of their homeland russian forces have been accused of committing war crimes against innocent civilians the international community has rallied to support ukraine's struggle for independence stories of heroism emerge daily from the front lines as ordinary citizens join the resistance latest updates nato allies provided humanitarian aid",
+            "left": "been accused of committing war crimes against innocent",
+            "keyword": "civilians",
+            "right": "the international community has rallied to support ukraine's",
+            "position": 26,
+            "sentence_length": 60
+          },
+          {
+            "sentence": "the ukrainian people continue to inspire the world with their courageous defense of their homeland russian forces have been accused of committing war crimes against innocent civilians the international community has rallied to support ukraine's struggle for independence stories of heroism emerge daily from the front lines as ordinary citizens join the resistance what we know president zelensky addressed the nation",
+            "left": "been accused of committing war crimes against innocent",
+            "keyword": "civilians",
+            "right": "the international community has rallied to support ukraine's",
+            "position": 26,
+            "sentence_length": 61
+          },
+          {
+            "sentence": "ukrainian forces demonstrated remarkable resilience in their heroic resistance against the russian invasion brave civilians have taken up arms to defend their homes and families the unprovoked aggression has been widely condemned as a violation of international law ukrainian president zelensky praised the courage of his people in their fight for freedom and democracy report russian officials denied the allegations",
+            "left": "their heroic resistance against the russian invasion brave",
+            "keyword": "civilians",
+            "right": "have taken up arms to defend their homes",
+            "position": 14,
+            "sentence_length": 60
+          },
+          {
+            "sentence": "ukrainian forces demonstrated remarkable resilience in their heroic resistance against the russian invasion brave civilians have taken up arms to defend their homes and families the unprovoked aggression has been widely condemned as a violation of international law ukrainian president zelensky praised the courage of his people in their fight for freedom and democracy president zelensky addressed the nation",
+            "left": "their heroic resistance against the russian invasion brave",
+            "keyword": "civilians",
+            "right": "have taken up arms to defend their homes",
+            "position": 14,
+            "sentence_length": 59
+          },
+          {
+            "sentence": "ukrainian forces demonstrated remarkable resilience in their heroic resistance against the russian invasion brave civilians have taken up arms to defend their homes and families the unprovoked aggression has been widely condemned as a violation of international law ukrainian president zelensky praised the courage of his people in their fight for freedom and democracy nato allies provided humanitarian aid",
+            "left": "their heroic resistance against the russian invasion brave",
+            "keyword": "civilians",
+            "right": "have taken up arms to defend their homes",
+            "position": 14,
+            "sentence_length": 59
+          },
+          {
+            "sentence": "ukrainian forces demonstrated remarkable resilience in their heroic resistance against the russian invasion brave civilians have taken up arms to defend their homes and families the unprovoked aggression has been widely condemned as a violation of international law ukrainian president zelensky praised the courage of his people in their fight for freedom and democracy nato allies provided humanitarian aid",
+            "left": "their heroic resistance against the russian invasion brave",
+            "keyword": "civilians",
+            "right": "have taken up arms to defend their homes",
+            "position": 14,
+            "sentence_length": 59
+          }
+        ],
+        "total_occurrences": 16
+      },
+      "soldiers": {
+        "examples": [],
+        "total_occurrences": 0
+      },
+      "victims": {
+        "examples": [],
+        "total_occurrences": 0
+      },
+      "putin": {
+        "examples": [],
+        "total_occurrences": 0
+      },
+      "zelensky": {
+        "examples": [
+          {
+            "sentence": "the ukrainian spirit remains unbroken despite continued russian attacks on civilian infrastructure international observers have documented numerous war crimes committed by invading forces ukrainian families have shown incredible resilience in the face of adversity the global community stands united in support of ukraine's right to selfdetermination breaking news president zelensky addressed the nation",
+            "left": "of ukraine's right to selfdetermination breaking news president",
+            "keyword": "zelensky",
+            "right": "addressed the nation",
+            "position": 49,
+            "sentence_length": 53
+          },
+          {
+            "sentence": "ukrainian forces demonstrated remarkable resilience in their heroic resistance against the russian invasion brave civilians have taken up arms to defend their homes and families the unprovoked aggression has been widely condemned as a violation of international law ukrainian president zelensky praised the courage of his people in their fight for freedom and democracy what we know russian officials denied the allegations",
+            "left": "as a violation of international law ukrainian president",
+            "keyword": "zelensky",
+            "right": "praised the courage of his people in their",
+            "position": 40,
+            "sentence_length": 62
+          },
+          {
+            "sentence": "ukraine's heroic resistance against russian aggression has captured global attention civilian populations have suffered greatly from the brutal invasion with reports of atrocities mounting the ukrainian military though outnumbered has shown extraordinary bravery in defending their territory world leaders have pledged continued support for ukraine's fight for freedom what we know president zelensky addressed the nation",
+            "left": "ukraine's fight for freedom what we know president",
+            "keyword": "zelensky",
+            "right": "addressed the nation",
+            "position": 52,
+            "sentence_length": 56
+          },
+          {
+            "sentence": "ukrainian forces demonstrated remarkable resilience in their heroic resistance against the russian invasion brave civilians have taken up arms to defend their homes and families the unprovoked aggression has been widely condemned as a violation of international law ukrainian president zelensky praised the courage of his people in their fight for freedom and democracy what we know president zelensky addressed the nation",
+            "left": "as a violation of international law ukrainian president",
+            "keyword": "zelensky",
+            "right": "praised the courage of his people in their",
+            "position": 40,
+            "sentence_length": 62
+          },
+          {
+            "sentence": "ukrainian forces demonstrated remarkable resilience in their heroic resistance against the russian invasion brave civilians have taken up arms to defend their homes and families the unprovoked aggression has been widely condemned as a violation of international law ukrainian president zelensky praised the courage of his people in their fight for freedom and democracy what we know president zelensky addressed the nation",
+            "left": "for freedom and democracy what we know president",
+            "keyword": "zelensky",
+            "right": "addressed the nation",
+            "position": 58,
+            "sentence_length": 62
+          },
+          {
+            "sentence": "the ukrainian people continue to inspire the world with their courageous defense of their homeland russian forces have been accused of committing war crimes against innocent civilians the international community has rallied to support ukraine's struggle for independence stories of heroism emerge daily from the front lines as ordinary citizens join the resistance what we know president zelensky addressed the nation",
+            "left": "citizens join the resistance what we know president",
+            "keyword": "zelensky",
+            "right": "addressed the nation",
+            "position": 57,
+            "sentence_length": 61
+          },
+          {
+            "sentence": "ukrainian forces demonstrated remarkable resilience in their heroic resistance against the russian invasion brave civilians have taken up arms to defend their homes and families the unprovoked aggression has been widely condemned as a violation of international law ukrainian president zelensky praised the courage of his people in their fight for freedom and democracy report russian officials denied the allegations",
+            "left": "as a violation of international law ukrainian president",
+            "keyword": "zelensky",
+            "right": "praised the courage of his people in their",
+            "position": 40,
+            "sentence_length": 60
+          },
+          {
+            "sentence": "ukrainian forces demonstrated remarkable resilience in their heroic resistance against the russian invasion brave civilians have taken up arms to defend their homes and families the unprovoked aggression has been widely condemned as a violation of international law ukrainian president zelensky praised the courage of his people in their fight for freedom and democracy president zelensky addressed the nation",
+            "left": "as a violation of international law ukrainian president",
+            "keyword": "zelensky",
+            "right": "praised the courage of his people in their",
+            "position": 40,
+            "sentence_length": 59
+          },
+          {
+            "sentence": "ukrainian forces demonstrated remarkable resilience in their heroic resistance against the russian invasion brave civilians have taken up arms to defend their homes and families the unprovoked aggression has been widely condemned as a violation of international law ukrainian president zelensky praised the courage of his people in their fight for freedom and democracy president zelensky addressed the nation",
+            "left": "in their fight for freedom and democracy president",
+            "keyword": "zelensky",
+            "right": "addressed the nation",
+            "position": 55,
+            "sentence_length": 59
+          },
+          {
+            "sentence": "ukrainian forces demonstrated remarkable resilience in their heroic resistance against the russian invasion brave civilians have taken up arms to defend their homes and families the unprovoked aggression has been widely condemned as a violation of international law ukrainian president zelensky praised the courage of his people in their fight for freedom and democracy nato allies provided humanitarian aid",
+            "left": "as a violation of international law ukrainian president",
+            "keyword": "zelensky",
+            "right": "praised the courage of his people in their",
+            "position": 40,
+            "sentence_length": 59
+          }
+        ],
+        "total_occurrences": 17
+      },
+      "ukraine": {
+        "examples": [],
+        "total_occurrences": 0
+      },
+      "russia": {
+        "examples": [],
+        "total_occurrences": 0
+      },
+      "war": {
+        "examples": [
+          {
+            "sentence": "the ukrainian spirit remains unbroken despite continued russian attacks on civilian infrastructure international observers have documented numerous war crimes committed by invading forces ukrainian families have shown incredible resilience in the face of adversity the global community stands united in support of ukraine's right to selfdetermination breaking news president zelensky addressed the nation",
+            "left": "on civilian infrastructure international observers have documented numerous",
+            "keyword": "war",
+            "right": "crimes committed by invading forces ukrainian families have",
+            "position": 17,
+            "sentence_length": 53
+          },
+          {
+            "sentence": "the ukrainian spirit remains unbroken despite continued russian attacks on civilian infrastructure international observers have documented numerous war crimes committed by invading forces ukrainian families have shown incredible resilience in the face of adversity the global community stands united in support of ukraine's right to selfdetermination analysis russian officials denied the allegations",
+            "left": "on civilian infrastructure international observers have documented numerous",
+            "keyword": "war",
+            "right": "crimes committed by invading forces ukrainian families have",
+            "position": 17,
+            "sentence_length": 52
+          },
+          {
+            "sentence": "the ukrainian spirit remains unbroken despite continued russian attacks on civilian infrastructure international observers have documented numerous war crimes committed by invading forces ukrainian families have shown incredible resilience in the face of adversity the global community stands united in support of ukraine's right to selfdetermination the international community pledged support",
+            "left": "on civilian infrastructure international observers have documented numerous",
+            "keyword": "war",
+            "right": "crimes committed by invading forces ukrainian families have",
+            "position": 17,
+            "sentence_length": 51
+          },
+          {
+            "sentence": "the ukrainian people continue to inspire the world with their courageous defense of their homeland russian forces have been accused of committing war crimes against innocent civilians the international community has rallied to support ukraine's struggle for independence stories of heroism emerge daily from the front lines as ordinary citizens join the resistance latest updates the un security council held an emergency session",
+            "left": "homeland russian forces have been accused of committing",
+            "keyword": "war",
+            "right": "crimes against innocent civilians the international community has",
+            "position": 22,
+            "sentence_length": 63
+          },
+          {
+            "sentence": "the ukrainian spirit remains unbroken despite continued russian attacks on civilian infrastructure international observers have documented numerous war crimes committed by invading forces ukrainian families have shown incredible resilience in the face of adversity the global community stands united in support of ukraine's right to selfdetermination latest updates the un security council held an emergency session",
+            "left": "on civilian infrastructure international observers have documented numerous",
+            "keyword": "war",
+            "right": "crimes committed by invading forces ukrainian families have",
+            "position": 17,
+            "sentence_length": 56
+          },
+          {
+            "sentence": "the ukrainian people continue to inspire the world with their courageous defense of their homeland russian forces have been accused of committing war crimes against innocent civilians the international community has rallied to support ukraine's struggle for independence stories of heroism emerge daily from the front lines as ordinary citizens join the resistance the international community pledged support",
+            "left": "homeland russian forces have been accused of committing",
+            "keyword": "war",
+            "right": "crimes against innocent civilians the international community has",
+            "position": 22,
+            "sentence_length": 58
+          },
+          {
+            "sentence": "the ukrainian spirit remains unbroken despite continued russian attacks on civilian infrastructure international observers have documented numerous war crimes committed by invading forces ukrainian families have shown incredible resilience in the face of adversity the global community stands united in support of ukraine's right to selfdetermination breaking news the un security council held an emergency session",
+            "left": "on civilian infrastructure international observers have documented numerous",
+            "keyword": "war",
+            "right": "crimes committed by invading forces ukrainian families have",
+            "position": 17,
+            "sentence_length": 56
+          },
+          {
+            "sentence": "the ukrainian people continue to inspire the world with their courageous defense of their homeland russian forces have been accused of committing war crimes against innocent civilians the international community has rallied to support ukraine's struggle for independence stories of heroism emerge daily from the front lines as ordinary citizens join the resistance latest updates nato allies provided humanitarian aid",
+            "left": "homeland russian forces have been accused of committing",
+            "keyword": "war",
+            "right": "crimes against innocent civilians the international community has",
+            "position": 22,
+            "sentence_length": 60
+          },
+          {
+            "sentence": "the ukrainian spirit remains unbroken despite continued russian attacks on civilian infrastructure international observers have documented numerous war crimes committed by invading forces ukrainian families have shown incredible resilience in the face of adversity the global community stands united in support of ukraine's right to selfdetermination report nato allies provided humanitarian aid",
+            "left": "on civilian infrastructure international observers have documented numerous",
+            "keyword": "war",
+            "right": "crimes committed by invading forces ukrainian families have",
+            "position": 17,
+            "sentence_length": 52
+          },
+          {
+            "sentence": "the ukrainian spirit remains unbroken despite continued russian attacks on civilian infrastructure international observers have documented numerous war crimes committed by invading forces ukrainian families have shown incredible resilience in the face of adversity the global community stands united in support of ukraine's right to selfdetermination latest updates russian officials denied the allegations",
+            "left": "on civilian infrastructure international observers have documented numerous",
+            "keyword": "war",
+            "right": "crimes committed by invading forces ukrainian families have",
+            "position": 17,
+            "sentence_length": 53
+          }
+        ],
+        "total_occurrences": 17
+      },
+      "invasion": {
+        "examples": [
+          {
+            "sentence": "ukraine's heroic resistance against russian aggression has captured global attention civilian populations have suffered greatly from the brutal invasion with reports of atrocities mounting the ukrainian military though outnumbered has shown extraordinary bravery in defending their territory world leaders have pledged continued support for ukraine's fight for freedom report nato allies provided humanitarian aid",
+            "left": "civilian populations have suffered greatly from the brutal",
+            "keyword": "invasion",
+            "right": "with reports of atrocities mounting the ukrainian military",
+            "position": 18,
+            "sentence_length": 54
+          },
+          {
+            "sentence": "ukrainian forces demonstrated remarkable resilience in their heroic resistance against the russian invasion brave civilians have taken up arms to defend their homes and families the unprovoked aggression has been widely condemned as a violation of international law ukrainian president zelensky praised the courage of his people in their fight for freedom and democracy what we know russian officials denied the allegations",
+            "left": "resilience in their heroic resistance against the russian",
+            "keyword": "invasion",
+            "right": "brave civilians have taken up arms to defend",
+            "position": 12,
+            "sentence_length": 62
+          },
+          {
+            "sentence": "ukraine's heroic resistance against russian aggression has captured global attention civilian populations have suffered greatly from the brutal invasion with reports of atrocities mounting the ukrainian military though outnumbered has shown extraordinary bravery in defending their territory world leaders have pledged continued support for ukraine's fight for freedom what we know the un security council held an emergency session",
+            "left": "civilian populations have suffered greatly from the brutal",
+            "keyword": "invasion",
+            "right": "with reports of atrocities mounting the ukrainian military",
+            "position": 18,
+            "sentence_length": 59
+          },
+          {
+            "sentence": "ukraine's heroic resistance against russian aggression has captured global attention civilian populations have suffered greatly from the brutal invasion with reports of atrocities mounting the ukrainian military though outnumbered has shown extraordinary bravery in defending their territory world leaders have pledged continued support for ukraine's fight for freedom what we know president zelensky addressed the nation",
+            "left": "civilian populations have suffered greatly from the brutal",
+            "keyword": "invasion",
+            "right": "with reports of atrocities mounting the ukrainian military",
+            "position": 18,
+            "sentence_length": 56
+          },
+          {
+            "sentence": "ukrainian forces demonstrated remarkable resilience in their heroic resistance against the russian invasion brave civilians have taken up arms to defend their homes and families the unprovoked aggression has been widely condemned as a violation of international law ukrainian president zelensky praised the courage of his people in their fight for freedom and democracy what we know president zelensky addressed the nation",
+            "left": "resilience in their heroic resistance against the russian",
+            "keyword": "invasion",
+            "right": "brave civilians have taken up arms to defend",
+            "position": 12,
+            "sentence_length": 62
+          },
+          {
+            "sentence": "ukrainian forces demonstrated remarkable resilience in their heroic resistance against the russian invasion brave civilians have taken up arms to defend their homes and families the unprovoked aggression has been widely condemned as a violation of international law ukrainian president zelensky praised the courage of his people in their fight for freedom and democracy report russian officials denied the allegations",
+            "left": "resilience in their heroic resistance against the russian",
+            "keyword": "invasion",
+            "right": "brave civilians have taken up arms to defend",
+            "position": 12,
+            "sentence_length": 60
+          },
+          {
+            "sentence": "ukrainian forces demonstrated remarkable resilience in their heroic resistance against the russian invasion brave civilians have taken up arms to defend their homes and families the unprovoked aggression has been widely condemned as a violation of international law ukrainian president zelensky praised the courage of his people in their fight for freedom and democracy president zelensky addressed the nation",
+            "left": "resilience in their heroic resistance against the russian",
+            "keyword": "invasion",
+            "right": "brave civilians have taken up arms to defend",
+            "position": 12,
+            "sentence_length": 59
+          },
+          {
+            "sentence": "ukrainian forces demonstrated remarkable resilience in their heroic resistance against the russian invasion brave civilians have taken up arms to defend their homes and families the unprovoked aggression has been widely condemned as a violation of international law ukrainian president zelensky praised the courage of his people in their fight for freedom and democracy nato allies provided humanitarian aid",
+            "left": "resilience in their heroic resistance against the russian",
+            "keyword": "invasion",
+            "right": "brave civilians have taken up arms to defend",
+            "position": 12,
+            "sentence_length": 59
+          },
+          {
+            "sentence": "ukraine's heroic resistance against russian aggression has captured global attention civilian populations have suffered greatly from the brutal invasion with reports of atrocities mounting the ukrainian military though outnumbered has shown extraordinary bravery in defending their territory world leaders have pledged continued support for ukraine's fight for freedom the un security council held an emergency session",
+            "left": "civilian populations have suffered greatly from the brutal",
+            "keyword": "invasion",
+            "right": "with reports of atrocities mounting the ukrainian military",
+            "position": 18,
+            "sentence_length": 56
+          },
+          {
+            "sentence": "ukrainian forces demonstrated remarkable resilience in their heroic resistance against the russian invasion brave civilians have taken up arms to defend their homes and families the unprovoked aggression has been widely condemned as a violation of international law ukrainian president zelensky praised the courage of his people in their fight for freedom and democracy nato allies provided humanitarian aid",
+            "left": "resilience in their heroic resistance against the russian",
+            "keyword": "invasion",
+            "right": "brave civilians have taken up arms to defend",
+            "position": 12,
+            "sentence_length": 59
+          }
+        ],
+        "total_occurrences": 13
+      },
+      "attack": {
+        "examples": [],
+        "total_occurrences": 0
+      },
+      "defense": {
+        "examples": [
+          {
+            "sentence": "the ukrainian people continue to inspire the world with their courageous defense of their homeland russian forces have been accused of committing war crimes against innocent civilians the international community has rallied to support ukraine's struggle for independence stories of heroism emerge daily from the front lines as ordinary citizens join the resistance latest updates the un security council held an emergency session",
+            "left": "continue to inspire the world with their courageous",
+            "keyword": "defense",
+            "right": "of their homeland russian forces have been accused",
+            "position": 11,
+            "sentence_length": 63
+          },
+          {
+            "sentence": "the ukrainian people continue to inspire the world with their courageous defense of their homeland russian forces have been accused of committing war crimes against innocent civilians the international community has rallied to support ukraine's struggle for independence stories of heroism emerge daily from the front lines as ordinary citizens join the resistance the international community pledged support",
+            "left": "continue to inspire the world with their courageous",
+            "keyword": "defense",
+            "right": "of their homeland russian forces have been accused",
+            "position": 11,
+            "sentence_length": 58
+          },
+          {
+            "sentence": "the ukrainian people continue to inspire the world with their courageous defense of their homeland russian forces have been accused of committing war crimes against innocent civilians the international community has rallied to support ukraine's struggle for independence stories of heroism emerge daily from the front lines as ordinary citizens join the resistance latest updates nato allies provided humanitarian aid",
+            "left": "continue to inspire the world with their courageous",
+            "keyword": "defense",
+            "right": "of their homeland russian forces have been accused",
+            "position": 11,
+            "sentence_length": 60
+          },
+          {
+            "sentence": "the ukrainian people continue to inspire the world with their courageous defense of their homeland russian forces have been accused of committing war crimes against innocent civilians the international community has rallied to support ukraine's struggle for independence stories of heroism emerge daily from the front lines as ordinary citizens join the resistance what we know president zelensky addressed the nation",
+            "left": "continue to inspire the world with their courageous",
+            "keyword": "defense",
+            "right": "of their homeland russian forces have been accused",
+            "position": 11,
+            "sentence_length": 61
+          },
+          {
+            "sentence": "the ukrainian people continue to inspire the world with their courageous defense of their homeland russian forces have been accused of committing war crimes against innocent civilians the international community has rallied to support ukraine's struggle for independence stories of heroism emerge daily from the front lines as ordinary citizens join the resistance report president zelensky addressed the nation",
+            "left": "continue to inspire the world with their courageous",
+            "keyword": "defense",
+            "right": "of their homeland russian forces have been accused",
+            "position": 11,
+            "sentence_length": 59
+          },
+          {
+            "sentence": "the ukrainian people continue to inspire the world with their courageous defense of their homeland russian forces have been accused of committing war crimes against innocent civilians the international community has rallied to support ukraine's struggle for independence stories of heroism emerge daily from the front lines as ordinary citizens join the resistance breaking news the un security council held an emergency session",
+            "left": "continue to inspire the world with their courageous",
+            "keyword": "defense",
+            "right": "of their homeland russian forces have been accused",
+            "position": 11,
+            "sentence_length": 63
+          },
+          {
+            "sentence": "the ukrainian people continue to inspire the world with their courageous defense of their homeland russian forces have been accused of committing war crimes against innocent civilians the international community has rallied to support ukraine's struggle for independence stories of heroism emerge daily from the front lines as ordinary citizens join the resistance breaking news nato allies provided humanitarian aid",
+            "left": "continue to inspire the world with their courageous",
+            "keyword": "defense",
+            "right": "of their homeland russian forces have been accused",
+            "position": 11,
+            "sentence_length": 60
+          }
+        ],
+        "total_occurrences": 7
+      },
+      "nato": {
+        "examples": [
+          {
+            "sentence": "ukraine's heroic resistance against russian aggression has captured global attention civilian populations have suffered greatly from the brutal invasion with reports of atrocities mounting the ukrainian military though outnumbered has shown extraordinary bravery in defending their territory world leaders have pledged continued support for ukraine's fight for freedom report nato allies provided humanitarian aid",
+            "left": "continued support for ukraine's fight for freedom report",
+            "keyword": "nato",
+            "right": "allies provided humanitarian aid",
+            "position": 49,
+            "sentence_length": 54
+          },
+          {
+            "sentence": "the ukrainian people continue to inspire the world with their courageous defense of their homeland russian forces have been accused of committing war crimes against innocent civilians the international community has rallied to support ukraine's struggle for independence stories of heroism emerge daily from the front lines as ordinary citizens join the resistance latest updates nato allies provided humanitarian aid",
+            "left": "as ordinary citizens join the resistance latest updates",
+            "keyword": "nato",
+            "right": "allies provided humanitarian aid",
+            "position": 55,
+            "sentence_length": 60
+          },
+          {
+            "sentence": "the ukrainian spirit remains unbroken despite continued russian attacks on civilian infrastructure international observers have documented numerous war crimes committed by invading forces ukrainian families have shown incredible resilience in the face of adversity the global community stands united in support of ukraine's right to selfdetermination report nato allies provided humanitarian aid",
+            "left": "in support of ukraine's right to selfdetermination report",
+            "keyword": "nato",
+            "right": "allies provided humanitarian aid",
+            "position": 47,
+            "sentence_length": 52
+          },
+          {
+            "sentence": "ukrainian forces demonstrated remarkable resilience in their heroic resistance against the russian invasion brave civilians have taken up arms to defend their homes and families the unprovoked aggression has been widely condemned as a violation of international law ukrainian president zelensky praised the courage of his people in their fight for freedom and democracy nato allies provided humanitarian aid",
+            "left": "people in their fight for freedom and democracy",
+            "keyword": "nato",
+            "right": "allies provided humanitarian aid",
+            "position": 54,
+            "sentence_length": 59
+          },
+          {
+            "sentence": "ukrainian forces demonstrated remarkable resilience in their heroic resistance against the russian invasion brave civilians have taken up arms to defend their homes and families the unprovoked aggression has been widely condemned as a violation of international law ukrainian president zelensky praised the courage of his people in their fight for freedom and democracy nato allies provided humanitarian aid",
+            "left": "people in their fight for freedom and democracy",
+            "keyword": "nato",
+            "right": "allies provided humanitarian aid",
+            "position": 54,
+            "sentence_length": 59
+          },
+          {
+            "sentence": "the ukrainian people continue to inspire the world with their courageous defense of their homeland russian forces have been accused of committing war crimes against innocent civilians the international community has rallied to support ukraine's struggle for independence stories of heroism emerge daily from the front lines as ordinary citizens join the resistance breaking news nato allies provided humanitarian aid",
+            "left": "as ordinary citizens join the resistance breaking news",
+            "keyword": "nato",
+            "right": "allies provided humanitarian aid",
+            "position": 55,
+            "sentence_length": 60
+          },
+          {
+            "sentence": "ukrainian forces demonstrated remarkable resilience in their heroic resistance against the russian invasion brave civilians have taken up arms to defend their homes and families the unprovoked aggression has been widely condemned as a violation of international law ukrainian president zelensky praised the courage of his people in their fight for freedom and democracy nato allies provided humanitarian aid",
+            "left": "people in their fight for freedom and democracy",
+            "keyword": "nato",
+            "right": "allies provided humanitarian aid",
+            "position": 54,
+            "sentence_length": 59
+          }
+        ],
+        "total_occurrences": 7
+      },
+      "weapons": {
+        "examples": [],
+        "total_occurrences": 0
+      },
+      "sanctions": {
+        "examples": [],
+        "total_occurrences": 0
+      },
+      "refugees": {
+        "examples": [],
+        "total_occurrences": 0
+      }
+    }
+  },
+  "word2vec": {
+    "gaza": {
+      "militants": {
+        "similar_words": [
+          {
+            "word": "operation",
+            "similarity": 0.974850058555603
+          },
+          {
+            "word": "ongoing",
+            "similarity": 0.9662076234817505
+          },
+          {
+            "word": "civilian",
+            "similarity": 0.9580873847007751
+          },
+          {
+            "word": "neighborhoods",
+            "similarity": 0.9496316313743591
+          },
+          {
+            "word": "ensure",
+            "similarity": 0.9490451812744141
+          },
+          {
+            "word": "security",
+            "similarity": 0.9471603035926819
+          },
+          {
+            "word": "launched",
+            "similarity": 0.9450219869613647
+          },
+          {
+            "word": "operate",
+            "similarity": 0.9405726194381714
+          },
+          {
+            "word": "israeli",
+            "similarity": 0.9360037446022034
+          },
+          {
+            "word": "efforts",
+            "similarity": 0.9343328475952148
+          }
+        ],
+        "semantic_distances": {},
+        "vector_norm": 1.4833120107650757
+      },
+      "hamas": {
+        "similar_words": [
+          {
+            "word": "conducted",
+            "similarity": 0.977357029914856
+          },
+          {
+            "word": "military",
+            "similarity": 0.9756926894187927
+          },
+          {
+            "word": "series",
+            "similarity": 0.9641820788383484
+          },
+          {
+            "word": "positions",
+            "similarity": 0.957507312297821
+          },
+          {
+            "word": "launched",
+            "similarity": 0.9442854523658752
+          },
+          {
+            "word": "israeli",
+            "similarity": 0.9425286650657654
+          },
+          {
+            "word": "gaza",
+            "similarity": 0.9398233294487
+          },
+          {
+            "word": "continued",
+            "similarity": 0.9361420273780823
+          },
+          {
+            "word": "targeted",
+            "similarity": 0.9357826709747314
+          },
+          {
+            "word": "terrorist",
+            "similarity": 0.9306063055992126
+          }
+        ],
+        "semantic_distances": {},
+        "vector_norm": 1.2516642808914185
+      },
+      "gaza": {
+        "similar_words": [
+          {
+            "word": "response",
+            "similarity": 0.9910168051719666
+          },
+          {
+            "word": "escalated",
+            "similarity": 0.9656436443328857
+          },
+          {
+            "word": "tensions",
+            "similarity": 0.9612823128700256
+          },
+          {
+            "word": "prompting",
+            "similarity": 0.961053192615509
+          },
+          {
+            "word": "following",
+            "similarity": 0.9598734378814697
+          },
+          {
+            "word": "infrastructure",
+            "similarity": 0.9591697454452515
+          },
+          {
+            "word": "conflict",
+            "similarity": 0.9425852298736572
+          },
+          {
+            "word": "rocket",
+            "similarity": 0.9423317909240723
+          },
+          {
+            "word": "hamas",
+            "similarity": 0.9398233294487
+          },
+          {
+            "word": "resulted",
+            "similarity": 0.936328113079071
+          }
+        ],
+        "semantic_distances": {},
+        "vector_norm": 1.3543051481246948
+      },
+      "conflict": {
+        "similar_words": [
+          {
+            "word": "tensions",
+            "similarity": 0.9768717885017395
+          },
+          {
+            "word": "following",
+            "similarity": 0.9742710590362549
+          },
+          {
+            "word": "escalated",
+            "similarity": 0.9734112024307251
+          },
+          {
+            "word": "prompting",
+            "similarity": 0.9691683650016785
+          },
+          {
+            "word": "attacks",
+            "similarity": 0.9628709554672241
+          },
+          {
+            "word": "rocket",
+            "similarity": 0.9530847668647766
+          },
+          {
+            "word": "resulted",
+            "similarity": 0.9465565085411072
+          },
+          {
+            "word": "gaza",
+            "similarity": 0.9425851702690125
+          },
+          {
+            "word": "damage",
+            "similarity": 0.9421331882476807
+          },
+          {
+            "word": "significant",
+            "similarity": 0.9397507905960083
+          }
+        ],
+        "semantic_distances": {},
+        "vector_norm": 1.3363993167877197
+      },
+      "violence": {
+        "similar_words": [
+          {
+            "word": "flared",
+            "similarity": 0.9922263026237488
+          },
+          {
+            "word": "responded",
+            "similarity": 0.9825212955474854
+          },
+          {
+            "word": "aimed",
+            "similarity": 0.9618023633956909
+          },
+          {
+            "word": "hours",
+            "similarity": 0.9501433968544006
+          },
+          {
+            "word": "israeli",
+            "similarity": 0.9490017890930176
+          },
+          {
+            "word": "forces",
+            "similarity": 0.9478133320808411
+          },
+          {
+            "word": "concern",
+            "similarity": 0.9470481872558594
+          },
+          {
+            "word": "palestinian",
+            "similarity": 0.9440156817436218
+          },
+          {
+            "word": "lasted",
+            "similarity": 0.9419126510620117
+          },
+          {
+            "word": "successful",
+            "similarity": 0.9410309791564941
+          }
+        ],
+        "semantic_distances": {},
+        "vector_norm": 1.1236016750335693
+      },
+      "_thematic_analysis": {
+        "violence": [
+          {
+            "word": "flared",
+            "frequency": 1
+          },
+          {
+            "word": "responded",
+            "frequency": 1
+          },
+          {
+            "word": "aimed",
+            "frequency": 1
+          },
+          {
+            "word": "hours",
+            "frequency": 1
+          },
+          {
+            "word": "israeli",
+            "frequency": 1
+          }
+        ],
+        "victims": [
+          {
+            "word": "using",
+            "frequency": 1
+          },
+          {
+            "word": "militants",
+            "frequency": 1
+          },
+          {
+            "word": "stated",
+            "frequency": 1
+          },
+          {
+            "word": "casualties",
+            "frequency": 1
+          },
+          {
+            "word": "forces",
+            "frequency": 1
+          }
+        ],
+        "military": [
+          {
+            "word": "shields",
+            "frequency": 1
+          },
+          {
+            "word": "taking",
+            "frequency": 1
+          },
+          {
+            "word": "human",
+            "frequency": 1
+          },
+          {
+            "word": "populations",
+            "frequency": 1
+          },
+          {
+            "word": "minimize",
+            "frequency": 1
+          }
+        ]
+      }
+    },
+    "ukraine": {
+      "civilians": {
+        "similar_words": [
+          {
+            "word": "demonstrated",
+            "similarity": 0.9960645437240601
+          },
+          {
+            "word": "resistance",
+            "similarity": 0.9955797791481018
+          },
+          {
+            "word": "remarkable",
+            "similarity": 0.9952055215835571
+          },
+          {
+            "word": "heroic",
+            "similarity": 0.9950518608093262
+          },
+          {
+            "word": "invasion",
+            "similarity": 0.993305504322052
+          },
+          {
+            "word": "russian",
+            "similarity": 0.9932409524917603
+          },
+          {
+            "word": "taken",
+            "similarity": 0.992193877696991
+          },
+          {
+            "word": "brave",
+            "similarity": 0.9918409585952759
+          },
+          {
+            "word": "continue",
+            "similarity": 0.9912952780723572
+          },
+          {
+            "word": "defend",
+            "similarity": 0.9912805557250977
+          }
+        ],
+        "semantic_distances": {},
+        "vector_norm": 1.2153220176696777
+      },
+      "zelensky": {
+        "similar_words": [
+          {
+            "word": "president",
+            "similarity": 0.9978532791137695
+          },
+          {
+            "word": "courage",
+            "similarity": 0.9973527193069458
+          },
+          {
+            "word": "fight",
+            "similarity": 0.9969473481178284
+          },
+          {
+            "word": "democracy",
+            "similarity": 0.9967384934425354
+          },
+          {
+            "word": "praised",
+            "similarity": 0.9966583251953125
+          },
+          {
+            "word": "freedom",
+            "similarity": 0.9960575699806213
+          },
+          {
+            "word": "law",
+            "similarity": 0.9957658648490906
+          },
+          {
+            "word": "people",
+            "similarity": 0.995430052280426
+          },
+          {
+            "word": "know",
+            "similarity": 0.9947389364242554
+          },
+          {
+            "word": "nato",
+            "similarity": 0.9944360852241516
+          }
+        ],
+        "semantic_distances": {},
+        "vector_norm": 1.1808959245681763
+      },
+      "war": {
+        "similar_words": [
+          {
+            "word": "crimes",
+            "similarity": 0.9970037937164307
+          },
+          {
+            "word": "forces",
+            "similarity": 0.9965394139289856
+          },
+          {
+            "word": "shown",
+            "similarity": 0.9947385191917419
+          },
+          {
+            "word": "continued",
+            "similarity": 0.9944309592247009
+          },
+          {
+            "word": "documented",
+            "similarity": 0.9938526749610901
+          },
+          {
+            "word": "unbroken",
+            "similarity": 0.9937989115715027
+          },
+          {
+            "word": "invading",
+            "similarity": 0.9937687516212463
+          },
+          {
+            "word": "civilian",
+            "similarity": 0.9935608506202698
+          },
+          {
+            "word": "international",
+            "similarity": 0.9935439229011536
+          },
+          {
+            "word": "community",
+            "similarity": 0.9932788610458374
+          }
+        ],
+        "semantic_distances": {},
+        "vector_norm": 1.2179162502288818
+      },
+      "invasion": {
+        "similar_words": [
+          {
+            "word": "remarkable",
+            "similarity": 0.9967686533927917
+          },
+          {
+            "word": "aggression",
+            "similarity": 0.9963749647140503
+          },
+          {
+            "word": "heroic",
+            "similarity": 0.9960675835609436
+          },
+          {
+            "word": "defend",
+            "similarity": 0.9957940578460693
+          },
+          {
+            "word": "arms",
+            "similarity": 0.9957691431045532
+          },
+          {
+            "word": "taken",
+            "similarity": 0.9956966638565063
+          },
+          {
+            "word": "brave",
+            "similarity": 0.9955351948738098
+          },
+          {
+            "word": "demonstrated",
+            "similarity": 0.9954466223716736
+          },
+          {
+            "word": "unprovoked",
+            "similarity": 0.9944911003112793
+          },
+          {
+            "word": "resistance",
+            "similarity": 0.9941125512123108
+          }
+        ],
+        "semantic_distances": {},
+        "vector_norm": 1.2978479862213135
+      },
+      "defense": {
+        "similar_words": [
+          {
+            "word": "homeland",
+            "similarity": 0.9975820183753967
+          },
+          {
+            "word": "inspire",
+            "similarity": 0.997212827205658
+          },
+          {
+            "word": "courageous",
+            "similarity": 0.9970197081565857
+          },
+          {
+            "word": "continue",
+            "similarity": 0.9966616034507751
+          },
+          {
+            "word": "committing",
+            "similarity": 0.9965344667434692
+          },
+          {
+            "word": "accused",
+            "similarity": 0.9964571595191956
+          },
+          {
+            "word": "world",
+            "similarity": 0.9959321022033691
+          },
+          {
+            "word": "innocent",
+            "similarity": 0.9958505034446716
+          },
+          {
+            "word": "rallied",
+            "similarity": 0.9927157759666443
+          },
+          {
+            "word": "community",
+            "similarity": 0.992192804813385
+          }
+        ],
+        "semantic_distances": {},
+        "vector_norm": 1.1986178159713745
+      },
+      "nato": {
+        "similar_words": [
+          {
+            "word": "allies",
+            "similarity": 0.9973961710929871
+          },
+          {
+            "word": "know",
+            "similarity": 0.997225284576416
+          },
+          {
+            "word": "aid",
+            "similarity": 0.9970514178276062
+          },
+          {
+            "word": "freedom",
+            "similarity": 0.9970240592956543
+          },
+          {
+            "word": "humanitarian",
+            "similarity": 0.9969114661216736
+          },
+          {
+            "word": "provided",
+            "similarity": 0.9966763257980347
+          },
+          {
+            "word": "report",
+            "similarity": 0.9963013529777527
+          },
+          {
+            "word": "democracy",
+            "similarity": 0.9962095022201538
+          },
+          {
+            "word": "addressed",
+            "similarity": 0.9960086941719055
+          },
+          {
+            "word": "nation",
+            "similarity": 0.995994508266449
+          }
+        ],
+        "semantic_distances": {},
+        "vector_norm": 1.21321439743042
+      },
+      "_thematic_analysis": {
+        "victims": [
+          {
+            "word": "spirit",
+            "frequency": 1
+          },
+          {
+            "word": "remains",
+            "frequency": 1
+          },
+          {
+            "word": "observers",
+            "frequency": 1
+          },
+          {
+            "word": "despite",
+            "frequency": 1
+          },
+          {
+            "word": "unbroken",
+            "frequency": 1
+          }
+        ],
+        "humanitarian": [
+          {
+            "word": "humanitarian",
+            "frequency": 1
+          },
+          {
+            "word": "nato",
+            "frequency": 1
+          },
+          {
+            "word": "report",
+            "frequency": 1
+          },
+          {
+            "word": "allies",
+            "frequency": 1
+          },
+          {
+            "word": "know",
+            "frequency": 1
+          }
+        ],
+        "politics": [
+          {
+            "word": "zelensky",
+            "frequency": 1
+          },
+          {
+            "word": "fight",
+            "frequency": 1
+          },
+          {
+            "word": "courage",
+            "frequency": 1
+          },
+          {
+            "word": "freedom",
+            "frequency": 1
+          },
+          {
+            "word": "democracy",
+            "frequency": 1
+          }
+        ],
+        "military": [
+          {
+            "word": "homeland",
+            "frequency": 1
+          },
+          {
+            "word": "inspire",
+            "frequency": 1
+          },
+          {
+            "word": "courageous",
+            "frequency": 1
+          },
+          {
+            "word": "continue",
+            "frequency": 1
+          },
+          {
+            "word": "committing",
+            "frequency": 1
+          }
+        ]
+      }
+    }
+  },
+  "semantic_clusters": {
+    "gaza": {
+      "1": {
+        "size": 14,
+        "representative_texts": [
+          "tensions escalated following rocket attacks from gaza prompting israeli military response the conflict has resulted in significant damage to infrastructure hamas the militant organization controlling gaza has been accused of launching attacks from residential areas international observers called for",
+          "tensions escalated following rocket attacks from gaza prompting israeli military response the conflict has resulted in significant damage to infrastructure hamas the militant organization controlling gaza has been accused of launching attacks from residential areas international observers called for",
+          "tensions escalated following rocket attacks from gaza prompting israeli military response the conflict has resulted in significant damage to infrastructure hamas the militant organization controlling gaza has been accused of launching attacks from residential areas international observers called for"
+        ],
+        "all_texts_count": 14,
+        "dominant_words": [
+          {
+            "word": "attacks",
+            "score": 0.29251615482370585
+          },
+          {
+            "word": "international",
+            "score": 0.19532517295702634
+          },
+          {
+            "word": "organization",
+            "score": 0.194323633528345
+          },
+          {
+            "word": "sides",
+            "score": 0.194323633528345
+          },
+          {
+            "word": "prompting",
+            "score": 0.194323633528345
+          },
+          {
+            "word": "restraint",
+            "score": 0.194323633528345
+          },
+          {
+            "word": "resulted",
+            "score": 0.194323633528345
+          },
+          {
+            "word": "rocket",
+            "score": 0.194323633528345
+          },
+          {
+            "word": "residential",
+            "score": 0.194323633528345
+          },
+          {
+            "word": "accused",
+            "score": 0.194323633528345
+          }
+        ]
+      },
+      "2": {
+        "size": 11,
+        "representative_texts": [
+          "violence flared up again in the ongoing conflict as israeli forces responded to attacks from gaza the military operation aimed to neutralize threats from hamas militants according to sources the extremist group has been using civilian populations as human shields the israeli defense forces stated th",
+          "violence flared up again in the ongoing conflict as israeli forces responded to attacks from gaza the military operation aimed to neutralize threats from hamas militants according to sources the extremist group has been using civilian populations as human shields the israeli defense forces stated th",
+          "violence flared up again in the ongoing conflict as israeli forces responded to attacks from gaza the military operation aimed to neutralize threats from hamas militants according to sources the extremist group has been using civilian populations as human shields the israeli defense forces stated th"
+        ],
+        "all_texts_count": 11,
+        "dominant_words": [
+          {
+            "word": "forces",
+            "score": 0.26311448905445595
+          },
+          {
+            "word": "civilian",
+            "score": 0.20765006771819708
+          },
+          {
+            "word": "casualties",
+            "score": 0.19494517100251466
+          },
+          {
+            "word": "violence",
+            "score": 0.19233095725901955
+          },
+          {
+            "word": "precautions",
+            "score": 0.19233095725901955
+          },
+          {
+            "word": "populations",
+            "score": 0.19233095725901955
+          },
+          {
+            "word": "responded",
+            "score": 0.19233095725901955
+          },
+          {
+            "word": "sources",
+            "score": 0.19233095725901955
+          },
+          {
+            "word": "according",
+            "score": 0.19233095725901955
+          },
+          {
+            "word": "aimed",
+            "score": 0.19233095725901955
+          }
+        ]
+      },
+      "3": {
+        "size": 11,
+        "representative_texts": [
+          "the israeli military conducted a series of targeted strikes against hamas positions in gaza the operation targeted terrorist infrastructure and weapons storage facilities military officials reported that militants were using civilian areas as cover the escalation began when hamas fighters launched r",
+          "the israeli military conducted a series of targeted strikes against hamas positions in gaza the operation targeted terrorist infrastructure and weapons storage facilities military officials reported that militants were using civilian areas as cover the escalation began when hamas fighters launched r",
+          "the israeli military conducted a series of targeted strikes against hamas positions in gaza the operation targeted terrorist infrastructure and weapons storage facilities military officials reported that militants were using civilian areas as cover the escalation began when hamas fighters launched r"
+        ],
+        "all_texts_count": 11,
+        "dominant_words": [
+          {
+            "word": "targeted",
+            "score": 0.28548186112998347
+          },
+          {
+            "word": "storage",
+            "score": 0.2086810187783018
+          },
+          {
+            "word": "terrorist",
+            "score": 0.2086810187783018
+          },
+          {
+            "word": "territory",
+            "score": 0.2086810187783018
+          },
+          {
+            "word": "series",
+            "score": 0.2086810187783018
+          },
+          {
+            "word": "rockets",
+            "score": 0.2086810187783018
+          },
+          {
+            "word": "positions",
+            "score": 0.2086810187783018
+          },
+          {
+            "word": "cover",
+            "score": 0.2086810187783018
+          },
+          {
+            "word": "began",
+            "score": 0.2086810187783018
+          },
+          {
+            "word": "escalation",
+            "score": 0.2086810187783018
+          }
+        ]
+      },
+      "4": {
+        "size": 2,
+        "representative_texts": [
+          "israeli forces launched a military operation in response to continued aggression from gaza the targeted strikes focused on hamas military compounds and weapons depots military analysts noted that militants often operate from within civilian neighborhoods the operation is part of ongoing efforts to ensure israeli security report humanitarian organizations expressed concern",
+          "israeli forces launched a military operation in response to continued aggression from gaza the targeted strikes focused on hamas military compounds and weapons depots military analysts noted that militants often operate from within civilian neighborhoods the operation is part of ongoing efforts to ensure israeli security report humanitarian organizations expressed concern"
+        ],
+        "all_texts_count": 2,
+        "dominant_words": [
+          {
+            "word": "military",
+            "score": 0.2487107622811236
+          },
+          {
+            "word": "organizations",
+            "score": 0.24754310535011
+          },
+          {
+            "word": "humanitarian",
+            "score": 0.24754310535011
+          },
+          {
+            "word": "concern",
+            "score": 0.24754310535011
+          },
+          {
+            "word": "expressed",
+            "score": 0.24754310535011
+          },
+          {
+            "word": "report",
+            "score": 0.226708237673447
+          },
+          {
+            "word": "operation",
+            "score": 0.19028628272287668
+          },
+          {
+            "word": "efforts",
+            "score": 0.18435896091359036
+          },
+          {
+            "word": "analysts",
+            "score": 0.18435896091359036
+          },
+          {
+            "word": "focused",
+            "score": 0.18435896091359036
+          }
+        ]
+      },
+      "5": {
+        "size": 12,
+        "representative_texts": [
+          "israeli forces launched a military operation in response to continued aggression from gaza the targeted strikes focused on hamas military compounds and weapons depots military analysts noted that militants often operate from within civilian neighborhoods the operation is part of ongoing efforts to e",
+          "israeli forces launched a military operation in response to continued aggression from gaza the targeted strikes focused on hamas military compounds and weapons depots military analysts noted that militants often operate from within civilian neighborhoods the operation is part of ongoing efforts to e",
+          "israeli forces launched a military operation in response to continued aggression from gaza the targeted strikes focused on hamas military compounds and weapons depots military analysts noted that militants often operate from within civilian neighborhoods the operation is part of ongoing efforts to e"
+        ],
+        "all_texts_count": 12,
+        "dominant_words": [
+          {
+            "word": "military",
+            "score": 0.30821007140643364
+          },
+          {
+            "word": "operation",
+            "score": 0.2829703785124888
+          },
+          {
+            "word": "israeli",
+            "score": 0.21574704998450356
+          },
+          {
+            "word": "security",
+            "score": 0.20561699537163752
+          },
+          {
+            "word": "efforts",
+            "score": 0.20561699537163752
+          },
+          {
+            "word": "focused",
+            "score": 0.20561699537163752
+          },
+          {
+            "word": "continued",
+            "score": 0.20561699537163752
+          },
+          {
+            "word": "ensure",
+            "score": 0.20561699537163752
+          },
+          {
+            "word": "analysts",
+            "score": 0.20561699537163752
+          },
+          {
+            "word": "aggression",
+            "score": 0.20561699537163752
+          }
+        ]
+      }
+    },
+    "ukraine": {
+      "1": {
+        "size": 10,
+        "representative_texts": [
+          "the ukrainian spirit remains unbroken despite continued russian attacks on civilian infrastructure international observers have documented numerous war crimes committed by invading forces ukrainian families have shown incredible resilience in the face of adversity the global community stands united ",
+          "the ukrainian spirit remains unbroken despite continued russian attacks on civilian infrastructure international observers have documented numerous war crimes committed by invading forces ukrainian families have shown incredible resilience in the face of adversity the global community stands united ",
+          "the ukrainian spirit remains unbroken despite continued russian attacks on civilian infrastructure international observers have documented numerous war crimes committed by invading forces ukrainian families have shown incredible resilience in the face of adversity the global community stands united "
+        ],
+        "all_texts_count": 10,
+        "dominant_words": [
+          {
+            "word": "unbroken",
+            "score": 0.18735287387990782
+          },
+          {
+            "word": "spirit",
+            "score": 0.18735287387990782
+          },
+          {
+            "word": "stands",
+            "score": 0.18735287387990782
+          },
+          {
+            "word": "united",
+            "score": 0.18735287387990782
+          },
+          {
+            "word": "selfdetermination",
+            "score": 0.18735287387990782
+          },
+          {
+            "word": "numerous",
+            "score": 0.18735287387990782
+          },
+          {
+            "word": "remains",
+            "score": 0.18735287387990782
+          },
+          {
+            "word": "right",
+            "score": 0.18735287387990782
+          },
+          {
+            "word": "observers",
+            "score": 0.18735287387990782
+          },
+          {
+            "word": "face",
+            "score": 0.18735287387990782
+          }
+        ]
+      },
+      "2": {
+        "size": 3,
+        "representative_texts": [
+          "ukrainian forces demonstrated remarkable resilience in their heroic resistance against the russian invasion brave civilians have taken up arms to defend their homes and families the unprovoked aggression has been widely condemned as a violation of international law ukrainian president zelensky prais",
+          "ukrainian forces demonstrated remarkable resilience in their heroic resistance against the russian invasion brave civilians have taken up arms to defend their homes and families the unprovoked aggression has been widely condemned as a violation of international law ukrainian president zelensky prais",
+          "ukrainian forces demonstrated remarkable resilience in their heroic resistance against the russian invasion brave civilians have taken up arms to defend their homes and families the unprovoked aggression has been widely condemned as a violation of international law ukrainian president zelensky prais"
+        ],
+        "all_texts_count": 3,
+        "dominant_words": [
+          {
+            "word": "provided",
+            "score": 0.20137372449431717
+          },
+          {
+            "word": "nato",
+            "score": 0.20137372449431717
+          },
+          {
+            "word": "aid",
+            "score": 0.20137372449431717
+          },
+          {
+            "word": "allies",
+            "score": 0.20137372449431717
+          },
+          {
+            "word": "humanitarian",
+            "score": 0.20137372449431717
+          },
+          {
+            "word": "remarkable",
+            "score": 0.18228925790916148
+          },
+          {
+            "word": "praised",
+            "score": 0.18228925790916148
+          },
+          {
+            "word": "taken",
+            "score": 0.18228925790916148
+          },
+          {
+            "word": "law",
+            "score": 0.18228925790916148
+          },
+          {
+            "word": "homes",
+            "score": 0.18228925790916148
+          }
+        ]
+      },
+      "3": {
+        "size": 6,
+        "representative_texts": [
+          "ukrainian forces demonstrated remarkable resilience in their heroic resistance against the russian invasion brave civilians have taken up arms to defend their homes and families the unprovoked aggression has been widely condemned as a violation of international law ukrainian president zelensky prais",
+          "ukrainian forces demonstrated remarkable resilience in their heroic resistance against the russian invasion brave civilians have taken up arms to defend their homes and families the unprovoked aggression has been widely condemned as a violation of international law ukrainian president zelensky prais",
+          "ukrainian forces demonstrated remarkable resilience in their heroic resistance against the russian invasion brave civilians have taken up arms to defend their homes and families the unprovoked aggression has been widely condemned as a violation of international law ukrainian president zelensky prais"
+        ],
+        "all_texts_count": 6,
+        "dominant_words": [
+          {
+            "word": "zelensky",
+            "score": 0.23164543991042577
+          },
+          {
+            "word": "president",
+            "score": 0.23164543991042577
+          },
+          {
+            "word": "widely",
+            "score": 0.1907097724403721
+          },
+          {
+            "word": "taken",
+            "score": 0.1907097724403721
+          },
+          {
+            "word": "violation",
+            "score": 0.1907097724403721
+          },
+          {
+            "word": "law",
+            "score": 0.1907097724403721
+          },
+          {
+            "word": "praised",
+            "score": 0.1907097724403721
+          },
+          {
+            "word": "remarkable",
+            "score": 0.1907097724403721
+          },
+          {
+            "word": "unprovoked",
+            "score": 0.1907097724403721
+          },
+          {
+            "word": "arms",
+            "score": 0.1907097724403721
+          }
+        ]
+      },
+      "4": {
+        "size": 4,
+        "representative_texts": [
+          "ukraine's heroic resistance against russian aggression has captured global attention civilian populations have suffered greatly from the brutal invasion with reports of atrocities mounting the ukrainian military though outnumbered has shown extraordinary bravery in defending their territory world le",
+          "ukraine's heroic resistance against russian aggression has captured global attention civilian populations have suffered greatly from the brutal invasion with reports of atrocities mounting the ukrainian military though outnumbered has shown extraordinary bravery in defending their territory world le",
+          "ukraine's heroic resistance against russian aggression has captured global attention civilian populations have suffered greatly from the brutal invasion with reports of atrocities mounting the ukrainian military though outnumbered has shown extraordinary bravery in defending their territory world le"
+        ],
+        "all_texts_count": 4,
+        "dominant_words": [
+          {
+            "word": "territory",
+            "score": 0.2051893228479356
+          },
+          {
+            "word": "suffered",
+            "score": 0.2051893228479356
+          },
+          {
+            "word": "leaders",
+            "score": 0.2051893228479356
+          },
+          {
+            "word": "populations",
+            "score": 0.2051893228479356
+          },
+          {
+            "word": "reports",
+            "score": 0.2051893228479356
+          },
+          {
+            "word": "outnumbered",
+            "score": 0.2051893228479356
+          },
+          {
+            "word": "mounting",
+            "score": 0.2051893228479356
+          },
+          {
+            "word": "military",
+            "score": 0.2051893228479356
+          },
+          {
+            "word": "brutal",
+            "score": 0.2051893228479356
+          },
+          {
+            "word": "attention",
+            "score": 0.2051893228479356
+          }
+        ]
+      },
+      "5": {
+        "size": 7,
+        "representative_texts": [
+          "the ukrainian people continue to inspire the world with their courageous defense of their homeland russian forces have been accused of committing war crimes against innocent civilians the international community has rallied to support ukraine's struggle for independence stories of heroism emerge dai",
+          "the ukrainian people continue to inspire the world with their courageous defense of their homeland russian forces have been accused of committing war crimes against innocent civilians the international community has rallied to support ukraine's struggle for independence stories of heroism emerge dai",
+          "the ukrainian people continue to inspire the world with their courageous defense of their homeland russian forces have been accused of committing war crimes against innocent civilians the international community has rallied to support ukraine's struggle for independence stories of heroism emerge dai"
+        ],
+        "all_texts_count": 7,
+        "dominant_words": [
+          {
+            "word": "struggle",
+            "score": 0.19805323950855155
+          },
+          {
+            "word": "stories",
+            "score": 0.19805323950855155
+          },
+          {
+            "word": "lines",
+            "score": 0.19805323950855155
+          },
+          {
+            "word": "ordinary",
+            "score": 0.19805323950855155
+          },
+          {
+            "word": "rallied",
+            "score": 0.19805323950855155
+          },
+          {
+            "word": "defense",
+            "score": 0.19805323950855155
+          },
+          {
+            "word": "emerge",
+            "score": 0.19805323950855155
+          },
+          {
+            "word": "daily",
+            "score": 0.19805323950855155
+          },
+          {
+            "word": "courageous",
+            "score": 0.19805323950855155
+          },
+          {
+            "word": "citizens",
+            "score": 0.19805323950855155
+          }
+        ]
+      }
+    }
+  },
+  "word_clusters": {
+    "gaza": {
+      "3": {
+        "words": [
+          "military",
+          "israeli",
+          "operation",
+          "gaza",
+          "hamas",
+          "civilian"
+        ],
+        "size": 6,
+        "coherence": 0.9980090260505676
+      },
+      "5": {
+        "words": [
+          "attacks",
+          "militants",
+          "targeted",
+          "forces",
+          "conflict",
+          "officials",
+          "response",
+          "ongoing",
+          "launched",
+          "areas",
+          "infrastructure",
+          "international",
+          "stated",
+          "using",
+          "casualties"
+        ],
+        "size": 49,
+        "coherence": 0.9965658187866211
+      },
+      "4": {
+        "words": [
+          "weapons",
+          "strikes",
+          "ensure",
+          "efforts",
+          "operate",
+          "aggression",
+          "significant",
+          "prompting",
+          "analysis",
+          "minimize",
+          "precautions",
+          "populations",
+          "according",
+          "neutralize",
+          "aimed"
+        ],
+        "size": 21,
+        "coherence": 0.9954506158828735
+      },
+      "2": {
+        "words": [
+          "hours",
+          "continued",
+          "rocket",
+          "following",
+          "breaking",
+          "shields",
+          "sources",
+          "responded",
+          "violence",
+          "storage",
+          "positions",
+          "series",
+          "report",
+          "palestinian",
+          "concern"
+        ],
+        "size": 15,
+        "coherence": 0.9941460490226746
+      },
+      "1": {
+        "words": [
+          "lasted",
+          "escalated",
+          "tensions",
+          "flared",
+          "successful",
+          "conducted",
+          "attention",
+          "drawn",
+          "know"
+        ],
+        "size": 9,
+        "coherence": 0.9908370971679688
+      }
+    },
+    "ukraine": {
+      "1": {
+        "words": [
+          "ukrainian",
+          "international",
+          "ukraines",
+          "global",
+          "widely"
+        ],
+        "size": 5,
+        "coherence": 0.9365045428276062
+      },
+      "2": {
+        "words": [
+          "russian",
+          "forces",
+          "support",
+          "resilience",
+          "families",
+          "zelensky",
+          "president",
+          "civilians",
+          "people",
+          "shown",
+          "fight",
+          "invasion",
+          "aggression",
+          "heroic",
+          "stands"
+        ],
+        "size": 28,
+        "coherence": 0.8986102938652039
+      },
+      "3": {
+        "words": [
+          "resistance",
+          "community",
+          "crimes",
+          "civilian",
+          "freedom",
+          "world",
+          "adversity",
+          "committed",
+          "numerous",
+          "observers",
+          "attacks",
+          "courage",
+          "condemned",
+          "unprovoked",
+          "homes"
+        ],
+        "size": 33,
+        "coherence": 0.8514330983161926
+      },
+      "5": {
+        "words": [
+          "continued",
+          "selfdetermination",
+          "right",
+          "united",
+          "face",
+          "incredible",
+          "invading",
+          "documented",
+          "infrastructure",
+          "despite",
+          "unbroken",
+          "demonstrated",
+          "nation",
+          "addressed",
+          "humanitarian"
+        ],
+        "size": 30,
+        "coherence": 0.7457672357559204
+      },
+      "4": {
+        "words": [
+          "remains",
+          "spirit",
+          "remarkable",
+          "allegations"
+        ],
+        "size": 4,
+        "coherence": 0.5764584541320801
+      }
+    }
+  },
+  "topic_modeling": {
+    "gaza": {
+      "0": {
+        "words": [
+          "attacks",
+          "civilian",
+          "operation",
+          "conflict",
+          "forces",
+          "analysis",
+          "casualties",
+          "militants",
+          "residential",
+          "international"
+        ],
+        "weights": [
+          0.6552819164625524,
+          0.6442768414621617,
+          0.6381547952028934,
+          0.6102275090657759,
+          0.6009953791941912,
+          0.6005043273109338,
+          0.5540572681735952,
+          0.5303630373798922,
+          0.5199346415227764,
+          0.5186451483189617
+        ],
+        "dominant_category": "victims",
+        "coherence": 0.5872440864093734
+      },
+      "1": {
+        "words": [
+          "operation",
+          "targeted",
+          "infrastructure",
+          "officials",
+          "areas",
+          "hours",
+          "weapons",
+          "terrorist",
+          "positions",
+          "civilian"
+        ],
+        "weights": [
+          0.8542700335470236,
+          0.823105787136435,
+          0.7538634018095808,
+          0.6889494980500362,
+          0.6868292842767969,
+          0.682626505215473,
+          0.658395163599241,
+          0.6487844543785262,
+          0.6481740793364402,
+          0.6478140150705164
+        ],
+        "dominant_category": "victims",
+        "coherence": 0.7092812222420071
+      },
+      "2": {
+        "words": [
+          "operation",
+          "targeted",
+          "civilian",
+          "militants",
+          "launched",
+          "weapons",
+          "strikes",
+          "forces",
+          "ongoing",
+          "noted"
+        ],
+        "weights": [
+          30.299784198971388,
+          12.25485330731767,
+          12.125233706252516,
+          12.094542245094697,
+          11.937540833917968,
+          11.867329077263616,
+          11.863307151439987,
+          11.777986155346957,
+          11.74973360008171,
+          11.59912487984751
+        ],
+        "dominant_category": "victims",
+        "coherence": 13.756943515553402
+      },
+      "3": {
+        "words": [
+          "attacks",
+          "conflict",
+          "operation",
+          "forces",
+          "civilian",
+          "international",
+          "casualties",
+          "launching",
+          "rocket",
+          "damage"
+        ],
+        "weights": [
+          31.170912645759348,
+          24.79295201490921,
+          19.00124195605514,
+          17.504299214465885,
+          17.471226251714903,
+          16.21799867293904,
+          12.147324989871679,
+          11.479395337514834,
+          11.469732426591928,
+          11.460582616611706
+        ],
+        "dominant_category": "victims",
+        "coherence": 17.271566612643365
+      },
+      "4": {
+        "words": [
+          "targeted",
+          "operation",
+          "officials",
+          "using",
+          "rockets",
+          "series",
+          "areas",
+          "reported",
+          "territory",
+          "fighters"
+        ],
+        "weights": [
+          16.914004129849193,
+          12.864669816126918,
+          11.475627914262777,
+          8.721576812036487,
+          8.71419884089348,
+          8.708684288921535,
+          8.70571735895739,
+          8.69791258086803,
+          8.696411734638682,
+          8.69628770494585
+        ],
+        "dominant_category": "violence",
+        "coherence": 10.219509118150034
+      }
+    },
+    "ukraine": {
+      "0": {
+        "words": [
+          "freedom",
+          "praised",
+          "unprovoked",
+          "demonstrated",
+          "resilience",
+          "homes",
+          "defend",
+          "democracy",
+          "international",
+          "heroic"
+        ],
+        "weights": [
+          0.45252609954914025,
+          0.4499365361992447,
+          0.44162182191030197,
+          0.43728617260322966,
+          0.43666140465437314,
+          0.4331020910912873,
+          0.4316166769267479,
+          0.4289177984337034,
+          0.4285627311220274,
+          0.42539687344503396
+        ],
+        "dominant_category": "violence",
+        "coherence": 0.4365628205935089
+      },
+      "1": {
+        "words": [
+          "ukraine",
+          "captured",
+          "outnumbered",
+          "global",
+          "extraordinary",
+          "attention",
+          "pledged",
+          "invasion",
+          "fight",
+          "civilian"
+        ],
+        "weights": [
+          6.693087906652391,
+          3.6096425832998023,
+          3.5677073865144484,
+          3.558386969432308,
+          3.5495692253095728,
+          3.54505138595126,
+          3.541439591788799,
+          3.5405752441041853,
+          3.5385447922443767,
+          3.5369366665731534
+        ],
+        "dominant_category": "victims",
+        "coherence": 3.86809417518703
+      },
+      "2": {
+        "words": [
+          "zelensky",
+          "president",
+          "international",
+          "families",
+          "aggression",
+          "civilians",
+          "unprovoked",
+          "arms",
+          "widely",
+          "invasion"
+        ],
+        "weights": [
+          10.001447668473581,
+          9.910109160379035,
+          8.306070554175946,
+          7.582605270320439,
+          7.580976567010063,
+          7.573910274023042,
+          7.568255015630427,
+          7.5643030754986125,
+          7.559091464090018,
+          7.556985446755724
+        ],
+        "dominant_category": "politics",
+        "coherence": 8.120375449635688
+      },
+      "3": {
+        "words": [
+          "despite",
+          "extraordinary",
+          "held",
+          "council",
+          "ukraine",
+          "brave",
+          "committing",
+          "shown",
+          "documented",
+          "breaking"
+        ],
+        "weights": [
+          0.41741440223456616,
+          0.41150195610815865,
+          0.40707781709649243,
+          0.40557695340695327,
+          0.39607060605956407,
+          0.39586298101545925,
+          0.39581428182106726,
+          0.39568796524119365,
+          0.395380323765856,
+          0.3951078217616893
+        ],
+        "dominant_category": "violence",
+        "coherence": 0.4015495108511001
+      },
+      "4": {
+        "words": [
+          "support",
+          "community",
+          "international",
+          "ukraine",
+          "crimes",
+          "war",
+          "forces",
+          "civilian",
+          "incredible",
+          "global"
+        ],
+        "weights": [
+          15.684858107533733,
+          15.63978194986717,
+          15.629742727298746,
+          14.071955502535209,
+          14.02190778942312,
+          13.985343967968165,
+          13.982445064936059,
+          8.445356995437885,
+          8.43320098798148,
+          8.429207732140958
+        ],
+        "dominant_category": "victims",
+        "coherence": 12.832380082512254
+      }
+    }
+  },
+  "actor_analysis": {
+    "gaza": {
+      "militants": {
+        "total_mentions": 36,
+        "associated_words": [
+          {
+            "word": "military",
+            "score": 0.3582286368151381
+          },
+          {
+            "word": "israeli",
+            "score": 0.33466982767708164
+          },
+          {
+            "word": "operation",
+            "score": 0.2890123430311717
+          },
+          {
+            "word": "forces",
+            "score": 0.20345339791938616
+          },
+          {
+            "word": "targeted",
+            "score": 0.20248417021175963
+          },
+          {
+            "word": "civilian",
+            "score": 0.19624864244205523
+          },
+          {
+            "word": "hamas",
+            "score": 0.19589041787308847
+          },
+          {
+            "word": "officials",
+            "score": 0.15314269901457708
+          },
+          {
+            "word": "gaza",
+            "score": 0.15003369097577587
+          },
+          {
+            "word": "ongoing",
+            "score": 0.1409328237486507
+          },
+          {
+            "word": "conflict",
+            "score": 0.14048385565356783
+          },
+          {
+            "word": "launched",
+            "score": 0.14044820989483747
+          },
+          {
+            "word": "strikes",
+            "score": 0.14044820989483747
+          },
+          {
+            "word": "weapons",
+            "score": 0.14044820989483747
+          },
+          {
+            "word": "using",
+            "score": 0.13584473605397232
+          }
+        ],
+        "concordances": [
+          {
+            "sentence": "israeli forces launched a military operation in response to continued aggression from gaza the targeted strikes focused on hamas military compounds and weapons depots military analysts noted that mili",
+            "left": "depots military analysts noted that",
+            "keyword": "militants",
+            "right": "often operate from within civilian"
+          },
+          {
+            "sentence": "israeli forces launched a military operation in response to continued aggression from gaza the targeted strikes focused on hamas military compounds and weapons depots military analysts noted that mili",
+            "left": "depots military analysts noted that",
+            "keyword": "militants",
+            "right": "often operate from within civilian"
+          },
+          {
+            "sentence": "israeli forces launched a military operation in response to continued aggression from gaza the targeted strikes focused on hamas military compounds and weapons depots military analysts noted that mili",
+            "left": "depots military analysts noted that",
+            "keyword": "militants",
+            "right": "often operate from within civilian"
+          },
+          {
+            "sentence": "the israeli military conducted a series of targeted strikes against hamas positions in gaza the operation targeted terrorist infrastructure and weapons storage facilities military officials reported t",
+            "left": "facilities military officials reported that",
+            "keyword": "militants",
+            "right": "were using civilian areas as"
+          },
+          {
+            "sentence": "violence flared up again in the ongoing conflict as israeli forces responded to attacks from gaza the military operation aimed to neutralize threats from hamas militants according to sources the extre",
+            "left": "to neutralize threats from hamas",
+            "keyword": "militants",
+            "right": "according to sources the extremist"
+          }
+        ],
+        "top_cooccurrences": {
+          "military": 25,
+          "civilian": 25,
+          "depots": 14,
+          "analysts": 14,
+          "noted": 14,
+          "operate": 14,
+          "facilities": 11,
+          "officials": 11,
+          "reported": 11,
+          "using": 11
+        },
+        "average_sentence_length": 55.166666666666664
+      },
+      "hamas": {
+        "total_mentions": 50,
+        "associated_words": [
+          {
+            "word": "military",
+            "score": 0.3031037223982804
+          },
+          {
+            "word": "israeli",
+            "score": 0.2794394146465933
+          },
+          {
+            "word": "operation",
+            "score": 0.2511639838750323
+          },
+          {
+            "word": "attacks",
+            "score": 0.20773161961253833
+          },
+          {
+            "word": "gaza",
+            "score": 0.19286958791711653
+          },
+          {
+            "word": "civilian",
+            "score": 0.17881230453717947
+          },
+          {
+            "word": "forces",
+            "score": 0.17680450306333254
+          },
+          {
+            "word": "targeted",
+            "score": 0.16484932629971463
+          },
+          {
+            "word": "conflict",
+            "score": 0.1641988264446618
+          },
+          {
+            "word": "officials",
+            "score": 0.13673793931309647
+          },
+          {
+            "word": "international",
+            "score": 0.13615965060349602
+          },
+          {
+            "word": "militants",
+            "score": 0.13481667440354256
+          },
+          {
+            "word": "response",
+            "score": 0.13208355932981644
+          },
+          {
+            "word": "areas",
+            "score": 0.12576176818137827
+          },
+          {
+            "word": "infrastructure",
+            "score": 0.12576176818137827
+          }
+        ],
+        "concordances": [
+          {
+            "sentence": "tensions escalated following rocket attacks from gaza prompting israeli military response the conflict has resulted in significant damage to infrastructure hamas the militant organization controlling ",
+            "left": "in significant damage to infrastructure",
+            "keyword": "hamas",
+            "right": "the militant organization controlling gaza"
+          },
+          {
+            "sentence": "tensions escalated following rocket attacks from gaza prompting israeli military response the conflict has resulted in significant damage to infrastructure hamas the militant organization controlling ",
+            "left": "in significant damage to infrastructure",
+            "keyword": "hamas",
+            "right": "the militant organization controlling gaza"
+          },
+          {
+            "sentence": "israeli forces launched a military operation in response to continued aggression from gaza the targeted strikes focused on hamas military compounds and weapons depots military analysts noted that mili",
+            "left": "the targeted strikes focused on",
+            "keyword": "hamas",
+            "right": "military compounds and weapons depots"
+          },
+          {
+            "sentence": "israeli forces launched a military operation in response to continued aggression from gaza the targeted strikes focused on hamas military compounds and weapons depots military analysts noted that mili",
+            "left": "the targeted strikes focused on",
+            "keyword": "hamas",
+            "right": "military compounds and weapons depots"
+          },
+          {
+            "sentence": "israeli forces launched a military operation in response to continued aggression from gaza the targeted strikes focused on hamas military compounds and weapons depots military analysts noted that mili",
+            "left": "the targeted strikes focused on",
+            "keyword": "hamas",
+            "right": "military compounds and weapons depots"
+          }
+        ],
+        "top_cooccurrences": {
+          "gaza": 25,
+          "targeted": 25,
+          "strikes": 25,
+          "significant": 14,
+          "damage": 14,
+          "infrastructure": 14,
+          "militant": 14,
+          "organization": 14,
+          "controlling": 14,
+          "focused": 14
+        },
+        "average_sentence_length": 53.84
+      },
+      "israel": {
+        "total_mentions": 50,
+        "associated_words": [
+          {
+            "word": "military",
+            "score": 0.3031037223982804
+          },
+          {
+            "word": "israeli",
+            "score": 0.2794394146465933
+          },
+          {
+            "word": "operation",
+            "score": 0.2511639838750323
+          },
+          {
+            "word": "attacks",
+            "score": 0.20773161961253833
+          },
+          {
+            "word": "gaza",
+            "score": 0.19286958791711653
+          },
+          {
+            "word": "civilian",
+            "score": 0.17881230453717947
+          },
+          {
+            "word": "hamas",
+            "score": 0.17720232252732548
+          },
+          {
+            "word": "forces",
+            "score": 0.17680450306333254
+          },
+          {
+            "word": "targeted",
+            "score": 0.16484932629971463
+          },
+          {
+            "word": "conflict",
+            "score": 0.1641988264446618
+          },
+          {
+            "word": "officials",
+            "score": 0.13673793931309647
+          },
+          {
+            "word": "international",
+            "score": 0.13615965060349602
+          },
+          {
+            "word": "militants",
+            "score": 0.13481667440354256
+          },
+          {
+            "word": "response",
+            "score": 0.13208355932981644
+          },
+          {
+            "word": "areas",
+            "score": 0.12576176818137827
+          }
+        ],
+        "concordances": [],
+        "top_cooccurrences": {},
+        "average_sentence_length": 53.84
+      },
+      "gaza": {
+        "total_mentions": 50,
+        "associated_words": [
+          {
+            "word": "military",
+            "score": 0.3031037223982804
+          },
+          {
+            "word": "israeli",
+            "score": 0.2794394146465933
+          },
+          {
+            "word": "operation",
+            "score": 0.2511639838750323
+          },
+          {
+            "word": "attacks",
+            "score": 0.20773161961253833
+          },
+          {
+            "word": "civilian",
+            "score": 0.17881230453717947
+          },
+          {
+            "word": "hamas",
+            "score": 0.17720232252732548
+          },
+          {
+            "word": "forces",
+            "score": 0.17680450306333254
+          },
+          {
+            "word": "targeted",
+            "score": 0.16484932629971463
+          },
+          {
+            "word": "conflict",
+            "score": 0.1641988264446618
+          },
+          {
+            "word": "officials",
+            "score": 0.13673793931309647
+          },
+          {
+            "word": "international",
+            "score": 0.13615965060349602
+          },
+          {
+            "word": "militants",
+            "score": 0.13481667440354256
+          },
+          {
+            "word": "response",
+            "score": 0.13208355932981644
+          },
+          {
+            "word": "areas",
+            "score": 0.12576176818137827
+          },
+          {
+            "word": "infrastructure",
+            "score": 0.12576176818137827
+          }
+        ],
+        "concordances": [
+          {
+            "sentence": "tensions escalated following rocket attacks from gaza prompting israeli military response the conflict has resulted in significant damage to infrastructure hamas the militant organization controlling ",
+            "left": "escalated following rocket attacks from",
+            "keyword": "gaza",
+            "right": "prompting israeli military response the"
+          },
+          {
+            "sentence": "tensions escalated following rocket attacks from gaza prompting israeli military response the conflict has resulted in significant damage to infrastructure hamas the militant organization controlling ",
+            "left": "escalated following rocket attacks from",
+            "keyword": "gaza",
+            "right": "prompting israeli military response the"
+          },
+          {
+            "sentence": "israeli forces launched a military operation in response to continued aggression from gaza the targeted strikes focused on hamas military compounds and weapons depots military analysts noted that mili",
+            "left": "response to continued aggression from",
+            "keyword": "gaza",
+            "right": "the targeted strikes focused on"
+          },
+          {
+            "sentence": "israeli forces launched a military operation in response to continued aggression from gaza the targeted strikes focused on hamas military compounds and weapons depots military analysts noted that mili",
+            "left": "response to continued aggression from",
+            "keyword": "gaza",
+            "right": "the targeted strikes focused on"
+          },
+          {
+            "sentence": "israeli forces launched a military operation in response to continued aggression from gaza the targeted strikes focused on hamas military compounds and weapons depots military analysts noted that mili",
+            "left": "response to continued aggression from",
+            "keyword": "gaza",
+            "right": "the targeted strikes focused on"
+          }
+        ],
+        "top_cooccurrences": {
+          "response": 28,
+          "attacks": 25,
+          "military": 25,
+          "targeted": 25,
+          "strikes": 25,
+          "operation": 22,
+          "escalated": 14,
+          "following": 14,
+          "rocket": 14,
+          "prompting": 14
+        },
+        "average_sentence_length": 53.84
+      },
+      "conflict": {
+        "total_mentions": 29,
+        "associated_words": [
+          {
+            "word": "israeli",
+            "score": 0.25172731623365924
+          },
+          {
+            "word": "military",
+            "score": 0.23887207828372148
+          },
+          {
+            "word": "attacks",
+            "score": 0.23513083118418487
+          },
+          {
+            "word": "gaza",
+            "score": 0.23132639375358469
+          },
+          {
+            "word": "civilian",
+            "score": 0.2198274170435168
+          },
+          {
+            "word": "forces",
+            "score": 0.21142401916479633
+          },
+          {
+            "word": "operation",
+            "score": 0.1940797617654749
+          },
+          {
+            "word": "hamas",
+            "score": 0.17565507802274866
+          },
+          {
+            "word": "international",
+            "score": 0.1728930227273286
+          },
+          {
+            "word": "areas",
+            "score": 0.14405776399943107
+          },
+          {
+            "word": "infrastructure",
+            "score": 0.14405776399943107
+          },
+          {
+            "word": "casualties",
+            "score": 0.13282817796067573
+          },
+          {
+            "word": "response",
+            "score": 0.13240929490063366
+          },
+          {
+            "word": "militants",
+            "score": 0.13078496253173688
+          },
+          {
+            "word": "controlling",
+            "score": 0.12785096048312145
+          }
+        ],
+        "concordances": [
+          {
+            "sentence": "tensions escalated following rocket attacks from gaza prompting israeli military response the conflict has resulted in significant damage to infrastructure hamas the militant organization controlling ",
+            "left": "prompting israeli military response the",
+            "keyword": "conflict",
+            "right": "has resulted in significant damage"
+          },
+          {
+            "sentence": "tensions escalated following rocket attacks from gaza prompting israeli military response the conflict has resulted in significant damage to infrastructure hamas the militant organization controlling ",
+            "left": "prompting israeli military response the",
+            "keyword": "conflict",
+            "right": "has resulted in significant damage"
+          },
+          {
+            "sentence": "israeli forces launched a military operation in response to continued aggression from gaza the targeted strikes focused on hamas military compounds and weapons depots military analysts noted that mili",
+            "left": "israeli security breaking news the",
+            "keyword": "conflict",
+            "right": "has drawn international attention"
+          },
+          {
+            "sentence": "violence flared up again in the ongoing conflict as israeli forces responded to attacks from gaza the military operation aimed to neutralize threats from hamas militants according to sources the extre",
+            "left": "up again in the ongoing",
+            "keyword": "conflict",
+            "right": "as israeli forces responded to"
+          },
+          {
+            "sentence": "violence flared up again in the ongoing conflict as israeli forces responded to attacks from gaza the military operation aimed to neutralize threats from hamas militants according to sources the extre",
+            "left": "up again in the ongoing",
+            "keyword": "conflict",
+            "right": "as israeli forces responded to"
+          }
+        ],
+        "top_cooccurrences": {
+          "israeli": 29,
+          "prompting": 14,
+          "military": 14,
+          "response": 14,
+          "resulted": 14,
+          "significant": 14,
+          "damage": 14,
+          "ongoing": 11,
+          "forces": 11,
+          "responded": 11
+        },
+        "average_sentence_length": 54.51724137931034
+      },
+      "attack": {
+        "total_mentions": 25,
+        "associated_words": [
+          {
+            "word": "attacks",
+            "score": 0.24476665634109326
+          },
+          {
+            "word": "gaza",
+            "score": 0.24476665634109326
+          },
+          {
+            "word": "israeli",
+            "score": 0.23437862168606927
+          },
+          {
+            "word": "civilian",
+            "score": 0.22274720015113958
+          },
+          {
+            "word": "forces",
+            "score": 0.22274720015113958
+          },
+          {
+            "word": "military",
+            "score": 0.21479532660666106
+          },
+          {
+            "word": "conflict",
+            "score": 0.1900646989683233
+          },
+          {
+            "word": "operation",
+            "score": 0.1860106913065734
+          },
+          {
+            "word": "international",
+            "score": 0.17404975751591586
+          },
+          {
+            "word": "hamas",
+            "score": 0.15378819936190127
+          },
+          {
+            "word": "casualties",
+            "score": 0.14187115448843182
+          },
+          {
+            "word": "accused",
+            "score": 0.1410208239791643
+          },
+          {
+            "word": "called",
+            "score": 0.1410208239791643
+          },
+          {
+            "word": "controlling",
+            "score": 0.1410208239791643
+          },
+          {
+            "word": "escalated",
+            "score": 0.1410208239791643
+          }
+        ],
+        "concordances": [],
+        "top_cooccurrences": {},
+        "average_sentence_length": 54.8
+      },
+      "violence": {
+        "total_mentions": 11,
+        "associated_words": [
+          {
+            "word": "israeli",
+            "score": 0.3574924646771508
+          },
+          {
+            "word": "civilian",
+            "score": 0.3431184753127491
+          },
+          {
+            "word": "forces",
+            "score": 0.3431184753127491
+          },
+          {
+            "word": "operation",
+            "score": 0.2627654319960959
+          },
+          {
+            "word": "military",
+            "score": 0.24839144263169424
+          },
+          {
+            "word": "conflict",
+            "score": 0.2197710636463664
+          },
+          {
+            "word": "casualties",
+            "score": 0.2037004549830358
+          },
+          {
+            "word": "stated",
+            "score": 0.18593322702077625
+          },
+          {
+            "word": "according",
+            "score": 0.17155923765637454
+          },
+          {
+            "word": "attacks",
+            "score": 0.17155923765637454
+          },
+          {
+            "word": "defense",
+            "score": 0.17155923765637454
+          },
+          {
+            "word": "extremist",
+            "score": 0.17155923765637454
+          },
+          {
+            "word": "flared",
+            "score": 0.17155923765637454
+          },
+          {
+            "word": "gaza",
+            "score": 0.17155923765637454
+          },
+          {
+            "word": "group",
+            "score": 0.17155923765637454
+          }
+        ],
+        "concordances": [
+          {
+            "sentence": "violence flared up again in the ongoing conflict as israeli forces responded to attacks from gaza the military operation aimed to neutralize threats from hamas militants according to sources the extre",
+            "left": "",
+            "keyword": "violence",
+            "right": "flared up again in the"
+          },
+          {
+            "sentence": "violence flared up again in the ongoing conflict as israeli forces responded to attacks from gaza the military operation aimed to neutralize threats from hamas militants according to sources the extre",
+            "left": "",
+            "keyword": "violence",
+            "right": "flared up again in the"
+          },
+          {
+            "sentence": "violence flared up again in the ongoing conflict as israeli forces responded to attacks from gaza the military operation aimed to neutralize threats from hamas militants according to sources the extre",
+            "left": "",
+            "keyword": "violence",
+            "right": "flared up again in the"
+          },
+          {
+            "sentence": "violence flared up again in the ongoing conflict as israeli forces responded to attacks from gaza the military operation aimed to neutralize threats from hamas militants according to sources the extre",
+            "left": "",
+            "keyword": "violence",
+            "right": "flared up again in the"
+          },
+          {
+            "sentence": "violence flared up again in the ongoing conflict as israeli forces responded to attacks from gaza the military operation aimed to neutralize threats from hamas militants according to sources the extre",
+            "left": "",
+            "keyword": "violence",
+            "right": "flared up again in the"
+          }
+        ],
+        "top_cooccurrences": {
+          "flared": 11
+        },
+        "average_sentence_length": 60.36363636363637
+      }
+    },
+    "ukraine": {
+      "civilians": {
+        "total_mentions": 16,
+        "associated_words": [
+          {
+            "word": "ukrainian",
+            "score": 0.30271835837416483
+          },
+          {
+            "word": "community",
+            "score": 0.24811040496013348
+          },
+          {
+            "word": "international",
+            "score": 0.23883566446089652
+          },
+          {
+            "word": "russian",
+            "score": 0.23528888266798714
+          },
+          {
+            "word": "forces",
+            "score": 0.21554046199047305
+          },
+          {
+            "word": "people",
+            "score": 0.21554046199047305
+          },
+          {
+            "word": "resistance",
+            "score": 0.21554046199047305
+          },
+          {
+            "word": "president",
+            "score": 0.20023546886263216
+          },
+          {
+            "word": "zelensky",
+            "score": 0.20023546886263216
+          },
+          {
+            "word": "aggression",
+            "score": 0.13343695107304918
+          },
+          {
+            "word": "arms",
+            "score": 0.13343695107304918
+          },
+          {
+            "word": "condemned",
+            "score": 0.13343695107304918
+          },
+          {
+            "word": "defend",
+            "score": 0.13343695107304918
+          },
+          {
+            "word": "families",
+            "score": 0.13343695107304918
+          },
+          {
+            "word": "fight",
+            "score": 0.13343695107304918
+          }
+        ],
+        "concordances": [
+          {
+            "sentence": "the ukrainian people continue to inspire the world with their courageous defense of their homeland russian forces have been accused of committing war crimes against innocent civilians the internationa",
+            "left": "committing war crimes against innocent",
+            "keyword": "civilians",
+            "right": "the international community has rallied"
+          },
+          {
+            "sentence": "ukrainian forces demonstrated remarkable resilience in their heroic resistance against the russian invasion brave civilians have taken up arms to defend their homes and families the unprovoked aggress",
+            "left": "against the russian invasion brave",
+            "keyword": "civilians",
+            "right": "have taken up arms to"
+          },
+          {
+            "sentence": "the ukrainian people continue to inspire the world with their courageous defense of their homeland russian forces have been accused of committing war crimes against innocent civilians the internationa",
+            "left": "committing war crimes against innocent",
+            "keyword": "civilians",
+            "right": "the international community has rallied"
+          },
+          {
+            "sentence": "ukrainian forces demonstrated remarkable resilience in their heroic resistance against the russian invasion brave civilians have taken up arms to defend their homes and families the unprovoked aggress",
+            "left": "against the russian invasion brave",
+            "keyword": "civilians",
+            "right": "have taken up arms to"
+          },
+          {
+            "sentence": "the ukrainian people continue to inspire the world with their courageous defense of their homeland russian forces have been accused of committing war crimes against innocent civilians the internationa",
+            "left": "committing war crimes against innocent",
+            "keyword": "civilians",
+            "right": "the international community has rallied"
+          }
+        ],
+        "top_cooccurrences": {
+          "russian": 9,
+          "invasion": 9,
+          "brave": 9,
+          "taken": 9,
+          "arms": 9,
+          "committing": 7,
+          "war": 7,
+          "crimes": 7,
+          "innocent": 7,
+          "international": 7
+        },
+        "average_sentence_length": 60.4375
+      },
+      "zelensky": {
+        "total_mentions": 14,
+        "associated_words": [
+          {
+            "word": "ukrainian",
+            "score": 0.3589561034345983
+          },
+          {
+            "word": "president",
+            "score": 0.24530309177688547
+          },
+          {
+            "word": "russian",
+            "score": 0.23480602576585258
+          },
+          {
+            "word": "international",
+            "score": 0.21772728137890132
+          },
+          {
+            "word": "forces",
+            "score": 0.20508666507551565
+          },
+          {
+            "word": "resistance",
+            "score": 0.19460845676209934
+          },
+          {
+            "word": "civilians",
+            "score": 0.1847925531349529
+          },
+          {
+            "word": "people",
+            "score": 0.1847925531349529
+          },
+          {
+            "word": "families",
+            "score": 0.18095145275957306
+          },
+          {
+            "word": "resilience",
+            "score": 0.18095145275957306
+          },
+          {
+            "word": "aggression",
+            "score": 0.16551895772192654
+          },
+          {
+            "word": "fight",
+            "score": 0.16551895772192654
+          },
+          {
+            "word": "freedom",
+            "score": 0.16551895772192654
+          },
+          {
+            "word": "heroic",
+            "score": 0.16551895772192654
+          },
+          {
+            "word": "invasion",
+            "score": 0.16551895772192654
+          }
+        ],
+        "concordances": [
+          {
+            "sentence": "the ukrainian spirit remains unbroken despite continued russian attacks on civilian infrastructure international observers have documented numerous war crimes committed by invading forces ukrainian fa",
+            "left": "to selfdetermination breaking news president",
+            "keyword": "zelensky",
+            "right": "addressed the nation"
+          },
+          {
+            "sentence": "ukrainian forces demonstrated remarkable resilience in their heroic resistance against the russian invasion brave civilians have taken up arms to defend their homes and families the unprovoked aggress",
+            "left": "of international law ukrainian president",
+            "keyword": "zelensky",
+            "right": "praised the courage of his"
+          },
+          {
+            "sentence": "ukraine's heroic resistance against russian aggression has captured global attention civilian populations have suffered greatly from the brutal invasion with reports of atrocities mounting the ukraini",
+            "left": "freedom what we know president",
+            "keyword": "zelensky",
+            "right": "addressed the nation"
+          },
+          {
+            "sentence": "ukrainian forces demonstrated remarkable resilience in their heroic resistance against the russian invasion brave civilians have taken up arms to defend their homes and families the unprovoked aggress",
+            "left": "of international law ukrainian president",
+            "keyword": "zelensky",
+            "right": "praised the courage of his"
+          },
+          {
+            "sentence": "the ukrainian people continue to inspire the world with their courageous defense of their homeland russian forces have been accused of committing war crimes against innocent civilians the internationa",
+            "left": "resistance what we know president",
+            "keyword": "zelensky",
+            "right": "addressed the nation"
+          }
+        ],
+        "top_cooccurrences": {
+          "president": 14,
+          "international": 9,
+          "law": 9,
+          "ukrainian": 9,
+          "praised": 9,
+          "courage": 9,
+          "addressed": 5,
+          "nation": 5,
+          "selfdetermination": 2,
+          "breaking": 2
+        },
+        "average_sentence_length": 58.92857142857143
+      },
+      "ukraine": {
+        "total_mentions": 21,
+        "associated_words": [
+          {
+            "word": "ukrainian",
+            "score": 0.27680635196637743
+          },
+          {
+            "word": "russian",
+            "score": 0.2224295339791177
+          },
+          {
+            "word": "support",
+            "score": 0.2154912821038819
+          },
+          {
+            "word": "community",
+            "score": 0.2073507420050378
+          },
+          {
+            "word": "international",
+            "score": 0.2073507420050378
+          },
+          {
+            "word": "resistance",
+            "score": 0.19661396585751825
+          },
+          {
+            "word": "world",
+            "score": 0.19661396585751825
+          },
+          {
+            "word": "crimes",
+            "score": 0.18828293431411294
+          },
+          {
+            "word": "forces",
+            "score": 0.18828293431411294
+          },
+          {
+            "word": "war",
+            "score": 0.18828293431411294
+          },
+          {
+            "word": "civilian",
+            "score": 0.16594738746664983
+          },
+          {
+            "word": "continued",
+            "score": 0.16594738746664983
+          },
+          {
+            "word": "global",
+            "score": 0.16594738746664983
+          },
+          {
+            "word": "shown",
+            "score": 0.16594738746664983
+          },
+          {
+            "word": "adversity",
+            "score": 0.13070424652124124
+          }
+        ],
+        "concordances": [],
+        "top_cooccurrences": {},
+        "average_sentence_length": 56.23809523809524
+      },
+      "russia": {
+        "total_mentions": 30,
+        "associated_words": [
+          {
+            "word": "ukrainian",
+            "score": 0.28932448642963976
+          },
+          {
+            "word": "russian",
+            "score": 0.2099716582526251
+          },
+          {
+            "word": "ukraine",
+            "score": 0.20559628692794293
+          },
+          {
+            "word": "international",
+            "score": 0.19437471309498786
+          },
+          {
+            "word": "support",
+            "score": 0.18565147534146614
+          },
+          {
+            "word": "forces",
+            "score": 0.17616554545169413
+          },
+          {
+            "word": "resistance",
+            "score": 0.17562935536895344
+          },
+          {
+            "word": "community",
+            "score": 0.17406353428255036
+          },
+          {
+            "word": "president",
+            "score": 0.16978280520454342
+          },
+          {
+            "word": "zelensky",
+            "score": 0.16978280520454342
+          },
+          {
+            "word": "civilians",
+            "score": 0.16053000885220173
+          },
+          {
+            "word": "people",
+            "score": 0.16053000885220173
+          },
+          {
+            "word": "families",
+            "score": 0.15594163562923563
+          },
+          {
+            "word": "resilience",
+            "score": 0.15594163562923563
+          },
+          {
+            "word": "crimes",
+            "score": 0.15568547726484636
+          }
+        ],
+        "concordances": [],
+        "top_cooccurrences": {},
+        "average_sentence_length": 57.46666666666667
+      },
+      "war": {
+        "total_mentions": 17,
+        "associated_words": [
+          {
+            "word": "ukrainian",
+            "score": 0.32194264775608156
+          },
+          {
+            "word": "russian",
+            "score": 0.2548049310794515
+          },
+          {
+            "word": "community",
+            "score": 0.24931246688449454
+          },
+          {
+            "word": "international",
+            "score": 0.24931246688449454
+          },
+          {
+            "word": "support",
+            "score": 0.24931246688449454
+          },
+          {
+            "word": "crimes",
+            "score": 0.22672727271320303
+          },
+          {
+            "word": "forces",
+            "score": 0.22672727271320303
+          },
+          {
+            "word": "ukraine",
+            "score": 0.22672727271320303
+          },
+          {
+            "word": "adversity",
+            "score": 0.14210670827126362
+          },
+          {
+            "word": "committed",
+            "score": 0.14210670827126362
+          },
+          {
+            "word": "despite",
+            "score": 0.14210670827126362
+          },
+          {
+            "word": "documented",
+            "score": 0.14210670827126362
+          },
+          {
+            "word": "face",
+            "score": 0.14210670827126362
+          },
+          {
+            "word": "families",
+            "score": 0.14210670827126362
+          },
+          {
+            "word": "global",
+            "score": 0.14210670827126362
+          }
+        ],
+        "concordances": [
+          {
+            "sentence": "the ukrainian spirit remains unbroken despite continued russian attacks on civilian infrastructure international observers have documented numerous war crimes committed by invading forces ukrainian fa",
+            "left": "international observers have documented numerous",
+            "keyword": "war",
+            "right": "crimes committed by invading forces"
+          },
+          {
+            "sentence": "the ukrainian spirit remains unbroken despite continued russian attacks on civilian infrastructure international observers have documented numerous war crimes committed by invading forces ukrainian fa",
+            "left": "international observers have documented numerous",
+            "keyword": "war",
+            "right": "crimes committed by invading forces"
+          },
+          {
+            "sentence": "the ukrainian spirit remains unbroken despite continued russian attacks on civilian infrastructure international observers have documented numerous war crimes committed by invading forces ukrainian fa",
+            "left": "international observers have documented numerous",
+            "keyword": "war",
+            "right": "crimes committed by invading forces"
+          },
+          {
+            "sentence": "the ukrainian people continue to inspire the world with their courageous defense of their homeland russian forces have been accused of committing war crimes against innocent civilians the internationa",
+            "left": "have been accused of committing",
+            "keyword": "war",
+            "right": "crimes against innocent civilians the"
+          },
+          {
+            "sentence": "the ukrainian spirit remains unbroken despite continued russian attacks on civilian infrastructure international observers have documented numerous war crimes committed by invading forces ukrainian fa",
+            "left": "international observers have documented numerous",
+            "keyword": "war",
+            "right": "crimes committed by invading forces"
+          }
+        ],
+        "top_cooccurrences": {
+          "crimes": 17,
+          "international": 10,
+          "observers": 10,
+          "documented": 10,
+          "numerous": 10,
+          "committed": 10,
+          "invading": 10,
+          "forces": 10,
+          "accused": 7,
+          "committing": 7
+        },
+        "average_sentence_length": 56.23529411764706
+      },
+      "invasion": {
+        "total_mentions": 13,
+        "associated_words": [
+          {
+            "word": "ukrainian",
+            "score": 0.33551998026876323
+          },
+          {
+            "word": "russian",
+            "score": 0.24613487382543012
+          },
+          {
+            "word": "aggression",
+            "score": 0.2201087575929311
+          },
+          {
+            "word": "fight",
+            "score": 0.2201087575929311
+          },
+          {
+            "word": "freedom",
+            "score": 0.2201087575929311
+          },
+          {
+            "word": "heroic",
+            "score": 0.2201087575929311
+          },
+          {
+            "word": "resistance",
+            "score": 0.2201087575929311
+          },
+          {
+            "word": "president",
+            "score": 0.21655594720552124
+          },
+          {
+            "word": "zelensky",
+            "score": 0.21655594720552124
+          },
+          {
+            "word": "international",
+            "score": 0.17107668970149298
+          },
+          {
+            "word": "arms",
+            "score": 0.1542438949007582
+          },
+          {
+            "word": "condemned",
+            "score": 0.1542438949007582
+          },
+          {
+            "word": "defend",
+            "score": 0.1542438949007582
+          },
+          {
+            "word": "democracy",
+            "score": 0.1542438949007582
+          },
+          {
+            "word": "demonstrated",
+            "score": 0.1542438949007582
+          }
+        ],
+        "concordances": [
+          {
+            "sentence": "ukraine's heroic resistance against russian aggression has captured global attention civilian populations have suffered greatly from the brutal invasion with reports of atrocities mounting the ukraini",
+            "left": "suffered greatly from the brutal",
+            "keyword": "invasion",
+            "right": "with reports of atrocities mounting"
+          },
+          {
+            "sentence": "ukrainian forces demonstrated remarkable resilience in their heroic resistance against the russian invasion brave civilians have taken up arms to defend their homes and families the unprovoked aggress",
+            "left": "heroic resistance against the russian",
+            "keyword": "invasion",
+            "right": "brave civilians have taken up"
+          },
+          {
+            "sentence": "ukraine's heroic resistance against russian aggression has captured global attention civilian populations have suffered greatly from the brutal invasion with reports of atrocities mounting the ukraini",
+            "left": "suffered greatly from the brutal",
+            "keyword": "invasion",
+            "right": "with reports of atrocities mounting"
+          },
+          {
+            "sentence": "ukraine's heroic resistance against russian aggression has captured global attention civilian populations have suffered greatly from the brutal invasion with reports of atrocities mounting the ukraini",
+            "left": "suffered greatly from the brutal",
+            "keyword": "invasion",
+            "right": "with reports of atrocities mounting"
+          },
+          {
+            "sentence": "ukrainian forces demonstrated remarkable resilience in their heroic resistance against the russian invasion brave civilians have taken up arms to defend their homes and families the unprovoked aggress",
+            "left": "heroic resistance against the russian",
+            "keyword": "invasion",
+            "right": "brave civilians have taken up"
+          }
+        ],
+        "top_cooccurrences": {
+          "heroic": 9,
+          "resistance": 9,
+          "russian": 9,
+          "brave": 9,
+          "civilians": 9,
+          "taken": 9,
+          "suffered": 4,
+          "greatly": 4,
+          "brutal": 4,
+          "reports": 4
+        },
+        "average_sentence_length": 59.07692307692308
+      },
+      "attack": {
+        "total_mentions": 10,
+        "associated_words": [
+          {
+            "word": "ukrainian",
+            "score": 0.40324231701072755
+          },
+          {
+            "word": "russian",
+            "score": 0.26045599904681904
+          },
+          {
+            "word": "community",
+            "score": 0.21929882803502748
+          },
+          {
+            "word": "international",
+            "score": 0.21929882803502748
+          },
+          {
+            "word": "support",
+            "score": 0.21929882803502748
+          },
+          {
+            "word": "adversity",
+            "score": 0.20162115850536377
+          },
+          {
+            "word": "attacks",
+            "score": 0.20162115850536377
+          },
+          {
+            "word": "civilian",
+            "score": 0.20162115850536377
+          },
+          {
+            "word": "committed",
+            "score": 0.20162115850536377
+          },
+          {
+            "word": "continued",
+            "score": 0.20162115850536377
+          },
+          {
+            "word": "despite",
+            "score": 0.20162115850536377
+          },
+          {
+            "word": "face",
+            "score": 0.20162115850536377
+          },
+          {
+            "word": "forces",
+            "score": 0.20162115850536377
+          },
+          {
+            "word": "global",
+            "score": 0.20162115850536377
+          },
+          {
+            "word": "incredible",
+            "score": 0.20162115850536377
+          }
+        ],
+        "concordances": [],
+        "top_cooccurrences": {},
+        "average_sentence_length": 53.2
+      },
+      "defense": {
+        "total_mentions": 7,
+        "associated_words": [
+          {
+            "word": "community",
+            "score": 0.2447187804077111
+          },
+          {
+            "word": "international",
+            "score": 0.2447187804077111
+          },
+          {
+            "word": "support",
+            "score": 0.2447187804077111
+          },
+          {
+            "word": "accused",
+            "score": 0.21819087495384656
+          },
+          {
+            "word": "civilians",
+            "score": 0.21819087495384656
+          },
+          {
+            "word": "committing",
+            "score": 0.21819087495384656
+          },
+          {
+            "word": "continue",
+            "score": 0.21819087495384656
+          },
+          {
+            "word": "courageous",
+            "score": 0.21819087495384656
+          },
+          {
+            "word": "crimes",
+            "score": 0.21819087495384656
+          },
+          {
+            "word": "daily",
+            "score": 0.21819087495384656
+          },
+          {
+            "word": "emerge",
+            "score": 0.21819087495384656
+          },
+          {
+            "word": "forces",
+            "score": 0.21819087495384656
+          },
+          {
+            "word": "heroism",
+            "score": 0.21819087495384656
+          },
+          {
+            "word": "homeland",
+            "score": 0.21819087495384656
+          },
+          {
+            "word": "independence",
+            "score": 0.21819087495384656
+          }
+        ],
+        "concordances": [
+          {
+            "sentence": "the ukrainian people continue to inspire the world with their courageous defense of their homeland russian forces have been accused of committing war crimes against innocent civilians the internationa",
+            "left": "the world with their courageous",
+            "keyword": "defense",
+            "right": "of their homeland russian forces"
+          },
+          {
+            "sentence": "the ukrainian people continue to inspire the world with their courageous defense of their homeland russian forces have been accused of committing war crimes against innocent civilians the internationa",
+            "left": "the world with their courageous",
+            "keyword": "defense",
+            "right": "of their homeland russian forces"
+          },
+          {
+            "sentence": "the ukrainian people continue to inspire the world with their courageous defense of their homeland russian forces have been accused of committing war crimes against innocent civilians the internationa",
+            "left": "the world with their courageous",
+            "keyword": "defense",
+            "right": "of their homeland russian forces"
+          },
+          {
+            "sentence": "the ukrainian people continue to inspire the world with their courageous defense of their homeland russian forces have been accused of committing war crimes against innocent civilians the internationa",
+            "left": "the world with their courageous",
+            "keyword": "defense",
+            "right": "of their homeland russian forces"
+          },
+          {
+            "sentence": "the ukrainian people continue to inspire the world with their courageous defense of their homeland russian forces have been accused of committing war crimes against innocent civilians the internationa",
+            "left": "the world with their courageous",
+            "keyword": "defense",
+            "right": "of their homeland russian forces"
+          }
+        ],
+        "top_cooccurrences": {
+          "world": 7,
+          "courageous": 7,
+          "homeland": 7,
+          "russian": 7,
+          "forces": 7
+        },
+        "average_sentence_length": 60.57142857142857
+      },
+      "nato": {
+        "total_mentions": 7,
+        "associated_words": [
+          {
+            "word": "ukrainian",
+            "score": 0.3117384611714968
+          },
+          {
+            "word": "ukraine",
+            "score": 0.223015923898725
+          },
+          {
+            "word": "aid",
+            "score": 0.2026528832992696
+          },
+          {
+            "word": "allies",
+            "score": 0.2026528832992696
+          },
+          {
+            "word": "humanitarian",
+            "score": 0.2026528832992696
+          },
+          {
+            "word": "provided",
+            "score": 0.2026528832992696
+          },
+          {
+            "word": "russian",
+            "score": 0.2026528832992696
+          },
+          {
+            "word": "forces",
+            "score": 0.1989640234335971
+          },
+          {
+            "word": "international",
+            "score": 0.1989640234335971
+          },
+          {
+            "word": "resistance",
+            "score": 0.19455492676802594
+          },
+          {
+            "word": "civilians",
+            "score": 0.18608171354035882
+          },
+          {
+            "word": "people",
+            "score": 0.18608171354035882
+          },
+          {
+            "word": "support",
+            "score": 0.1831390375315618
+          },
+          {
+            "word": "families",
+            "score": 0.1603561953705423
+          },
+          {
+            "word": "resilience",
+            "score": 0.1603561953705423
+          }
+        ],
+        "concordances": [
+          {
+            "sentence": "ukraine's heroic resistance against russian aggression has captured global attention civilian populations have suffered greatly from the brutal invasion with reports of atrocities mounting the ukraini",
+            "left": "ukraine's fight for freedom report",
+            "keyword": "nato",
+            "right": "allies provided humanitarian aid"
+          },
+          {
+            "sentence": "the ukrainian people continue to inspire the world with their courageous defense of their homeland russian forces have been accused of committing war crimes against innocent civilians the internationa",
+            "left": "join the resistance latest updates",
+            "keyword": "nato",
+            "right": "allies provided humanitarian aid"
+          },
+          {
+            "sentence": "the ukrainian spirit remains unbroken despite continued russian attacks on civilian infrastructure international observers have documented numerous war crimes committed by invading forces ukrainian fa",
+            "left": "ukraine's right to selfdetermination report",
+            "keyword": "nato",
+            "right": "allies provided humanitarian aid"
+          },
+          {
+            "sentence": "ukrainian forces demonstrated remarkable resilience in their heroic resistance against the russian invasion brave civilians have taken up arms to defend their homes and families the unprovoked aggress",
+            "left": "fight for freedom and democracy",
+            "keyword": "nato",
+            "right": "allies provided humanitarian aid"
+          },
+          {
+            "sentence": "ukrainian forces demonstrated remarkable resilience in their heroic resistance against the russian invasion brave civilians have taken up arms to defend their homes and families the unprovoked aggress",
+            "left": "fight for freedom and democracy",
+            "keyword": "nato",
+            "right": "allies provided humanitarian aid"
+          }
+        ],
+        "top_cooccurrences": {
+          "allies": 7,
+          "provided": 7,
+          "humanitarian": 7,
+          "aid": 7,
+          "fight": 4,
+          "freedom": 4,
+          "democracy": 3,
+          "ukraine's": 2,
+          "report": 2,
+          "join": 2
+        },
+        "average_sentence_length": 57.57142857142857
+      }
+    }
+  },
+  "comparative_analysis": {
+    "semantic_overlap": {
+      "gaza": [
+        "operation",
+        "attacks",
+        "civilian",
+        "targeted",
+        "forces",
+        "conflict",
+        "military operation",
+        "officials",
+        "militants",
+        "international",
+        "areas",
+        "infrastructure",
+        "israeli military",
+        "using",
+        "using civilian",
+        "attacks gaza",
+        "stated",
+        "response",
+        "launched",
+        "strikes"
+      ],
+      "ukraine": [
+        "ukraine",
+        "international",
+        "resistance",
+        "support",
+        "civilians",
+        "people",
+        "president",
+        "president zelensky",
+        "zelensky",
+        "forces",
+        "community",
+        "support ukraine",
+        "world",
+        "crimes",
+        "war",
+        "war crimes",
+        "international community",
+        "aggression",
+        "fight",
+        "fight freedom"
+      ]
+    },
+    "word_usage_differences": {
+      "attack": {
+        "gaza": {
+          "mentions": 25,
+          "avg_context_length": 54.8
+        },
+        "ukraine": {
+          "mentions": 10,
+          "avg_context_length": 53.2
+        }
+      },
+      "civilians": {
+        "ukraine": {
+          "mentions": 16,
+          "avg_context_length": 60.4375
+        }
+      },
+      "war": {
+        "ukraine": {
+          "mentions": 17,
+          "avg_context_length": 56.23529411764706
+        }
+      }
+    },
+    "thematic_focus": {
+      "gaza": {
+        "violence": 0,
+        "victims": 1,
+        "humanitarian": 0,
+        "politics": 0,
+        "military": 0
+      },
+      "ukraine": {
+        "violence": 0,
+        "victims": 1,
+        "humanitarian": 0,
+        "politics": 1,
+        "military": 0
+      }
+    },
+    "similarity_scores": {
+      "gaza_vs_gaza": 0.9999999999999996,
+      "gaza_vs_ukraine": 0.10462667451326783,
+      "ukraine_vs_gaza": 0.10462667451326783,
+      "ukraine_vs_ukraine": 0.9999999999999997
+    }
+  },
+  "statistics": {
+    "corpus": {
+      "total_articles": 80,
+      "articles_by_topic": {
+        "gaza": 50,
+        "ukraine": 30
+      },
+      "avg_words_per_article": {
+        "gaza": 53.84,
+        "ukraine": 57.46666666666667
+      },
+      "vocabulary_size": {
+        "gaza": 130,
+        "ukraine": 142
+      },
+      "lexical_diversity": {
+        "gaza": 0.048291233283803865,
+        "ukraine": 0.08236658932714618
+      }
+    },
+    "semantic_metrics": {
+      "gaza": {
+        "distinct_semantic_fields": 50,
+        "avg_tfidf_score": 0.087268247651608
+      },
+      "ukraine": {
+        "distinct_semantic_fields": 50,
+        "avg_tfidf_score": 0.09231281971175193
+      }
+    }
+  }
+}

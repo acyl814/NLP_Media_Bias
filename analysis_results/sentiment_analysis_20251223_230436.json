@@ -1,0 +1,6200 @@
+{
+  "article_sentiment": [
+    {
+      "id": "gaza_001",
+      "title": "Gaza Conflict Escalates as Violence Continues - Breaking News",
+      "topic": "gaza",
+      "source": "Guardian",
+      "word_count": 52,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.02916666666666667,
+          "subjectivity": 0.19583333333333333,
+          "label": "neutral"
+        },
+        "vader": {
+          "compound": -0.9246,
+          "positive": 0.029,
+          "negative": 0.257,
+          "neutral": 0.714,
+          "label": "negative"
+        }
+      },
+      "consensus": {
+        "label": "neutral",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "gaza_002",
+      "title": "Gaza Conflict Escalates as Violence Continues",
+      "topic": "gaza",
+      "source": "Guardian",
+      "word_count": 51,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.12916666666666668,
+          "subjectivity": 0.32916666666666666,
+          "label": "positive"
+        },
+        "vader": {
+          "compound": -0.9403,
+          "positive": 0.028,
+          "negative": 0.292,
+          "neutral": 0.679,
+          "label": "negative"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "gaza_003",
+      "title": "Israel Launches Military Operation in Gaza",
+      "topic": "gaza",
+      "source": "Reuters",
+      "word_count": 52,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.04999999999999999,
+          "subjectivity": 0.30000000000000004,
+          "label": "neutral"
+        },
+        "vader": {
+          "compound": 0.128,
+          "positive": 0.147,
+          "negative": 0.123,
+          "neutral": 0.729,
+          "label": "positive"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "gaza_004",
+      "title": "Gaza Conflict Escalates as Violence Continues - Report",
+      "topic": "gaza",
+      "source": "New York Times",
+      "word_count": 50,
+      "sentiments": {
+        "textblob": {
+          "polarity": -0.10000000000000002,
+          "subjectivity": 0.10000000000000002,
+          "label": "negative"
+        },
+        "vader": {
+          "compound": 0.128,
+          "positive": 0.152,
+          "negative": 0.127,
+          "neutral": 0.72,
+          "label": "positive"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "gaza_005",
+      "title": "Israel Launches Military Operation in Gaza: What We Know",
+      "topic": "gaza",
+      "source": "New York Times",
+      "word_count": 54,
+      "sentiments": {
+        "textblob": {
+          "polarity": -0.07500000000000001,
+          "subjectivity": 0.07500000000000001,
+          "label": "neutral"
+        },
+        "vader": {
+          "compound": -0.2023,
+          "positive": 0.14,
+          "negative": 0.152,
+          "neutral": 0.708,
+          "label": "negative"
+        }
+      },
+      "consensus": {
+        "label": "neutral",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "gaza_006",
+      "title": "Hamas Militants Fire Rockets at Israel - Analysis",
+      "topic": "gaza",
+      "source": "Guardian",
+      "word_count": 54,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.18333333333333335,
+          "subjectivity": 0.3833333333333333,
+          "label": "positive"
+        },
+        "vader": {
+          "compound": -0.7184,
+          "positive": 0.082,
+          "negative": 0.175,
+          "neutral": 0.743,
+          "label": "negative"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "gaza_007",
+      "title": "Hamas Militants Fire Rockets at Israel - Report",
+      "topic": "gaza",
+      "source": "Guardian",
+      "word_count": 60,
+      "sentiments": {
+        "textblob": {
+          "polarity": -0.05,
+          "subjectivity": 0.07500000000000001,
+          "label": "neutral"
+        },
+        "vader": {
+          "compound": -0.891,
+          "positive": 0.022,
+          "negative": 0.176,
+          "neutral": 0.802,
+          "label": "negative"
+        }
+      },
+      "consensus": {
+        "label": "neutral",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "gaza_008",
+      "title": "Gaza Conflict Escalates as Violence Continues",
+      "topic": "gaza",
+      "source": "BBC",
+      "word_count": 61,
+      "sentiments": {
+        "textblob": {
+          "polarity": -0.05,
+          "subjectivity": 0.07500000000000001,
+          "label": "neutral"
+        },
+        "vader": {
+          "compound": -0.891,
+          "positive": 0.022,
+          "negative": 0.174,
+          "neutral": 0.805,
+          "label": "negative"
+        }
+      },
+      "consensus": {
+        "label": "neutral",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "gaza_009",
+      "title": "Hamas Militants Fire Rockets at Israel - Breaking News",
+      "topic": "gaza",
+      "source": "CNN",
+      "word_count": 52,
+      "sentiments": {
+        "textblob": {
+          "polarity": -0.06666666666666667,
+          "subjectivity": 0.06666666666666667,
+          "label": "neutral"
+        },
+        "vader": {
+          "compound": -0.9022,
+          "positive": 0.025,
+          "negative": 0.223,
+          "neutral": 0.753,
+          "label": "negative"
+        }
+      },
+      "consensus": {
+        "label": "neutral",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "gaza_010",
+      "title": "Israel Launches Military Operation in Gaza - Report",
+      "topic": "gaza",
+      "source": "Reuters",
+      "word_count": 51,
+      "sentiments": {
+        "textblob": {
+          "polarity": -0.10000000000000002,
+          "subjectivity": 0.10000000000000002,
+          "label": "negative"
+        },
+        "vader": {
+          "compound": 0.128,
+          "positive": 0.15,
+          "negative": 0.125,
+          "neutral": 0.725,
+          "label": "positive"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "gaza_011",
+      "title": "Hamas Militants Fire Rockets at Israel - Latest Updates",
+      "topic": "gaza",
+      "source": "CNN",
+      "word_count": 59,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.13333333333333333,
+          "subjectivity": 0.3666666666666667,
+          "label": "positive"
+        },
+        "vader": {
+          "compound": -0.891,
+          "positive": 0.022,
+          "negative": 0.179,
+          "neutral": 0.799,
+          "label": "negative"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "gaza_012",
+      "title": "Hamas Militants Fire Rockets at Israel - Analysis",
+      "topic": "gaza",
+      "source": "BBC",
+      "word_count": 60,
+      "sentiments": {
+        "textblob": {
+          "polarity": -0.05,
+          "subjectivity": 0.07500000000000001,
+          "label": "neutral"
+        },
+        "vader": {
+          "compound": -0.891,
+          "positive": 0.022,
+          "negative": 0.176,
+          "neutral": 0.802,
+          "label": "negative"
+        }
+      },
+      "consensus": {
+        "label": "neutral",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "gaza_013",
+      "title": "Israeli Forces Target Terrorist Infrastructure - Breaking News",
+      "topic": "gaza",
+      "source": "BBC",
+      "word_count": 50,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.02916666666666667,
+          "subjectivity": 0.19583333333333333,
+          "label": "neutral"
+        },
+        "vader": {
+          "compound": -0.9246,
+          "positive": 0.03,
+          "negative": 0.266,
+          "neutral": 0.705,
+          "label": "negative"
+        }
+      },
+      "consensus": {
+        "label": "neutral",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "gaza_014",
+      "title": "Israel Launches Military Operation in Gaza",
+      "topic": "gaza",
+      "source": "New York Times",
+      "word_count": 51,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.12916666666666668,
+          "subjectivity": 0.32916666666666666,
+          "label": "positive"
+        },
+        "vader": {
+          "compound": -0.9403,
+          "positive": 0.028,
+          "negative": 0.292,
+          "neutral": 0.679,
+          "label": "negative"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "gaza_015",
+      "title": "Gaza Conflict Escalates as Violence Continues - Latest Updates",
+      "topic": "gaza",
+      "source": "Guardian",
+      "word_count": 49,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.06875,
+          "subjectivity": 0.26875,
+          "label": "neutral"
+        },
+        "vader": {
+          "compound": -0.9246,
+          "positive": 0.03,
+          "negative": 0.27,
+          "neutral": 0.7,
+          "label": "negative"
+        }
+      },
+      "consensus": {
+        "label": "neutral",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "gaza_016",
+      "title": "Israeli Forces Target Terrorist Infrastructure - Analysis",
+      "topic": "gaza",
+      "source": "Guardian",
+      "word_count": 54,
+      "sentiments": {
+        "textblob": {
+          "polarity": -0.07500000000000001,
+          "subjectivity": 0.07500000000000001,
+          "label": "neutral"
+        },
+        "vader": {
+          "compound": -0.8689,
+          "positive": 0.024,
+          "negative": 0.183,
+          "neutral": 0.793,
+          "label": "negative"
+        }
+      },
+      "consensus": {
+        "label": "neutral",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "gaza_017",
+      "title": "Israeli Forces Target Terrorist Infrastructure - Analysis",
+      "topic": "gaza",
+      "source": "CNN",
+      "word_count": 55,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.18333333333333335,
+          "subjectivity": 0.3833333333333333,
+          "label": "positive"
+        },
+        "vader": {
+          "compound": -0.7184,
+          "positive": 0.081,
+          "negative": 0.172,
+          "neutral": 0.747,
+          "label": "negative"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "gaza_018",
+      "title": "Hamas Militants Fire Rockets at Israel - Analysis",
+      "topic": "gaza",
+      "source": "CNN",
+      "word_count": 54,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.11249999999999999,
+          "subjectivity": 0.3125,
+          "label": "positive"
+        },
+        "vader": {
+          "compound": 0.6486,
+          "positive": 0.194,
+          "negative": 0.114,
+          "neutral": 0.692,
+          "label": "positive"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "gaza_019",
+      "title": "Israeli Forces Target Terrorist Infrastructure - Breaking News",
+      "topic": "gaza",
+      "source": "BBC",
+      "word_count": 60,
+      "sentiments": {
+        "textblob": {
+          "polarity": -0.05,
+          "subjectivity": 0.07500000000000001,
+          "label": "neutral"
+        },
+        "vader": {
+          "compound": -0.891,
+          "positive": 0.022,
+          "negative": 0.176,
+          "neutral": 0.802,
+          "label": "negative"
+        }
+      },
+      "consensus": {
+        "label": "neutral",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "gaza_020",
+      "title": "Civilian Casualties Reported in Gaza Strikes",
+      "topic": "gaza",
+      "source": "Guardian",
+      "word_count": 62,
+      "sentiments": {
+        "textblob": {
+          "polarity": -0.03333333333333333,
+          "subjectivity": 0.06666666666666667,
+          "label": "neutral"
+        },
+        "vader": {
+          "compound": -0.9169,
+          "positive": 0.021,
+          "negative": 0.2,
+          "neutral": 0.779,
+          "label": "negative"
+        }
+      },
+      "consensus": {
+        "label": "neutral",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "gaza_021",
+      "title": "Civilian Casualties Reported in Gaza Strikes",
+      "topic": "gaza",
+      "source": "CNN",
+      "word_count": 51,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.09642857142857143,
+          "subjectivity": 0.29642857142857143,
+          "label": "neutral"
+        },
+        "vader": {
+          "compound": -0.9246,
+          "positive": 0.029,
+          "negative": 0.261,
+          "neutral": 0.71,
+          "label": "negative"
+        }
+      },
+      "consensus": {
+        "label": "neutral",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "gaza_022",
+      "title": "Israeli Forces Target Terrorist Infrastructure - Breaking News",
+      "topic": "gaza",
+      "source": "CNN",
+      "word_count": 51,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.02916666666666667,
+          "subjectivity": 0.19583333333333333,
+          "label": "neutral"
+        },
+        "vader": {
+          "compound": -0.9246,
+          "positive": 0.029,
+          "negative": 0.261,
+          "neutral": 0.71,
+          "label": "negative"
+        }
+      },
+      "consensus": {
+        "label": "neutral",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "gaza_023",
+      "title": "Israel Launches Military Operation in Gaza - Analysis",
+      "topic": "gaza",
+      "source": "New York Times",
+      "word_count": 53,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.205,
+          "subjectivity": 0.40499999999999997,
+          "label": "positive"
+        },
+        "vader": {
+          "compound": -0.8625,
+          "positive": 0.084,
+          "negative": 0.243,
+          "neutral": 0.674,
+          "label": "negative"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "gaza_024",
+      "title": "Gaza Conflict Escalates as Violence Continues - Latest Updates",
+      "topic": "gaza",
+      "source": "New York Times",
+      "word_count": 50,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.05500000000000001,
+          "subjectivity": 0.215,
+          "label": "neutral"
+        },
+        "vader": {
+          "compound": -0.9403,
+          "positive": 0.029,
+          "negative": 0.297,
+          "neutral": 0.674,
+          "label": "negative"
+        }
+      },
+      "consensus": {
+        "label": "neutral",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "gaza_025",
+      "title": "Hamas Militants Fire Rockets at Israel",
+      "topic": "gaza",
+      "source": "BBC",
+      "word_count": 51,
+      "sentiments": {
+        "textblob": {
+          "polarity": -0.10000000000000002,
+          "subjectivity": 0.10000000000000002,
+          "label": "negative"
+        },
+        "vader": {
+          "compound": 0.128,
+          "positive": 0.15,
+          "negative": 0.125,
+          "neutral": 0.725,
+          "label": "positive"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "gaza_026",
+      "title": "Israel Launches Military Operation in Gaza - Report",
+      "topic": "gaza",
+      "source": "Reuters",
+      "word_count": 55,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.19,
+          "subjectivity": 0.43000000000000005,
+          "label": "positive"
+        },
+        "vader": {
+          "compound": 0.6486,
+          "positive": 0.191,
+          "negative": 0.113,
+          "neutral": 0.696,
+          "label": "positive"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "gaza_027",
+      "title": "Civilian Casualties Reported in Gaza Strikes - Latest Updates",
+      "topic": "gaza",
+      "source": "New York Times",
+      "word_count": 53,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.18333333333333335,
+          "subjectivity": 0.3833333333333333,
+          "label": "positive"
+        },
+        "vader": {
+          "compound": -0.7184,
+          "positive": 0.083,
+          "negative": 0.178,
+          "neutral": 0.739,
+          "label": "negative"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "gaza_028",
+      "title": "Israel Launches Military Operation in Gaza",
+      "topic": "gaza",
+      "source": "CNN",
+      "word_count": 54,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.2625,
+          "subjectivity": 0.5125,
+          "label": "positive"
+        },
+        "vader": {
+          "compound": -0.7184,
+          "positive": 0.082,
+          "negative": 0.175,
+          "neutral": 0.743,
+          "label": "negative"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "gaza_029",
+      "title": "Hamas Militants Fire Rockets at Israel",
+      "topic": "gaza",
+      "source": "BBC",
+      "word_count": 51,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.02916666666666667,
+          "subjectivity": 0.19583333333333333,
+          "label": "neutral"
+        },
+        "vader": {
+          "compound": -0.9246,
+          "positive": 0.029,
+          "negative": 0.261,
+          "neutral": 0.71,
+          "label": "negative"
+        }
+      },
+      "consensus": {
+        "label": "neutral",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "gaza_030",
+      "title": "Hamas Militants Fire Rockets at Israel",
+      "topic": "gaza",
+      "source": "BBC",
+      "word_count": 55,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.11249999999999999,
+          "subjectivity": 0.3125,
+          "label": "positive"
+        },
+        "vader": {
+          "compound": 0.6486,
+          "positive": 0.191,
+          "negative": 0.113,
+          "neutral": 0.696,
+          "label": "positive"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "gaza_031",
+      "title": "Civilian Casualties Reported in Gaza Strikes: What We Know",
+      "topic": "gaza",
+      "source": "Guardian",
+      "word_count": 52,
+      "sentiments": {
+        "textblob": {
+          "polarity": -0.06666666666666667,
+          "subjectivity": 0.06666666666666667,
+          "label": "neutral"
+        },
+        "vader": {
+          "compound": -0.9022,
+          "positive": 0.025,
+          "negative": 0.223,
+          "neutral": 0.753,
+          "label": "negative"
+        }
+      },
+      "consensus": {
+        "label": "neutral",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "gaza_032",
+      "title": "Israel Launches Military Operation in Gaza",
+      "topic": "gaza",
+      "source": "BBC",
+      "word_count": 63,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.21666666666666667,
+          "subjectivity": 0.3833333333333333,
+          "label": "positive"
+        },
+        "vader": {
+          "compound": -0.7783,
+          "positive": 0.071,
+          "negative": 0.163,
+          "neutral": 0.766,
+          "label": "negative"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "gaza_033",
+      "title": "Israel Launches Military Operation in Gaza - Breaking News",
+      "topic": "gaza",
+      "source": "CNN",
+      "word_count": 51,
+      "sentiments": {
+        "textblob": {
+          "polarity": -0.10000000000000002,
+          "subjectivity": 0.10000000000000002,
+          "label": "negative"
+        },
+        "vader": {
+          "compound": 0.128,
+          "positive": 0.15,
+          "negative": 0.125,
+          "neutral": 0.725,
+          "label": "positive"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "gaza_034",
+      "title": "Hamas Militants Fire Rockets at Israel - Analysis",
+      "topic": "gaza",
+      "source": "BBC",
+      "word_count": 53,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.075,
+          "subjectivity": 0.275,
+          "label": "neutral"
+        },
+        "vader": {
+          "compound": -0.9022,
+          "positive": 0.024,
+          "negative": 0.219,
+          "neutral": 0.757,
+          "label": "negative"
+        }
+      },
+      "consensus": {
+        "label": "neutral",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "gaza_035",
+      "title": "Israeli Forces Target Terrorist Infrastructure: What We Know",
+      "topic": "gaza",
+      "source": "CNN",
+      "word_count": 60,
+      "sentiments": {
+        "textblob": {
+          "polarity": -0.03333333333333333,
+          "subjectivity": 0.06666666666666667,
+          "label": "neutral"
+        },
+        "vader": {
+          "compound": -0.9169,
+          "positive": 0.021,
+          "negative": 0.206,
+          "neutral": 0.773,
+          "label": "negative"
+        }
+      },
+      "consensus": {
+        "label": "neutral",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "gaza_036",
+      "title": "Hamas Militants Fire Rockets at Israel - Report",
+      "topic": "gaza",
+      "source": "Reuters",
+      "word_count": 53,
+      "sentiments": {
+        "textblob": {
+          "polarity": -0.08,
+          "subjectivity": 0.08,
+          "label": "neutral"
+        },
+        "vader": {
+          "compound": 0.128,
+          "positive": 0.145,
+          "negative": 0.121,
+          "neutral": 0.734,
+          "label": "positive"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "gaza_037",
+      "title": "Civilian Casualties Reported in Gaza Strikes - Report",
+      "topic": "gaza",
+      "source": "CNN",
+      "word_count": 54,
+      "sentiments": {
+        "textblob": {
+          "polarity": -0.08,
+          "subjectivity": 0.08,
+          "label": "neutral"
+        },
+        "vader": {
+          "compound": 0.128,
+          "positive": 0.143,
+          "negative": 0.119,
+          "neutral": 0.738,
+          "label": "positive"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "gaza_038",
+      "title": "Israel Launches Military Operation in Gaza - Analysis",
+      "topic": "gaza",
+      "source": "New York Times",
+      "word_count": 61,
+      "sentiments": {
+        "textblob": {
+          "polarity": -0.05,
+          "subjectivity": 0.07500000000000001,
+          "label": "neutral"
+        },
+        "vader": {
+          "compound": -0.891,
+          "positive": 0.022,
+          "negative": 0.174,
+          "neutral": 0.805,
+          "label": "negative"
+        }
+      },
+      "consensus": {
+        "label": "neutral",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "gaza_039",
+      "title": "Gaza Conflict Escalates as Violence Continues - Breaking News",
+      "topic": "gaza",
+      "source": "CNN",
+      "word_count": 54,
+      "sentiments": {
+        "textblob": {
+          "polarity": -0.08,
+          "subjectivity": 0.08,
+          "label": "neutral"
+        },
+        "vader": {
+          "compound": 0.128,
+          "positive": 0.143,
+          "negative": 0.119,
+          "neutral": 0.738,
+          "label": "positive"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "gaza_040",
+      "title": "Israel Launches Military Operation in Gaza - Report",
+      "topic": "gaza",
+      "source": "New York Times",
+      "word_count": 50,
+      "sentiments": {
+        "textblob": {
+          "polarity": -0.1,
+          "subjectivity": 0.1,
+          "label": "neutral"
+        },
+        "vader": {
+          "compound": -0.8689,
+          "positive": 0.026,
+          "negative": 0.196,
+          "neutral": 0.779,
+          "label": "negative"
+        }
+      },
+      "consensus": {
+        "label": "neutral",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "gaza_041",
+      "title": "Israel Launches Military Operation in Gaza",
+      "topic": "gaza",
+      "source": "Guardian",
+      "word_count": 54,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.01666666666666666,
+          "subjectivity": 0.2166666666666667,
+          "label": "neutral"
+        },
+        "vader": {
+          "compound": 0.128,
+          "positive": 0.143,
+          "negative": 0.119,
+          "neutral": 0.738,
+          "label": "positive"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "gaza_042",
+      "title": "Israeli Forces Target Terrorist Infrastructure: What We Know",
+      "topic": "gaza",
+      "source": "BBC",
+      "word_count": 48,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.06875,
+          "subjectivity": 0.26875,
+          "label": "neutral"
+        },
+        "vader": {
+          "compound": -0.9246,
+          "positive": 0.031,
+          "negative": 0.275,
+          "neutral": 0.695,
+          "label": "negative"
+        }
+      },
+      "consensus": {
+        "label": "neutral",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "gaza_043",
+      "title": "Israeli Forces Target Terrorist Infrastructure",
+      "topic": "gaza",
+      "source": "Reuters",
+      "word_count": 49,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.155,
+          "subjectivity": 0.395,
+          "label": "positive"
+        },
+        "vader": {
+          "compound": -0.9246,
+          "positive": 0.03,
+          "negative": 0.27,
+          "neutral": 0.7,
+          "label": "negative"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "gaza_044",
+      "title": "Civilian Casualties Reported in Gaza Strikes - Analysis",
+      "topic": "gaza",
+      "source": "Reuters",
+      "word_count": 52,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.205,
+          "subjectivity": 0.40499999999999997,
+          "label": "positive"
+        },
+        "vader": {
+          "compound": -0.8625,
+          "positive": 0.085,
+          "negative": 0.246,
+          "neutral": 0.669,
+          "label": "negative"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "gaza_045",
+      "title": "Hamas Militants Fire Rockets at Israel",
+      "topic": "gaza",
+      "source": "Reuters",
+      "word_count": 50,
+      "sentiments": {
+        "textblob": {
+          "polarity": -0.1,
+          "subjectivity": 0.1,
+          "label": "neutral"
+        },
+        "vader": {
+          "compound": -0.8689,
+          "positive": 0.026,
+          "negative": 0.196,
+          "neutral": 0.779,
+          "label": "negative"
+        }
+      },
+      "consensus": {
+        "label": "neutral",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "gaza_046",
+      "title": "Gaza Conflict Escalates as Violence Continues - Analysis",
+      "topic": "gaza",
+      "source": "BBC",
+      "word_count": 57,
+      "sentiments": {
+        "textblob": {
+          "polarity": -0.05,
+          "subjectivity": 0.1,
+          "label": "neutral"
+        },
+        "vader": {
+          "compound": -0.891,
+          "positive": 0.023,
+          "negative": 0.184,
+          "neutral": 0.793,
+          "label": "negative"
+        }
+      },
+      "consensus": {
+        "label": "neutral",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "gaza_047",
+      "title": "Gaza Conflict Escalates as Violence Continues - Breaking News",
+      "topic": "gaza",
+      "source": "New York Times",
+      "word_count": 61,
+      "sentiments": {
+        "textblob": {
+          "polarity": -0.03333333333333333,
+          "subjectivity": 0.06666666666666667,
+          "label": "neutral"
+        },
+        "vader": {
+          "compound": -0.9169,
+          "positive": 0.021,
+          "negative": 0.203,
+          "neutral": 0.776,
+          "label": "negative"
+        }
+      },
+      "consensus": {
+        "label": "neutral",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "gaza_048",
+      "title": "Hamas Militants Fire Rockets at Israel - Latest Updates",
+      "topic": "gaza",
+      "source": "Guardian",
+      "word_count": 52,
+      "sentiments": {
+        "textblob": {
+          "polarity": -0.07500000000000001,
+          "subjectivity": 0.07500000000000001,
+          "label": "neutral"
+        },
+        "vader": {
+          "compound": -0.8689,
+          "positive": 0.025,
+          "negative": 0.189,
+          "neutral": 0.786,
+          "label": "negative"
+        }
+      },
+      "consensus": {
+        "label": "neutral",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "gaza_049",
+      "title": "Israel Launches Military Operation in Gaza: What We Know",
+      "topic": "gaza",
+      "source": "BBC",
+      "word_count": 48,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.06875,
+          "subjectivity": 0.26875,
+          "label": "neutral"
+        },
+        "vader": {
+          "compound": -0.9246,
+          "positive": 0.031,
+          "negative": 0.275,
+          "neutral": 0.695,
+          "label": "negative"
+        }
+      },
+      "consensus": {
+        "label": "neutral",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "gaza_050",
+      "title": "Civilian Casualties Reported in Gaza Strikes: What We Know",
+      "topic": "gaza",
+      "source": "BBC",
+      "word_count": 55,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.19,
+          "subjectivity": 0.43000000000000005,
+          "label": "positive"
+        },
+        "vader": {
+          "compound": 0.6486,
+          "positive": 0.191,
+          "negative": 0.113,
+          "neutral": 0.696,
+          "label": "positive"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "ukraine_001",
+      "title": "Ukrainian Heroes Fight for Freedom - Report",
+      "topic": "ukraine",
+      "source": "CNN",
+      "word_count": 53,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.1976190476190476,
+          "subjectivity": 0.3226190476190476,
+          "label": "positive"
+        },
+        "vader": {
+          "compound": 0.4599,
+          "positive": 0.182,
+          "negative": 0.104,
+          "neutral": 0.714,
+          "label": "positive"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "ukraine_002",
+      "title": "Ukrainian Heroes Fight for Freedom: What We Know",
+      "topic": "ukraine",
+      "source": "Guardian",
+      "word_count": 52,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.16938775510204082,
+          "subjectivity": 0.27653061224489794,
+          "label": "positive"
+        },
+        "vader": {
+          "compound": 0.0274,
+          "positive": 0.179,
+          "negative": 0.147,
+          "neutral": 0.674,
+          "label": "neutral"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "ukraine_003",
+      "title": "Russia Commits War Crimes in Ukraine - Breaking News",
+      "topic": "ukraine",
+      "source": "Guardian",
+      "word_count": 51,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.16938775510204082,
+          "subjectivity": 0.27653061224489794,
+          "label": "positive"
+        },
+        "vader": {
+          "compound": 0.6914,
+          "positive": 0.225,
+          "negative": 0.105,
+          "neutral": 0.671,
+          "label": "positive"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "ukraine_004",
+      "title": "Brave Ukrainian Civilians Defend Their Homeland - Analysis",
+      "topic": "ukraine",
+      "source": "BBC",
+      "word_count": 63,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.125,
+          "subjectivity": 0.35000000000000003,
+          "label": "positive"
+        },
+        "vader": {
+          "compound": 0.886,
+          "positive": 0.277,
+          "negative": 0.13,
+          "neutral": 0.592,
+          "label": "positive"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "ukraine_005",
+      "title": "Ukrainian Forces Resist Russian Invasion - Breaking News",
+      "topic": "ukraine",
+      "source": "New York Times",
+      "word_count": 56,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.24081632653061225,
+          "subjectivity": 0.4051020408163265,
+          "label": "positive"
+        },
+        "vader": {
+          "compound": 0.4226,
+          "positive": 0.2,
+          "negative": 0.132,
+          "neutral": 0.668,
+          "label": "positive"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "ukraine_006",
+      "title": "Russia Commits War Crimes in Ukraine - Latest Updates",
+      "topic": "ukraine",
+      "source": "Reuters",
+      "word_count": 54,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.12261904761904763,
+          "subjectivity": 0.5357142857142857,
+          "label": "positive"
+        },
+        "vader": {
+          "compound": 0.3262,
+          "positive": 0.19,
+          "negative": 0.172,
+          "neutral": 0.638,
+          "label": "positive"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "ukraine_007",
+      "title": "Russia Commits War Crimes in Ukraine - Breaking News",
+      "topic": "ukraine",
+      "source": "Guardian",
+      "word_count": 62,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.3071428571428571,
+          "subjectivity": 0.43571428571428567,
+          "label": "positive"
+        },
+        "vader": {
+          "compound": 0.8555,
+          "positive": 0.247,
+          "negative": 0.16,
+          "neutral": 0.593,
+          "label": "positive"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "ukraine_008",
+      "title": "Russia Commits War Crimes in Ukraine",
+      "topic": "ukraine",
+      "source": "Reuters",
+      "word_count": 58,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.041666666666666664,
+          "subjectivity": 0.19999999999999998,
+          "label": "neutral"
+        },
+        "vader": {
+          "compound": 0.9231,
+          "positive": 0.303,
+          "negative": 0.108,
+          "neutral": 0.589,
+          "label": "positive"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "ukraine_009",
+      "title": "Brave Ukrainian Civilians Defend Their Homeland - Latest Updates",
+      "topic": "ukraine",
+      "source": "New York Times",
+      "word_count": 59,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.12261904761904763,
+          "subjectivity": 0.5357142857142857,
+          "label": "positive"
+        },
+        "vader": {
+          "compound": 0.2815,
+          "positive": 0.201,
+          "negative": 0.187,
+          "neutral": 0.612,
+          "label": "positive"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "ukraine_010",
+      "title": "Ukrainian Heroes Fight for Freedom: What We Know",
+      "topic": "ukraine",
+      "source": "CNN",
+      "word_count": 56,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.1976190476190476,
+          "subjectivity": 0.3226190476190476,
+          "label": "positive"
+        },
+        "vader": {
+          "compound": 0.4226,
+          "positive": 0.2,
+          "negative": 0.132,
+          "neutral": 0.668,
+          "label": "positive"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "ukraine_011",
+      "title": "Russia Commits War Crimes in Ukraine - Report",
+      "topic": "ukraine",
+      "source": "CNN",
+      "word_count": 56,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.12261904761904763,
+          "subjectivity": 0.5357142857142857,
+          "label": "positive"
+        },
+        "vader": {
+          "compound": 0.3262,
+          "positive": 0.185,
+          "negative": 0.167,
+          "neutral": 0.648,
+          "label": "positive"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "ukraine_012",
+      "title": "Ukrainian Forces Resist Russian Invasion - Breaking News",
+      "topic": "ukraine",
+      "source": "New York Times",
+      "word_count": 62,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.35833333333333334,
+          "subjectivity": 0.5083333333333333,
+          "label": "positive"
+        },
+        "vader": {
+          "compound": 0.9062,
+          "positive": 0.252,
+          "negative": 0.13,
+          "neutral": 0.618,
+          "label": "positive"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "ukraine_013",
+      "title": "Ukrainian Forces Resist Russian Invasion - Analysis",
+      "topic": "ukraine",
+      "source": "CNN",
+      "word_count": 60,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.125,
+          "subjectivity": 0.35000000000000003,
+          "label": "positive"
+        },
+        "vader": {
+          "compound": 0.891,
+          "positive": 0.268,
+          "negative": 0.107,
+          "neutral": 0.625,
+          "label": "positive"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "ukraine_014",
+      "title": "International Community Condemns Russian Aggression - Report",
+      "topic": "ukraine",
+      "source": "BBC",
+      "word_count": 52,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.1976190476190476,
+          "subjectivity": 0.3226190476190476,
+          "label": "positive"
+        },
+        "vader": {
+          "compound": 0.4599,
+          "positive": 0.185,
+          "negative": 0.106,
+          "neutral": 0.71,
+          "label": "positive"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "ukraine_015",
+      "title": "International Community Condemns Russian Aggression - Analysis",
+      "topic": "ukraine",
+      "source": "CNN",
+      "word_count": 53,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.21071428571428572,
+          "subjectivity": 0.3544642857142857,
+          "label": "positive"
+        },
+        "vader": {
+          "compound": 0.0274,
+          "positive": 0.177,
+          "negative": 0.145,
+          "neutral": 0.679,
+          "label": "neutral"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "ukraine_016",
+      "title": "Brave Ukrainian Civilians Defend Their Homeland - Analysis",
+      "topic": "ukraine",
+      "source": "BBC",
+      "word_count": 61,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.05,
+          "subjectivity": 0.24,
+          "label": "neutral"
+        },
+        "vader": {
+          "compound": 0.891,
+          "positive": 0.264,
+          "negative": 0.106,
+          "neutral": 0.63,
+          "label": "positive"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "ukraine_017",
+      "title": "International Community Condemns Russian Aggression: What We Know",
+      "topic": "ukraine",
+      "source": "BBC",
+      "word_count": 60,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.3071428571428571,
+          "subjectivity": 0.43571428571428567,
+          "label": "positive"
+        },
+        "vader": {
+          "compound": 0.8555,
+          "positive": 0.252,
+          "negative": 0.164,
+          "neutral": 0.583,
+          "label": "positive"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "ukraine_018",
+      "title": "Ukrainian Forces Resist Russian Invasion: What We Know",
+      "topic": "ukraine",
+      "source": "CNN",
+      "word_count": 59,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.35833333333333334,
+          "subjectivity": 0.5083333333333333,
+          "label": "positive"
+        },
+        "vader": {
+          "compound": 0.9062,
+          "positive": 0.261,
+          "negative": 0.134,
+          "neutral": 0.604,
+          "label": "positive"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "ukraine_019",
+      "title": "Ukrainian Forces Resist Russian Invasion",
+      "topic": "ukraine",
+      "source": "Guardian",
+      "word_count": 59,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.35833333333333334,
+          "subjectivity": 0.5083333333333333,
+          "label": "positive"
+        },
+        "vader": {
+          "compound": 0.9062,
+          "positive": 0.261,
+          "negative": 0.134,
+          "neutral": 0.604,
+          "label": "positive"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "ukraine_020",
+      "title": "Ukrainian Forces Resist Russian Invasion - Breaking News",
+      "topic": "ukraine",
+      "source": "Guardian",
+      "word_count": 56,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.12261904761904763,
+          "subjectivity": 0.5357142857142857,
+          "label": "positive"
+        },
+        "vader": {
+          "compound": 0.2815,
+          "positive": 0.209,
+          "negative": 0.194,
+          "neutral": 0.597,
+          "label": "positive"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "ukraine_021",
+      "title": "Ukrainian Forces Resist Russian Invasion - Breaking News",
+      "topic": "ukraine",
+      "source": "CNN",
+      "word_count": 53,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.1976190476190476,
+          "subjectivity": 0.3226190476190476,
+          "label": "positive"
+        },
+        "vader": {
+          "compound": 0.4599,
+          "positive": 0.182,
+          "negative": 0.104,
+          "neutral": 0.714,
+          "label": "positive"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "ukraine_022",
+      "title": "Ukrainian Heroes Fight for Freedom - Breaking News",
+      "topic": "ukraine",
+      "source": "BBC",
+      "word_count": 59,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.35833333333333334,
+          "subjectivity": 0.5083333333333333,
+          "label": "positive"
+        },
+        "vader": {
+          "compound": 0.9062,
+          "positive": 0.261,
+          "negative": 0.134,
+          "neutral": 0.604,
+          "label": "positive"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "ukraine_023",
+      "title": "Ukrainian Forces Resist Russian Invasion - Breaking News",
+      "topic": "ukraine",
+      "source": "Reuters",
+      "word_count": 61,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.37857142857142856,
+          "subjectivity": 0.5642857142857143,
+          "label": "positive"
+        },
+        "vader": {
+          "compound": 0.9062,
+          "positive": 0.255,
+          "negative": 0.131,
+          "neutral": 0.614,
+          "label": "positive"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "ukraine_024",
+      "title": "Russia Commits War Crimes in Ukraine - Report",
+      "topic": "ukraine",
+      "source": "New York Times",
+      "word_count": 51,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.16938775510204082,
+          "subjectivity": 0.27653061224489794,
+          "label": "positive"
+        },
+        "vader": {
+          "compound": 0.0274,
+          "positive": 0.182,
+          "negative": 0.149,
+          "neutral": 0.669,
+          "label": "neutral"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "ukraine_025",
+      "title": "International Community Condemns Russian Aggression - Latest Updates",
+      "topic": "ukraine",
+      "source": "BBC",
+      "word_count": 59,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.05,
+          "subjectivity": 0.24,
+          "label": "neutral"
+        },
+        "vader": {
+          "compound": 0.891,
+          "positive": 0.271,
+          "negative": 0.109,
+          "neutral": 0.62,
+          "label": "positive"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "ukraine_026",
+      "title": "Russia Commits War Crimes in Ukraine - Latest Updates",
+      "topic": "ukraine",
+      "source": "Reuters",
+      "word_count": 55,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.1976190476190476,
+          "subjectivity": 0.3226190476190476,
+          "label": "positive"
+        },
+        "vader": {
+          "compound": 0.4226,
+          "positive": 0.203,
+          "negative": 0.134,
+          "neutral": 0.663,
+          "label": "positive"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "ukraine_027",
+      "title": "Brave Ukrainian Civilians Defend Their Homeland - Report",
+      "topic": "ukraine",
+      "source": "CNN",
+      "word_count": 63,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.05,
+          "subjectivity": 0.24,
+          "label": "neutral"
+        },
+        "vader": {
+          "compound": 0.886,
+          "positive": 0.277,
+          "negative": 0.13,
+          "neutral": 0.592,
+          "label": "positive"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "ukraine_028",
+      "title": "International Community Condemns Russian Aggression - Analysis",
+      "topic": "ukraine",
+      "source": "New York Times",
+      "word_count": 60,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.05,
+          "subjectivity": 0.24,
+          "label": "neutral"
+        },
+        "vader": {
+          "compound": 0.891,
+          "positive": 0.268,
+          "negative": 0.107,
+          "neutral": 0.625,
+          "label": "positive"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 0.5
+      }
+    },
+    {
+      "id": "ukraine_029",
+      "title": "Ukrainian Heroes Fight for Freedom: What We Know",
+      "topic": "ukraine",
+      "source": "CNN",
+      "word_count": 62,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.3071428571428571,
+          "subjectivity": 0.43571428571428567,
+          "label": "positive"
+        },
+        "vader": {
+          "compound": 0.9325,
+          "positive": 0.279,
+          "negative": 0.127,
+          "neutral": 0.594,
+          "label": "positive"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 1.0
+      }
+    },
+    {
+      "id": "ukraine_030",
+      "title": "Brave Ukrainian Civilians Defend Their Homeland",
+      "topic": "ukraine",
+      "source": "New York Times",
+      "word_count": 59,
+      "sentiments": {
+        "textblob": {
+          "polarity": 0.35833333333333334,
+          "subjectivity": 0.5083333333333333,
+          "label": "positive"
+        },
+        "vader": {
+          "compound": 0.9062,
+          "positive": 0.261,
+          "negative": 0.134,
+          "neutral": 0.604,
+          "label": "positive"
+        }
+      },
+      "consensus": {
+        "label": "positive",
+        "score": 1.0
+      }
+    }
+  ],
+  "topic_sentiment": {
+    "gaza": {
+      "total_articles": 50,
+      "aggregated_sentiment": {
+        "textblob": {
+          "avg_polarity": 0.0321702380952381,
+          "avg_subjectivity": 0.21053690476190476,
+          "distribution": {
+            "neutral": 31,
+            "positive": 15,
+            "negative": 4
+          }
+        },
+        "vader": {
+          "avg_compound": -0.5629,
+          "avg_positive": 0.07088,
+          "avg_negative": 0.19227999999999998,
+          "avg_neutral": 0.73696,
+          "distribution": {
+            "negative": 37,
+            "positive": 13
+          }
+        }
+      },
+      "consensus_distribution": {
+        "neutral": 26,
+        "positive": 24
+      },
+      "avg_consensus_score": 0.54,
+      "sentiment_ratio": {
+        "positive": 0.48,
+        "negative": 0.0,
+        "neutral": 0.52
+      }
+    },
+    "ukraine": {
+      "total_articles": 30,
+      "aggregated_sentiment": {
+        "textblob": {
+          "avg_polarity": 0.20071995464852607,
+          "avg_subjectivity": 0.38727352607709753,
+          "distribution": {
+            "positive": 25,
+            "neutral": 5
+          }
+        },
+        "vader": {
+          "avg_compound": 0.6325433333333332,
+          "avg_positive": 0.2319,
+          "avg_negative": 0.13410000000000002,
+          "avg_neutral": 0.6338666666666666,
+          "distribution": {
+            "positive": 27,
+            "neutral": 3
+          }
+        }
+      },
+      "consensus_distribution": {
+        "positive": 30
+      },
+      "avg_consensus_score": 0.8666666666666667,
+      "sentiment_ratio": {
+        "positive": 1.0,
+        "negative": 0.0,
+        "neutral": 0.0
+      }
+    }
+  },
+  "target_word_sentiment": {
+    "gaza": {
+      "militants": {
+        "contexts": [
+          {
+            "sentence": "israeli forces launched a military operation in response to continued aggression from gaza the targeted strikes focused on hamas military compounds and weapons depots military analysts noted that militants often operate from within civilian neighborhoods the operation is part of ongoing efforts to ensure israeli security latest updates palestinian officials reported casualties",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": 0.04999999999999999,
+                  "subjectivity": 0.30000000000000004,
+                  "label": "neutral"
+                },
+                "vader": {
+                  "compound": 0.128,
+                  "positive": 0.147,
+                  "negative": 0.123,
+                  "neutral": 0.729,
+                  "label": "positive"
+                }
+              },
+              "consensus": {
+                "label": "positive",
+                "score": 0.5
+              }
+            },
+            "source": "Reuters",
+            "title": "Israel Launches Military Operation in Gaza"
+          },
+          {
+            "sentence": "israeli forces launched a military operation in response to continued aggression from gaza the targeted strikes focused on hamas military compounds and weapons depots military analysts noted that militants often operate from within civilian neighborhoods the operation is part of ongoing efforts to ensure israeli security palestinian officials reported casualties",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": -0.10000000000000002,
+                  "subjectivity": 0.10000000000000002,
+                  "label": "negative"
+                },
+                "vader": {
+                  "compound": 0.128,
+                  "positive": 0.152,
+                  "negative": 0.127,
+                  "neutral": 0.72,
+                  "label": "positive"
+                }
+              },
+              "consensus": {
+                "label": "positive",
+                "score": 0.5
+              }
+            },
+            "source": "New York Times",
+            "title": "Gaza Conflict Escalates as Violence Continues - Report"
+          },
+          {
+            "sentence": "israeli forces launched a military operation in response to continued aggression from gaza the targeted strikes focused on hamas military compounds and weapons depots military analysts noted that militants often operate from within civilian neighborhoods the operation is part of ongoing efforts to ensure israeli security breaking news the conflict has drawn international attention",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": -0.07500000000000001,
+                  "subjectivity": 0.07500000000000001,
+                  "label": "neutral"
+                },
+                "vader": {
+                  "compound": -0.2023,
+                  "positive": 0.14,
+                  "negative": 0.152,
+                  "neutral": 0.708,
+                  "label": "negative"
+                }
+              },
+              "consensus": {
+                "label": "neutral",
+                "score": 0.5
+              }
+            },
+            "source": "New York Times",
+            "title": "Israel Launches Military Operation in Gaza: What We Know"
+          },
+          {
+            "sentence": "the israeli military conducted a series of targeted strikes against hamas positions in gaza the operation targeted terrorist infrastructure and weapons storage facilities military officials reported that militants were using civilian areas as cover the escalation began when hamas fighters launched rockets into israeli territory breaking news israeli officials stated the operation was successful",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": 0.18333333333333335,
+                  "subjectivity": 0.3833333333333333,
+                  "label": "positive"
+                },
+                "vader": {
+                  "compound": -0.7184,
+                  "positive": 0.082,
+                  "negative": 0.175,
+                  "neutral": 0.743,
+                  "label": "negative"
+                }
+              },
+              "consensus": {
+                "label": "positive",
+                "score": 0.5
+              }
+            },
+            "source": "Guardian",
+            "title": "Hamas Militants Fire Rockets at Israel - Analysis"
+          },
+          {
+            "sentence": "violence flared up again in the ongoing conflict as israeli forces responded to attacks from gaza the military operation aimed to neutralize threats from hamas militants according to sources the extremist group has been using civilian populations as human shields the israeli defense forces stated they are taking precautions to minimize civilian casualties analysis the military operation lasted several hours",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": -0.05,
+                  "subjectivity": 0.07500000000000001,
+                  "label": "neutral"
+                },
+                "vader": {
+                  "compound": -0.891,
+                  "positive": 0.022,
+                  "negative": 0.176,
+                  "neutral": 0.802,
+                  "label": "negative"
+                }
+              },
+              "consensus": {
+                "label": "neutral",
+                "score": 0.5
+              }
+            },
+            "source": "Guardian",
+            "title": "Hamas Militants Fire Rockets at Israel - Report"
+          },
+          {
+            "sentence": "violence flared up again in the ongoing conflict as israeli forces responded to attacks from gaza the military operation aimed to neutralize threats from hamas militants according to sources the extremist group has been using civilian populations as human shields the israeli defense forces stated they are taking precautions to minimize civilian casualties breaking news the military operation lasted several hours",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": -0.05,
+                  "subjectivity": 0.07500000000000001,
+                  "label": "neutral"
+                },
+                "vader": {
+                  "compound": -0.891,
+                  "positive": 0.022,
+                  "negative": 0.174,
+                  "neutral": 0.805,
+                  "label": "negative"
+                }
+              },
+              "consensus": {
+                "label": "neutral",
+                "score": 0.5
+              }
+            },
+            "source": "BBC",
+            "title": "Gaza Conflict Escalates as Violence Continues"
+          },
+          {
+            "sentence": "the israeli military conducted a series of targeted strikes against hamas positions in gaza the operation targeted terrorist infrastructure and weapons storage facilities military officials reported that militants were using civilian areas as cover the escalation began when hamas fighters launched rockets into israeli territory report the conflict has drawn international attention",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": -0.06666666666666667,
+                  "subjectivity": 0.06666666666666667,
+                  "label": "neutral"
+                },
+                "vader": {
+                  "compound": -0.9022,
+                  "positive": 0.025,
+                  "negative": 0.223,
+                  "neutral": 0.753,
+                  "label": "negative"
+                }
+              },
+              "consensus": {
+                "label": "neutral",
+                "score": 0.5
+              }
+            },
+            "source": "CNN",
+            "title": "Hamas Militants Fire Rockets at Israel - Breaking News"
+          },
+          {
+            "sentence": "israeli forces launched a military operation in response to continued aggression from gaza the targeted strikes focused on hamas military compounds and weapons depots military analysts noted that militants often operate from within civilian neighborhoods the operation is part of ongoing efforts to ensure israeli security analysis palestinian officials reported casualties",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": -0.10000000000000002,
+                  "subjectivity": 0.10000000000000002,
+                  "label": "negative"
+                },
+                "vader": {
+                  "compound": 0.128,
+                  "positive": 0.15,
+                  "negative": 0.125,
+                  "neutral": 0.725,
+                  "label": "positive"
+                }
+              },
+              "consensus": {
+                "label": "positive",
+                "score": 0.5
+              }
+            },
+            "source": "Reuters",
+            "title": "Israel Launches Military Operation in Gaza - Report"
+          },
+          {
+            "sentence": "violence flared up again in the ongoing conflict as israeli forces responded to attacks from gaza the military operation aimed to neutralize threats from hamas militants according to sources the extremist group has been using civilian populations as human shields the israeli defense forces stated they are taking precautions to minimize civilian casualties latest updates palestinian officials reported casualties",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": 0.13333333333333333,
+                  "subjectivity": 0.3666666666666667,
+                  "label": "positive"
+                },
+                "vader": {
+                  "compound": -0.891,
+                  "positive": 0.022,
+                  "negative": 0.179,
+                  "neutral": 0.799,
+                  "label": "negative"
+                }
+              },
+              "consensus": {
+                "label": "positive",
+                "score": 0.5
+              }
+            },
+            "source": "CNN",
+            "title": "Hamas Militants Fire Rockets at Israel - Latest Updates"
+          },
+          {
+            "sentence": "violence flared up again in the ongoing conflict as israeli forces responded to attacks from gaza the military operation aimed to neutralize threats from hamas militants according to sources the extremist group has been using civilian populations as human shields the israeli defense forces stated they are taking precautions to minimize civilian casualties analysis the military operation lasted several hours",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": -0.05,
+                  "subjectivity": 0.07500000000000001,
+                  "label": "neutral"
+                },
+                "vader": {
+                  "compound": -0.891,
+                  "positive": 0.022,
+                  "negative": 0.176,
+                  "neutral": 0.802,
+                  "label": "negative"
+                }
+              },
+              "consensus": {
+                "label": "neutral",
+                "score": 0.5
+              }
+            },
+            "source": "BBC",
+            "title": "Hamas Militants Fire Rockets at Israel - Analysis"
+          },
+          {
+            "sentence": "the israeli military conducted a series of targeted strikes against hamas positions in gaza the operation targeted terrorist infrastructure and weapons storage facilities military officials reported that militants were using civilian areas as cover the escalation began when hamas fighters launched rockets into israeli territory what we know the military operation lasted several hours",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": -0.07500000000000001,
+                  "subjectivity": 0.07500000000000001,
+                  "label": "neutral"
+                },
+                "vader": {
+                  "compound": -0.8689,
+                  "positive": 0.024,
+                  "negative": 0.183,
+                  "neutral": 0.793,
+                  "label": "negative"
+                }
+              },
+              "consensus": {
+                "label": "neutral",
+                "score": 0.5
+              }
+            },
+            "source": "Guardian",
+            "title": "Israeli Forces Target Terrorist Infrastructure - Analysis"
+          },
+          {
+            "sentence": "the israeli military conducted a series of targeted strikes against hamas positions in gaza the operation targeted terrorist infrastructure and weapons storage facilities military officials reported that militants were using civilian areas as cover the escalation began when hamas fighters launched rockets into israeli territory what we know israeli officials stated the operation was successful",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": 0.18333333333333335,
+                  "subjectivity": 0.3833333333333333,
+                  "label": "positive"
+                },
+                "vader": {
+                  "compound": -0.7184,
+                  "positive": 0.081,
+                  "negative": 0.172,
+                  "neutral": 0.747,
+                  "label": "negative"
+                }
+              },
+              "consensus": {
+                "label": "positive",
+                "score": 0.5
+              }
+            },
+            "source": "CNN",
+            "title": "Israeli Forces Target Terrorist Infrastructure - Analysis"
+          },
+          {
+            "sentence": "israeli forces launched a military operation in response to continued aggression from gaza the targeted strikes focused on hamas military compounds and weapons depots military analysts noted that militants often operate from within civilian neighborhoods the operation is part of ongoing efforts to ensure israeli security report israeli officials stated the operation was successful",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": 0.11249999999999999,
+                  "subjectivity": 0.3125,
+                  "label": "positive"
+                },
+                "vader": {
+                  "compound": 0.6486,
+                  "positive": 0.194,
+                  "negative": 0.114,
+                  "neutral": 0.692,
+                  "label": "positive"
+                }
+              },
+              "consensus": {
+                "label": "positive",
+                "score": 1.0
+              }
+            },
+            "source": "CNN",
+            "title": "Hamas Militants Fire Rockets at Israel - Analysis"
+          },
+          {
+            "sentence": "violence flared up again in the ongoing conflict as israeli forces responded to attacks from gaza the military operation aimed to neutralize threats from hamas militants according to sources the extremist group has been using civilian populations as human shields the israeli defense forces stated they are taking precautions to minimize civilian casualties analysis the military operation lasted several hours",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": -0.05,
+                  "subjectivity": 0.07500000000000001,
+                  "label": "neutral"
+                },
+                "vader": {
+                  "compound": -0.891,
+                  "positive": 0.022,
+                  "negative": 0.176,
+                  "neutral": 0.802,
+                  "label": "negative"
+                }
+              },
+              "consensus": {
+                "label": "neutral",
+                "score": 0.5
+              }
+            },
+            "source": "BBC",
+            "title": "Israeli Forces Target Terrorist Infrastructure - Breaking News"
+          },
+          {
+            "sentence": "violence flared up again in the ongoing conflict as israeli forces responded to attacks from gaza the military operation aimed to neutralize threats from hamas militants according to sources the extremist group has been using civilian populations as human shields the israeli defense forces stated they are taking precautions to minimize civilian casualties what we know the conflict has drawn international attention",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": -0.03333333333333333,
+                  "subjectivity": 0.06666666666666667,
+                  "label": "neutral"
+                },
+                "vader": {
+                  "compound": -0.9169,
+                  "positive": 0.021,
+                  "negative": 0.2,
+                  "neutral": 0.779,
+                  "label": "negative"
+                }
+              },
+              "consensus": {
+                "label": "neutral",
+                "score": 0.5
+              }
+            },
+            "source": "Guardian",
+            "title": "Civilian Casualties Reported in Gaza Strikes"
+          },
+          {
+            "sentence": "israeli forces launched a military operation in response to continued aggression from gaza the targeted strikes focused on hamas military compounds and weapons depots military analysts noted that militants often operate from within civilian neighborhoods the operation is part of ongoing efforts to ensure israeli security report humanitarian organizations expressed concern",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": -0.10000000000000002,
+                  "subjectivity": 0.10000000000000002,
+                  "label": "negative"
+                },
+                "vader": {
+                  "compound": 0.128,
+                  "positive": 0.15,
+                  "negative": 0.125,
+                  "neutral": 0.725,
+                  "label": "positive"
+                }
+              },
+              "consensus": {
+                "label": "positive",
+                "score": 0.5
+              }
+            },
+            "source": "BBC",
+            "title": "Hamas Militants Fire Rockets at Israel"
+          },
+          {
+            "sentence": "israeli forces launched a military operation in response to continued aggression from gaza the targeted strikes focused on hamas military compounds and weapons depots military analysts noted that militants often operate from within civilian neighborhoods the operation is part of ongoing efforts to ensure israeli security latest updates israeli officials stated the operation was successful",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": 0.19,
+                  "subjectivity": 0.43000000000000005,
+                  "label": "positive"
+                },
+                "vader": {
+                  "compound": 0.6486,
+                  "positive": 0.191,
+                  "negative": 0.113,
+                  "neutral": 0.696,
+                  "label": "positive"
+                }
+              },
+              "consensus": {
+                "label": "positive",
+                "score": 1.0
+              }
+            },
+            "source": "Reuters",
+            "title": "Israel Launches Military Operation in Gaza - Report"
+          },
+          {
+            "sentence": "the israeli military conducted a series of targeted strikes against hamas positions in gaza the operation targeted terrorist infrastructure and weapons storage facilities military officials reported that militants were using civilian areas as cover the escalation began when hamas fighters launched rockets into israeli territory report israeli officials stated the operation was successful",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": 0.18333333333333335,
+                  "subjectivity": 0.3833333333333333,
+                  "label": "positive"
+                },
+                "vader": {
+                  "compound": -0.7184,
+                  "positive": 0.083,
+                  "negative": 0.178,
+                  "neutral": 0.739,
+                  "label": "negative"
+                }
+              },
+              "consensus": {
+                "label": "positive",
+                "score": 0.5
+              }
+            },
+            "source": "New York Times",
+            "title": "Civilian Casualties Reported in Gaza Strikes - Latest Updates"
+          },
+          {
+            "sentence": "the israeli military conducted a series of targeted strikes against hamas positions in gaza the operation targeted terrorist infrastructure and weapons storage facilities military officials reported that militants were using civilian areas as cover the escalation began when hamas fighters launched rockets into israeli territory latest updates israeli officials stated the operation was successful",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": 0.2625,
+                  "subjectivity": 0.5125,
+                  "label": "positive"
+                },
+                "vader": {
+                  "compound": -0.7184,
+                  "positive": 0.082,
+                  "negative": 0.175,
+                  "neutral": 0.743,
+                  "label": "negative"
+                }
+              },
+              "consensus": {
+                "label": "positive",
+                "score": 0.5
+              }
+            },
+            "source": "CNN",
+            "title": "Israel Launches Military Operation in Gaza"
+          },
+          {
+            "sentence": "israeli forces launched a military operation in response to continued aggression from gaza the targeted strikes focused on hamas military compounds and weapons depots military analysts noted that militants often operate from within civilian neighborhoods the operation is part of ongoing efforts to ensure israeli security breaking news israeli officials stated the operation was successful",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": 0.11249999999999999,
+                  "subjectivity": 0.3125,
+                  "label": "positive"
+                },
+                "vader": {
+                  "compound": 0.6486,
+                  "positive": 0.191,
+                  "negative": 0.113,
+                  "neutral": 0.696,
+                  "label": "positive"
+                }
+              },
+              "consensus": {
+                "label": "positive",
+                "score": 1.0
+              }
+            },
+            "source": "BBC",
+            "title": "Hamas Militants Fire Rockets at Israel"
+          }
+        ],
+        "aggregated": {
+          "dominant_sentiment": "positive",
+          "distribution": {
+            "positive": 19,
+            "neutral": 17
+          },
+          "total_contexts": 36
+        }
+      },
+      "hamas": {
+        "contexts": [
+          {
+            "sentence": "tensions escalated following rocket attacks from gaza prompting israeli military response the conflict has resulted in significant damage to infrastructure hamas the militant organization controlling gaza has been accused of launching attacks from residential areas international observers called for restraint from both sides what we know the military operation lasted several hours",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": 0.02916666666666667,
+                  "subjectivity": 0.19583333333333333,
+                  "label": "neutral"
+                },
+                "vader": {
+                  "compound": -0.9246,
+                  "positive": 0.029,
+                  "negative": 0.257,
+                  "neutral": 0.714,
+                  "label": "negative"
+                }
+              },
+              "consensus": {
+                "label": "neutral",
+                "score": 0.5
+              }
+            },
+            "source": "Guardian",
+            "title": "Gaza Conflict Escalates as Violence Continues - Breaking News"
+          },
+          {
+            "sentence": "tensions escalated following rocket attacks from gaza prompting israeli military response the conflict has resulted in significant damage to infrastructure hamas the militant organization controlling gaza has been accused of launching attacks from residential areas international observers called for restraint from both sides latest updates the conflict has drawn international attention",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": 0.12916666666666668,
+                  "subjectivity": 0.32916666666666666,
+                  "label": "positive"
+                },
+                "vader": {
+                  "compound": -0.9403,
+                  "positive": 0.028,
+                  "negative": 0.292,
+                  "neutral": 0.679,
+                  "label": "negative"
+                }
+              },
+              "consensus": {
+                "label": "positive",
+                "score": 0.5
+              }
+            },
+            "source": "Guardian",
+            "title": "Gaza Conflict Escalates as Violence Continues"
+          },
+          {
+            "sentence": "israeli forces launched a military operation in response to continued aggression from gaza the targeted strikes focused on hamas military compounds and weapons depots military analysts noted that militants often operate from within civilian neighborhoods the operation is part of ongoing efforts to ensure israeli security latest updates palestinian officials reported casualties",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": 0.04999999999999999,
+                  "subjectivity": 0.30000000000000004,
+                  "label": "neutral"
+                },
+                "vader": {
+                  "compound": 0.128,
+                  "positive": 0.147,
+                  "negative": 0.123,
+                  "neutral": 0.729,
+                  "label": "positive"
+                }
+              },
+              "consensus": {
+                "label": "positive",
+                "score": 0.5
+              }
+            },
+            "source": "Reuters",
+            "title": "Israel Launches Military Operation in Gaza"
+          },
+          {
+            "sentence": "israeli forces launched a military operation in response to continued aggression from gaza the targeted strikes focused on hamas military compounds and weapons depots military analysts noted that militants often operate from within civilian neighborhoods the operation is part of ongoing efforts to ensure israeli security palestinian officials reported casualties",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": -0.10000000000000002,
+                  "subjectivity": 0.10000000000000002,
+                  "label": "negative"
+                },
+                "vader": {
+                  "compound": 0.128,
+                  "positive": 0.152,
+                  "negative": 0.127,
+                  "neutral": 0.72,
+                  "label": "positive"
+                }
+              },
+              "consensus": {
+                "label": "positive",
+                "score": 0.5
+              }
+            },
+            "source": "New York Times",
+            "title": "Gaza Conflict Escalates as Violence Continues - Report"
+          },
+          {
+            "sentence": "israeli forces launched a military operation in response to continued aggression from gaza the targeted strikes focused on hamas military compounds and weapons depots military analysts noted that militants often operate from within civilian neighborhoods the operation is part of ongoing efforts to ensure israeli security breaking news the conflict has drawn international attention",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": -0.07500000000000001,
+                  "subjectivity": 0.07500000000000001,
+                  "label": "neutral"
+                },
+                "vader": {
+                  "compound": -0.2023,
+                  "positive": 0.14,
+                  "negative": 0.152,
+                  "neutral": 0.708,
+                  "label": "negative"
+                }
+              },
+              "consensus": {
+                "label": "neutral",
+                "score": 0.5
+              }
+            },
+            "source": "New York Times",
+            "title": "Israel Launches Military Operation in Gaza: What We Know"
+          },
+          {
+            "sentence": "the israeli military conducted a series of targeted strikes against hamas positions in gaza the operation targeted terrorist infrastructure and weapons storage facilities military officials reported that militants were using civilian areas as cover the escalation began when hamas fighters launched rockets into israeli territory breaking news israeli officials stated the operation was successful",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": 0.18333333333333335,
+                  "subjectivity": 0.3833333333333333,
+                  "label": "positive"
+                },
+                "vader": {
+                  "compound": -0.7184,
+                  "positive": 0.082,
+                  "negative": 0.175,
+                  "neutral": 0.743,
+                  "label": "negative"
+                }
+              },
+              "consensus": {
+                "label": "positive",
+                "score": 0.5
+              }
+            },
+            "source": "Guardian",
+            "title": "Hamas Militants Fire Rockets at Israel - Analysis"
+          },
+          {
+            "sentence": "violence flared up again in the ongoing conflict as israeli forces responded to attacks from gaza the military operation aimed to neutralize threats from hamas militants according to sources the extremist group has been using civilian populations as human shields the israeli defense forces stated they are taking precautions to minimize civilian casualties analysis the military operation lasted several hours",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": -0.05,
+                  "subjectivity": 0.07500000000000001,
+                  "label": "neutral"
+                },
+                "vader": {
+                  "compound": -0.891,
+                  "positive": 0.022,
+                  "negative": 0.176,
+                  "neutral": 0.802,
+                  "label": "negative"
+                }
+              },
+              "consensus": {
+                "label": "neutral",
+                "score": 0.5
+              }
+            },
+            "source": "Guardian",
+            "title": "Hamas Militants Fire Rockets at Israel - Report"
+          },
+          {
+            "sentence": "violence flared up again in the ongoing conflict as israeli forces responded to attacks from gaza the military operation aimed to neutralize threats from hamas militants according to sources the extremist group has been using civilian populations as human shields the israeli defense forces stated they are taking precautions to minimize civilian casualties breaking news the military operation lasted several hours",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": -0.05,
+                  "subjectivity": 0.07500000000000001,
+                  "label": "neutral"
+                },
+                "vader": {
+                  "compound": -0.891,
+                  "positive": 0.022,
+                  "negative": 0.174,
+                  "neutral": 0.805,
+                  "label": "negative"
+                }
+              },
+              "consensus": {
+                "label": "neutral",
+                "score": 0.5
+              }
+            },
+            "source": "BBC",
+            "title": "Gaza Conflict Escalates as Violence Continues"
+          },
+          {
+            "sentence": "the israeli military conducted a series of targeted strikes against hamas positions in gaza the operation targeted terrorist infrastructure and weapons storage facilities military officials reported that militants were using civilian areas as cover the escalation began when hamas fighters launched rockets into israeli territory report the conflict has drawn international attention",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": -0.06666666666666667,
+                  "subjectivity": 0.06666666666666667,
+                  "label": "neutral"
+                },
+                "vader": {
+                  "compound": -0.9022,
+                  "positive": 0.025,
+                  "negative": 0.223,
+                  "neutral": 0.753,
+                  "label": "negative"
+                }
+              },
+              "consensus": {
+                "label": "neutral",
+                "score": 0.5
+              }
+            },
+            "source": "CNN",
+            "title": "Hamas Militants Fire Rockets at Israel - Breaking News"
+          },
+          {
+            "sentence": "israeli forces launched a military operation in response to continued aggression from gaza the targeted strikes focused on hamas military compounds and weapons depots military analysts noted that militants often operate from within civilian neighborhoods the operation is part of ongoing efforts to ensure israeli security analysis palestinian officials reported casualties",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": -0.10000000000000002,
+                  "subjectivity": 0.10000000000000002,
+                  "label": "negative"
+                },
+                "vader": {
+                  "compound": 0.128,
+                  "positive": 0.15,
+                  "negative": 0.125,
+                  "neutral": 0.725,
+                  "label": "positive"
+                }
+              },
+              "consensus": {
+                "label": "positive",
+                "score": 0.5
+              }
+            },
+            "source": "Reuters",
+            "title": "Israel Launches Military Operation in Gaza - Report"
+          },
+          {
+            "sentence": "violence flared up again in the ongoing conflict as israeli forces responded to attacks from gaza the military operation aimed to neutralize threats from hamas militants according to sources the extremist group has been using civilian populations as human shields the israeli defense forces stated they are taking precautions to minimize civilian casualties latest updates palestinian officials reported casualties",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": 0.13333333333333333,
+                  "subjectivity": 0.3666666666666667,
+                  "label": "positive"
+                },
+                "vader": {
+                  "compound": -0.891,
+                  "positive": 0.022,
+                  "negative": 0.179,
+                  "neutral": 0.799,
+                  "label": "negative"
+                }
+              },
+              "consensus": {
+                "label": "positive",
+                "score": 0.5
+              }
+            },
+            "source": "CNN",
+            "title": "Hamas Militants Fire Rockets at Israel - Latest Updates"
+          },
+          {
+            "sentence": "violence flared up again in the ongoing conflict as israeli forces responded to attacks from gaza the military operation aimed to neutralize threats from hamas militants according to sources the extremist group has been using civilian populations as human shields the israeli defense forces stated they are taking precautions to minimize civilian casualties analysis the military operation lasted several hours",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": -0.05,
+                  "subjectivity": 0.07500000000000001,
+                  "label": "neutral"
+                },
+                "vader": {
+                  "compound": -0.891,
+                  "positive": 0.022,
+                  "negative": 0.176,
+                  "neutral": 0.802,
+                  "label": "negative"
+                }
+              },
+              "consensus": {
+                "label": "neutral",
+                "score": 0.5
+              }
+            },
+            "source": "BBC",
+            "title": "Hamas Militants Fire Rockets at Israel - Analysis"
+          },
+          {
+            "sentence": "tensions escalated following rocket attacks from gaza prompting israeli military response the conflict has resulted in significant damage to infrastructure hamas the militant organization controlling gaza has been accused of launching attacks from residential areas international observers called for restraint from both sides analysis the military operation lasted several hours",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": 0.02916666666666667,
+                  "subjectivity": 0.19583333333333333,
+                  "label": "neutral"
+                },
+                "vader": {
+                  "compound": -0.9246,
+                  "positive": 0.03,
+                  "negative": 0.266,
+                  "neutral": 0.705,
+                  "label": "negative"
+                }
+              },
+              "consensus": {
+                "label": "neutral",
+                "score": 0.5
+              }
+            },
+            "source": "BBC",
+            "title": "Israeli Forces Target Terrorist Infrastructure - Breaking News"
+          },
+          {
+            "sentence": "tensions escalated following rocket attacks from gaza prompting israeli military response the conflict has resulted in significant damage to infrastructure hamas the militant organization controlling gaza has been accused of launching attacks from residential areas international observers called for restraint from both sides latest updates the conflict has drawn international attention",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": 0.12916666666666668,
+                  "subjectivity": 0.32916666666666666,
+                  "label": "positive"
+                },
+                "vader": {
+                  "compound": -0.9403,
+                  "positive": 0.028,
+                  "negative": 0.292,
+                  "neutral": 0.679,
+                  "label": "negative"
+                }
+              },
+              "consensus": {
+                "label": "positive",
+                "score": 0.5
+              }
+            },
+            "source": "New York Times",
+            "title": "Israel Launches Military Operation in Gaza"
+          },
+          {
+            "sentence": "tensions escalated following rocket attacks from gaza prompting israeli military response the conflict has resulted in significant damage to infrastructure hamas the militant organization controlling gaza has been accused of launching attacks from residential areas international observers called for restraint from both sides breaking news palestinian officials reported casualties",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": 0.06875,
+                  "subjectivity": 0.26875,
+                  "label": "neutral"
+                },
+                "vader": {
+                  "compound": -0.9246,
+                  "positive": 0.03,
+                  "negative": 0.27,
+                  "neutral": 0.7,
+                  "label": "negative"
+                }
+              },
+              "consensus": {
+                "label": "neutral",
+                "score": 0.5
+              }
+            },
+            "source": "Guardian",
+            "title": "Gaza Conflict Escalates as Violence Continues - Latest Updates"
+          },
+          {
+            "sentence": "the israeli military conducted a series of targeted strikes against hamas positions in gaza the operation targeted terrorist infrastructure and weapons storage facilities military officials reported that militants were using civilian areas as cover the escalation began when hamas fighters launched rockets into israeli territory what we know the military operation lasted several hours",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": -0.07500000000000001,
+                  "subjectivity": 0.07500000000000001,
+                  "label": "neutral"
+                },
+                "vader": {
+                  "compound": -0.8689,
+                  "positive": 0.024,
+                  "negative": 0.183,
+                  "neutral": 0.793,
+                  "label": "negative"
+                }
+              },
+              "consensus": {
+                "label": "neutral",
+                "score": 0.5
+              }
+            },
+            "source": "Guardian",
+            "title": "Israeli Forces Target Terrorist Infrastructure - Analysis"
+          },
+          {
+            "sentence": "the israeli military conducted a series of targeted strikes against hamas positions in gaza the operation targeted terrorist infrastructure and weapons storage facilities military officials reported that militants were using civilian areas as cover the escalation began when hamas fighters launched rockets into israeli territory what we know israeli officials stated the operation was successful",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": 0.18333333333333335,
+                  "subjectivity": 0.3833333333333333,
+                  "label": "positive"
+                },
+                "vader": {
+                  "compound": -0.7184,
+                  "positive": 0.081,
+                  "negative": 0.172,
+                  "neutral": 0.747,
+                  "label": "negative"
+                }
+              },
+              "consensus": {
+                "label": "positive",
+                "score": 0.5
+              }
+            },
+            "source": "CNN",
+            "title": "Israeli Forces Target Terrorist Infrastructure - Analysis"
+          },
+          {
+            "sentence": "israeli forces launched a military operation in response to continued aggression from gaza the targeted strikes focused on hamas military compounds and weapons depots military analysts noted that militants often operate from within civilian neighborhoods the operation is part of ongoing efforts to ensure israeli security report israeli officials stated the operation was successful",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": 0.11249999999999999,
+                  "subjectivity": 0.3125,
+                  "label": "positive"
+                },
+                "vader": {
+                  "compound": 0.6486,
+                  "positive": 0.194,
+                  "negative": 0.114,
+                  "neutral": 0.692,
+                  "label": "positive"
+                }
+              },
+              "consensus": {
+                "label": "positive",
+                "score": 1.0
+              }
+            },
+            "source": "CNN",
+            "title": "Hamas Militants Fire Rockets at Israel - Analysis"
+          },
+          {
+            "sentence": "violence flared up again in the ongoing conflict as israeli forces responded to attacks from gaza the military operation aimed to neutralize threats from hamas militants according to sources the extremist group has been using civilian populations as human shields the israeli defense forces stated they are taking precautions to minimize civilian casualties analysis the military operation lasted several hours",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": -0.05,
+                  "subjectivity": 0.07500000000000001,
+                  "label": "neutral"
+                },
+                "vader": {
+                  "compound": -0.891,
+                  "positive": 0.022,
+                  "negative": 0.176,
+                  "neutral": 0.802,
+                  "label": "negative"
+                }
+              },
+              "consensus": {
+                "label": "neutral",
+                "score": 0.5
+              }
+            },
+            "source": "BBC",
+            "title": "Israeli Forces Target Terrorist Infrastructure - Breaking News"
+          },
+          {
+            "sentence": "violence flared up again in the ongoing conflict as israeli forces responded to attacks from gaza the military operation aimed to neutralize threats from hamas militants according to sources the extremist group has been using civilian populations as human shields the israeli defense forces stated they are taking precautions to minimize civilian casualties what we know the conflict has drawn international attention",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": -0.03333333333333333,
+                  "subjectivity": 0.06666666666666667,
+                  "label": "neutral"
+                },
+                "vader": {
+                  "compound": -0.9169,
+                  "positive": 0.021,
+                  "negative": 0.2,
+                  "neutral": 0.779,
+                  "label": "negative"
+                }
+              },
+              "consensus": {
+                "label": "neutral",
+                "score": 0.5
+              }
+            },
+            "source": "Guardian",
+            "title": "Civilian Casualties Reported in Gaza Strikes"
+          }
+        ],
+        "aggregated": {
+          "dominant_sentiment": "neutral",
+          "distribution": {
+            "neutral": 26,
+            "positive": 24
+          },
+          "total_contexts": 50
+        }
+      }
+    },
+    "ukraine": {
+      "civilians": {
+        "contexts": [
+          {
+            "sentence": "the ukrainian people continue to inspire the world with their courageous defense of their homeland russian forces have been accused of committing war crimes against innocent civilians the international community has rallied to support ukraine's struggle for independence stories of heroism emerge daily from the front lines as ordinary citizens join the resistance latest updates the un security council held an emergency session",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": 0.125,
+                  "subjectivity": 0.35000000000000003,
+                  "label": "positive"
+                },
+                "vader": {
+                  "compound": 0.886,
+                  "positive": 0.277,
+                  "negative": 0.13,
+                  "neutral": 0.592,
+                  "label": "positive"
+                }
+              },
+              "consensus": {
+                "label": "positive",
+                "score": 1.0
+              }
+            },
+            "source": "BBC",
+            "title": "Brave Ukrainian Civilians Defend Their Homeland - Analysis"
+          },
+          {
+            "sentence": "ukrainian forces demonstrated remarkable resilience in their heroic resistance against the russian invasion brave civilians have taken up arms to defend their homes and families the unprovoked aggression has been widely condemned as a violation of international law ukrainian president zelensky praised the courage of his people in their fight for freedom and democracy what we know russian officials denied the allegations",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": 0.3071428571428571,
+                  "subjectivity": 0.43571428571428567,
+                  "label": "positive"
+                },
+                "vader": {
+                  "compound": 0.8555,
+                  "positive": 0.247,
+                  "negative": 0.16,
+                  "neutral": 0.593,
+                  "label": "positive"
+                }
+              },
+              "consensus": {
+                "label": "positive",
+                "score": 1.0
+              }
+            },
+            "source": "Guardian",
+            "title": "Russia Commits War Crimes in Ukraine - Breaking News"
+          },
+          {
+            "sentence": "the ukrainian people continue to inspire the world with their courageous defense of their homeland russian forces have been accused of committing war crimes against innocent civilians the international community has rallied to support ukraine's struggle for independence stories of heroism emerge daily from the front lines as ordinary citizens join the resistance the international community pledged support",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": 0.041666666666666664,
+                  "subjectivity": 0.19999999999999998,
+                  "label": "neutral"
+                },
+                "vader": {
+                  "compound": 0.9231,
+                  "positive": 0.303,
+                  "negative": 0.108,
+                  "neutral": 0.589,
+                  "label": "positive"
+                }
+              },
+              "consensus": {
+                "label": "positive",
+                "score": 0.5
+              }
+            },
+            "source": "Reuters",
+            "title": "Russia Commits War Crimes in Ukraine"
+          },
+          {
+            "sentence": "ukrainian forces demonstrated remarkable resilience in their heroic resistance against the russian invasion brave civilians have taken up arms to defend their homes and families the unprovoked aggression has been widely condemned as a violation of international law ukrainian president zelensky praised the courage of his people in their fight for freedom and democracy what we know president zelensky addressed the nation",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": 0.35833333333333334,
+                  "subjectivity": 0.5083333333333333,
+                  "label": "positive"
+                },
+                "vader": {
+                  "compound": 0.9062,
+                  "positive": 0.252,
+                  "negative": 0.13,
+                  "neutral": 0.618,
+                  "label": "positive"
+                }
+              },
+              "consensus": {
+                "label": "positive",
+                "score": 1.0
+              }
+            },
+            "source": "New York Times",
+            "title": "Ukrainian Forces Resist Russian Invasion - Breaking News"
+          },
+          {
+            "sentence": "the ukrainian people continue to inspire the world with their courageous defense of their homeland russian forces have been accused of committing war crimes against innocent civilians the international community has rallied to support ukraine's struggle for independence stories of heroism emerge daily from the front lines as ordinary citizens join the resistance latest updates nato allies provided humanitarian aid",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": 0.125,
+                  "subjectivity": 0.35000000000000003,
+                  "label": "positive"
+                },
+                "vader": {
+                  "compound": 0.891,
+                  "positive": 0.268,
+                  "negative": 0.107,
+                  "neutral": 0.625,
+                  "label": "positive"
+                }
+              },
+              "consensus": {
+                "label": "positive",
+                "score": 1.0
+              }
+            },
+            "source": "CNN",
+            "title": "Ukrainian Forces Resist Russian Invasion - Analysis"
+          },
+          {
+            "sentence": "the ukrainian people continue to inspire the world with their courageous defense of their homeland russian forces have been accused of committing war crimes against innocent civilians the international community has rallied to support ukraine's struggle for independence stories of heroism emerge daily from the front lines as ordinary citizens join the resistance what we know president zelensky addressed the nation",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": 0.05,
+                  "subjectivity": 0.24,
+                  "label": "neutral"
+                },
+                "vader": {
+                  "compound": 0.891,
+                  "positive": 0.264,
+                  "negative": 0.106,
+                  "neutral": 0.63,
+                  "label": "positive"
+                }
+              },
+              "consensus": {
+                "label": "positive",
+                "score": 0.5
+              }
+            },
+            "source": "BBC",
+            "title": "Brave Ukrainian Civilians Defend Their Homeland - Analysis"
+          },
+          {
+            "sentence": "ukrainian forces demonstrated remarkable resilience in their heroic resistance against the russian invasion brave civilians have taken up arms to defend their homes and families the unprovoked aggression has been widely condemned as a violation of international law ukrainian president zelensky praised the courage of his people in their fight for freedom and democracy report russian officials denied the allegations",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": 0.3071428571428571,
+                  "subjectivity": 0.43571428571428567,
+                  "label": "positive"
+                },
+                "vader": {
+                  "compound": 0.8555,
+                  "positive": 0.252,
+                  "negative": 0.164,
+                  "neutral": 0.583,
+                  "label": "positive"
+                }
+              },
+              "consensus": {
+                "label": "positive",
+                "score": 1.0
+              }
+            },
+            "source": "BBC",
+            "title": "International Community Condemns Russian Aggression: What We Know"
+          },
+          {
+            "sentence": "ukrainian forces demonstrated remarkable resilience in their heroic resistance against the russian invasion brave civilians have taken up arms to defend their homes and families the unprovoked aggression has been widely condemned as a violation of international law ukrainian president zelensky praised the courage of his people in their fight for freedom and democracy president zelensky addressed the nation",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": 0.35833333333333334,
+                  "subjectivity": 0.5083333333333333,
+                  "label": "positive"
+                },
+                "vader": {
+                  "compound": 0.9062,
+                  "positive": 0.261,
+                  "negative": 0.134,
+                  "neutral": 0.604,
+                  "label": "positive"
+                }
+              },
+              "consensus": {
+                "label": "positive",
+                "score": 1.0
+              }
+            },
+            "source": "CNN",
+            "title": "Ukrainian Forces Resist Russian Invasion: What We Know"
+          },
+          {
+            "sentence": "ukrainian forces demonstrated remarkable resilience in their heroic resistance against the russian invasion brave civilians have taken up arms to defend their homes and families the unprovoked aggression has been widely condemned as a violation of international law ukrainian president zelensky praised the courage of his people in their fight for freedom and democracy nato allies provided humanitarian aid",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": 0.35833333333333334,
+                  "subjectivity": 0.5083333333333333,
+                  "label": "positive"
+                },
+                "vader": {
+                  "compound": 0.9062,
+                  "positive": 0.261,
+                  "negative": 0.134,
+                  "neutral": 0.604,
+                  "label": "positive"
+                }
+              },
+              "consensus": {
+                "label": "positive",
+                "score": 1.0
+              }
+            },
+            "source": "Guardian",
+            "title": "Ukrainian Forces Resist Russian Invasion"
+          },
+          {
+            "sentence": "ukrainian forces demonstrated remarkable resilience in their heroic resistance against the russian invasion brave civilians have taken up arms to defend their homes and families the unprovoked aggression has been widely condemned as a violation of international law ukrainian president zelensky praised the courage of his people in their fight for freedom and democracy nato allies provided humanitarian aid",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": 0.35833333333333334,
+                  "subjectivity": 0.5083333333333333,
+                  "label": "positive"
+                },
+                "vader": {
+                  "compound": 0.9062,
+                  "positive": 0.261,
+                  "negative": 0.134,
+                  "neutral": 0.604,
+                  "label": "positive"
+                }
+              },
+              "consensus": {
+                "label": "positive",
+                "score": 1.0
+              }
+            },
+            "source": "BBC",
+            "title": "Ukrainian Heroes Fight for Freedom - Breaking News"
+          },
+          {
+            "sentence": "ukrainian forces demonstrated remarkable resilience in their heroic resistance against the russian invasion brave civilians have taken up arms to defend their homes and families the unprovoked aggression has been widely condemned as a violation of international law ukrainian president zelensky praised the courage of his people in their fight for freedom and democracy latest updates president zelensky addressed the nation",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": 0.37857142857142856,
+                  "subjectivity": 0.5642857142857143,
+                  "label": "positive"
+                },
+                "vader": {
+                  "compound": 0.9062,
+                  "positive": 0.255,
+                  "negative": 0.131,
+                  "neutral": 0.614,
+                  "label": "positive"
+                }
+              },
+              "consensus": {
+                "label": "positive",
+                "score": 1.0
+              }
+            },
+            "source": "Reuters",
+            "title": "Ukrainian Forces Resist Russian Invasion - Breaking News"
+          },
+          {
+            "sentence": "the ukrainian people continue to inspire the world with their courageous defense of their homeland russian forces have been accused of committing war crimes against innocent civilians the international community has rallied to support ukraine's struggle for independence stories of heroism emerge daily from the front lines as ordinary citizens join the resistance report president zelensky addressed the nation",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": 0.05,
+                  "subjectivity": 0.24,
+                  "label": "neutral"
+                },
+                "vader": {
+                  "compound": 0.891,
+                  "positive": 0.271,
+                  "negative": 0.109,
+                  "neutral": 0.62,
+                  "label": "positive"
+                }
+              },
+              "consensus": {
+                "label": "positive",
+                "score": 0.5
+              }
+            },
+            "source": "BBC",
+            "title": "International Community Condemns Russian Aggression - Latest Updates"
+          },
+          {
+            "sentence": "the ukrainian people continue to inspire the world with their courageous defense of their homeland russian forces have been accused of committing war crimes against innocent civilians the international community has rallied to support ukraine's struggle for independence stories of heroism emerge daily from the front lines as ordinary citizens join the resistance breaking news the un security council held an emergency session",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": 0.05,
+                  "subjectivity": 0.24,
+                  "label": "neutral"
+                },
+                "vader": {
+                  "compound": 0.886,
+                  "positive": 0.277,
+                  "negative": 0.13,
+                  "neutral": 0.592,
+                  "label": "positive"
+                }
+              },
+              "consensus": {
+                "label": "positive",
+                "score": 0.5
+              }
+            },
+            "source": "CNN",
+            "title": "Brave Ukrainian Civilians Defend Their Homeland - Report"
+          },
+          {
+            "sentence": "the ukrainian people continue to inspire the world with their courageous defense of their homeland russian forces have been accused of committing war crimes against innocent civilians the international community has rallied to support ukraine's struggle for independence stories of heroism emerge daily from the front lines as ordinary citizens join the resistance breaking news nato allies provided humanitarian aid",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": 0.05,
+                  "subjectivity": 0.24,
+                  "label": "neutral"
+                },
+                "vader": {
+                  "compound": 0.891,
+                  "positive": 0.268,
+                  "negative": 0.107,
+                  "neutral": 0.625,
+                  "label": "positive"
+                }
+              },
+              "consensus": {
+                "label": "positive",
+                "score": 0.5
+              }
+            },
+            "source": "New York Times",
+            "title": "International Community Condemns Russian Aggression - Analysis"
+          },
+          {
+            "sentence": "ukrainian forces demonstrated remarkable resilience in their heroic resistance against the russian invasion brave civilians have taken up arms to defend their homes and families the unprovoked aggression has been widely condemned as a violation of international law ukrainian president zelensky praised the courage of his people in their fight for freedom and democracy what we know the international community pledged support",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": 0.3071428571428571,
+                  "subjectivity": 0.43571428571428567,
+                  "label": "positive"
+                },
+                "vader": {
+                  "compound": 0.9325,
+                  "positive": 0.279,
+                  "negative": 0.127,
+                  "neutral": 0.594,
+                  "label": "positive"
+                }
+              },
+              "consensus": {
+                "label": "positive",
+                "score": 1.0
+              }
+            },
+            "source": "CNN",
+            "title": "Ukrainian Heroes Fight for Freedom: What We Know"
+          },
+          {
+            "sentence": "ukrainian forces demonstrated remarkable resilience in their heroic resistance against the russian invasion brave civilians have taken up arms to defend their homes and families the unprovoked aggression has been widely condemned as a violation of international law ukrainian president zelensky praised the courage of his people in their fight for freedom and democracy nato allies provided humanitarian aid",
+            "sentiment": {
+              "results": {
+                "textblob": {
+                  "polarity": 0.35833333333333334,
+                  "subjectivity": 0.5083333333333333,
+                  "label": "positive"
+                },
+                "vader": {
+                  "compound": 0.9062,
+                  "positive": 0.261,
+                  "negative": 0.134,
+                  "neutral": 0.604,
+                  "label": "positive"
+                }
+              },
+              "consensus": {
+                "label": "positive",
+                "score": 1.0
+              }
+            },
+            "source": "New York Times",
+            "title": "Brave Ukrainian Civilians Defend Their Homeland"
+          }
+        ],
+        "aggregated": {
+          "dominant_sentiment": "positive",
+          "distribution": {
+            "positive": 16
+          },
+          "total_contexts": 16
+        }
+      }
+    }
+  },
+  "segment_sentiment": [
+    {
+      "article_id": "gaza_001",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 52,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.02916666666666667,
+                "subjectivity": 0.19583333333333333,
+                "label": "neutral"
+              },
+              "vader": {
+                "compound": -0.9246,
+                "positive": 0.029,
+                "negative": 0.257,
+                "neutral": 0.714,
+                "label": "negative"
+              }
+            },
+            "consensus": {
+              "label": "neutral",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_002",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 51,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.12916666666666668,
+                "subjectivity": 0.32916666666666666,
+                "label": "positive"
+              },
+              "vader": {
+                "compound": -0.9403,
+                "positive": 0.028,
+                "negative": 0.292,
+                "neutral": 0.679,
+                "label": "negative"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_003",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 52,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.04999999999999999,
+                "subjectivity": 0.30000000000000004,
+                "label": "neutral"
+              },
+              "vader": {
+                "compound": 0.128,
+                "positive": 0.147,
+                "negative": 0.123,
+                "neutral": 0.729,
+                "label": "positive"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_004",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 50,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": -0.10000000000000002,
+                "subjectivity": 0.10000000000000002,
+                "label": "negative"
+              },
+              "vader": {
+                "compound": 0.128,
+                "positive": 0.152,
+                "negative": 0.127,
+                "neutral": 0.72,
+                "label": "positive"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_005",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 54,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": -0.07500000000000001,
+                "subjectivity": 0.07500000000000001,
+                "label": "neutral"
+              },
+              "vader": {
+                "compound": -0.2023,
+                "positive": 0.14,
+                "negative": 0.152,
+                "neutral": 0.708,
+                "label": "negative"
+              }
+            },
+            "consensus": {
+              "label": "neutral",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_006",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 54,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.18333333333333335,
+                "subjectivity": 0.3833333333333333,
+                "label": "positive"
+              },
+              "vader": {
+                "compound": -0.7184,
+                "positive": 0.082,
+                "negative": 0.175,
+                "neutral": 0.743,
+                "label": "negative"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_007",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 60,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": -0.05,
+                "subjectivity": 0.07500000000000001,
+                "label": "neutral"
+              },
+              "vader": {
+                "compound": -0.891,
+                "positive": 0.022,
+                "negative": 0.176,
+                "neutral": 0.802,
+                "label": "negative"
+              }
+            },
+            "consensus": {
+              "label": "neutral",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_008",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 61,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": -0.05,
+                "subjectivity": 0.07500000000000001,
+                "label": "neutral"
+              },
+              "vader": {
+                "compound": -0.891,
+                "positive": 0.022,
+                "negative": 0.174,
+                "neutral": 0.805,
+                "label": "negative"
+              }
+            },
+            "consensus": {
+              "label": "neutral",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_009",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 52,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": -0.06666666666666667,
+                "subjectivity": 0.06666666666666667,
+                "label": "neutral"
+              },
+              "vader": {
+                "compound": -0.9022,
+                "positive": 0.025,
+                "negative": 0.223,
+                "neutral": 0.753,
+                "label": "negative"
+              }
+            },
+            "consensus": {
+              "label": "neutral",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_010",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 51,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": -0.10000000000000002,
+                "subjectivity": 0.10000000000000002,
+                "label": "negative"
+              },
+              "vader": {
+                "compound": 0.128,
+                "positive": 0.15,
+                "negative": 0.125,
+                "neutral": 0.725,
+                "label": "positive"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_011",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 59,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.13333333333333333,
+                "subjectivity": 0.3666666666666667,
+                "label": "positive"
+              },
+              "vader": {
+                "compound": -0.891,
+                "positive": 0.022,
+                "negative": 0.179,
+                "neutral": 0.799,
+                "label": "negative"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_012",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 60,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": -0.05,
+                "subjectivity": 0.07500000000000001,
+                "label": "neutral"
+              },
+              "vader": {
+                "compound": -0.891,
+                "positive": 0.022,
+                "negative": 0.176,
+                "neutral": 0.802,
+                "label": "negative"
+              }
+            },
+            "consensus": {
+              "label": "neutral",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_013",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 50,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.02916666666666667,
+                "subjectivity": 0.19583333333333333,
+                "label": "neutral"
+              },
+              "vader": {
+                "compound": -0.9246,
+                "positive": 0.03,
+                "negative": 0.266,
+                "neutral": 0.705,
+                "label": "negative"
+              }
+            },
+            "consensus": {
+              "label": "neutral",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_014",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 51,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.12916666666666668,
+                "subjectivity": 0.32916666666666666,
+                "label": "positive"
+              },
+              "vader": {
+                "compound": -0.9403,
+                "positive": 0.028,
+                "negative": 0.292,
+                "neutral": 0.679,
+                "label": "negative"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_015",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 49,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.06875,
+                "subjectivity": 0.26875,
+                "label": "neutral"
+              },
+              "vader": {
+                "compound": -0.9246,
+                "positive": 0.03,
+                "negative": 0.27,
+                "neutral": 0.7,
+                "label": "negative"
+              }
+            },
+            "consensus": {
+              "label": "neutral",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_016",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 54,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": -0.07500000000000001,
+                "subjectivity": 0.07500000000000001,
+                "label": "neutral"
+              },
+              "vader": {
+                "compound": -0.8689,
+                "positive": 0.024,
+                "negative": 0.183,
+                "neutral": 0.793,
+                "label": "negative"
+              }
+            },
+            "consensus": {
+              "label": "neutral",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_017",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 55,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.18333333333333335,
+                "subjectivity": 0.3833333333333333,
+                "label": "positive"
+              },
+              "vader": {
+                "compound": -0.7184,
+                "positive": 0.081,
+                "negative": 0.172,
+                "neutral": 0.747,
+                "label": "negative"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_018",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 54,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.11249999999999999,
+                "subjectivity": 0.3125,
+                "label": "positive"
+              },
+              "vader": {
+                "compound": 0.6486,
+                "positive": 0.194,
+                "negative": 0.114,
+                "neutral": 0.692,
+                "label": "positive"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_019",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 60,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": -0.05,
+                "subjectivity": 0.07500000000000001,
+                "label": "neutral"
+              },
+              "vader": {
+                "compound": -0.891,
+                "positive": 0.022,
+                "negative": 0.176,
+                "neutral": 0.802,
+                "label": "negative"
+              }
+            },
+            "consensus": {
+              "label": "neutral",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_020",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 62,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": -0.03333333333333333,
+                "subjectivity": 0.06666666666666667,
+                "label": "neutral"
+              },
+              "vader": {
+                "compound": -0.9169,
+                "positive": 0.021,
+                "negative": 0.2,
+                "neutral": 0.779,
+                "label": "negative"
+              }
+            },
+            "consensus": {
+              "label": "neutral",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_021",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 51,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.09642857142857143,
+                "subjectivity": 0.29642857142857143,
+                "label": "neutral"
+              },
+              "vader": {
+                "compound": -0.9246,
+                "positive": 0.029,
+                "negative": 0.261,
+                "neutral": 0.71,
+                "label": "negative"
+              }
+            },
+            "consensus": {
+              "label": "neutral",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_022",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 51,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.02916666666666667,
+                "subjectivity": 0.19583333333333333,
+                "label": "neutral"
+              },
+              "vader": {
+                "compound": -0.9246,
+                "positive": 0.029,
+                "negative": 0.261,
+                "neutral": 0.71,
+                "label": "negative"
+              }
+            },
+            "consensus": {
+              "label": "neutral",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_023",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 53,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.205,
+                "subjectivity": 0.40499999999999997,
+                "label": "positive"
+              },
+              "vader": {
+                "compound": -0.8625,
+                "positive": 0.084,
+                "negative": 0.243,
+                "neutral": 0.674,
+                "label": "negative"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_024",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 50,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.05500000000000001,
+                "subjectivity": 0.215,
+                "label": "neutral"
+              },
+              "vader": {
+                "compound": -0.9403,
+                "positive": 0.029,
+                "negative": 0.297,
+                "neutral": 0.674,
+                "label": "negative"
+              }
+            },
+            "consensus": {
+              "label": "neutral",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_025",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 51,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": -0.10000000000000002,
+                "subjectivity": 0.10000000000000002,
+                "label": "negative"
+              },
+              "vader": {
+                "compound": 0.128,
+                "positive": 0.15,
+                "negative": 0.125,
+                "neutral": 0.725,
+                "label": "positive"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_026",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 55,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.19,
+                "subjectivity": 0.43000000000000005,
+                "label": "positive"
+              },
+              "vader": {
+                "compound": 0.6486,
+                "positive": 0.191,
+                "negative": 0.113,
+                "neutral": 0.696,
+                "label": "positive"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_027",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 53,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.18333333333333335,
+                "subjectivity": 0.3833333333333333,
+                "label": "positive"
+              },
+              "vader": {
+                "compound": -0.7184,
+                "positive": 0.083,
+                "negative": 0.178,
+                "neutral": 0.739,
+                "label": "negative"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_028",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 54,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.2625,
+                "subjectivity": 0.5125,
+                "label": "positive"
+              },
+              "vader": {
+                "compound": -0.7184,
+                "positive": 0.082,
+                "negative": 0.175,
+                "neutral": 0.743,
+                "label": "negative"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_029",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 51,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.02916666666666667,
+                "subjectivity": 0.19583333333333333,
+                "label": "neutral"
+              },
+              "vader": {
+                "compound": -0.9246,
+                "positive": 0.029,
+                "negative": 0.261,
+                "neutral": 0.71,
+                "label": "negative"
+              }
+            },
+            "consensus": {
+              "label": "neutral",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_030",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 55,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.11249999999999999,
+                "subjectivity": 0.3125,
+                "label": "positive"
+              },
+              "vader": {
+                "compound": 0.6486,
+                "positive": 0.191,
+                "negative": 0.113,
+                "neutral": 0.696,
+                "label": "positive"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_031",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 52,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": -0.06666666666666667,
+                "subjectivity": 0.06666666666666667,
+                "label": "neutral"
+              },
+              "vader": {
+                "compound": -0.9022,
+                "positive": 0.025,
+                "negative": 0.223,
+                "neutral": 0.753,
+                "label": "negative"
+              }
+            },
+            "consensus": {
+              "label": "neutral",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_032",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 63,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.21666666666666667,
+                "subjectivity": 0.3833333333333333,
+                "label": "positive"
+              },
+              "vader": {
+                "compound": -0.7783,
+                "positive": 0.071,
+                "negative": 0.163,
+                "neutral": 0.766,
+                "label": "negative"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_033",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 51,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": -0.10000000000000002,
+                "subjectivity": 0.10000000000000002,
+                "label": "negative"
+              },
+              "vader": {
+                "compound": 0.128,
+                "positive": 0.15,
+                "negative": 0.125,
+                "neutral": 0.725,
+                "label": "positive"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_034",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 53,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.075,
+                "subjectivity": 0.275,
+                "label": "neutral"
+              },
+              "vader": {
+                "compound": -0.9022,
+                "positive": 0.024,
+                "negative": 0.219,
+                "neutral": 0.757,
+                "label": "negative"
+              }
+            },
+            "consensus": {
+              "label": "neutral",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_035",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 60,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": -0.03333333333333333,
+                "subjectivity": 0.06666666666666667,
+                "label": "neutral"
+              },
+              "vader": {
+                "compound": -0.9169,
+                "positive": 0.021,
+                "negative": 0.206,
+                "neutral": 0.773,
+                "label": "negative"
+              }
+            },
+            "consensus": {
+              "label": "neutral",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_036",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 53,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": -0.08,
+                "subjectivity": 0.08,
+                "label": "neutral"
+              },
+              "vader": {
+                "compound": 0.128,
+                "positive": 0.145,
+                "negative": 0.121,
+                "neutral": 0.734,
+                "label": "positive"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_037",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 54,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": -0.08,
+                "subjectivity": 0.08,
+                "label": "neutral"
+              },
+              "vader": {
+                "compound": 0.128,
+                "positive": 0.143,
+                "negative": 0.119,
+                "neutral": 0.738,
+                "label": "positive"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_038",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 61,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": -0.05,
+                "subjectivity": 0.07500000000000001,
+                "label": "neutral"
+              },
+              "vader": {
+                "compound": -0.891,
+                "positive": 0.022,
+                "negative": 0.174,
+                "neutral": 0.805,
+                "label": "negative"
+              }
+            },
+            "consensus": {
+              "label": "neutral",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_039",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 54,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": -0.08,
+                "subjectivity": 0.08,
+                "label": "neutral"
+              },
+              "vader": {
+                "compound": 0.128,
+                "positive": 0.143,
+                "negative": 0.119,
+                "neutral": 0.738,
+                "label": "positive"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_040",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 50,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": -0.1,
+                "subjectivity": 0.1,
+                "label": "neutral"
+              },
+              "vader": {
+                "compound": -0.8689,
+                "positive": 0.026,
+                "negative": 0.196,
+                "neutral": 0.779,
+                "label": "negative"
+              }
+            },
+            "consensus": {
+              "label": "neutral",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_041",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 54,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.01666666666666666,
+                "subjectivity": 0.2166666666666667,
+                "label": "neutral"
+              },
+              "vader": {
+                "compound": 0.128,
+                "positive": 0.143,
+                "negative": 0.119,
+                "neutral": 0.738,
+                "label": "positive"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_042",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 48,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.06875,
+                "subjectivity": 0.26875,
+                "label": "neutral"
+              },
+              "vader": {
+                "compound": -0.9246,
+                "positive": 0.031,
+                "negative": 0.275,
+                "neutral": 0.695,
+                "label": "negative"
+              }
+            },
+            "consensus": {
+              "label": "neutral",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_043",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 49,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.155,
+                "subjectivity": 0.395,
+                "label": "positive"
+              },
+              "vader": {
+                "compound": -0.9246,
+                "positive": 0.03,
+                "negative": 0.27,
+                "neutral": 0.7,
+                "label": "negative"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_044",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 52,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.205,
+                "subjectivity": 0.40499999999999997,
+                "label": "positive"
+              },
+              "vader": {
+                "compound": -0.8625,
+                "positive": 0.085,
+                "negative": 0.246,
+                "neutral": 0.669,
+                "label": "negative"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_045",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 50,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": -0.1,
+                "subjectivity": 0.1,
+                "label": "neutral"
+              },
+              "vader": {
+                "compound": -0.8689,
+                "positive": 0.026,
+                "negative": 0.196,
+                "neutral": 0.779,
+                "label": "negative"
+              }
+            },
+            "consensus": {
+              "label": "neutral",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_046",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 57,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": -0.05,
+                "subjectivity": 0.1,
+                "label": "neutral"
+              },
+              "vader": {
+                "compound": -0.891,
+                "positive": 0.023,
+                "negative": 0.184,
+                "neutral": 0.793,
+                "label": "negative"
+              }
+            },
+            "consensus": {
+              "label": "neutral",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_047",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 61,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": -0.03333333333333333,
+                "subjectivity": 0.06666666666666667,
+                "label": "neutral"
+              },
+              "vader": {
+                "compound": -0.9169,
+                "positive": 0.021,
+                "negative": 0.203,
+                "neutral": 0.776,
+                "label": "negative"
+              }
+            },
+            "consensus": {
+              "label": "neutral",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_048",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 52,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": -0.07500000000000001,
+                "subjectivity": 0.07500000000000001,
+                "label": "neutral"
+              },
+              "vader": {
+                "compound": -0.8689,
+                "positive": 0.025,
+                "negative": 0.189,
+                "neutral": 0.786,
+                "label": "negative"
+              }
+            },
+            "consensus": {
+              "label": "neutral",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_049",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 48,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.06875,
+                "subjectivity": 0.26875,
+                "label": "neutral"
+              },
+              "vader": {
+                "compound": -0.9246,
+                "positive": 0.031,
+                "negative": 0.275,
+                "neutral": 0.695,
+                "label": "negative"
+              }
+            },
+            "consensus": {
+              "label": "neutral",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "gaza_050",
+      "topic": "gaza",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 55,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.19,
+                "subjectivity": 0.43000000000000005,
+                "label": "positive"
+              },
+              "vader": {
+                "compound": 0.6486,
+                "positive": 0.191,
+                "negative": 0.113,
+                "neutral": 0.696,
+                "label": "positive"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "ukraine_001",
+      "topic": "ukraine",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 53,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.1976190476190476,
+                "subjectivity": 0.3226190476190476,
+                "label": "positive"
+              },
+              "vader": {
+                "compound": 0.4599,
+                "positive": 0.182,
+                "negative": 0.104,
+                "neutral": 0.714,
+                "label": "positive"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "ukraine_002",
+      "topic": "ukraine",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 52,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.16938775510204082,
+                "subjectivity": 0.27653061224489794,
+                "label": "positive"
+              },
+              "vader": {
+                "compound": 0.0274,
+                "positive": 0.179,
+                "negative": 0.147,
+                "neutral": 0.674,
+                "label": "neutral"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "ukraine_003",
+      "topic": "ukraine",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 51,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.16938775510204082,
+                "subjectivity": 0.27653061224489794,
+                "label": "positive"
+              },
+              "vader": {
+                "compound": 0.6914,
+                "positive": 0.225,
+                "negative": 0.105,
+                "neutral": 0.671,
+                "label": "positive"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "ukraine_004",
+      "topic": "ukraine",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 63,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.125,
+                "subjectivity": 0.35000000000000003,
+                "label": "positive"
+              },
+              "vader": {
+                "compound": 0.886,
+                "positive": 0.277,
+                "negative": 0.13,
+                "neutral": 0.592,
+                "label": "positive"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "ukraine_005",
+      "topic": "ukraine",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 56,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.24081632653061225,
+                "subjectivity": 0.4051020408163265,
+                "label": "positive"
+              },
+              "vader": {
+                "compound": 0.4226,
+                "positive": 0.2,
+                "negative": 0.132,
+                "neutral": 0.668,
+                "label": "positive"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "ukraine_006",
+      "topic": "ukraine",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 54,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.12261904761904763,
+                "subjectivity": 0.5357142857142857,
+                "label": "positive"
+              },
+              "vader": {
+                "compound": 0.3262,
+                "positive": 0.19,
+                "negative": 0.172,
+                "neutral": 0.638,
+                "label": "positive"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "ukraine_007",
+      "topic": "ukraine",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 62,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.3071428571428571,
+                "subjectivity": 0.43571428571428567,
+                "label": "positive"
+              },
+              "vader": {
+                "compound": 0.8555,
+                "positive": 0.247,
+                "negative": 0.16,
+                "neutral": 0.593,
+                "label": "positive"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "ukraine_008",
+      "topic": "ukraine",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 58,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.041666666666666664,
+                "subjectivity": 0.19999999999999998,
+                "label": "neutral"
+              },
+              "vader": {
+                "compound": 0.9231,
+                "positive": 0.303,
+                "negative": 0.108,
+                "neutral": 0.589,
+                "label": "positive"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "ukraine_009",
+      "topic": "ukraine",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 59,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.12261904761904763,
+                "subjectivity": 0.5357142857142857,
+                "label": "positive"
+              },
+              "vader": {
+                "compound": 0.2815,
+                "positive": 0.201,
+                "negative": 0.187,
+                "neutral": 0.612,
+                "label": "positive"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "ukraine_010",
+      "topic": "ukraine",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 56,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.1976190476190476,
+                "subjectivity": 0.3226190476190476,
+                "label": "positive"
+              },
+              "vader": {
+                "compound": 0.4226,
+                "positive": 0.2,
+                "negative": 0.132,
+                "neutral": 0.668,
+                "label": "positive"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "ukraine_011",
+      "topic": "ukraine",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 56,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.12261904761904763,
+                "subjectivity": 0.5357142857142857,
+                "label": "positive"
+              },
+              "vader": {
+                "compound": 0.3262,
+                "positive": 0.185,
+                "negative": 0.167,
+                "neutral": 0.648,
+                "label": "positive"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "ukraine_012",
+      "topic": "ukraine",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 62,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.35833333333333334,
+                "subjectivity": 0.5083333333333333,
+                "label": "positive"
+              },
+              "vader": {
+                "compound": 0.9062,
+                "positive": 0.252,
+                "negative": 0.13,
+                "neutral": 0.618,
+                "label": "positive"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "ukraine_013",
+      "topic": "ukraine",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 60,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.125,
+                "subjectivity": 0.35000000000000003,
+                "label": "positive"
+              },
+              "vader": {
+                "compound": 0.891,
+                "positive": 0.268,
+                "negative": 0.107,
+                "neutral": 0.625,
+                "label": "positive"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "ukraine_014",
+      "topic": "ukraine",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 52,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.1976190476190476,
+                "subjectivity": 0.3226190476190476,
+                "label": "positive"
+              },
+              "vader": {
+                "compound": 0.4599,
+                "positive": 0.185,
+                "negative": 0.106,
+                "neutral": 0.71,
+                "label": "positive"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "ukraine_015",
+      "topic": "ukraine",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 53,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.21071428571428572,
+                "subjectivity": 0.3544642857142857,
+                "label": "positive"
+              },
+              "vader": {
+                "compound": 0.0274,
+                "positive": 0.177,
+                "negative": 0.145,
+                "neutral": 0.679,
+                "label": "neutral"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "ukraine_016",
+      "topic": "ukraine",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 61,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.05,
+                "subjectivity": 0.24,
+                "label": "neutral"
+              },
+              "vader": {
+                "compound": 0.891,
+                "positive": 0.264,
+                "negative": 0.106,
+                "neutral": 0.63,
+                "label": "positive"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "ukraine_017",
+      "topic": "ukraine",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 60,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.3071428571428571,
+                "subjectivity": 0.43571428571428567,
+                "label": "positive"
+              },
+              "vader": {
+                "compound": 0.8555,
+                "positive": 0.252,
+                "negative": 0.164,
+                "neutral": 0.583,
+                "label": "positive"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "ukraine_018",
+      "topic": "ukraine",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 59,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.35833333333333334,
+                "subjectivity": 0.5083333333333333,
+                "label": "positive"
+              },
+              "vader": {
+                "compound": 0.9062,
+                "positive": 0.261,
+                "negative": 0.134,
+                "neutral": 0.604,
+                "label": "positive"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "ukraine_019",
+      "topic": "ukraine",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 59,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.35833333333333334,
+                "subjectivity": 0.5083333333333333,
+                "label": "positive"
+              },
+              "vader": {
+                "compound": 0.9062,
+                "positive": 0.261,
+                "negative": 0.134,
+                "neutral": 0.604,
+                "label": "positive"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "ukraine_020",
+      "topic": "ukraine",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 56,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.12261904761904763,
+                "subjectivity": 0.5357142857142857,
+                "label": "positive"
+              },
+              "vader": {
+                "compound": 0.2815,
+                "positive": 0.209,
+                "negative": 0.194,
+                "neutral": 0.597,
+                "label": "positive"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "ukraine_021",
+      "topic": "ukraine",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 53,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.1976190476190476,
+                "subjectivity": 0.3226190476190476,
+                "label": "positive"
+              },
+              "vader": {
+                "compound": 0.4599,
+                "positive": 0.182,
+                "negative": 0.104,
+                "neutral": 0.714,
+                "label": "positive"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "ukraine_022",
+      "topic": "ukraine",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 59,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.35833333333333334,
+                "subjectivity": 0.5083333333333333,
+                "label": "positive"
+              },
+              "vader": {
+                "compound": 0.9062,
+                "positive": 0.261,
+                "negative": 0.134,
+                "neutral": 0.604,
+                "label": "positive"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "ukraine_023",
+      "topic": "ukraine",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 61,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.37857142857142856,
+                "subjectivity": 0.5642857142857143,
+                "label": "positive"
+              },
+              "vader": {
+                "compound": 0.9062,
+                "positive": 0.255,
+                "negative": 0.131,
+                "neutral": 0.614,
+                "label": "positive"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "ukraine_024",
+      "topic": "ukraine",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 51,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.16938775510204082,
+                "subjectivity": 0.27653061224489794,
+                "label": "positive"
+              },
+              "vader": {
+                "compound": 0.0274,
+                "positive": 0.182,
+                "negative": 0.149,
+                "neutral": 0.669,
+                "label": "neutral"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "ukraine_025",
+      "topic": "ukraine",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 59,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.05,
+                "subjectivity": 0.24,
+                "label": "neutral"
+              },
+              "vader": {
+                "compound": 0.891,
+                "positive": 0.271,
+                "negative": 0.109,
+                "neutral": 0.62,
+                "label": "positive"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "ukraine_026",
+      "topic": "ukraine",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 55,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.1976190476190476,
+                "subjectivity": 0.3226190476190476,
+                "label": "positive"
+              },
+              "vader": {
+                "compound": 0.4226,
+                "positive": 0.203,
+                "negative": 0.134,
+                "neutral": 0.663,
+                "label": "positive"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "ukraine_027",
+      "topic": "ukraine",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 63,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.05,
+                "subjectivity": 0.24,
+                "label": "neutral"
+              },
+              "vader": {
+                "compound": 0.886,
+                "positive": 0.277,
+                "negative": 0.13,
+                "neutral": 0.592,
+                "label": "positive"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "ukraine_028",
+      "topic": "ukraine",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 60,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.05,
+                "subjectivity": 0.24,
+                "label": "neutral"
+              },
+              "vader": {
+                "compound": 0.891,
+                "positive": 0.268,
+                "negative": 0.107,
+                "neutral": 0.625,
+                "label": "positive"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "ukraine_029",
+      "topic": "ukraine",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 62,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.3071428571428571,
+                "subjectivity": 0.43571428571428567,
+                "label": "positive"
+              },
+              "vader": {
+                "compound": 0.9325,
+                "positive": 0.279,
+                "negative": 0.127,
+                "neutral": 0.594,
+                "label": "positive"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 1.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "article_id": "ukraine_030",
+      "topic": "ukraine",
+      "segments": [
+        {
+          "segment_id": 0,
+          "word_count": 59,
+          "sentiment": {
+            "results": {
+              "textblob": {
+                "polarity": 0.35833333333333334,
+                "subjectivity": 0.5083333333333333,
+                "label": "positive"
+              },
+              "vader": {
+                "compound": 0.9062,
+                "positive": 0.261,
+                "negative": 0.134,
+                "neutral": 0.604,
+                "label": "positive"
+              }
+            },
+            "consensus": {
+              "label": "positive",
+              "score": 1.0
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "sentiment_comparison": {
+    "gaza_vs_ukraine": {
+      "positive": {
+        "gaza_count": 24,
+        "ukraine_count": 30,
+        "gaza_percent": 48.0,
+        "ukraine_percent": 100.0,
+        "difference": -52.0
+      },
+      "neutral": {
+        "gaza_count": 26,
+        "ukraine_count": 0,
+        "gaza_percent": 52.0,
+        "ukraine_percent": 0.0,
+        "difference": 52.0
+      }
+    }
+  },
+  "temporal_sentiment": {
+    "gaza": {
+      "2024-02": {
+        "total_articles": 3,
+        "sentiment_distribution": {
+          "neutral": 2,
+          "positive": 1
+        },
+        "avg_score": 0.5
+      },
+      "2023-10": {
+        "total_articles": 4,
+        "sentiment_distribution": {
+          "positive": 4
+        },
+        "avg_score": 0.5
+      },
+      "2024-01": {
+        "total_articles": 3,
+        "sentiment_distribution": {
+          "positive": 2,
+          "neutral": 1
+        },
+        "avg_score": 0.5
+      },
+      "2024-07": {
+        "total_articles": 5,
+        "sentiment_distribution": {
+          "positive": 3,
+          "neutral": 2
+        },
+        "avg_score": 0.5
+      },
+      "2024-04": {
+        "total_articles": 4,
+        "sentiment_distribution": {
+          "neutral": 2,
+          "positive": 2
+        },
+        "avg_score": 0.75
+      },
+      "2023-12": {
+        "total_articles": 3,
+        "sentiment_distribution": {
+          "neutral": 2,
+          "positive": 1
+        },
+        "avg_score": 0.5
+      },
+      "2024-12": {
+        "total_articles": 2,
+        "sentiment_distribution": {
+          "neutral": 2
+        },
+        "avg_score": 0.5
+      },
+      "2023-11": {
+        "total_articles": 8,
+        "sentiment_distribution": {
+          "neutral": 4,
+          "positive": 4
+        },
+        "avg_score": 0.5625
+      },
+      "2024-03": {
+        "total_articles": 2,
+        "sentiment_distribution": {
+          "neutral": 1,
+          "positive": 1
+        },
+        "avg_score": 0.5
+      },
+      "2024-05": {
+        "total_articles": 2,
+        "sentiment_distribution": {
+          "neutral": 2
+        },
+        "avg_score": 0.5
+      },
+      "2024-06": {
+        "total_articles": 4,
+        "sentiment_distribution": {
+          "positive": 4
+        },
+        "avg_score": 0.625
+      },
+      "2024-11": {
+        "total_articles": 3,
+        "sentiment_distribution": {
+          "neutral": 2,
+          "positive": 1
+        },
+        "avg_score": 0.5
+      },
+      "2024-09": {
+        "total_articles": 3,
+        "sentiment_distribution": {
+          "neutral": 3
+        },
+        "avg_score": 0.5
+      },
+      "2024-10": {
+        "total_articles": 3,
+        "sentiment_distribution": {
+          "positive": 1,
+          "neutral": 2
+        },
+        "avg_score": 0.5
+      },
+      "2024-08": {
+        "total_articles": 1,
+        "sentiment_distribution": {
+          "neutral": 1
+        },
+        "avg_score": 0.5
+      }
+    },
+    "ukraine": {
+      "2023-10": {
+        "total_articles": 3,
+        "sentiment_distribution": {
+          "positive": 3
+        },
+        "avg_score": 0.8333333333333334
+      },
+      "2022-03": {
+        "total_articles": 1,
+        "sentiment_distribution": {
+          "positive": 1
+        },
+        "avg_score": 0.5
+      },
+      "2024-03": {
+        "total_articles": 1,
+        "sentiment_distribution": {
+          "positive": 1
+        },
+        "avg_score": 1.0
+      },
+      "2022-04": {
+        "total_articles": 3,
+        "sentiment_distribution": {
+          "positive": 3
+        },
+        "avg_score": 0.6666666666666666
+      },
+      "2023-06": {
+        "total_articles": 2,
+        "sentiment_distribution": {
+          "positive": 2
+        },
+        "avg_score": 1.0
+      },
+      "2024-11": {
+        "total_articles": 1,
+        "sentiment_distribution": {
+          "positive": 1
+        },
+        "avg_score": 1.0
+      },
+      "2024-10": {
+        "total_articles": 1,
+        "sentiment_distribution": {
+          "positive": 1
+        },
+        "avg_score": 1.0
+      },
+      "2023-08": {
+        "total_articles": 2,
+        "sentiment_distribution": {
+          "positive": 2
+        },
+        "avg_score": 1.0
+      },
+      "2022-08": {
+        "total_articles": 1,
+        "sentiment_distribution": {
+          "positive": 1
+        },
+        "avg_score": 1.0
+      },
+      "2022-11": {
+        "total_articles": 3,
+        "sentiment_distribution": {
+          "positive": 3
+        },
+        "avg_score": 0.8333333333333334
+      },
+      "2024-07": {
+        "total_articles": 1,
+        "sentiment_distribution": {
+          "positive": 1
+        },
+        "avg_score": 1.0
+      },
+      "2022-09": {
+        "total_articles": 1,
+        "sentiment_distribution": {
+          "positive": 1
+        },
+        "avg_score": 1.0
+      },
+      "2023-01": {
+        "total_articles": 1,
+        "sentiment_distribution": {
+          "positive": 1
+        },
+        "avg_score": 0.5
+      },
+      "2024-01": {
+        "total_articles": 1,
+        "sentiment_distribution": {
+          "positive": 1
+        },
+        "avg_score": 0.5
+      },
+      "2023-07": {
+        "total_articles": 2,
+        "sentiment_distribution": {
+          "positive": 2
+        },
+        "avg_score": 1.0
+      },
+      "2022-07": {
+        "total_articles": 1,
+        "sentiment_distribution": {
+          "positive": 1
+        },
+        "avg_score": 1.0
+      },
+      "2023-02": {
+        "total_articles": 1,
+        "sentiment_distribution": {
+          "positive": 1
+        },
+        "avg_score": 1.0
+      },
+      "2023-03": {
+        "total_articles": 1,
+        "sentiment_distribution": {
+          "positive": 1
+        },
+        "avg_score": 1.0
+      },
+      "2022-10": {
+        "total_articles": 1,
+        "sentiment_distribution": {
+          "positive": 1
+        },
+        "avg_score": 1.0
+      },
+      "2022-05": {
+        "total_articles": 1,
+        "sentiment_distribution": {
+          "positive": 1
+        },
+        "avg_score": 0.5
+      },
+      "2024-08": {
+        "total_articles": 1,
+        "sentiment_distribution": {
+          "positive": 1
+        },
+        "avg_score": 1.0
+      }
+    }
+  }
+}

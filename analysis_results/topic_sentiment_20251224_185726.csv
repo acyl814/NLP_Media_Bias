@@ -1,0 +1,5 @@
+topic,model,total_articles,avg_polarity,avg_subjectivity,neutral_count,positive_count,negative_count,avg_compound,avg_positive,avg_negative,avg_neutral
+gaza,textblob,50,0.0321702380952381,0.21053690476190476,31.0,15,4.0,,,,
+gaza,vader,50,,,,13,37.0,-0.5629,0.07088,0.19227999999999998,0.73696
+ukraine,textblob,30,0.20071995464852607,0.38727352607709753,5.0,25,,,,,
+ukraine,vader,30,,,3.0,27,,0.6325433333333332,0.2319,0.13410000000000002,0.6338666666666666

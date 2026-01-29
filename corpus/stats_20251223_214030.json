@@ -1,0 +1,20 @@
+{
+  "total_articles": 80,
+  "topics": {
+    "gaza": 50,
+    "ukraine": 30
+  },
+  "sources": {
+    "CNN": 20,
+    "BBC": 19,
+    "Guardian": 15,
+    "New York Times": 15,
+    "Reuters": 11
+  },
+  "total_words": 4474,
+  "avg_words": 55.925,
+  "date_range": {
+    "earliest": "2022-03-13T00:00:00",
+    "latest": "2024-12-29T00:00:00"
+  }
+}

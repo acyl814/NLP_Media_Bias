@@ -1,0 +1,295 @@
+{% extends "base.html" %}
+
+{% block title %}Accueil - NLP Bias Analyzer{% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<div class="hero-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <h1 class="hero-title">Détection des Doubles Standards</h1>
+                <p class="hero-subtitle">
+                    Analyse de la couverture médiatique occidentale de la guerre à Gaza 
+                    à travers les techniques de Traitement Automatique du Langage Naturel
+                </p>
+                <a href="{{ url_for('corpus_explorer') }}" class="btn btn-primary btn-lg">
+                    <i class="fas fa-play"></i> Commencer l'Analyse
+                </a>
+            </div>
+            <div class="col-lg-4">
+                <div class="text-center">
+                    <i class="fas fa-balance-scale" style="font-size: 10rem; opacity: 0.3;"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Statistiques -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card stat-card">
+                <div class="stat-number">{{ stats.total_articles }}</div>
+                <div class="stat-label">Articles Analysés</div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card stat-card">
+                <div class="stat-number">{{ "{:,}".format(stats.total_words) }}</div>
+                <div class="stat-label">Mots Totaux</div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card stat-card">
+                <div class="stat-number">{{ stats.topics|length }}</div>
+                <div class="stat-label">Conflits Étudiés</div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card stat-card">
+                <div class="stat-number">3</div>
+                <div class="stat-label">Types d'Analyse</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Répartition par Topic -->
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            <h4><i class="fas fa-chart-pie"></i> Répartition des Articles par Conflit</h4>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                {% for topic, count in stats.topics.items() %}
+                <div class="col-md-6">
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="flex-shrink-0">
+                            <span class="badge badge-{{ topic }}" style="font-size: 1.5rem; padding: 10px 20px;">
+                                {{ count }}
+                            </span>
+                        </div>
+                        <div class="flex-grow-1 ms-3">
+                            <h5 class="mb-1">{{ topic.upper() }}</h5>
+                            <p class="text-muted mb-0">
+                                {{ (count / stats.total_articles * 100)|round(1) }}% du corpus
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Vue d'ensemble des analyses -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-header">
+                    <h5><i class="fas fa-font"></i> Analyse Lexicale</h5>
+                </div>
+                <div class="card-body">
+                    <p>Analyse des fréquences de mots, cooccurrences et patterns lexicaux pour identifier les biais dans le vocabulaire utilisé.</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-check text-success"></i> Fréquences de mots</li>
+                        <li><i class="fas fa-check text-success"></i> Analyse TF-IDF</li>
+                        <li><i class="fas fa-check text-success"></i> Cooccurrences</li>
+                        <li><i class="fas fa-check text-success"></i> Patterns de biais</li>
+                    </ul>
+                    <a href="{{ url_for('analysis_dashboard') }}" class="btn btn-primary">
+                        <i class="fas fa-chart-bar"></i> Voir les Résultats
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-header">
+                    <h5><i class="fas fa-brain"></i> Analyse Sémantique</h5>
+                </div>
+                <div class="card-body">
+                    <p>Étude des contextes d'utilisation des mots et des champs sémantiques pour comprendre les cadres interprétatifs.</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-check text-success"></i> Concordance</li>
+                        <li><i class="fas fa-check text-success"></i> Champs sémantiques</li>
+                        <li><i class="fas fa-check text-success"></i> Associations</li>
+                        <li><i class="fas fa-check text-success"></i> Collocations</li>
+                    </ul>
+                    <a href="{{ url_for('analysis_dashboard') }}" class="btn btn-primary">
+                        <i class="fas fa-search"></i> Explorer
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-header">
+                    <h5><i class="fas fa-smile"></i> Analyse de Sentiment</h5>
+                </div>
+                <div class="card-body">
+                    <p>Analyse de la tonalité émotionnelle et de l'empathie dans la couverture médiatique.</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-check text-success"></i> Sentiment global</li>
+                        <li><i class="fas fa-check text-success"></i> Analyse par mots-cibles</li>
+                        <li><i class="fas fa-check text-success"></i> Comparaison émotionnelle</li>
+                        <li><i class="fas fa-check text-success"></i> Évolution temporelle</li>
+                    </ul>
+                    <a href="{{ url_for('bias_detector') }}" class="btn btn-primary">
+                        <i class="fas fa-heart"></i> Analyser
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Détecteur de biais rapide -->
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            <h4><i class="fas fa-search"></i> Détecteur de Biais Rapide</h4>
+        </div>
+        <div class="card-body">
+            <p>Entrez un texte pour analyser les potentiels biais lexicaux et émotionnels :</p>
+            
+            <div class="search-box">
+                <textarea class="form-control" id="biasText" rows="4" placeholder="Collez votre texte ici..."></textarea>
+            </div>
+            
+            <button class="btn btn-primary" onclick="analyzeBias()">
+                <i class="fas fa-play"></i> Analyser
+            </button>
+            
+            <div id="biasResults" class="mt-4" style="display: none;">
+                <h5>Résultats de l'analyse :</h5>
+                <div id="biasContent"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Visualisations récentes -->
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            <h4><i class="fas fa-chart-line"></i> Visualisations</h4>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Graphiques Interactifs</h5>
+                    <p>Explorez les données avec des visualisations interactives et dynamiques.</p>
+                    <a href="{{ url_for('visualizations') }}" class="btn btn-outline-primary">
+                        <i class="fas fa-eye"></i> Voir les Graphiques
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+function analyzeBias() {
+    const text = document.getElementById('biasText').value.trim();
+    
+    if (!text) {
+        alert('Veuillez entrer un texte à analyser.');
+        return;
+    }
+    
+    // Afficher le chargement
+    document.getElementById('biasResults').style.display = 'block';
+    document.getElementById('biasContent').innerHTML = '<div class="text-center"><div class="loading"></div> Analyse en cours...</div>';
+    
+    // Simulation d'analyse (à remplacer par un appel API réel)
+    setTimeout(() => {
+        const analysis = simulateBiasAnalysis(text);
+        displayBiasResults(analysis);
+    }, 2000);
+}
+
+function simulateBiasAnalysis(text) {
+    // Analyse simulée
+    const dehumanizingWords = ['militants', 'terrorists', 'fighters', 'extremists'];
+    const humanizingWords = ['civilians', 'victims', 'families', 'children'];
+    
+    const foundDehumanizing = dehumanizingWords.filter(word => text.toLowerCase().includes(word));
+    const foundHumanizing = humanizingWords.filter(word => text.toLowerCase().includes(word));
+    
+    return {
+        dehumanizing: foundDehumanizing,
+        humanizing: foundHumanizing,
+        euphemisms: text.toLowerCase().includes('military operation') ? ['military operation'] : [],
+        emotionalTone: foundHumanizing.length > foundDehumanizing.length ? 'positif' : 'négatif'
+    };
+}
+
+function displayBiasResults(analysis) {
+    let html = '<div class="row">';
+    
+    // Termes déshumanisants
+    html += '<div class="col-md-3">';
+    html += '<h6><i class="fas fa-exclamation-triangle text-danger"></i> Termes Déshumanisants</h6>';
+    if (analysis.dehumanizing.length > 0) {
+        html += '<ul>';
+        analysis.dehumanizing.forEach(word => {
+            html += `<li class="text-danger">${word}</li>`;
+        });
+        html += '</ul>';
+    } else {
+        html += '<p class="text-muted">Aucun terme déshumanisant détecté.</p>';
+    }
+    html += '</div>';
+    
+    // Termes humanisants
+    html += '<div class="col-md-3">';
+    html += '<h6><i class="fas fa-heart text-success"></i> Termes Humanisants</h6>';
+    if (analysis.humanizing.length > 0) {
+        html += '<ul>';
+        analysis.humanizing.forEach(word => {
+            html += `<li class="text-success">${word}</li>`;
+        });
+        html += '</ul>';
+    } else {
+        html += '<p class="text-muted">Aucun terme humanisant détecté.</p>';
+    }
+    html += '</div>';
+    
+    // Euphémismes
+    html += '<div class="col-md-3">';
+    html += '<h6><i class="fas fa-eye-slash text-warning"></i> Euphémismes</h6>';
+    if (analysis.euphemisms.length > 0) {
+        html += '<ul>';
+        analysis.euphemisms.forEach(word => {
+            html += `<li class="text-warning">${word}</li>`;
+        });
+        html += '</ul>';
+    } else {
+        html += '<p class="text-muted">Aucun euphémisme détecté.</p>';
+    }
+    html += '</div>';
+    
+    // Ton émotionnel
+    html += '<div class="col-md-3">';
+    html += '<h6><i class="fas fa-smile text-info"></i> Ton Émotionnel</h6>';
+    const toneColor = analysis.emotionalTone === 'positif' ? 'success' : 'danger';
+    html += `<p class="text-${toneColor} font-weight-bold">${analysis.emotionalTone}</p>`;
+    html += '</div>';
+    
+    html += '</div>';
+    
+    document.getElementById('biasContent').innerHTML = html;
+}
+</script>
+{% endblock %}

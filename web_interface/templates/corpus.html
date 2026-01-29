@@ -1,0 +1,289 @@
+{% extends "base.html" %}
+
+{% block title %}Explorateur de Corpus - NLP Bias Analyzer{% endblock %}
+
+{% block content %}
+<!-- En-tête -->
+<div class="hero-section" style="padding: 2rem 0;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <h1 class="hero-title" style="font-size: 2.5rem;">Explorateur de Corpus</h1>
+                <p class="hero-subtitle">Parcourez et explorez les articles de presse collectés</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <!-- Filtres -->
+    <div class="filter-section">
+        <h5><i class="fas fa-filter"></i> Filtres</h5>
+        <form method="GET" action="{{ url_for('corpus_explorer') }}">
+            <div class="row">
+                <div class="col-md-4">
+                    <label for="topic" class="form-label">Conflit</label>
+                    <select class="form-select" name="topic" id="topic">
+                        <option value="all" {% if topic_filter == 'all' %}selected{% endif %}>Tous</option>
+                        {% for topic in topics %}
+                        <option value="{{ topic }}" {% if topic_filter == topic %}selected{% endif %}>
+                            {{ topic.upper() }}
+                        </option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <label for="source" class="form-label">Source</label>
+                    <select class="form-select" name="source" id="source">
+                        <option value="all" {% if source_filter == 'all' %}selected{% endif %}>Toutes</option>
+                        {% for source in sources %}
+                        <option value="{{ source }}" {% if source_filter == source %}selected{% endif %}>
+                            {{ source }}
+                        </option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="col-md-4 d-flex align-items-end">
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-search"></i> Filtrer
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+    
+    <!-- Recherche -->
+    <div class="search-box">
+        <i class="fas fa-search"></i>
+        <input type="text" class="form-control" id="searchInput" placeholder="Rechercher dans les articles...">
+    </div>
+    
+    <!-- Résultats de recherche -->
+    <div id="searchResults" style="display: none;">
+        <div class="card">
+            <div class="card-header">
+                <h5><i class="fas fa-search"></i> Résultats de Recherche</h5>
+            </div>
+            <div class="card-body" id="searchContent">
+                <!-- Résultats dynamiques -->
+            </div>
+        </div>
+    </div>
+    
+    <!-- Articles -->
+    <div class="card">
+        <div class="card-header">
+            <h5>
+                <i class="fas fa-newspaper"></i> Articles 
+                <span class="badge bg-secondary">{{ articles|length }} sur {{ (articles|length // 10 + 1) * 10 }}</span>
+            </h5>
+        </div>
+        <div class="card-body">
+            {% if articles %}
+                {% for article in articles %}
+                <div class="article-card">
+                    <div class="d-flex justify-content-between align-items-start mb-2">
+                        <span class="badge badge-{{ article.topic }}">{{ article.topic.upper() }}</span>
+                        <small class="text-muted">{{ article.source }}</small>
+                    </div>
+                    
+                    <h5 class="article-title">{{ article.title }}</h5>
+                    
+                    <div class="article-meta">
+                        <i class="fas fa-calendar"></i> {{ article.publish_date[:10] if article.publish_date else 'Date inconnue' }}
+                        <span class="ms-3">
+                            <i class="fas fa-file-word"></i> {{ article.word_count }} mots
+                        </span>
+                    </div>
+                    
+                    <p class="article-preview">
+                        {{ article.content[:300] }}...
+                    </p>
+                    
+                    <div class="d-flex justify-content-between align-items-center">
+                        <small class="text-muted">ID: {{ article.id }}</small>
+                        <button class="btn btn-sm btn-outline-primary" onclick="showFullArticle('{{ article.id }}')">
+                            <i class="fas fa-eye"></i> Voir l'article
+                        </button>
+                    </div>
+                </div>
+                {% endfor %}
+                
+                <!-- Pagination -->
+                {% if total_pages > 1 %}
+                <nav>
+                    <ul class="pagination">
+                        {% if page > 1 %}
+                        <li class="page-item">
+                            <a class="page-link" href="{{ url_for('corpus_explorer', page=page-1, topic=topic_filter, source=source_filter) }}">
+                                <i class="fas fa-chevron-left"></i>
+                            </a>
+                        </li>
+                        {% endif %}
+                        
+                        {% for p in range(1, total_pages + 1) %}
+                            {% if p == page %}
+                            <li class="page-item active">
+                                <span class="page-link">{{ p }}</span>
+                            </li>
+                            {% elif p == 1 or p == total_pages or (p >= page - 2 and p <= page + 2) %}
+                            <li class="page-item">
+                                <a class="page-link" href="{{ url_for('corpus_explorer', page=p, topic=topic_filter, source=source_filter) }}">{{ p }}</a>
+                            </li>
+                            {% elif p == page - 3 or p == page + 3 %}
+                            <li class="page-item disabled">
+                                <span class="page-link">...</span>
+                            </li>
+                            {% endif %}
+                        {% endfor %}
+                        
+                        {% if page < total_pages %}
+                        <li class="page-item">
+                            <a class="page-link" href="{{ url_for('corpus_explorer', page=page+1, topic=topic_filter, source=source_filter) }}">
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </li>
+                        {% endif %}
+                    </ul>
+                </nav>
+                {% endif %}
+                
+            {% else %}
+                <div class="text-center py-5">
+                    <i class="fas fa-search" style="font-size: 3rem; color: #ccc;"></i>
+                    <h5 class="mt-3 text-muted">Aucun article trouvé</h5>
+                    <p class="text-muted">Essayez de modifier vos filtres ou de rechercher autre chose.</p>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+<!-- Modal pour l'article complet -->
+<div class="modal fade" id="articleModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalTitle">Article</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body" id="modalBody">
+                <!-- Contenu de l'article -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+// Recherche en temps réel
+let searchTimeout;
+
+document.getElementById('searchInput').addEventListener('input', function() {
+    clearTimeout(searchTimeout);
+    const query = this.value.trim();
+    
+    if (query.length < 3) {
+        document.getElementById('searchResults').style.display = 'none';
+        return;
+    }
+    
+    searchTimeout = setTimeout(() => {
+        performSearch(query);
+    }, 500);
+});
+
+function performSearch(query) {
+    fetch(`/api/search?q=${encodeURIComponent(query)}`)
+        .then(response => response.json())
+        .then(data => {
+            displaySearchResults(data);
+        })
+        .catch(error => {
+            console.error('Erreur de recherche:', error);
+        });
+}
+
+function displaySearchResults(data) {
+    const resultsDiv = document.getElementById('searchResults');
+    const contentDiv = document.getElementById('searchContent');
+    
+    if (data.results.length === 0) {
+        contentDiv.innerHTML = `
+            <div class="text-center py-3">
+                <i class="fas fa-search" style="font-size: 2rem; color: #ccc;"></i>
+                <p class="text-muted mt-2">Aucun résultat trouvé pour "${data.query}"</p>
+            </div>
+        `;
+    } else {
+        let html = `<p class="text-muted">${data.total} résultat(s) trouvé(s) pour "${data.query}"</p>`;
+        
+        data.results.forEach(article => {
+            html += `
+                <div class="article-card">
+                    <div class="d-flex justify-content-between align-items-start mb-2">
+                        <span class="badge badge-${article.topic}">${article.topic.toUpperCase()}</span>
+                        <small class="text-muted">Relevance: ${article.relevance_score}</small>
+                    </div>
+                    <h6 class="article-title">${article.title}</h6>
+                    <p class="article-preview">${article.content.substring(0, 200)}...</p>
+                    <button class="btn btn-sm btn-outline-primary" onclick="showFullArticle('${article.id}')">
+                        <i class="fas fa-eye"></i> Voir l'article
+                    </button>
+                </div>
+            `;
+        });
+        
+        contentDiv.innerHTML = html;
+    }
+    
+    resultsDiv.style.display = 'block';
+}
+
+function showFullArticle(articleId) {
+    // Trouver l'article dans les données
+    fetch(`/api/articles`)
+        .then(response => response.json())
+        .then(data => {
+            const article = data.articles.find(art => art.id === articleId);
+            if (article) {
+                displayFullArticle(article);
+            }
+        })
+        .catch(error => {
+            console.error('Erreur:', error);
+        });
+}
+
+function displayFullArticle(article) {
+    document.getElementById('modalTitle').textContent = article.title;
+    
+    const modalBody = document.getElementById('modalBody');
+    modalBody.innerHTML = `
+        <div class="mb-3">
+            <span class="badge badge-${article.topic}">${article.topic.toUpperCase()}</span>
+            <span class="badge bg-secondary">${article.source}</span>
+        </div>
+        <div class="mb-3">
+            <small class="text-muted">
+                <i class="fas fa-calendar"></i> ${article.publish_date ? article.publish_date.substring(0, 10) : 'Date inconnue'}
+                <span class="ms-3">
+                    <i class="fas fa-file-word"></i> ${article.word_count} mots
+                </span>
+            </small>
+        </div>
+        <div class="article-content">
+            ${article.content.replace(/\\n/g, '<br>')}
+        </div>
+    `;
+    
+    // Afficher la modal
+    const modal = new bootstrap.Modal(document.getElementById('articleModal'));
+    modal.show();
+}
+</script>
+{% endblock %}
